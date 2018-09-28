@@ -1,0 +1,16 @@
+/home/ubuntu/moose/aleth/build/deps/lib/libbinaryen.a
+/home/ubuntu/moose/aleth/build/deps/include/binaryen-c.h
+/home/ubuntu/moose/aleth/build/deps/share/binaryen/wasm.js
+/home/ubuntu/moose/aleth/build/deps/share/binaryen/binaryen.js
+/home/ubuntu/moose/aleth/build/deps/bin/wasm-shell
+/home/ubuntu/moose/aleth/build/deps/bin/wasm-opt
+/home/ubuntu/moose/aleth/build/deps/bin/wasm-merge
+/home/ubuntu/moose/aleth/build/deps/bin/wasm-metadce
+/home/ubuntu/moose/aleth/build/deps/bin/asm2wasm
+/home/ubuntu/moose/aleth/build/deps/bin/wasm2asm
+/home/ubuntu/moose/aleth/build/deps/bin/s2wasm
+/home/ubuntu/moose/aleth/build/deps/bin/wasm-emscripten-finalize
+/home/ubuntu/moose/aleth/build/deps/bin/wasm-as
+/home/ubuntu/moose/aleth/build/deps/bin/wasm-dis
+/home/ubuntu/moose/aleth/build/deps/bin/wasm-ctor-eval
+/home/ubuntu/moose/aleth/build/deps/bin/wasm-reduce

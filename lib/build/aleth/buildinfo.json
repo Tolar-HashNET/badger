@@ -1,0 +1,10 @@
+{
+  "name": "aleth",
+  "version": "1.5.0.dev2-54+commit.374c1dbd",
+  "is_prerelease": true,
+  "commit": "374c1dbd459000b236ba300033837150ea0a416e",
+  "branch": "master",
+  "repo": "https://github.com/ethereum/aleth.git",
+  "system_name": "linux",
+  "system_processor": "x86_64"
+}

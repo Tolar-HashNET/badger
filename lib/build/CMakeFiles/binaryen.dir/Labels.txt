@@ -1,0 +1,13 @@
+# Target labels
+ binaryen
+# Source files and their labels
+/home/ubuntu/moose/aleth/build/CMakeFiles/binaryen
+/home/ubuntu/moose/aleth/build/CMakeFiles/binaryen.rule
+/home/ubuntu/moose/aleth/build/CMakeFiles/binaryen-complete.rule
+/home/ubuntu/moose/aleth/build/deps/src/binaryen-stamp/binaryen-install.rule
+/home/ubuntu/moose/aleth/build/deps/src/binaryen-stamp/binaryen-mkdir.rule
+/home/ubuntu/moose/aleth/build/deps/src/binaryen-stamp/binaryen-download.rule
+/home/ubuntu/moose/aleth/build/deps/src/binaryen-stamp/binaryen-update.rule
+/home/ubuntu/moose/aleth/build/deps/src/binaryen-stamp/binaryen-patch.rule
+/home/ubuntu/moose/aleth/build/deps/src/binaryen-stamp/binaryen-configure.rule
+/home/ubuntu/moose/aleth/build/deps/src/binaryen-stamp/binaryen-build.rule

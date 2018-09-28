@@ -1,0 +1,3 @@
+v1.5.0.dev2-54-g374c1dbd459000b236ba300033837150ea0a416e
+master
+https://github.com/ethereum/aleth.git

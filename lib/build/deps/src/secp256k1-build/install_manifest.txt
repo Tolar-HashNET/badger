@@ -1,0 +1,5 @@
+/home/ubuntu/moose/aleth/build/deps/lib/libsecp256k1.a
+/home/ubuntu/moose/aleth/build/deps/include/secp256k1_ecdh.h
+/home/ubuntu/moose/aleth/build/deps/include/secp256k1.h
+/home/ubuntu/moose/aleth/build/deps/include/secp256k1_recovery.h
+/home/ubuntu/moose/aleth/build/deps/include/secp256k1_sha256.h
