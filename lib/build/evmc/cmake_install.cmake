@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/moose/aleth/evmc
+# Install script for directory: /aleth/evmc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,14 +38,14 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ubuntu/moose/aleth/evmc/include/evmc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/aleth/evmc/include/evmc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/evmc/evmcTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/evmc/evmcTargets.cmake"
-         "/home/ubuntu/moose/aleth/build/evmc/CMakeFiles/Export/lib/cmake/evmc/evmcTargets.cmake")
+         "/aleth/build/evmc/CMakeFiles/Export/lib/cmake/evmc/evmcTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/evmc/evmcTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -54,22 +54,22 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/evmc" TYPE FILE FILES "/home/ubuntu/moose/aleth/build/evmc/CMakeFiles/Export/lib/cmake/evmc/evmcTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/evmc" TYPE FILE FILES "/aleth/build/evmc/CMakeFiles/Export/lib/cmake/evmc/evmcTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/evmc" TYPE FILE FILES "/home/ubuntu/moose/aleth/build/evmc/CMakeFiles/Export/lib/cmake/evmc/evmcTargets-relwithdebinfo.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/evmc" TYPE FILE FILES "/aleth/build/evmc/CMakeFiles/Export/lib/cmake/evmc/evmcTargets-relwithdebinfo.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/evmc" TYPE FILE FILES
-    "/home/ubuntu/moose/aleth/build/evmc/evmcConfig.cmake"
-    "/home/ubuntu/moose/aleth/build/evmc/evmcConfigVersion.cmake"
+    "/aleth/build/evmc/evmcConfig.cmake"
+    "/aleth/build/evmc/evmcConfigVersion.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ubuntu/moose/aleth/build/evmc/lib/cmake_install.cmake")
+  include("/aleth/build/evmc/lib/cmake_install.cmake")
 
 endif()
 

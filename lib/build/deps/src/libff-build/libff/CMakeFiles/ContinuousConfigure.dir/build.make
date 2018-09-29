@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth/build/deps/src/libff
+CMAKE_SOURCE_DIR = /aleth/build/deps/src/libff
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build/deps/src/libff-build
+CMAKE_BINARY_DIR = /aleth/build/deps/src/libff-build
 
 # Utility rule file for ContinuousConfigure.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build/deps/src/libff-build
 include libff/CMakeFiles/ContinuousConfigure.dir/progress.make
 
 libff/CMakeFiles/ContinuousConfigure:
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/ctest -D ContinuousConfigure
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/ctest -D ContinuousConfigure
 
 ContinuousConfigure: libff/CMakeFiles/ContinuousConfigure
 ContinuousConfigure: libff/CMakeFiles/ContinuousConfigure.dir/build.make
@@ -67,10 +67,10 @@ libff/CMakeFiles/ContinuousConfigure.dir/build: ContinuousConfigure
 .PHONY : libff/CMakeFiles/ContinuousConfigure.dir/build
 
 libff/CMakeFiles/ContinuousConfigure.dir/clean:
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && $(CMAKE_COMMAND) -P CMakeFiles/ContinuousConfigure.dir/cmake_clean.cmake
+	cd /aleth/build/deps/src/libff-build/libff && $(CMAKE_COMMAND) -P CMakeFiles/ContinuousConfigure.dir/cmake_clean.cmake
 .PHONY : libff/CMakeFiles/ContinuousConfigure.dir/clean
 
 libff/CMakeFiles/ContinuousConfigure.dir/depend:
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth/build/deps/src/libff /home/ubuntu/moose/aleth/build/deps/src/libff/libff /home/ubuntu/moose/aleth/build/deps/src/libff-build /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff/CMakeFiles/ContinuousConfigure.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build/deps/src/libff-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth/build/deps/src/libff /aleth/build/deps/src/libff/libff /aleth/build/deps/src/libff-build /aleth/build/deps/src/libff-build/libff /aleth/build/deps/src/libff-build/libff/CMakeFiles/ContinuousConfigure.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libff/CMakeFiles/ContinuousConfigure.dir/depend
 

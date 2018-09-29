@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen
+CMAKE_SOURCE_DIR = /aleth/build/deps/src/binaryen
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen-build
+CMAKE_BINARY_DIR = /aleth/build/deps/src/binaryen-build
 
 # Include any dependencies generated for this target.
 include src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/depend.make
@@ -58,17 +58,17 @@ include src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/progress.ma
 include src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/flags.make
 
 src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/optimizer-shared.cpp.o: src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/flags.make
-src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/optimizer-shared.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/optimizer-shared.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/optimizer-shared.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/emscripten-optimizer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/emscripten-optimizer.dir/optimizer-shared.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/optimizer-shared.cpp
+src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/optimizer-shared.cpp.o: /aleth/build/deps/src/binaryen/src/emscripten-optimizer/optimizer-shared.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/optimizer-shared.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/emscripten-optimizer && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/emscripten-optimizer.dir/optimizer-shared.cpp.o -c /aleth/build/deps/src/binaryen/src/emscripten-optimizer/optimizer-shared.cpp
 
 src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/optimizer-shared.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/emscripten-optimizer.dir/optimizer-shared.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/emscripten-optimizer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/optimizer-shared.cpp > CMakeFiles/emscripten-optimizer.dir/optimizer-shared.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/emscripten-optimizer && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/emscripten-optimizer/optimizer-shared.cpp > CMakeFiles/emscripten-optimizer.dir/optimizer-shared.cpp.i
 
 src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/optimizer-shared.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/emscripten-optimizer.dir/optimizer-shared.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/emscripten-optimizer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/optimizer-shared.cpp -o CMakeFiles/emscripten-optimizer.dir/optimizer-shared.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/emscripten-optimizer && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/emscripten-optimizer/optimizer-shared.cpp -o CMakeFiles/emscripten-optimizer.dir/optimizer-shared.cpp.s
 
 src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/optimizer-shared.cpp.o.requires:
 
@@ -82,17 +82,17 @@ src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/optimizer-shared.cp
 
 
 src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/parser.cpp.o: src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/flags.make
-src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/parser.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/parser.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/emscripten-optimizer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/emscripten-optimizer.dir/parser.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/parser.cpp
+src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/parser.cpp.o: /aleth/build/deps/src/binaryen/src/emscripten-optimizer/parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/parser.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/emscripten-optimizer && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/emscripten-optimizer.dir/parser.cpp.o -c /aleth/build/deps/src/binaryen/src/emscripten-optimizer/parser.cpp
 
 src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/emscripten-optimizer.dir/parser.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/emscripten-optimizer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/parser.cpp > CMakeFiles/emscripten-optimizer.dir/parser.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/emscripten-optimizer && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/emscripten-optimizer/parser.cpp > CMakeFiles/emscripten-optimizer.dir/parser.cpp.i
 
 src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/emscripten-optimizer.dir/parser.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/emscripten-optimizer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/parser.cpp -o CMakeFiles/emscripten-optimizer.dir/parser.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/emscripten-optimizer && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/emscripten-optimizer/parser.cpp -o CMakeFiles/emscripten-optimizer.dir/parser.cpp.s
 
 src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/parser.cpp.o.requires:
 
@@ -106,17 +106,17 @@ src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/parser.cpp.o.provid
 
 
 src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/simple_ast.cpp.o: src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/flags.make
-src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/simple_ast.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/simple_ast.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/simple_ast.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/emscripten-optimizer && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/emscripten-optimizer.dir/simple_ast.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/simple_ast.cpp
+src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/simple_ast.cpp.o: /aleth/build/deps/src/binaryen/src/emscripten-optimizer/simple_ast.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/simple_ast.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/emscripten-optimizer && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/emscripten-optimizer.dir/simple_ast.cpp.o -c /aleth/build/deps/src/binaryen/src/emscripten-optimizer/simple_ast.cpp
 
 src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/simple_ast.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/emscripten-optimizer.dir/simple_ast.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/emscripten-optimizer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/simple_ast.cpp > CMakeFiles/emscripten-optimizer.dir/simple_ast.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/emscripten-optimizer && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/emscripten-optimizer/simple_ast.cpp > CMakeFiles/emscripten-optimizer.dir/simple_ast.cpp.i
 
 src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/simple_ast.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/emscripten-optimizer.dir/simple_ast.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/emscripten-optimizer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/simple_ast.cpp -o CMakeFiles/emscripten-optimizer.dir/simple_ast.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/emscripten-optimizer && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/emscripten-optimizer/simple_ast.cpp -o CMakeFiles/emscripten-optimizer.dir/simple_ast.cpp.s
 
 src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/simple_ast.cpp.o.requires:
 
@@ -143,9 +143,9 @@ lib/libemscripten-optimizer.a: src/emscripten-optimizer/CMakeFiles/emscripten-op
 lib/libemscripten-optimizer.a: src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/simple_ast.cpp.o
 lib/libemscripten-optimizer.a: src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/build.make
 lib/libemscripten-optimizer.a: src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ../../lib/libemscripten-optimizer.a"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/emscripten-optimizer && $(CMAKE_COMMAND) -P CMakeFiles/emscripten-optimizer.dir/cmake_clean_target.cmake
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/emscripten-optimizer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/emscripten-optimizer.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ../../lib/libemscripten-optimizer.a"
+	cd /aleth/build/deps/src/binaryen-build/src/emscripten-optimizer && $(CMAKE_COMMAND) -P CMakeFiles/emscripten-optimizer.dir/cmake_clean_target.cmake
+	cd /aleth/build/deps/src/binaryen-build/src/emscripten-optimizer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/emscripten-optimizer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/build: lib/libemscripten-optimizer.a
@@ -159,10 +159,10 @@ src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/requires: src/emscr
 .PHONY : src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/requires
 
 src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/clean:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/emscripten-optimizer && $(CMAKE_COMMAND) -P CMakeFiles/emscripten-optimizer.dir/cmake_clean.cmake
+	cd /aleth/build/deps/src/binaryen-build/src/emscripten-optimizer && $(CMAKE_COMMAND) -P CMakeFiles/emscripten-optimizer.dir/cmake_clean.cmake
 .PHONY : src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/clean
 
 src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/depend:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth/build/deps/src/binaryen /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer /home/ubuntu/moose/aleth/build/deps/src/binaryen-build /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/emscripten-optimizer /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth/build/deps/src/binaryen /aleth/build/deps/src/binaryen/src/emscripten-optimizer /aleth/build/deps/src/binaryen-build /aleth/build/deps/src/binaryen-build/src/emscripten-optimizer /aleth/build/deps/src/binaryen-build/src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/depend
 

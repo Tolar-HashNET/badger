@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen
+CMAKE_SOURCE_DIR = /aleth/build/deps/src/binaryen
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen-build
+CMAKE_BINARY_DIR = /aleth/build/deps/src/binaryen-build
 
 # Include any dependencies generated for this target.
 include src/passes/CMakeFiles/passes.dir/depend.make
@@ -58,17 +58,17 @@ include src/passes/CMakeFiles/passes.dir/progress.make
 include src/passes/CMakeFiles/passes.dir/flags.make
 
 src/passes/CMakeFiles/passes.dir/pass.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/pass.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/passes/CMakeFiles/passes.dir/pass.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/pass.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/pass.cpp
+src/passes/CMakeFiles/passes.dir/pass.cpp.o: /aleth/build/deps/src/binaryen/src/passes/pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/passes/CMakeFiles/passes.dir/pass.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/pass.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/pass.cpp
 
 src/passes/CMakeFiles/passes.dir/pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/pass.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/pass.cpp > CMakeFiles/passes.dir/pass.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/pass.cpp > CMakeFiles/passes.dir/pass.cpp.i
 
 src/passes/CMakeFiles/passes.dir/pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/pass.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/pass.cpp -o CMakeFiles/passes.dir/pass.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/pass.cpp -o CMakeFiles/passes.dir/pass.cpp.s
 
 src/passes/CMakeFiles/passes.dir/pass.cpp.o.requires:
 
@@ -82,17 +82,17 @@ src/passes/CMakeFiles/passes.dir/pass.cpp.o.provides.build: src/passes/CMakeFile
 
 
 src/passes/CMakeFiles/passes.dir/CoalesceLocals.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/CoalesceLocals.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/CoalesceLocals.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/passes/CMakeFiles/passes.dir/CoalesceLocals.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/CoalesceLocals.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/CoalesceLocals.cpp
+src/passes/CMakeFiles/passes.dir/CoalesceLocals.cpp.o: /aleth/build/deps/src/binaryen/src/passes/CoalesceLocals.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/passes/CMakeFiles/passes.dir/CoalesceLocals.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/CoalesceLocals.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/CoalesceLocals.cpp
 
 src/passes/CMakeFiles/passes.dir/CoalesceLocals.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/CoalesceLocals.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/CoalesceLocals.cpp > CMakeFiles/passes.dir/CoalesceLocals.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/CoalesceLocals.cpp > CMakeFiles/passes.dir/CoalesceLocals.cpp.i
 
 src/passes/CMakeFiles/passes.dir/CoalesceLocals.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/CoalesceLocals.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/CoalesceLocals.cpp -o CMakeFiles/passes.dir/CoalesceLocals.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/CoalesceLocals.cpp -o CMakeFiles/passes.dir/CoalesceLocals.cpp.s
 
 src/passes/CMakeFiles/passes.dir/CoalesceLocals.cpp.o.requires:
 
@@ -106,17 +106,17 @@ src/passes/CMakeFiles/passes.dir/CoalesceLocals.cpp.o.provides.build: src/passes
 
 
 src/passes/CMakeFiles/passes.dir/CodePushing.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/CodePushing.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/CodePushing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/passes/CMakeFiles/passes.dir/CodePushing.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/CodePushing.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/CodePushing.cpp
+src/passes/CMakeFiles/passes.dir/CodePushing.cpp.o: /aleth/build/deps/src/binaryen/src/passes/CodePushing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/passes/CMakeFiles/passes.dir/CodePushing.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/CodePushing.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/CodePushing.cpp
 
 src/passes/CMakeFiles/passes.dir/CodePushing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/CodePushing.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/CodePushing.cpp > CMakeFiles/passes.dir/CodePushing.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/CodePushing.cpp > CMakeFiles/passes.dir/CodePushing.cpp.i
 
 src/passes/CMakeFiles/passes.dir/CodePushing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/CodePushing.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/CodePushing.cpp -o CMakeFiles/passes.dir/CodePushing.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/CodePushing.cpp -o CMakeFiles/passes.dir/CodePushing.cpp.s
 
 src/passes/CMakeFiles/passes.dir/CodePushing.cpp.o.requires:
 
@@ -130,17 +130,17 @@ src/passes/CMakeFiles/passes.dir/CodePushing.cpp.o.provides.build: src/passes/CM
 
 
 src/passes/CMakeFiles/passes.dir/CodeFolding.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/CodeFolding.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/CodeFolding.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/passes/CMakeFiles/passes.dir/CodeFolding.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/CodeFolding.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/CodeFolding.cpp
+src/passes/CMakeFiles/passes.dir/CodeFolding.cpp.o: /aleth/build/deps/src/binaryen/src/passes/CodeFolding.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/passes/CMakeFiles/passes.dir/CodeFolding.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/CodeFolding.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/CodeFolding.cpp
 
 src/passes/CMakeFiles/passes.dir/CodeFolding.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/CodeFolding.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/CodeFolding.cpp > CMakeFiles/passes.dir/CodeFolding.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/CodeFolding.cpp > CMakeFiles/passes.dir/CodeFolding.cpp.i
 
 src/passes/CMakeFiles/passes.dir/CodeFolding.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/CodeFolding.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/CodeFolding.cpp -o CMakeFiles/passes.dir/CodeFolding.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/CodeFolding.cpp -o CMakeFiles/passes.dir/CodeFolding.cpp.s
 
 src/passes/CMakeFiles/passes.dir/CodeFolding.cpp.o.requires:
 
@@ -154,17 +154,17 @@ src/passes/CMakeFiles/passes.dir/CodeFolding.cpp.o.provides.build: src/passes/CM
 
 
 src/passes/CMakeFiles/passes.dir/ConstHoisting.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/ConstHoisting.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/ConstHoisting.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/passes/CMakeFiles/passes.dir/ConstHoisting.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/ConstHoisting.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/ConstHoisting.cpp
+src/passes/CMakeFiles/passes.dir/ConstHoisting.cpp.o: /aleth/build/deps/src/binaryen/src/passes/ConstHoisting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/passes/CMakeFiles/passes.dir/ConstHoisting.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/ConstHoisting.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/ConstHoisting.cpp
 
 src/passes/CMakeFiles/passes.dir/ConstHoisting.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/ConstHoisting.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/ConstHoisting.cpp > CMakeFiles/passes.dir/ConstHoisting.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/ConstHoisting.cpp > CMakeFiles/passes.dir/ConstHoisting.cpp.i
 
 src/passes/CMakeFiles/passes.dir/ConstHoisting.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/ConstHoisting.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/ConstHoisting.cpp -o CMakeFiles/passes.dir/ConstHoisting.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/ConstHoisting.cpp -o CMakeFiles/passes.dir/ConstHoisting.cpp.s
 
 src/passes/CMakeFiles/passes.dir/ConstHoisting.cpp.o.requires:
 
@@ -178,17 +178,17 @@ src/passes/CMakeFiles/passes.dir/ConstHoisting.cpp.o.provides.build: src/passes/
 
 
 src/passes/CMakeFiles/passes.dir/DeadCodeElimination.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/DeadCodeElimination.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/DeadCodeElimination.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/passes/CMakeFiles/passes.dir/DeadCodeElimination.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/DeadCodeElimination.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/DeadCodeElimination.cpp
+src/passes/CMakeFiles/passes.dir/DeadCodeElimination.cpp.o: /aleth/build/deps/src/binaryen/src/passes/DeadCodeElimination.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/passes/CMakeFiles/passes.dir/DeadCodeElimination.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/DeadCodeElimination.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/DeadCodeElimination.cpp
 
 src/passes/CMakeFiles/passes.dir/DeadCodeElimination.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/DeadCodeElimination.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/DeadCodeElimination.cpp > CMakeFiles/passes.dir/DeadCodeElimination.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/DeadCodeElimination.cpp > CMakeFiles/passes.dir/DeadCodeElimination.cpp.i
 
 src/passes/CMakeFiles/passes.dir/DeadCodeElimination.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/DeadCodeElimination.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/DeadCodeElimination.cpp -o CMakeFiles/passes.dir/DeadCodeElimination.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/DeadCodeElimination.cpp -o CMakeFiles/passes.dir/DeadCodeElimination.cpp.s
 
 src/passes/CMakeFiles/passes.dir/DeadCodeElimination.cpp.o.requires:
 
@@ -202,17 +202,17 @@ src/passes/CMakeFiles/passes.dir/DeadCodeElimination.cpp.o.provides.build: src/p
 
 
 src/passes/CMakeFiles/passes.dir/DuplicateFunctionElimination.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/DuplicateFunctionElimination.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/DuplicateFunctionElimination.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/passes/CMakeFiles/passes.dir/DuplicateFunctionElimination.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/DuplicateFunctionElimination.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/DuplicateFunctionElimination.cpp
+src/passes/CMakeFiles/passes.dir/DuplicateFunctionElimination.cpp.o: /aleth/build/deps/src/binaryen/src/passes/DuplicateFunctionElimination.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/passes/CMakeFiles/passes.dir/DuplicateFunctionElimination.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/DuplicateFunctionElimination.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/DuplicateFunctionElimination.cpp
 
 src/passes/CMakeFiles/passes.dir/DuplicateFunctionElimination.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/DuplicateFunctionElimination.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/DuplicateFunctionElimination.cpp > CMakeFiles/passes.dir/DuplicateFunctionElimination.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/DuplicateFunctionElimination.cpp > CMakeFiles/passes.dir/DuplicateFunctionElimination.cpp.i
 
 src/passes/CMakeFiles/passes.dir/DuplicateFunctionElimination.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/DuplicateFunctionElimination.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/DuplicateFunctionElimination.cpp -o CMakeFiles/passes.dir/DuplicateFunctionElimination.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/DuplicateFunctionElimination.cpp -o CMakeFiles/passes.dir/DuplicateFunctionElimination.cpp.s
 
 src/passes/CMakeFiles/passes.dir/DuplicateFunctionElimination.cpp.o.requires:
 
@@ -226,17 +226,17 @@ src/passes/CMakeFiles/passes.dir/DuplicateFunctionElimination.cpp.o.provides.bui
 
 
 src/passes/CMakeFiles/passes.dir/ExtractFunction.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/ExtractFunction.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/ExtractFunction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/passes/CMakeFiles/passes.dir/ExtractFunction.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/ExtractFunction.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/ExtractFunction.cpp
+src/passes/CMakeFiles/passes.dir/ExtractFunction.cpp.o: /aleth/build/deps/src/binaryen/src/passes/ExtractFunction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/passes/CMakeFiles/passes.dir/ExtractFunction.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/ExtractFunction.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/ExtractFunction.cpp
 
 src/passes/CMakeFiles/passes.dir/ExtractFunction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/ExtractFunction.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/ExtractFunction.cpp > CMakeFiles/passes.dir/ExtractFunction.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/ExtractFunction.cpp > CMakeFiles/passes.dir/ExtractFunction.cpp.i
 
 src/passes/CMakeFiles/passes.dir/ExtractFunction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/ExtractFunction.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/ExtractFunction.cpp -o CMakeFiles/passes.dir/ExtractFunction.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/ExtractFunction.cpp -o CMakeFiles/passes.dir/ExtractFunction.cpp.s
 
 src/passes/CMakeFiles/passes.dir/ExtractFunction.cpp.o.requires:
 
@@ -250,17 +250,17 @@ src/passes/CMakeFiles/passes.dir/ExtractFunction.cpp.o.provides.build: src/passe
 
 
 src/passes/CMakeFiles/passes.dir/Flatten.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/Flatten.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/Flatten.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/passes/CMakeFiles/passes.dir/Flatten.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/Flatten.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/Flatten.cpp
+src/passes/CMakeFiles/passes.dir/Flatten.cpp.o: /aleth/build/deps/src/binaryen/src/passes/Flatten.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/passes/CMakeFiles/passes.dir/Flatten.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/Flatten.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/Flatten.cpp
 
 src/passes/CMakeFiles/passes.dir/Flatten.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/Flatten.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/Flatten.cpp > CMakeFiles/passes.dir/Flatten.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/Flatten.cpp > CMakeFiles/passes.dir/Flatten.cpp.i
 
 src/passes/CMakeFiles/passes.dir/Flatten.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/Flatten.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/Flatten.cpp -o CMakeFiles/passes.dir/Flatten.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/Flatten.cpp -o CMakeFiles/passes.dir/Flatten.cpp.s
 
 src/passes/CMakeFiles/passes.dir/Flatten.cpp.o.requires:
 
@@ -274,17 +274,17 @@ src/passes/CMakeFiles/passes.dir/Flatten.cpp.o.provides.build: src/passes/CMakeF
 
 
 src/passes/CMakeFiles/passes.dir/Inlining.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/Inlining.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/Inlining.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/passes/CMakeFiles/passes.dir/Inlining.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/Inlining.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/Inlining.cpp
+src/passes/CMakeFiles/passes.dir/Inlining.cpp.o: /aleth/build/deps/src/binaryen/src/passes/Inlining.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/passes/CMakeFiles/passes.dir/Inlining.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/Inlining.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/Inlining.cpp
 
 src/passes/CMakeFiles/passes.dir/Inlining.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/Inlining.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/Inlining.cpp > CMakeFiles/passes.dir/Inlining.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/Inlining.cpp > CMakeFiles/passes.dir/Inlining.cpp.i
 
 src/passes/CMakeFiles/passes.dir/Inlining.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/Inlining.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/Inlining.cpp -o CMakeFiles/passes.dir/Inlining.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/Inlining.cpp -o CMakeFiles/passes.dir/Inlining.cpp.s
 
 src/passes/CMakeFiles/passes.dir/Inlining.cpp.o.requires:
 
@@ -298,17 +298,17 @@ src/passes/CMakeFiles/passes.dir/Inlining.cpp.o.provides.build: src/passes/CMake
 
 
 src/passes/CMakeFiles/passes.dir/LegalizeJSInterface.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/LegalizeJSInterface.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/LegalizeJSInterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/passes/CMakeFiles/passes.dir/LegalizeJSInterface.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/LegalizeJSInterface.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/LegalizeJSInterface.cpp
+src/passes/CMakeFiles/passes.dir/LegalizeJSInterface.cpp.o: /aleth/build/deps/src/binaryen/src/passes/LegalizeJSInterface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/passes/CMakeFiles/passes.dir/LegalizeJSInterface.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/LegalizeJSInterface.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/LegalizeJSInterface.cpp
 
 src/passes/CMakeFiles/passes.dir/LegalizeJSInterface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/LegalizeJSInterface.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/LegalizeJSInterface.cpp > CMakeFiles/passes.dir/LegalizeJSInterface.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/LegalizeJSInterface.cpp > CMakeFiles/passes.dir/LegalizeJSInterface.cpp.i
 
 src/passes/CMakeFiles/passes.dir/LegalizeJSInterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/LegalizeJSInterface.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/LegalizeJSInterface.cpp -o CMakeFiles/passes.dir/LegalizeJSInterface.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/LegalizeJSInterface.cpp -o CMakeFiles/passes.dir/LegalizeJSInterface.cpp.s
 
 src/passes/CMakeFiles/passes.dir/LegalizeJSInterface.cpp.o.requires:
 
@@ -322,17 +322,17 @@ src/passes/CMakeFiles/passes.dir/LegalizeJSInterface.cpp.o.provides.build: src/p
 
 
 src/passes/CMakeFiles/passes.dir/LocalCSE.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/LocalCSE.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/LocalCSE.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/passes/CMakeFiles/passes.dir/LocalCSE.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/LocalCSE.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/LocalCSE.cpp
+src/passes/CMakeFiles/passes.dir/LocalCSE.cpp.o: /aleth/build/deps/src/binaryen/src/passes/LocalCSE.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/passes/CMakeFiles/passes.dir/LocalCSE.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/LocalCSE.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/LocalCSE.cpp
 
 src/passes/CMakeFiles/passes.dir/LocalCSE.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/LocalCSE.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/LocalCSE.cpp > CMakeFiles/passes.dir/LocalCSE.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/LocalCSE.cpp > CMakeFiles/passes.dir/LocalCSE.cpp.i
 
 src/passes/CMakeFiles/passes.dir/LocalCSE.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/LocalCSE.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/LocalCSE.cpp -o CMakeFiles/passes.dir/LocalCSE.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/LocalCSE.cpp -o CMakeFiles/passes.dir/LocalCSE.cpp.s
 
 src/passes/CMakeFiles/passes.dir/LocalCSE.cpp.o.requires:
 
@@ -346,17 +346,17 @@ src/passes/CMakeFiles/passes.dir/LocalCSE.cpp.o.provides.build: src/passes/CMake
 
 
 src/passes/CMakeFiles/passes.dir/LogExecution.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/LogExecution.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/LogExecution.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/passes/CMakeFiles/passes.dir/LogExecution.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/LogExecution.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/LogExecution.cpp
+src/passes/CMakeFiles/passes.dir/LogExecution.cpp.o: /aleth/build/deps/src/binaryen/src/passes/LogExecution.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/passes/CMakeFiles/passes.dir/LogExecution.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/LogExecution.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/LogExecution.cpp
 
 src/passes/CMakeFiles/passes.dir/LogExecution.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/LogExecution.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/LogExecution.cpp > CMakeFiles/passes.dir/LogExecution.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/LogExecution.cpp > CMakeFiles/passes.dir/LogExecution.cpp.i
 
 src/passes/CMakeFiles/passes.dir/LogExecution.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/LogExecution.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/LogExecution.cpp -o CMakeFiles/passes.dir/LogExecution.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/LogExecution.cpp -o CMakeFiles/passes.dir/LogExecution.cpp.s
 
 src/passes/CMakeFiles/passes.dir/LogExecution.cpp.o.requires:
 
@@ -370,17 +370,17 @@ src/passes/CMakeFiles/passes.dir/LogExecution.cpp.o.provides.build: src/passes/C
 
 
 src/passes/CMakeFiles/passes.dir/I64ToI32Lowering.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/I64ToI32Lowering.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/I64ToI32Lowering.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/passes/CMakeFiles/passes.dir/I64ToI32Lowering.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/I64ToI32Lowering.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/I64ToI32Lowering.cpp
+src/passes/CMakeFiles/passes.dir/I64ToI32Lowering.cpp.o: /aleth/build/deps/src/binaryen/src/passes/I64ToI32Lowering.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/passes/CMakeFiles/passes.dir/I64ToI32Lowering.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/I64ToI32Lowering.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/I64ToI32Lowering.cpp
 
 src/passes/CMakeFiles/passes.dir/I64ToI32Lowering.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/I64ToI32Lowering.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/I64ToI32Lowering.cpp > CMakeFiles/passes.dir/I64ToI32Lowering.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/I64ToI32Lowering.cpp > CMakeFiles/passes.dir/I64ToI32Lowering.cpp.i
 
 src/passes/CMakeFiles/passes.dir/I64ToI32Lowering.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/I64ToI32Lowering.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/I64ToI32Lowering.cpp -o CMakeFiles/passes.dir/I64ToI32Lowering.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/I64ToI32Lowering.cpp -o CMakeFiles/passes.dir/I64ToI32Lowering.cpp.s
 
 src/passes/CMakeFiles/passes.dir/I64ToI32Lowering.cpp.o.requires:
 
@@ -394,17 +394,17 @@ src/passes/CMakeFiles/passes.dir/I64ToI32Lowering.cpp.o.provides.build: src/pass
 
 
 src/passes/CMakeFiles/passes.dir/InstrumentLocals.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/InstrumentLocals.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/InstrumentLocals.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/passes/CMakeFiles/passes.dir/InstrumentLocals.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/InstrumentLocals.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/InstrumentLocals.cpp
+src/passes/CMakeFiles/passes.dir/InstrumentLocals.cpp.o: /aleth/build/deps/src/binaryen/src/passes/InstrumentLocals.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/passes/CMakeFiles/passes.dir/InstrumentLocals.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/InstrumentLocals.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/InstrumentLocals.cpp
 
 src/passes/CMakeFiles/passes.dir/InstrumentLocals.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/InstrumentLocals.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/InstrumentLocals.cpp > CMakeFiles/passes.dir/InstrumentLocals.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/InstrumentLocals.cpp > CMakeFiles/passes.dir/InstrumentLocals.cpp.i
 
 src/passes/CMakeFiles/passes.dir/InstrumentLocals.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/InstrumentLocals.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/InstrumentLocals.cpp -o CMakeFiles/passes.dir/InstrumentLocals.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/InstrumentLocals.cpp -o CMakeFiles/passes.dir/InstrumentLocals.cpp.s
 
 src/passes/CMakeFiles/passes.dir/InstrumentLocals.cpp.o.requires:
 
@@ -418,17 +418,17 @@ src/passes/CMakeFiles/passes.dir/InstrumentLocals.cpp.o.provides.build: src/pass
 
 
 src/passes/CMakeFiles/passes.dir/InstrumentMemory.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/InstrumentMemory.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/InstrumentMemory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/passes/CMakeFiles/passes.dir/InstrumentMemory.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/InstrumentMemory.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/InstrumentMemory.cpp
+src/passes/CMakeFiles/passes.dir/InstrumentMemory.cpp.o: /aleth/build/deps/src/binaryen/src/passes/InstrumentMemory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/passes/CMakeFiles/passes.dir/InstrumentMemory.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/InstrumentMemory.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/InstrumentMemory.cpp
 
 src/passes/CMakeFiles/passes.dir/InstrumentMemory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/InstrumentMemory.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/InstrumentMemory.cpp > CMakeFiles/passes.dir/InstrumentMemory.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/InstrumentMemory.cpp > CMakeFiles/passes.dir/InstrumentMemory.cpp.i
 
 src/passes/CMakeFiles/passes.dir/InstrumentMemory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/InstrumentMemory.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/InstrumentMemory.cpp -o CMakeFiles/passes.dir/InstrumentMemory.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/InstrumentMemory.cpp -o CMakeFiles/passes.dir/InstrumentMemory.cpp.s
 
 src/passes/CMakeFiles/passes.dir/InstrumentMemory.cpp.o.requires:
 
@@ -442,17 +442,17 @@ src/passes/CMakeFiles/passes.dir/InstrumentMemory.cpp.o.provides.build: src/pass
 
 
 src/passes/CMakeFiles/passes.dir/MemoryPacking.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/MemoryPacking.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/MemoryPacking.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/passes/CMakeFiles/passes.dir/MemoryPacking.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/MemoryPacking.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/MemoryPacking.cpp
+src/passes/CMakeFiles/passes.dir/MemoryPacking.cpp.o: /aleth/build/deps/src/binaryen/src/passes/MemoryPacking.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/passes/CMakeFiles/passes.dir/MemoryPacking.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/MemoryPacking.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/MemoryPacking.cpp
 
 src/passes/CMakeFiles/passes.dir/MemoryPacking.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/MemoryPacking.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/MemoryPacking.cpp > CMakeFiles/passes.dir/MemoryPacking.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/MemoryPacking.cpp > CMakeFiles/passes.dir/MemoryPacking.cpp.i
 
 src/passes/CMakeFiles/passes.dir/MemoryPacking.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/MemoryPacking.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/MemoryPacking.cpp -o CMakeFiles/passes.dir/MemoryPacking.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/MemoryPacking.cpp -o CMakeFiles/passes.dir/MemoryPacking.cpp.s
 
 src/passes/CMakeFiles/passes.dir/MemoryPacking.cpp.o.requires:
 
@@ -466,17 +466,17 @@ src/passes/CMakeFiles/passes.dir/MemoryPacking.cpp.o.provides.build: src/passes/
 
 
 src/passes/CMakeFiles/passes.dir/MergeBlocks.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/MergeBlocks.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/MergeBlocks.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/passes/CMakeFiles/passes.dir/MergeBlocks.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/MergeBlocks.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/MergeBlocks.cpp
+src/passes/CMakeFiles/passes.dir/MergeBlocks.cpp.o: /aleth/build/deps/src/binaryen/src/passes/MergeBlocks.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/passes/CMakeFiles/passes.dir/MergeBlocks.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/MergeBlocks.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/MergeBlocks.cpp
 
 src/passes/CMakeFiles/passes.dir/MergeBlocks.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/MergeBlocks.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/MergeBlocks.cpp > CMakeFiles/passes.dir/MergeBlocks.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/MergeBlocks.cpp > CMakeFiles/passes.dir/MergeBlocks.cpp.i
 
 src/passes/CMakeFiles/passes.dir/MergeBlocks.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/MergeBlocks.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/MergeBlocks.cpp -o CMakeFiles/passes.dir/MergeBlocks.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/MergeBlocks.cpp -o CMakeFiles/passes.dir/MergeBlocks.cpp.s
 
 src/passes/CMakeFiles/passes.dir/MergeBlocks.cpp.o.requires:
 
@@ -490,17 +490,17 @@ src/passes/CMakeFiles/passes.dir/MergeBlocks.cpp.o.provides.build: src/passes/CM
 
 
 src/passes/CMakeFiles/passes.dir/MergeLocals.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/MergeLocals.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/MergeLocals.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/passes/CMakeFiles/passes.dir/MergeLocals.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/MergeLocals.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/MergeLocals.cpp
+src/passes/CMakeFiles/passes.dir/MergeLocals.cpp.o: /aleth/build/deps/src/binaryen/src/passes/MergeLocals.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/passes/CMakeFiles/passes.dir/MergeLocals.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/MergeLocals.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/MergeLocals.cpp
 
 src/passes/CMakeFiles/passes.dir/MergeLocals.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/MergeLocals.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/MergeLocals.cpp > CMakeFiles/passes.dir/MergeLocals.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/MergeLocals.cpp > CMakeFiles/passes.dir/MergeLocals.cpp.i
 
 src/passes/CMakeFiles/passes.dir/MergeLocals.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/MergeLocals.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/MergeLocals.cpp -o CMakeFiles/passes.dir/MergeLocals.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/MergeLocals.cpp -o CMakeFiles/passes.dir/MergeLocals.cpp.s
 
 src/passes/CMakeFiles/passes.dir/MergeLocals.cpp.o.requires:
 
@@ -514,17 +514,17 @@ src/passes/CMakeFiles/passes.dir/MergeLocals.cpp.o.provides.build: src/passes/CM
 
 
 src/passes/CMakeFiles/passes.dir/Metrics.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/Metrics.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/Metrics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/passes/CMakeFiles/passes.dir/Metrics.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/Metrics.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/Metrics.cpp
+src/passes/CMakeFiles/passes.dir/Metrics.cpp.o: /aleth/build/deps/src/binaryen/src/passes/Metrics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/passes/CMakeFiles/passes.dir/Metrics.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/Metrics.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/Metrics.cpp
 
 src/passes/CMakeFiles/passes.dir/Metrics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/Metrics.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/Metrics.cpp > CMakeFiles/passes.dir/Metrics.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/Metrics.cpp > CMakeFiles/passes.dir/Metrics.cpp.i
 
 src/passes/CMakeFiles/passes.dir/Metrics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/Metrics.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/Metrics.cpp -o CMakeFiles/passes.dir/Metrics.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/Metrics.cpp -o CMakeFiles/passes.dir/Metrics.cpp.s
 
 src/passes/CMakeFiles/passes.dir/Metrics.cpp.o.requires:
 
@@ -538,17 +538,17 @@ src/passes/CMakeFiles/passes.dir/Metrics.cpp.o.provides.build: src/passes/CMakeF
 
 
 src/passes/CMakeFiles/passes.dir/NameList.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/NameList.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/NameList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/passes/CMakeFiles/passes.dir/NameList.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/NameList.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/NameList.cpp
+src/passes/CMakeFiles/passes.dir/NameList.cpp.o: /aleth/build/deps/src/binaryen/src/passes/NameList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/passes/CMakeFiles/passes.dir/NameList.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/NameList.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/NameList.cpp
 
 src/passes/CMakeFiles/passes.dir/NameList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/NameList.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/NameList.cpp > CMakeFiles/passes.dir/NameList.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/NameList.cpp > CMakeFiles/passes.dir/NameList.cpp.i
 
 src/passes/CMakeFiles/passes.dir/NameList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/NameList.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/NameList.cpp -o CMakeFiles/passes.dir/NameList.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/NameList.cpp -o CMakeFiles/passes.dir/NameList.cpp.s
 
 src/passes/CMakeFiles/passes.dir/NameList.cpp.o.requires:
 
@@ -562,17 +562,17 @@ src/passes/CMakeFiles/passes.dir/NameList.cpp.o.provides.build: src/passes/CMake
 
 
 src/passes/CMakeFiles/passes.dir/OptimizeInstructions.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/OptimizeInstructions.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/OptimizeInstructions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/passes/CMakeFiles/passes.dir/OptimizeInstructions.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/OptimizeInstructions.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/OptimizeInstructions.cpp
+src/passes/CMakeFiles/passes.dir/OptimizeInstructions.cpp.o: /aleth/build/deps/src/binaryen/src/passes/OptimizeInstructions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/passes/CMakeFiles/passes.dir/OptimizeInstructions.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/OptimizeInstructions.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/OptimizeInstructions.cpp
 
 src/passes/CMakeFiles/passes.dir/OptimizeInstructions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/OptimizeInstructions.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/OptimizeInstructions.cpp > CMakeFiles/passes.dir/OptimizeInstructions.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/OptimizeInstructions.cpp > CMakeFiles/passes.dir/OptimizeInstructions.cpp.i
 
 src/passes/CMakeFiles/passes.dir/OptimizeInstructions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/OptimizeInstructions.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/OptimizeInstructions.cpp -o CMakeFiles/passes.dir/OptimizeInstructions.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/OptimizeInstructions.cpp -o CMakeFiles/passes.dir/OptimizeInstructions.cpp.s
 
 src/passes/CMakeFiles/passes.dir/OptimizeInstructions.cpp.o.requires:
 
@@ -586,17 +586,17 @@ src/passes/CMakeFiles/passes.dir/OptimizeInstructions.cpp.o.provides.build: src/
 
 
 src/passes/CMakeFiles/passes.dir/PickLoadSigns.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/PickLoadSigns.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/PickLoadSigns.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/passes/CMakeFiles/passes.dir/PickLoadSigns.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/PickLoadSigns.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/PickLoadSigns.cpp
+src/passes/CMakeFiles/passes.dir/PickLoadSigns.cpp.o: /aleth/build/deps/src/binaryen/src/passes/PickLoadSigns.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/passes/CMakeFiles/passes.dir/PickLoadSigns.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/PickLoadSigns.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/PickLoadSigns.cpp
 
 src/passes/CMakeFiles/passes.dir/PickLoadSigns.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/PickLoadSigns.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/PickLoadSigns.cpp > CMakeFiles/passes.dir/PickLoadSigns.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/PickLoadSigns.cpp > CMakeFiles/passes.dir/PickLoadSigns.cpp.i
 
 src/passes/CMakeFiles/passes.dir/PickLoadSigns.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/PickLoadSigns.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/PickLoadSigns.cpp -o CMakeFiles/passes.dir/PickLoadSigns.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/PickLoadSigns.cpp -o CMakeFiles/passes.dir/PickLoadSigns.cpp.s
 
 src/passes/CMakeFiles/passes.dir/PickLoadSigns.cpp.o.requires:
 
@@ -610,17 +610,17 @@ src/passes/CMakeFiles/passes.dir/PickLoadSigns.cpp.o.provides.build: src/passes/
 
 
 src/passes/CMakeFiles/passes.dir/PostEmscripten.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/PostEmscripten.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/PostEmscripten.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object src/passes/CMakeFiles/passes.dir/PostEmscripten.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/PostEmscripten.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/PostEmscripten.cpp
+src/passes/CMakeFiles/passes.dir/PostEmscripten.cpp.o: /aleth/build/deps/src/binaryen/src/passes/PostEmscripten.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object src/passes/CMakeFiles/passes.dir/PostEmscripten.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/PostEmscripten.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/PostEmscripten.cpp
 
 src/passes/CMakeFiles/passes.dir/PostEmscripten.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/PostEmscripten.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/PostEmscripten.cpp > CMakeFiles/passes.dir/PostEmscripten.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/PostEmscripten.cpp > CMakeFiles/passes.dir/PostEmscripten.cpp.i
 
 src/passes/CMakeFiles/passes.dir/PostEmscripten.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/PostEmscripten.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/PostEmscripten.cpp -o CMakeFiles/passes.dir/PostEmscripten.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/PostEmscripten.cpp -o CMakeFiles/passes.dir/PostEmscripten.cpp.s
 
 src/passes/CMakeFiles/passes.dir/PostEmscripten.cpp.o.requires:
 
@@ -634,17 +634,17 @@ src/passes/CMakeFiles/passes.dir/PostEmscripten.cpp.o.provides.build: src/passes
 
 
 src/passes/CMakeFiles/passes.dir/Precompute.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/Precompute.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/Precompute.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object src/passes/CMakeFiles/passes.dir/Precompute.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/Precompute.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/Precompute.cpp
+src/passes/CMakeFiles/passes.dir/Precompute.cpp.o: /aleth/build/deps/src/binaryen/src/passes/Precompute.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object src/passes/CMakeFiles/passes.dir/Precompute.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/Precompute.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/Precompute.cpp
 
 src/passes/CMakeFiles/passes.dir/Precompute.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/Precompute.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/Precompute.cpp > CMakeFiles/passes.dir/Precompute.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/Precompute.cpp > CMakeFiles/passes.dir/Precompute.cpp.i
 
 src/passes/CMakeFiles/passes.dir/Precompute.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/Precompute.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/Precompute.cpp -o CMakeFiles/passes.dir/Precompute.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/Precompute.cpp -o CMakeFiles/passes.dir/Precompute.cpp.s
 
 src/passes/CMakeFiles/passes.dir/Precompute.cpp.o.requires:
 
@@ -658,17 +658,17 @@ src/passes/CMakeFiles/passes.dir/Precompute.cpp.o.provides.build: src/passes/CMa
 
 
 src/passes/CMakeFiles/passes.dir/Print.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/Print.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/Print.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object src/passes/CMakeFiles/passes.dir/Print.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/Print.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/Print.cpp
+src/passes/CMakeFiles/passes.dir/Print.cpp.o: /aleth/build/deps/src/binaryen/src/passes/Print.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object src/passes/CMakeFiles/passes.dir/Print.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/Print.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/Print.cpp
 
 src/passes/CMakeFiles/passes.dir/Print.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/Print.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/Print.cpp > CMakeFiles/passes.dir/Print.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/Print.cpp > CMakeFiles/passes.dir/Print.cpp.i
 
 src/passes/CMakeFiles/passes.dir/Print.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/Print.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/Print.cpp -o CMakeFiles/passes.dir/Print.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/Print.cpp -o CMakeFiles/passes.dir/Print.cpp.s
 
 src/passes/CMakeFiles/passes.dir/Print.cpp.o.requires:
 
@@ -682,17 +682,17 @@ src/passes/CMakeFiles/passes.dir/Print.cpp.o.provides.build: src/passes/CMakeFil
 
 
 src/passes/CMakeFiles/passes.dir/PrintCallGraph.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/PrintCallGraph.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/PrintCallGraph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object src/passes/CMakeFiles/passes.dir/PrintCallGraph.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/PrintCallGraph.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/PrintCallGraph.cpp
+src/passes/CMakeFiles/passes.dir/PrintCallGraph.cpp.o: /aleth/build/deps/src/binaryen/src/passes/PrintCallGraph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object src/passes/CMakeFiles/passes.dir/PrintCallGraph.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/PrintCallGraph.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/PrintCallGraph.cpp
 
 src/passes/CMakeFiles/passes.dir/PrintCallGraph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/PrintCallGraph.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/PrintCallGraph.cpp > CMakeFiles/passes.dir/PrintCallGraph.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/PrintCallGraph.cpp > CMakeFiles/passes.dir/PrintCallGraph.cpp.i
 
 src/passes/CMakeFiles/passes.dir/PrintCallGraph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/PrintCallGraph.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/PrintCallGraph.cpp -o CMakeFiles/passes.dir/PrintCallGraph.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/PrintCallGraph.cpp -o CMakeFiles/passes.dir/PrintCallGraph.cpp.s
 
 src/passes/CMakeFiles/passes.dir/PrintCallGraph.cpp.o.requires:
 
@@ -706,17 +706,17 @@ src/passes/CMakeFiles/passes.dir/PrintCallGraph.cpp.o.provides.build: src/passes
 
 
 src/passes/CMakeFiles/passes.dir/RedundantSetElimination.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/RedundantSetElimination.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/RedundantSetElimination.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object src/passes/CMakeFiles/passes.dir/RedundantSetElimination.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/RedundantSetElimination.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/RedundantSetElimination.cpp
+src/passes/CMakeFiles/passes.dir/RedundantSetElimination.cpp.o: /aleth/build/deps/src/binaryen/src/passes/RedundantSetElimination.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object src/passes/CMakeFiles/passes.dir/RedundantSetElimination.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/RedundantSetElimination.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/RedundantSetElimination.cpp
 
 src/passes/CMakeFiles/passes.dir/RedundantSetElimination.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/RedundantSetElimination.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/RedundantSetElimination.cpp > CMakeFiles/passes.dir/RedundantSetElimination.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/RedundantSetElimination.cpp > CMakeFiles/passes.dir/RedundantSetElimination.cpp.i
 
 src/passes/CMakeFiles/passes.dir/RedundantSetElimination.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/RedundantSetElimination.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/RedundantSetElimination.cpp -o CMakeFiles/passes.dir/RedundantSetElimination.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/RedundantSetElimination.cpp -o CMakeFiles/passes.dir/RedundantSetElimination.cpp.s
 
 src/passes/CMakeFiles/passes.dir/RedundantSetElimination.cpp.o.requires:
 
@@ -730,17 +730,17 @@ src/passes/CMakeFiles/passes.dir/RedundantSetElimination.cpp.o.provides.build: s
 
 
 src/passes/CMakeFiles/passes.dir/RelooperJumpThreading.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/RelooperJumpThreading.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/RelooperJumpThreading.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object src/passes/CMakeFiles/passes.dir/RelooperJumpThreading.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/RelooperJumpThreading.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/RelooperJumpThreading.cpp
+src/passes/CMakeFiles/passes.dir/RelooperJumpThreading.cpp.o: /aleth/build/deps/src/binaryen/src/passes/RelooperJumpThreading.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object src/passes/CMakeFiles/passes.dir/RelooperJumpThreading.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/RelooperJumpThreading.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/RelooperJumpThreading.cpp
 
 src/passes/CMakeFiles/passes.dir/RelooperJumpThreading.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/RelooperJumpThreading.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/RelooperJumpThreading.cpp > CMakeFiles/passes.dir/RelooperJumpThreading.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/RelooperJumpThreading.cpp > CMakeFiles/passes.dir/RelooperJumpThreading.cpp.i
 
 src/passes/CMakeFiles/passes.dir/RelooperJumpThreading.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/RelooperJumpThreading.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/RelooperJumpThreading.cpp -o CMakeFiles/passes.dir/RelooperJumpThreading.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/RelooperJumpThreading.cpp -o CMakeFiles/passes.dir/RelooperJumpThreading.cpp.s
 
 src/passes/CMakeFiles/passes.dir/RelooperJumpThreading.cpp.o.requires:
 
@@ -754,17 +754,17 @@ src/passes/CMakeFiles/passes.dir/RelooperJumpThreading.cpp.o.provides.build: src
 
 
 src/passes/CMakeFiles/passes.dir/ReReloop.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/ReReloop.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/ReReloop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object src/passes/CMakeFiles/passes.dir/ReReloop.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/ReReloop.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/ReReloop.cpp
+src/passes/CMakeFiles/passes.dir/ReReloop.cpp.o: /aleth/build/deps/src/binaryen/src/passes/ReReloop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object src/passes/CMakeFiles/passes.dir/ReReloop.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/ReReloop.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/ReReloop.cpp
 
 src/passes/CMakeFiles/passes.dir/ReReloop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/ReReloop.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/ReReloop.cpp > CMakeFiles/passes.dir/ReReloop.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/ReReloop.cpp > CMakeFiles/passes.dir/ReReloop.cpp.i
 
 src/passes/CMakeFiles/passes.dir/ReReloop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/ReReloop.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/ReReloop.cpp -o CMakeFiles/passes.dir/ReReloop.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/ReReloop.cpp -o CMakeFiles/passes.dir/ReReloop.cpp.s
 
 src/passes/CMakeFiles/passes.dir/ReReloop.cpp.o.requires:
 
@@ -778,17 +778,17 @@ src/passes/CMakeFiles/passes.dir/ReReloop.cpp.o.provides.build: src/passes/CMake
 
 
 src/passes/CMakeFiles/passes.dir/RemoveImports.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/RemoveImports.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/RemoveImports.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object src/passes/CMakeFiles/passes.dir/RemoveImports.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/RemoveImports.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/RemoveImports.cpp
+src/passes/CMakeFiles/passes.dir/RemoveImports.cpp.o: /aleth/build/deps/src/binaryen/src/passes/RemoveImports.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object src/passes/CMakeFiles/passes.dir/RemoveImports.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/RemoveImports.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/RemoveImports.cpp
 
 src/passes/CMakeFiles/passes.dir/RemoveImports.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/RemoveImports.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/RemoveImports.cpp > CMakeFiles/passes.dir/RemoveImports.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/RemoveImports.cpp > CMakeFiles/passes.dir/RemoveImports.cpp.i
 
 src/passes/CMakeFiles/passes.dir/RemoveImports.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/RemoveImports.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/RemoveImports.cpp -o CMakeFiles/passes.dir/RemoveImports.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/RemoveImports.cpp -o CMakeFiles/passes.dir/RemoveImports.cpp.s
 
 src/passes/CMakeFiles/passes.dir/RemoveImports.cpp.o.requires:
 
@@ -802,17 +802,17 @@ src/passes/CMakeFiles/passes.dir/RemoveImports.cpp.o.provides.build: src/passes/
 
 
 src/passes/CMakeFiles/passes.dir/RemoveMemory.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/RemoveMemory.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/RemoveMemory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object src/passes/CMakeFiles/passes.dir/RemoveMemory.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/RemoveMemory.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/RemoveMemory.cpp
+src/passes/CMakeFiles/passes.dir/RemoveMemory.cpp.o: /aleth/build/deps/src/binaryen/src/passes/RemoveMemory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object src/passes/CMakeFiles/passes.dir/RemoveMemory.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/RemoveMemory.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/RemoveMemory.cpp
 
 src/passes/CMakeFiles/passes.dir/RemoveMemory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/RemoveMemory.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/RemoveMemory.cpp > CMakeFiles/passes.dir/RemoveMemory.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/RemoveMemory.cpp > CMakeFiles/passes.dir/RemoveMemory.cpp.i
 
 src/passes/CMakeFiles/passes.dir/RemoveMemory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/RemoveMemory.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/RemoveMemory.cpp -o CMakeFiles/passes.dir/RemoveMemory.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/RemoveMemory.cpp -o CMakeFiles/passes.dir/RemoveMemory.cpp.s
 
 src/passes/CMakeFiles/passes.dir/RemoveMemory.cpp.o.requires:
 
@@ -826,17 +826,17 @@ src/passes/CMakeFiles/passes.dir/RemoveMemory.cpp.o.provides.build: src/passes/C
 
 
 src/passes/CMakeFiles/passes.dir/RemoveUnusedBrs.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/RemoveUnusedBrs.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/RemoveUnusedBrs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object src/passes/CMakeFiles/passes.dir/RemoveUnusedBrs.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/RemoveUnusedBrs.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/RemoveUnusedBrs.cpp
+src/passes/CMakeFiles/passes.dir/RemoveUnusedBrs.cpp.o: /aleth/build/deps/src/binaryen/src/passes/RemoveUnusedBrs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object src/passes/CMakeFiles/passes.dir/RemoveUnusedBrs.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/RemoveUnusedBrs.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/RemoveUnusedBrs.cpp
 
 src/passes/CMakeFiles/passes.dir/RemoveUnusedBrs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/RemoveUnusedBrs.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/RemoveUnusedBrs.cpp > CMakeFiles/passes.dir/RemoveUnusedBrs.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/RemoveUnusedBrs.cpp > CMakeFiles/passes.dir/RemoveUnusedBrs.cpp.i
 
 src/passes/CMakeFiles/passes.dir/RemoveUnusedBrs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/RemoveUnusedBrs.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/RemoveUnusedBrs.cpp -o CMakeFiles/passes.dir/RemoveUnusedBrs.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/RemoveUnusedBrs.cpp -o CMakeFiles/passes.dir/RemoveUnusedBrs.cpp.s
 
 src/passes/CMakeFiles/passes.dir/RemoveUnusedBrs.cpp.o.requires:
 
@@ -850,17 +850,17 @@ src/passes/CMakeFiles/passes.dir/RemoveUnusedBrs.cpp.o.provides.build: src/passe
 
 
 src/passes/CMakeFiles/passes.dir/RemoveUnusedNames.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/RemoveUnusedNames.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/RemoveUnusedNames.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object src/passes/CMakeFiles/passes.dir/RemoveUnusedNames.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/RemoveUnusedNames.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/RemoveUnusedNames.cpp
+src/passes/CMakeFiles/passes.dir/RemoveUnusedNames.cpp.o: /aleth/build/deps/src/binaryen/src/passes/RemoveUnusedNames.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object src/passes/CMakeFiles/passes.dir/RemoveUnusedNames.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/RemoveUnusedNames.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/RemoveUnusedNames.cpp
 
 src/passes/CMakeFiles/passes.dir/RemoveUnusedNames.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/RemoveUnusedNames.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/RemoveUnusedNames.cpp > CMakeFiles/passes.dir/RemoveUnusedNames.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/RemoveUnusedNames.cpp > CMakeFiles/passes.dir/RemoveUnusedNames.cpp.i
 
 src/passes/CMakeFiles/passes.dir/RemoveUnusedNames.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/RemoveUnusedNames.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/RemoveUnusedNames.cpp -o CMakeFiles/passes.dir/RemoveUnusedNames.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/RemoveUnusedNames.cpp -o CMakeFiles/passes.dir/RemoveUnusedNames.cpp.s
 
 src/passes/CMakeFiles/passes.dir/RemoveUnusedNames.cpp.o.requires:
 
@@ -874,17 +874,17 @@ src/passes/CMakeFiles/passes.dir/RemoveUnusedNames.cpp.o.provides.build: src/pas
 
 
 src/passes/CMakeFiles/passes.dir/RemoveUnusedModuleElements.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/RemoveUnusedModuleElements.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/RemoveUnusedModuleElements.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object src/passes/CMakeFiles/passes.dir/RemoveUnusedModuleElements.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/RemoveUnusedModuleElements.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/RemoveUnusedModuleElements.cpp
+src/passes/CMakeFiles/passes.dir/RemoveUnusedModuleElements.cpp.o: /aleth/build/deps/src/binaryen/src/passes/RemoveUnusedModuleElements.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object src/passes/CMakeFiles/passes.dir/RemoveUnusedModuleElements.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/RemoveUnusedModuleElements.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/RemoveUnusedModuleElements.cpp
 
 src/passes/CMakeFiles/passes.dir/RemoveUnusedModuleElements.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/RemoveUnusedModuleElements.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/RemoveUnusedModuleElements.cpp > CMakeFiles/passes.dir/RemoveUnusedModuleElements.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/RemoveUnusedModuleElements.cpp > CMakeFiles/passes.dir/RemoveUnusedModuleElements.cpp.i
 
 src/passes/CMakeFiles/passes.dir/RemoveUnusedModuleElements.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/RemoveUnusedModuleElements.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/RemoveUnusedModuleElements.cpp -o CMakeFiles/passes.dir/RemoveUnusedModuleElements.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/RemoveUnusedModuleElements.cpp -o CMakeFiles/passes.dir/RemoveUnusedModuleElements.cpp.s
 
 src/passes/CMakeFiles/passes.dir/RemoveUnusedModuleElements.cpp.o.requires:
 
@@ -898,17 +898,17 @@ src/passes/CMakeFiles/passes.dir/RemoveUnusedModuleElements.cpp.o.provides.build
 
 
 src/passes/CMakeFiles/passes.dir/ReorderLocals.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/ReorderLocals.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/ReorderLocals.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object src/passes/CMakeFiles/passes.dir/ReorderLocals.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/ReorderLocals.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/ReorderLocals.cpp
+src/passes/CMakeFiles/passes.dir/ReorderLocals.cpp.o: /aleth/build/deps/src/binaryen/src/passes/ReorderLocals.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object src/passes/CMakeFiles/passes.dir/ReorderLocals.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/ReorderLocals.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/ReorderLocals.cpp
 
 src/passes/CMakeFiles/passes.dir/ReorderLocals.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/ReorderLocals.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/ReorderLocals.cpp > CMakeFiles/passes.dir/ReorderLocals.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/ReorderLocals.cpp > CMakeFiles/passes.dir/ReorderLocals.cpp.i
 
 src/passes/CMakeFiles/passes.dir/ReorderLocals.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/ReorderLocals.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/ReorderLocals.cpp -o CMakeFiles/passes.dir/ReorderLocals.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/ReorderLocals.cpp -o CMakeFiles/passes.dir/ReorderLocals.cpp.s
 
 src/passes/CMakeFiles/passes.dir/ReorderLocals.cpp.o.requires:
 
@@ -922,17 +922,17 @@ src/passes/CMakeFiles/passes.dir/ReorderLocals.cpp.o.provides.build: src/passes/
 
 
 src/passes/CMakeFiles/passes.dir/ReorderFunctions.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/ReorderFunctions.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/ReorderFunctions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object src/passes/CMakeFiles/passes.dir/ReorderFunctions.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/ReorderFunctions.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/ReorderFunctions.cpp
+src/passes/CMakeFiles/passes.dir/ReorderFunctions.cpp.o: /aleth/build/deps/src/binaryen/src/passes/ReorderFunctions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object src/passes/CMakeFiles/passes.dir/ReorderFunctions.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/ReorderFunctions.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/ReorderFunctions.cpp
 
 src/passes/CMakeFiles/passes.dir/ReorderFunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/ReorderFunctions.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/ReorderFunctions.cpp > CMakeFiles/passes.dir/ReorderFunctions.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/ReorderFunctions.cpp > CMakeFiles/passes.dir/ReorderFunctions.cpp.i
 
 src/passes/CMakeFiles/passes.dir/ReorderFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/ReorderFunctions.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/ReorderFunctions.cpp -o CMakeFiles/passes.dir/ReorderFunctions.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/ReorderFunctions.cpp -o CMakeFiles/passes.dir/ReorderFunctions.cpp.s
 
 src/passes/CMakeFiles/passes.dir/ReorderFunctions.cpp.o.requires:
 
@@ -946,17 +946,17 @@ src/passes/CMakeFiles/passes.dir/ReorderFunctions.cpp.o.provides.build: src/pass
 
 
 src/passes/CMakeFiles/passes.dir/TrapMode.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/TrapMode.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/TrapMode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object src/passes/CMakeFiles/passes.dir/TrapMode.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/TrapMode.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/TrapMode.cpp
+src/passes/CMakeFiles/passes.dir/TrapMode.cpp.o: /aleth/build/deps/src/binaryen/src/passes/TrapMode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object src/passes/CMakeFiles/passes.dir/TrapMode.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/TrapMode.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/TrapMode.cpp
 
 src/passes/CMakeFiles/passes.dir/TrapMode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/TrapMode.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/TrapMode.cpp > CMakeFiles/passes.dir/TrapMode.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/TrapMode.cpp > CMakeFiles/passes.dir/TrapMode.cpp.i
 
 src/passes/CMakeFiles/passes.dir/TrapMode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/TrapMode.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/TrapMode.cpp -o CMakeFiles/passes.dir/TrapMode.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/TrapMode.cpp -o CMakeFiles/passes.dir/TrapMode.cpp.s
 
 src/passes/CMakeFiles/passes.dir/TrapMode.cpp.o.requires:
 
@@ -970,17 +970,17 @@ src/passes/CMakeFiles/passes.dir/TrapMode.cpp.o.provides.build: src/passes/CMake
 
 
 src/passes/CMakeFiles/passes.dir/SafeHeap.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/SafeHeap.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/SafeHeap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object src/passes/CMakeFiles/passes.dir/SafeHeap.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/SafeHeap.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/SafeHeap.cpp
+src/passes/CMakeFiles/passes.dir/SafeHeap.cpp.o: /aleth/build/deps/src/binaryen/src/passes/SafeHeap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object src/passes/CMakeFiles/passes.dir/SafeHeap.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/SafeHeap.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/SafeHeap.cpp
 
 src/passes/CMakeFiles/passes.dir/SafeHeap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/SafeHeap.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/SafeHeap.cpp > CMakeFiles/passes.dir/SafeHeap.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/SafeHeap.cpp > CMakeFiles/passes.dir/SafeHeap.cpp.i
 
 src/passes/CMakeFiles/passes.dir/SafeHeap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/SafeHeap.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/SafeHeap.cpp -o CMakeFiles/passes.dir/SafeHeap.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/SafeHeap.cpp -o CMakeFiles/passes.dir/SafeHeap.cpp.s
 
 src/passes/CMakeFiles/passes.dir/SafeHeap.cpp.o.requires:
 
@@ -994,17 +994,17 @@ src/passes/CMakeFiles/passes.dir/SafeHeap.cpp.o.provides.build: src/passes/CMake
 
 
 src/passes/CMakeFiles/passes.dir/SimplifyLocals.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/SimplifyLocals.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/SimplifyLocals.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object src/passes/CMakeFiles/passes.dir/SimplifyLocals.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/SimplifyLocals.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/SimplifyLocals.cpp
+src/passes/CMakeFiles/passes.dir/SimplifyLocals.cpp.o: /aleth/build/deps/src/binaryen/src/passes/SimplifyLocals.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object src/passes/CMakeFiles/passes.dir/SimplifyLocals.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/SimplifyLocals.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/SimplifyLocals.cpp
 
 src/passes/CMakeFiles/passes.dir/SimplifyLocals.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/SimplifyLocals.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/SimplifyLocals.cpp > CMakeFiles/passes.dir/SimplifyLocals.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/SimplifyLocals.cpp > CMakeFiles/passes.dir/SimplifyLocals.cpp.i
 
 src/passes/CMakeFiles/passes.dir/SimplifyLocals.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/SimplifyLocals.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/SimplifyLocals.cpp -o CMakeFiles/passes.dir/SimplifyLocals.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/SimplifyLocals.cpp -o CMakeFiles/passes.dir/SimplifyLocals.cpp.s
 
 src/passes/CMakeFiles/passes.dir/SimplifyLocals.cpp.o.requires:
 
@@ -1018,17 +1018,17 @@ src/passes/CMakeFiles/passes.dir/SimplifyLocals.cpp.o.provides.build: src/passes
 
 
 src/passes/CMakeFiles/passes.dir/SpillPointers.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/SpillPointers.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/SpillPointers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object src/passes/CMakeFiles/passes.dir/SpillPointers.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/SpillPointers.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/SpillPointers.cpp
+src/passes/CMakeFiles/passes.dir/SpillPointers.cpp.o: /aleth/build/deps/src/binaryen/src/passes/SpillPointers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object src/passes/CMakeFiles/passes.dir/SpillPointers.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/SpillPointers.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/SpillPointers.cpp
 
 src/passes/CMakeFiles/passes.dir/SpillPointers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/SpillPointers.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/SpillPointers.cpp > CMakeFiles/passes.dir/SpillPointers.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/SpillPointers.cpp > CMakeFiles/passes.dir/SpillPointers.cpp.i
 
 src/passes/CMakeFiles/passes.dir/SpillPointers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/SpillPointers.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/SpillPointers.cpp -o CMakeFiles/passes.dir/SpillPointers.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/SpillPointers.cpp -o CMakeFiles/passes.dir/SpillPointers.cpp.s
 
 src/passes/CMakeFiles/passes.dir/SpillPointers.cpp.o.requires:
 
@@ -1042,17 +1042,17 @@ src/passes/CMakeFiles/passes.dir/SpillPointers.cpp.o.provides.build: src/passes/
 
 
 src/passes/CMakeFiles/passes.dir/SSAify.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/SSAify.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/SSAify.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object src/passes/CMakeFiles/passes.dir/SSAify.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/SSAify.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/SSAify.cpp
+src/passes/CMakeFiles/passes.dir/SSAify.cpp.o: /aleth/build/deps/src/binaryen/src/passes/SSAify.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object src/passes/CMakeFiles/passes.dir/SSAify.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/SSAify.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/SSAify.cpp
 
 src/passes/CMakeFiles/passes.dir/SSAify.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/SSAify.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/SSAify.cpp > CMakeFiles/passes.dir/SSAify.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/SSAify.cpp > CMakeFiles/passes.dir/SSAify.cpp.i
 
 src/passes/CMakeFiles/passes.dir/SSAify.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/SSAify.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/SSAify.cpp -o CMakeFiles/passes.dir/SSAify.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/SSAify.cpp -o CMakeFiles/passes.dir/SSAify.cpp.s
 
 src/passes/CMakeFiles/passes.dir/SSAify.cpp.o.requires:
 
@@ -1066,17 +1066,17 @@ src/passes/CMakeFiles/passes.dir/SSAify.cpp.o.provides.build: src/passes/CMakeFi
 
 
 src/passes/CMakeFiles/passes.dir/Untee.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/Untee.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/Untee.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object src/passes/CMakeFiles/passes.dir/Untee.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/Untee.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/Untee.cpp
+src/passes/CMakeFiles/passes.dir/Untee.cpp.o: /aleth/build/deps/src/binaryen/src/passes/Untee.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object src/passes/CMakeFiles/passes.dir/Untee.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/Untee.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/Untee.cpp
 
 src/passes/CMakeFiles/passes.dir/Untee.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/Untee.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/Untee.cpp > CMakeFiles/passes.dir/Untee.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/Untee.cpp > CMakeFiles/passes.dir/Untee.cpp.i
 
 src/passes/CMakeFiles/passes.dir/Untee.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/Untee.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/Untee.cpp -o CMakeFiles/passes.dir/Untee.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/Untee.cpp -o CMakeFiles/passes.dir/Untee.cpp.s
 
 src/passes/CMakeFiles/passes.dir/Untee.cpp.o.requires:
 
@@ -1090,17 +1090,17 @@ src/passes/CMakeFiles/passes.dir/Untee.cpp.o.provides.build: src/passes/CMakeFil
 
 
 src/passes/CMakeFiles/passes.dir/Vacuum.cpp.o: src/passes/CMakeFiles/passes.dir/flags.make
-src/passes/CMakeFiles/passes.dir/Vacuum.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/Vacuum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object src/passes/CMakeFiles/passes.dir/Vacuum.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/Vacuum.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/Vacuum.cpp
+src/passes/CMakeFiles/passes.dir/Vacuum.cpp.o: /aleth/build/deps/src/binaryen/src/passes/Vacuum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object src/passes/CMakeFiles/passes.dir/Vacuum.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/passes.dir/Vacuum.cpp.o -c /aleth/build/deps/src/binaryen/src/passes/Vacuum.cpp
 
 src/passes/CMakeFiles/passes.dir/Vacuum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/passes.dir/Vacuum.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/Vacuum.cpp > CMakeFiles/passes.dir/Vacuum.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/passes/Vacuum.cpp > CMakeFiles/passes.dir/Vacuum.cpp.i
 
 src/passes/CMakeFiles/passes.dir/Vacuum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/passes.dir/Vacuum.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes/Vacuum.cpp -o CMakeFiles/passes.dir/Vacuum.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/passes && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/passes/Vacuum.cpp -o CMakeFiles/passes.dir/Vacuum.cpp.s
 
 src/passes/CMakeFiles/passes.dir/Vacuum.cpp.o.requires:
 
@@ -1209,9 +1209,9 @@ lib/libpasses.a: src/passes/CMakeFiles/passes.dir/Untee.cpp.o
 lib/libpasses.a: src/passes/CMakeFiles/passes.dir/Vacuum.cpp.o
 lib/libpasses.a: src/passes/CMakeFiles/passes.dir/build.make
 lib/libpasses.a: src/passes/CMakeFiles/passes.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Linking CXX static library ../../lib/libpasses.a"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && $(CMAKE_COMMAND) -P CMakeFiles/passes.dir/cmake_clean_target.cmake
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/passes.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Linking CXX static library ../../lib/libpasses.a"
+	cd /aleth/build/deps/src/binaryen-build/src/passes && $(CMAKE_COMMAND) -P CMakeFiles/passes.dir/cmake_clean_target.cmake
+	cd /aleth/build/deps/src/binaryen-build/src/passes && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/passes.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/passes/CMakeFiles/passes.dir/build: lib/libpasses.a
@@ -1266,10 +1266,10 @@ src/passes/CMakeFiles/passes.dir/requires: src/passes/CMakeFiles/passes.dir/Vacu
 .PHONY : src/passes/CMakeFiles/passes.dir/requires
 
 src/passes/CMakeFiles/passes.dir/clean:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes && $(CMAKE_COMMAND) -P CMakeFiles/passes.dir/cmake_clean.cmake
+	cd /aleth/build/deps/src/binaryen-build/src/passes && $(CMAKE_COMMAND) -P CMakeFiles/passes.dir/cmake_clean.cmake
 .PHONY : src/passes/CMakeFiles/passes.dir/clean
 
 src/passes/CMakeFiles/passes.dir/depend:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth/build/deps/src/binaryen /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/passes /home/ubuntu/moose/aleth/build/deps/src/binaryen-build /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes/CMakeFiles/passes.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth/build/deps/src/binaryen /aleth/build/deps/src/binaryen/src/passes /aleth/build/deps/src/binaryen-build /aleth/build/deps/src/binaryen-build/src/passes /aleth/build/deps/src/binaryen-build/src/passes/CMakeFiles/passes.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/passes/CMakeFiles/passes.dir/depend
 

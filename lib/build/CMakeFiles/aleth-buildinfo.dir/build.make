@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth
+CMAKE_SOURCE_DIR = /aleth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build
+CMAKE_BINARY_DIR = /aleth/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/aleth-buildinfo.dir/depend.make
@@ -61,24 +61,24 @@ aleth/buildinfo.c: ../cmake/cable/buildinfo/buildinfo.cmake
 aleth/buildinfo.c: ../cmake/cable/buildinfo/buildinfo.c.in
 aleth/buildinfo.c: ../cmake/cable/buildinfo/buildinfo.json.in
 aleth/buildinfo.c: aleth/gitinfo.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating aleth-buildinfo:"
-	/usr/bin/cmake -DOUTPUT_DIR=/home/ubuntu/moose/aleth/build/aleth -DPROJECT_NAME=aleth -DFUNCTION_NAME=aleth_get_buildinfo -DPROJECT_VERSION=1.5.0.dev2 -DSYSTEM_NAME=Linux -DSYSTEM_PROCESSOR=x86_64 -DCOMPILER_ID=GNU -DCOMPILER_VERSION=7.3.0 -DBUILD_TYPE=RelWithDebInfo -P /home/ubuntu/moose/aleth/cmake/cable/buildinfo/buildinfo.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating aleth-buildinfo:"
+	/usr/bin/cmake -DOUTPUT_DIR=/aleth/build/aleth -DPROJECT_NAME=aleth -DFUNCTION_NAME=aleth_get_buildinfo -DPROJECT_VERSION=1.5.0.dev2 -DSYSTEM_NAME=Linux -DSYSTEM_PROCESSOR=x86_64 -DCOMPILER_ID=Clang -DCOMPILER_VERSION=7.0.0 -DBUILD_TYPE=RelWithDebInfo -P /aleth/cmake/cable/buildinfo/buildinfo.cmake
 
 aleth/buildinfo.json: aleth/buildinfo.c
 	@$(CMAKE_COMMAND) -E touch_nocreate aleth/buildinfo.json
 
 CMakeFiles/aleth-buildinfo.dir/aleth/buildinfo.c.o: CMakeFiles/aleth-buildinfo.dir/flags.make
 CMakeFiles/aleth-buildinfo.dir/aleth/buildinfo.c.o: aleth/buildinfo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/aleth-buildinfo.dir/aleth/buildinfo.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/aleth-buildinfo.dir/aleth/buildinfo.c.o   -c /home/ubuntu/moose/aleth/build/aleth/buildinfo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/aleth-buildinfo.dir/aleth/buildinfo.c.o"
+	/usr/bin/clang-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/aleth-buildinfo.dir/aleth/buildinfo.c.o   -c /aleth/build/aleth/buildinfo.c
 
 CMakeFiles/aleth-buildinfo.dir/aleth/buildinfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/aleth-buildinfo.dir/aleth/buildinfo.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/moose/aleth/build/aleth/buildinfo.c > CMakeFiles/aleth-buildinfo.dir/aleth/buildinfo.c.i
+	/usr/bin/clang-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /aleth/build/aleth/buildinfo.c > CMakeFiles/aleth-buildinfo.dir/aleth/buildinfo.c.i
 
 CMakeFiles/aleth-buildinfo.dir/aleth/buildinfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/aleth-buildinfo.dir/aleth/buildinfo.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/moose/aleth/build/aleth/buildinfo.c -o CMakeFiles/aleth-buildinfo.dir/aleth/buildinfo.c.s
+	/usr/bin/clang-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /aleth/build/aleth/buildinfo.c -o CMakeFiles/aleth-buildinfo.dir/aleth/buildinfo.c.s
 
 CMakeFiles/aleth-buildinfo.dir/aleth/buildinfo.c.o.requires:
 
@@ -101,7 +101,7 @@ aleth__buildinfo_EXTERNAL_OBJECTS =
 aleth/libaleth-buildinfo.a: CMakeFiles/aleth-buildinfo.dir/aleth/buildinfo.c.o
 aleth/libaleth-buildinfo.a: CMakeFiles/aleth-buildinfo.dir/build.make
 aleth/libaleth-buildinfo.a: CMakeFiles/aleth-buildinfo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library aleth/libaleth-buildinfo.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library aleth/libaleth-buildinfo.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/aleth-buildinfo.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aleth-buildinfo.dir/link.txt --verbose=$(VERBOSE)
 
@@ -120,6 +120,6 @@ CMakeFiles/aleth-buildinfo.dir/clean:
 
 CMakeFiles/aleth-buildinfo.dir/depend: aleth/buildinfo.c
 CMakeFiles/aleth-buildinfo.dir/depend: aleth/buildinfo.json
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth /home/ubuntu/moose/aleth /home/ubuntu/moose/aleth/build /home/ubuntu/moose/aleth/build /home/ubuntu/moose/aleth/build/CMakeFiles/aleth-buildinfo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth /aleth /aleth/build /aleth/build /aleth/build/CMakeFiles/aleth-buildinfo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/aleth-buildinfo.dir/depend
 

@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/scalar_multiplication/multiexp_profile.cpp" "/home/ubuntu/moose/aleth/build/deps/src/libff-build/libff/CMakeFiles/multiexp_profile.dir/algebra/scalar_multiplication/multiexp_profile.cpp.o"
+  "/aleth/build/deps/src/libff/libff/algebra/scalar_multiplication/multiexp_profile.cpp" "/aleth/build/deps/src/libff-build/libff/CMakeFiles/multiexp_profile.dir/algebra/scalar_multiplication/multiexp_profile.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
@@ -20,13 +20,13 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ubuntu/moose/aleth/build/deps/src/libff/libff/.."
-  "/home/ubuntu/moose/aleth/build/deps/include"
+  "/aleth/build/deps/src/libff/libff/.."
+  "/aleth/build/deps/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ubuntu/moose/aleth/build/deps/src/libff-build/libff/CMakeFiles/ff.dir/DependInfo.cmake"
+  "/aleth/build/deps/src/libff-build/libff/CMakeFiles/ff.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

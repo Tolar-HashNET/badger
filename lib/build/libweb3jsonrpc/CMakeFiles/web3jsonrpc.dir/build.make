@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth
+CMAKE_SOURCE_DIR = /aleth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build
+CMAKE_BINARY_DIR = /aleth/build
 
 # Include any dependencies generated for this target.
 include libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/depend.make
@@ -59,16 +59,16 @@ include libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/flags.make
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AccountHolder.cpp.o: libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/flags.make
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AccountHolder.cpp.o: ../libweb3jsonrpc/AccountHolder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AccountHolder.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/web3jsonrpc.dir/AccountHolder.cpp.o -c /home/ubuntu/moose/aleth/libweb3jsonrpc/AccountHolder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AccountHolder.cpp.o"
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/web3jsonrpc.dir/AccountHolder.cpp.o -c /aleth/libweb3jsonrpc/AccountHolder.cpp
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AccountHolder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/web3jsonrpc.dir/AccountHolder.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libweb3jsonrpc/AccountHolder.cpp > CMakeFiles/web3jsonrpc.dir/AccountHolder.cpp.i
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libweb3jsonrpc/AccountHolder.cpp > CMakeFiles/web3jsonrpc.dir/AccountHolder.cpp.i
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AccountHolder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/web3jsonrpc.dir/AccountHolder.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libweb3jsonrpc/AccountHolder.cpp -o CMakeFiles/web3jsonrpc.dir/AccountHolder.cpp.s
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libweb3jsonrpc/AccountHolder.cpp -o CMakeFiles/web3jsonrpc.dir/AccountHolder.cpp.s
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AccountHolder.cpp.o.requires:
 
@@ -83,16 +83,16 @@ libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AccountHolder.cpp.o.provides.build: li
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AdminEth.cpp.o: libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/flags.make
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AdminEth.cpp.o: ../libweb3jsonrpc/AdminEth.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AdminEth.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/web3jsonrpc.dir/AdminEth.cpp.o -c /home/ubuntu/moose/aleth/libweb3jsonrpc/AdminEth.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AdminEth.cpp.o"
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/web3jsonrpc.dir/AdminEth.cpp.o -c /aleth/libweb3jsonrpc/AdminEth.cpp
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AdminEth.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/web3jsonrpc.dir/AdminEth.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libweb3jsonrpc/AdminEth.cpp > CMakeFiles/web3jsonrpc.dir/AdminEth.cpp.i
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libweb3jsonrpc/AdminEth.cpp > CMakeFiles/web3jsonrpc.dir/AdminEth.cpp.i
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AdminEth.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/web3jsonrpc.dir/AdminEth.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libweb3jsonrpc/AdminEth.cpp -o CMakeFiles/web3jsonrpc.dir/AdminEth.cpp.s
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libweb3jsonrpc/AdminEth.cpp -o CMakeFiles/web3jsonrpc.dir/AdminEth.cpp.s
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AdminEth.cpp.o.requires:
 
@@ -107,16 +107,16 @@ libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AdminEth.cpp.o.provides.build: libweb3
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AdminNet.cpp.o: libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/flags.make
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AdminNet.cpp.o: ../libweb3jsonrpc/AdminNet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AdminNet.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/web3jsonrpc.dir/AdminNet.cpp.o -c /home/ubuntu/moose/aleth/libweb3jsonrpc/AdminNet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AdminNet.cpp.o"
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/web3jsonrpc.dir/AdminNet.cpp.o -c /aleth/libweb3jsonrpc/AdminNet.cpp
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AdminNet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/web3jsonrpc.dir/AdminNet.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libweb3jsonrpc/AdminNet.cpp > CMakeFiles/web3jsonrpc.dir/AdminNet.cpp.i
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libweb3jsonrpc/AdminNet.cpp > CMakeFiles/web3jsonrpc.dir/AdminNet.cpp.i
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AdminNet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/web3jsonrpc.dir/AdminNet.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libweb3jsonrpc/AdminNet.cpp -o CMakeFiles/web3jsonrpc.dir/AdminNet.cpp.s
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libweb3jsonrpc/AdminNet.cpp -o CMakeFiles/web3jsonrpc.dir/AdminNet.cpp.s
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AdminNet.cpp.o.requires:
 
@@ -131,16 +131,16 @@ libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AdminNet.cpp.o.provides.build: libweb3
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Debug.cpp.o: libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/flags.make
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Debug.cpp.o: ../libweb3jsonrpc/Debug.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Debug.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/web3jsonrpc.dir/Debug.cpp.o -c /home/ubuntu/moose/aleth/libweb3jsonrpc/Debug.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Debug.cpp.o"
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/web3jsonrpc.dir/Debug.cpp.o -c /aleth/libweb3jsonrpc/Debug.cpp
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Debug.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/web3jsonrpc.dir/Debug.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libweb3jsonrpc/Debug.cpp > CMakeFiles/web3jsonrpc.dir/Debug.cpp.i
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libweb3jsonrpc/Debug.cpp > CMakeFiles/web3jsonrpc.dir/Debug.cpp.i
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Debug.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/web3jsonrpc.dir/Debug.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libweb3jsonrpc/Debug.cpp -o CMakeFiles/web3jsonrpc.dir/Debug.cpp.s
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libweb3jsonrpc/Debug.cpp -o CMakeFiles/web3jsonrpc.dir/Debug.cpp.s
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Debug.cpp.o.requires:
 
@@ -155,16 +155,16 @@ libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Debug.cpp.o.provides.build: libweb3jso
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Eth.cpp.o: libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/flags.make
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Eth.cpp.o: ../libweb3jsonrpc/Eth.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Eth.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/web3jsonrpc.dir/Eth.cpp.o -c /home/ubuntu/moose/aleth/libweb3jsonrpc/Eth.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Eth.cpp.o"
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/web3jsonrpc.dir/Eth.cpp.o -c /aleth/libweb3jsonrpc/Eth.cpp
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Eth.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/web3jsonrpc.dir/Eth.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libweb3jsonrpc/Eth.cpp > CMakeFiles/web3jsonrpc.dir/Eth.cpp.i
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libweb3jsonrpc/Eth.cpp > CMakeFiles/web3jsonrpc.dir/Eth.cpp.i
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Eth.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/web3jsonrpc.dir/Eth.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libweb3jsonrpc/Eth.cpp -o CMakeFiles/web3jsonrpc.dir/Eth.cpp.s
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libweb3jsonrpc/Eth.cpp -o CMakeFiles/web3jsonrpc.dir/Eth.cpp.s
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Eth.cpp.o.requires:
 
@@ -179,16 +179,16 @@ libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Eth.cpp.o.provides.build: libweb3jsonr
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/IpcServerBase.cpp.o: libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/flags.make
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/IpcServerBase.cpp.o: ../libweb3jsonrpc/IpcServerBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/IpcServerBase.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/web3jsonrpc.dir/IpcServerBase.cpp.o -c /home/ubuntu/moose/aleth/libweb3jsonrpc/IpcServerBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/IpcServerBase.cpp.o"
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/web3jsonrpc.dir/IpcServerBase.cpp.o -c /aleth/libweb3jsonrpc/IpcServerBase.cpp
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/IpcServerBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/web3jsonrpc.dir/IpcServerBase.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libweb3jsonrpc/IpcServerBase.cpp > CMakeFiles/web3jsonrpc.dir/IpcServerBase.cpp.i
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libweb3jsonrpc/IpcServerBase.cpp > CMakeFiles/web3jsonrpc.dir/IpcServerBase.cpp.i
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/IpcServerBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/web3jsonrpc.dir/IpcServerBase.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libweb3jsonrpc/IpcServerBase.cpp -o CMakeFiles/web3jsonrpc.dir/IpcServerBase.cpp.s
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libweb3jsonrpc/IpcServerBase.cpp -o CMakeFiles/web3jsonrpc.dir/IpcServerBase.cpp.s
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/IpcServerBase.cpp.o.requires:
 
@@ -203,16 +203,16 @@ libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/IpcServerBase.cpp.o.provides.build: li
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/JsonHelper.cpp.o: libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/flags.make
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/JsonHelper.cpp.o: ../libweb3jsonrpc/JsonHelper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/JsonHelper.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/web3jsonrpc.dir/JsonHelper.cpp.o -c /home/ubuntu/moose/aleth/libweb3jsonrpc/JsonHelper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/JsonHelper.cpp.o"
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/web3jsonrpc.dir/JsonHelper.cpp.o -c /aleth/libweb3jsonrpc/JsonHelper.cpp
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/JsonHelper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/web3jsonrpc.dir/JsonHelper.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libweb3jsonrpc/JsonHelper.cpp > CMakeFiles/web3jsonrpc.dir/JsonHelper.cpp.i
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libweb3jsonrpc/JsonHelper.cpp > CMakeFiles/web3jsonrpc.dir/JsonHelper.cpp.i
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/JsonHelper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/web3jsonrpc.dir/JsonHelper.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libweb3jsonrpc/JsonHelper.cpp -o CMakeFiles/web3jsonrpc.dir/JsonHelper.cpp.s
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libweb3jsonrpc/JsonHelper.cpp -o CMakeFiles/web3jsonrpc.dir/JsonHelper.cpp.s
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/JsonHelper.cpp.o.requires:
 
@@ -227,16 +227,16 @@ libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/JsonHelper.cpp.o.provides.build: libwe
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Net.cpp.o: libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/flags.make
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Net.cpp.o: ../libweb3jsonrpc/Net.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Net.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/web3jsonrpc.dir/Net.cpp.o -c /home/ubuntu/moose/aleth/libweb3jsonrpc/Net.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Net.cpp.o"
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/web3jsonrpc.dir/Net.cpp.o -c /aleth/libweb3jsonrpc/Net.cpp
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Net.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/web3jsonrpc.dir/Net.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libweb3jsonrpc/Net.cpp > CMakeFiles/web3jsonrpc.dir/Net.cpp.i
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libweb3jsonrpc/Net.cpp > CMakeFiles/web3jsonrpc.dir/Net.cpp.i
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Net.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/web3jsonrpc.dir/Net.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libweb3jsonrpc/Net.cpp -o CMakeFiles/web3jsonrpc.dir/Net.cpp.s
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libweb3jsonrpc/Net.cpp -o CMakeFiles/web3jsonrpc.dir/Net.cpp.s
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Net.cpp.o.requires:
 
@@ -251,16 +251,16 @@ libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Net.cpp.o.provides.build: libweb3jsonr
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Personal.cpp.o: libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/flags.make
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Personal.cpp.o: ../libweb3jsonrpc/Personal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Personal.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/web3jsonrpc.dir/Personal.cpp.o -c /home/ubuntu/moose/aleth/libweb3jsonrpc/Personal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Personal.cpp.o"
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/web3jsonrpc.dir/Personal.cpp.o -c /aleth/libweb3jsonrpc/Personal.cpp
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Personal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/web3jsonrpc.dir/Personal.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libweb3jsonrpc/Personal.cpp > CMakeFiles/web3jsonrpc.dir/Personal.cpp.i
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libweb3jsonrpc/Personal.cpp > CMakeFiles/web3jsonrpc.dir/Personal.cpp.i
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Personal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/web3jsonrpc.dir/Personal.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libweb3jsonrpc/Personal.cpp -o CMakeFiles/web3jsonrpc.dir/Personal.cpp.s
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libweb3jsonrpc/Personal.cpp -o CMakeFiles/web3jsonrpc.dir/Personal.cpp.s
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Personal.cpp.o.requires:
 
@@ -275,16 +275,16 @@ libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Personal.cpp.o.provides.build: libweb3
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/SessionManager.cpp.o: libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/flags.make
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/SessionManager.cpp.o: ../libweb3jsonrpc/SessionManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/SessionManager.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/web3jsonrpc.dir/SessionManager.cpp.o -c /home/ubuntu/moose/aleth/libweb3jsonrpc/SessionManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/SessionManager.cpp.o"
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/web3jsonrpc.dir/SessionManager.cpp.o -c /aleth/libweb3jsonrpc/SessionManager.cpp
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/SessionManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/web3jsonrpc.dir/SessionManager.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libweb3jsonrpc/SessionManager.cpp > CMakeFiles/web3jsonrpc.dir/SessionManager.cpp.i
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libweb3jsonrpc/SessionManager.cpp > CMakeFiles/web3jsonrpc.dir/SessionManager.cpp.i
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/SessionManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/web3jsonrpc.dir/SessionManager.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libweb3jsonrpc/SessionManager.cpp -o CMakeFiles/web3jsonrpc.dir/SessionManager.cpp.s
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libweb3jsonrpc/SessionManager.cpp -o CMakeFiles/web3jsonrpc.dir/SessionManager.cpp.s
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/SessionManager.cpp.o.requires:
 
@@ -299,16 +299,16 @@ libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/SessionManager.cpp.o.provides.build: l
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Test.cpp.o: libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/flags.make
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Test.cpp.o: ../libweb3jsonrpc/Test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Test.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/web3jsonrpc.dir/Test.cpp.o -c /home/ubuntu/moose/aleth/libweb3jsonrpc/Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Test.cpp.o"
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/web3jsonrpc.dir/Test.cpp.o -c /aleth/libweb3jsonrpc/Test.cpp
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/web3jsonrpc.dir/Test.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libweb3jsonrpc/Test.cpp > CMakeFiles/web3jsonrpc.dir/Test.cpp.i
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libweb3jsonrpc/Test.cpp > CMakeFiles/web3jsonrpc.dir/Test.cpp.i
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/web3jsonrpc.dir/Test.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libweb3jsonrpc/Test.cpp -o CMakeFiles/web3jsonrpc.dir/Test.cpp.s
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libweb3jsonrpc/Test.cpp -o CMakeFiles/web3jsonrpc.dir/Test.cpp.s
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Test.cpp.o.requires:
 
@@ -323,16 +323,16 @@ libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Test.cpp.o.provides.build: libweb3json
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Web3.cpp.o: libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/flags.make
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Web3.cpp.o: ../libweb3jsonrpc/Web3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Web3.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/web3jsonrpc.dir/Web3.cpp.o -c /home/ubuntu/moose/aleth/libweb3jsonrpc/Web3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Web3.cpp.o"
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/web3jsonrpc.dir/Web3.cpp.o -c /aleth/libweb3jsonrpc/Web3.cpp
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Web3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/web3jsonrpc.dir/Web3.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libweb3jsonrpc/Web3.cpp > CMakeFiles/web3jsonrpc.dir/Web3.cpp.i
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libweb3jsonrpc/Web3.cpp > CMakeFiles/web3jsonrpc.dir/Web3.cpp.i
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Web3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/web3jsonrpc.dir/Web3.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libweb3jsonrpc/Web3.cpp -o CMakeFiles/web3jsonrpc.dir/Web3.cpp.s
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libweb3jsonrpc/Web3.cpp -o CMakeFiles/web3jsonrpc.dir/Web3.cpp.s
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Web3.cpp.o.requires:
 
@@ -347,16 +347,16 @@ libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Web3.cpp.o.provides.build: libweb3json
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/UnixSocketServer.cpp.o: libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/flags.make
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/UnixSocketServer.cpp.o: ../libweb3jsonrpc/UnixSocketServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/UnixSocketServer.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/web3jsonrpc.dir/UnixSocketServer.cpp.o -c /home/ubuntu/moose/aleth/libweb3jsonrpc/UnixSocketServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/UnixSocketServer.cpp.o"
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/web3jsonrpc.dir/UnixSocketServer.cpp.o -c /aleth/libweb3jsonrpc/UnixSocketServer.cpp
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/UnixSocketServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/web3jsonrpc.dir/UnixSocketServer.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libweb3jsonrpc/UnixSocketServer.cpp > CMakeFiles/web3jsonrpc.dir/UnixSocketServer.cpp.i
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libweb3jsonrpc/UnixSocketServer.cpp > CMakeFiles/web3jsonrpc.dir/UnixSocketServer.cpp.i
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/UnixSocketServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/web3jsonrpc.dir/UnixSocketServer.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libweb3jsonrpc/UnixSocketServer.cpp -o CMakeFiles/web3jsonrpc.dir/UnixSocketServer.cpp.s
+	cd /aleth/build/libweb3jsonrpc && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libweb3jsonrpc/UnixSocketServer.cpp -o CMakeFiles/web3jsonrpc.dir/UnixSocketServer.cpp.s
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/UnixSocketServer.cpp.o.requires:
 
@@ -403,9 +403,9 @@ libweb3jsonrpc/libweb3jsonrpc.a: libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Web3.
 libweb3jsonrpc/libweb3jsonrpc.a: libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/UnixSocketServer.cpp.o
 libweb3jsonrpc/libweb3jsonrpc.a: libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make
 libweb3jsonrpc/libweb3jsonrpc.a: libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX static library libweb3jsonrpc.a"
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && $(CMAKE_COMMAND) -P CMakeFiles/web3jsonrpc.dir/cmake_clean_target.cmake
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/web3jsonrpc.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX static library libweb3jsonrpc.a"
+	cd /aleth/build/libweb3jsonrpc && $(CMAKE_COMMAND) -P CMakeFiles/web3jsonrpc.dir/cmake_clean_target.cmake
+	cd /aleth/build/libweb3jsonrpc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/web3jsonrpc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build: libweb3jsonrpc/libweb3jsonrpc.a
@@ -429,10 +429,10 @@ libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/requires: libweb3jsonrpc/CMakeFiles/we
 .PHONY : libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/requires
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/clean:
-	cd /home/ubuntu/moose/aleth/build/libweb3jsonrpc && $(CMAKE_COMMAND) -P CMakeFiles/web3jsonrpc.dir/cmake_clean.cmake
+	cd /aleth/build/libweb3jsonrpc && $(CMAKE_COMMAND) -P CMakeFiles/web3jsonrpc.dir/cmake_clean.cmake
 .PHONY : libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/clean
 
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/depend:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth /home/ubuntu/moose/aleth/libweb3jsonrpc /home/ubuntu/moose/aleth/build /home/ubuntu/moose/aleth/build/libweb3jsonrpc /home/ubuntu/moose/aleth/build/libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth /aleth/libweb3jsonrpc /aleth/build /aleth/build/libweb3jsonrpc /aleth/build/libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/depend
 

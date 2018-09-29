@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/moose/aleth/libp2p
+# Install script for directory: /aleth/libp2p
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

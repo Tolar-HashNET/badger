@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth
+CMAKE_SOURCE_DIR = /aleth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build
+CMAKE_BINARY_DIR = /aleth/build
 
 # Include any dependencies generated for this target.
 include libethcore/CMakeFiles/ethcore.dir/depend.make
@@ -59,16 +59,16 @@ include libethcore/CMakeFiles/ethcore.dir/flags.make
 
 libethcore/CMakeFiles/ethcore.dir/BasicAuthority.cpp.o: libethcore/CMakeFiles/ethcore.dir/flags.make
 libethcore/CMakeFiles/ethcore.dir/BasicAuthority.cpp.o: ../libethcore/BasicAuthority.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libethcore/CMakeFiles/ethcore.dir/BasicAuthority.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethcore.dir/BasicAuthority.cpp.o -c /home/ubuntu/moose/aleth/libethcore/BasicAuthority.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libethcore/CMakeFiles/ethcore.dir/BasicAuthority.cpp.o"
+	cd /aleth/build/libethcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethcore.dir/BasicAuthority.cpp.o -c /aleth/libethcore/BasicAuthority.cpp
 
 libethcore/CMakeFiles/ethcore.dir/BasicAuthority.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ethcore.dir/BasicAuthority.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libethcore/BasicAuthority.cpp > CMakeFiles/ethcore.dir/BasicAuthority.cpp.i
+	cd /aleth/build/libethcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libethcore/BasicAuthority.cpp > CMakeFiles/ethcore.dir/BasicAuthority.cpp.i
 
 libethcore/CMakeFiles/ethcore.dir/BasicAuthority.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ethcore.dir/BasicAuthority.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libethcore/BasicAuthority.cpp -o CMakeFiles/ethcore.dir/BasicAuthority.cpp.s
+	cd /aleth/build/libethcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libethcore/BasicAuthority.cpp -o CMakeFiles/ethcore.dir/BasicAuthority.cpp.s
 
 libethcore/CMakeFiles/ethcore.dir/BasicAuthority.cpp.o.requires:
 
@@ -83,16 +83,16 @@ libethcore/CMakeFiles/ethcore.dir/BasicAuthority.cpp.o.provides.build: libethcor
 
 libethcore/CMakeFiles/ethcore.dir/BlockHeader.cpp.o: libethcore/CMakeFiles/ethcore.dir/flags.make
 libethcore/CMakeFiles/ethcore.dir/BlockHeader.cpp.o: ../libethcore/BlockHeader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libethcore/CMakeFiles/ethcore.dir/BlockHeader.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethcore.dir/BlockHeader.cpp.o -c /home/ubuntu/moose/aleth/libethcore/BlockHeader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libethcore/CMakeFiles/ethcore.dir/BlockHeader.cpp.o"
+	cd /aleth/build/libethcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethcore.dir/BlockHeader.cpp.o -c /aleth/libethcore/BlockHeader.cpp
 
 libethcore/CMakeFiles/ethcore.dir/BlockHeader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ethcore.dir/BlockHeader.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libethcore/BlockHeader.cpp > CMakeFiles/ethcore.dir/BlockHeader.cpp.i
+	cd /aleth/build/libethcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libethcore/BlockHeader.cpp > CMakeFiles/ethcore.dir/BlockHeader.cpp.i
 
 libethcore/CMakeFiles/ethcore.dir/BlockHeader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ethcore.dir/BlockHeader.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libethcore/BlockHeader.cpp -o CMakeFiles/ethcore.dir/BlockHeader.cpp.s
+	cd /aleth/build/libethcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libethcore/BlockHeader.cpp -o CMakeFiles/ethcore.dir/BlockHeader.cpp.s
 
 libethcore/CMakeFiles/ethcore.dir/BlockHeader.cpp.o.requires:
 
@@ -107,16 +107,16 @@ libethcore/CMakeFiles/ethcore.dir/BlockHeader.cpp.o.provides.build: libethcore/C
 
 libethcore/CMakeFiles/ethcore.dir/ChainOperationParams.cpp.o: libethcore/CMakeFiles/ethcore.dir/flags.make
 libethcore/CMakeFiles/ethcore.dir/ChainOperationParams.cpp.o: ../libethcore/ChainOperationParams.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libethcore/CMakeFiles/ethcore.dir/ChainOperationParams.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethcore.dir/ChainOperationParams.cpp.o -c /home/ubuntu/moose/aleth/libethcore/ChainOperationParams.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libethcore/CMakeFiles/ethcore.dir/ChainOperationParams.cpp.o"
+	cd /aleth/build/libethcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethcore.dir/ChainOperationParams.cpp.o -c /aleth/libethcore/ChainOperationParams.cpp
 
 libethcore/CMakeFiles/ethcore.dir/ChainOperationParams.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ethcore.dir/ChainOperationParams.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libethcore/ChainOperationParams.cpp > CMakeFiles/ethcore.dir/ChainOperationParams.cpp.i
+	cd /aleth/build/libethcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libethcore/ChainOperationParams.cpp > CMakeFiles/ethcore.dir/ChainOperationParams.cpp.i
 
 libethcore/CMakeFiles/ethcore.dir/ChainOperationParams.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ethcore.dir/ChainOperationParams.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libethcore/ChainOperationParams.cpp -o CMakeFiles/ethcore.dir/ChainOperationParams.cpp.s
+	cd /aleth/build/libethcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libethcore/ChainOperationParams.cpp -o CMakeFiles/ethcore.dir/ChainOperationParams.cpp.s
 
 libethcore/CMakeFiles/ethcore.dir/ChainOperationParams.cpp.o.requires:
 
@@ -131,16 +131,16 @@ libethcore/CMakeFiles/ethcore.dir/ChainOperationParams.cpp.o.provides.build: lib
 
 libethcore/CMakeFiles/ethcore.dir/Common.cpp.o: libethcore/CMakeFiles/ethcore.dir/flags.make
 libethcore/CMakeFiles/ethcore.dir/Common.cpp.o: ../libethcore/Common.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libethcore/CMakeFiles/ethcore.dir/Common.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethcore.dir/Common.cpp.o -c /home/ubuntu/moose/aleth/libethcore/Common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libethcore/CMakeFiles/ethcore.dir/Common.cpp.o"
+	cd /aleth/build/libethcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethcore.dir/Common.cpp.o -c /aleth/libethcore/Common.cpp
 
 libethcore/CMakeFiles/ethcore.dir/Common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ethcore.dir/Common.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libethcore/Common.cpp > CMakeFiles/ethcore.dir/Common.cpp.i
+	cd /aleth/build/libethcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libethcore/Common.cpp > CMakeFiles/ethcore.dir/Common.cpp.i
 
 libethcore/CMakeFiles/ethcore.dir/Common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ethcore.dir/Common.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libethcore/Common.cpp -o CMakeFiles/ethcore.dir/Common.cpp.s
+	cd /aleth/build/libethcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libethcore/Common.cpp -o CMakeFiles/ethcore.dir/Common.cpp.s
 
 libethcore/CMakeFiles/ethcore.dir/Common.cpp.o.requires:
 
@@ -155,16 +155,16 @@ libethcore/CMakeFiles/ethcore.dir/Common.cpp.o.provides.build: libethcore/CMakeF
 
 libethcore/CMakeFiles/ethcore.dir/CommonJS.cpp.o: libethcore/CMakeFiles/ethcore.dir/flags.make
 libethcore/CMakeFiles/ethcore.dir/CommonJS.cpp.o: ../libethcore/CommonJS.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libethcore/CMakeFiles/ethcore.dir/CommonJS.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethcore.dir/CommonJS.cpp.o -c /home/ubuntu/moose/aleth/libethcore/CommonJS.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libethcore/CMakeFiles/ethcore.dir/CommonJS.cpp.o"
+	cd /aleth/build/libethcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethcore.dir/CommonJS.cpp.o -c /aleth/libethcore/CommonJS.cpp
 
 libethcore/CMakeFiles/ethcore.dir/CommonJS.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ethcore.dir/CommonJS.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libethcore/CommonJS.cpp > CMakeFiles/ethcore.dir/CommonJS.cpp.i
+	cd /aleth/build/libethcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libethcore/CommonJS.cpp > CMakeFiles/ethcore.dir/CommonJS.cpp.i
 
 libethcore/CMakeFiles/ethcore.dir/CommonJS.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ethcore.dir/CommonJS.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libethcore/CommonJS.cpp -o CMakeFiles/ethcore.dir/CommonJS.cpp.s
+	cd /aleth/build/libethcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libethcore/CommonJS.cpp -o CMakeFiles/ethcore.dir/CommonJS.cpp.s
 
 libethcore/CMakeFiles/ethcore.dir/CommonJS.cpp.o.requires:
 
@@ -179,16 +179,16 @@ libethcore/CMakeFiles/ethcore.dir/CommonJS.cpp.o.provides.build: libethcore/CMak
 
 libethcore/CMakeFiles/ethcore.dir/KeyManager.cpp.o: libethcore/CMakeFiles/ethcore.dir/flags.make
 libethcore/CMakeFiles/ethcore.dir/KeyManager.cpp.o: ../libethcore/KeyManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libethcore/CMakeFiles/ethcore.dir/KeyManager.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethcore.dir/KeyManager.cpp.o -c /home/ubuntu/moose/aleth/libethcore/KeyManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libethcore/CMakeFiles/ethcore.dir/KeyManager.cpp.o"
+	cd /aleth/build/libethcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethcore.dir/KeyManager.cpp.o -c /aleth/libethcore/KeyManager.cpp
 
 libethcore/CMakeFiles/ethcore.dir/KeyManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ethcore.dir/KeyManager.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libethcore/KeyManager.cpp > CMakeFiles/ethcore.dir/KeyManager.cpp.i
+	cd /aleth/build/libethcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libethcore/KeyManager.cpp > CMakeFiles/ethcore.dir/KeyManager.cpp.i
 
 libethcore/CMakeFiles/ethcore.dir/KeyManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ethcore.dir/KeyManager.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libethcore/KeyManager.cpp -o CMakeFiles/ethcore.dir/KeyManager.cpp.s
+	cd /aleth/build/libethcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libethcore/KeyManager.cpp -o CMakeFiles/ethcore.dir/KeyManager.cpp.s
 
 libethcore/CMakeFiles/ethcore.dir/KeyManager.cpp.o.requires:
 
@@ -203,16 +203,16 @@ libethcore/CMakeFiles/ethcore.dir/KeyManager.cpp.o.provides.build: libethcore/CM
 
 libethcore/CMakeFiles/ethcore.dir/LogEntry.cpp.o: libethcore/CMakeFiles/ethcore.dir/flags.make
 libethcore/CMakeFiles/ethcore.dir/LogEntry.cpp.o: ../libethcore/LogEntry.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object libethcore/CMakeFiles/ethcore.dir/LogEntry.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethcore.dir/LogEntry.cpp.o -c /home/ubuntu/moose/aleth/libethcore/LogEntry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object libethcore/CMakeFiles/ethcore.dir/LogEntry.cpp.o"
+	cd /aleth/build/libethcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethcore.dir/LogEntry.cpp.o -c /aleth/libethcore/LogEntry.cpp
 
 libethcore/CMakeFiles/ethcore.dir/LogEntry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ethcore.dir/LogEntry.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libethcore/LogEntry.cpp > CMakeFiles/ethcore.dir/LogEntry.cpp.i
+	cd /aleth/build/libethcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libethcore/LogEntry.cpp > CMakeFiles/ethcore.dir/LogEntry.cpp.i
 
 libethcore/CMakeFiles/ethcore.dir/LogEntry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ethcore.dir/LogEntry.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libethcore/LogEntry.cpp -o CMakeFiles/ethcore.dir/LogEntry.cpp.s
+	cd /aleth/build/libethcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libethcore/LogEntry.cpp -o CMakeFiles/ethcore.dir/LogEntry.cpp.s
 
 libethcore/CMakeFiles/ethcore.dir/LogEntry.cpp.o.requires:
 
@@ -227,16 +227,16 @@ libethcore/CMakeFiles/ethcore.dir/LogEntry.cpp.o.provides.build: libethcore/CMak
 
 libethcore/CMakeFiles/ethcore.dir/Precompiled.cpp.o: libethcore/CMakeFiles/ethcore.dir/flags.make
 libethcore/CMakeFiles/ethcore.dir/Precompiled.cpp.o: ../libethcore/Precompiled.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object libethcore/CMakeFiles/ethcore.dir/Precompiled.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethcore.dir/Precompiled.cpp.o -c /home/ubuntu/moose/aleth/libethcore/Precompiled.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object libethcore/CMakeFiles/ethcore.dir/Precompiled.cpp.o"
+	cd /aleth/build/libethcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethcore.dir/Precompiled.cpp.o -c /aleth/libethcore/Precompiled.cpp
 
 libethcore/CMakeFiles/ethcore.dir/Precompiled.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ethcore.dir/Precompiled.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libethcore/Precompiled.cpp > CMakeFiles/ethcore.dir/Precompiled.cpp.i
+	cd /aleth/build/libethcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libethcore/Precompiled.cpp > CMakeFiles/ethcore.dir/Precompiled.cpp.i
 
 libethcore/CMakeFiles/ethcore.dir/Precompiled.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ethcore.dir/Precompiled.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libethcore/Precompiled.cpp -o CMakeFiles/ethcore.dir/Precompiled.cpp.s
+	cd /aleth/build/libethcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libethcore/Precompiled.cpp -o CMakeFiles/ethcore.dir/Precompiled.cpp.s
 
 libethcore/CMakeFiles/ethcore.dir/Precompiled.cpp.o.requires:
 
@@ -251,16 +251,16 @@ libethcore/CMakeFiles/ethcore.dir/Precompiled.cpp.o.provides.build: libethcore/C
 
 libethcore/CMakeFiles/ethcore.dir/SealEngine.cpp.o: libethcore/CMakeFiles/ethcore.dir/flags.make
 libethcore/CMakeFiles/ethcore.dir/SealEngine.cpp.o: ../libethcore/SealEngine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object libethcore/CMakeFiles/ethcore.dir/SealEngine.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethcore.dir/SealEngine.cpp.o -c /home/ubuntu/moose/aleth/libethcore/SealEngine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object libethcore/CMakeFiles/ethcore.dir/SealEngine.cpp.o"
+	cd /aleth/build/libethcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethcore.dir/SealEngine.cpp.o -c /aleth/libethcore/SealEngine.cpp
 
 libethcore/CMakeFiles/ethcore.dir/SealEngine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ethcore.dir/SealEngine.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libethcore/SealEngine.cpp > CMakeFiles/ethcore.dir/SealEngine.cpp.i
+	cd /aleth/build/libethcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libethcore/SealEngine.cpp > CMakeFiles/ethcore.dir/SealEngine.cpp.i
 
 libethcore/CMakeFiles/ethcore.dir/SealEngine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ethcore.dir/SealEngine.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libethcore/SealEngine.cpp -o CMakeFiles/ethcore.dir/SealEngine.cpp.s
+	cd /aleth/build/libethcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libethcore/SealEngine.cpp -o CMakeFiles/ethcore.dir/SealEngine.cpp.s
 
 libethcore/CMakeFiles/ethcore.dir/SealEngine.cpp.o.requires:
 
@@ -275,16 +275,16 @@ libethcore/CMakeFiles/ethcore.dir/SealEngine.cpp.o.provides.build: libethcore/CM
 
 libethcore/CMakeFiles/ethcore.dir/TransactionBase.cpp.o: libethcore/CMakeFiles/ethcore.dir/flags.make
 libethcore/CMakeFiles/ethcore.dir/TransactionBase.cpp.o: ../libethcore/TransactionBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object libethcore/CMakeFiles/ethcore.dir/TransactionBase.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethcore.dir/TransactionBase.cpp.o -c /home/ubuntu/moose/aleth/libethcore/TransactionBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object libethcore/CMakeFiles/ethcore.dir/TransactionBase.cpp.o"
+	cd /aleth/build/libethcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethcore.dir/TransactionBase.cpp.o -c /aleth/libethcore/TransactionBase.cpp
 
 libethcore/CMakeFiles/ethcore.dir/TransactionBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ethcore.dir/TransactionBase.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libethcore/TransactionBase.cpp > CMakeFiles/ethcore.dir/TransactionBase.cpp.i
+	cd /aleth/build/libethcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libethcore/TransactionBase.cpp > CMakeFiles/ethcore.dir/TransactionBase.cpp.i
 
 libethcore/CMakeFiles/ethcore.dir/TransactionBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ethcore.dir/TransactionBase.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libethcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libethcore/TransactionBase.cpp -o CMakeFiles/ethcore.dir/TransactionBase.cpp.s
+	cd /aleth/build/libethcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libethcore/TransactionBase.cpp -o CMakeFiles/ethcore.dir/TransactionBase.cpp.s
 
 libethcore/CMakeFiles/ethcore.dir/TransactionBase.cpp.o.requires:
 
@@ -325,9 +325,9 @@ libethcore/libethcore.a: libethcore/CMakeFiles/ethcore.dir/SealEngine.cpp.o
 libethcore/libethcore.a: libethcore/CMakeFiles/ethcore.dir/TransactionBase.cpp.o
 libethcore/libethcore.a: libethcore/CMakeFiles/ethcore.dir/build.make
 libethcore/libethcore.a: libethcore/CMakeFiles/ethcore.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libethcore.a"
-	cd /home/ubuntu/moose/aleth/build/libethcore && $(CMAKE_COMMAND) -P CMakeFiles/ethcore.dir/cmake_clean_target.cmake
-	cd /home/ubuntu/moose/aleth/build/libethcore && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ethcore.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libethcore.a"
+	cd /aleth/build/libethcore && $(CMAKE_COMMAND) -P CMakeFiles/ethcore.dir/cmake_clean_target.cmake
+	cd /aleth/build/libethcore && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ethcore.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libethcore/CMakeFiles/ethcore.dir/build: libethcore/libethcore.a
@@ -348,10 +348,10 @@ libethcore/CMakeFiles/ethcore.dir/requires: libethcore/CMakeFiles/ethcore.dir/Tr
 .PHONY : libethcore/CMakeFiles/ethcore.dir/requires
 
 libethcore/CMakeFiles/ethcore.dir/clean:
-	cd /home/ubuntu/moose/aleth/build/libethcore && $(CMAKE_COMMAND) -P CMakeFiles/ethcore.dir/cmake_clean.cmake
+	cd /aleth/build/libethcore && $(CMAKE_COMMAND) -P CMakeFiles/ethcore.dir/cmake_clean.cmake
 .PHONY : libethcore/CMakeFiles/ethcore.dir/clean
 
 libethcore/CMakeFiles/ethcore.dir/depend:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth /home/ubuntu/moose/aleth/libethcore /home/ubuntu/moose/aleth/build /home/ubuntu/moose/aleth/build/libethcore /home/ubuntu/moose/aleth/build/libethcore/CMakeFiles/ethcore.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth /aleth/libethcore /aleth/build /aleth/build/libethcore /aleth/build/libethcore/CMakeFiles/ethcore.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libethcore/CMakeFiles/ethcore.dir/depend
 

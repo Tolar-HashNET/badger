@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/ExpressionAnalyzer.cpp" "/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/ir/CMakeFiles/ir.dir/ExpressionAnalyzer.cpp.o"
-  "/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/ExpressionManipulator.cpp" "/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/ir/CMakeFiles/ir.dir/ExpressionManipulator.cpp.o"
-  "/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/LocalGraph.cpp" "/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/ir/CMakeFiles/ir.dir/LocalGraph.cpp.o"
+  "/aleth/build/deps/src/binaryen/src/ir/ExpressionAnalyzer.cpp" "/aleth/build/deps/src/binaryen-build/src/ir/CMakeFiles/ir.dir/ExpressionAnalyzer.cpp.o"
+  "/aleth/build/deps/src/binaryen/src/ir/ExpressionManipulator.cpp" "/aleth/build/deps/src/binaryen-build/src/ir/CMakeFiles/ir.dir/ExpressionManipulator.cpp.o"
+  "/aleth/build/deps/src/binaryen/src/ir/LocalGraph.cpp" "/aleth/build/deps/src/binaryen-build/src/ir/CMakeFiles/ir.dir/LocalGraph.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ubuntu/moose/aleth/build/deps/src/binaryen/src"
+  "/aleth/build/deps/src/binaryen/src"
   )
 
 # Targets to which this target links.

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth/build/deps/src/libff
+CMAKE_SOURCE_DIR = /aleth/build/deps/src/libff
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build/deps/src/libff-build
+CMAKE_BINARY_DIR = /aleth/build/deps/src/libff-build
 
 # Include any dependencies generated for this target.
 include libff/CMakeFiles/algebra_fields_test.dir/depend.make
@@ -58,17 +58,17 @@ include libff/CMakeFiles/algebra_fields_test.dir/progress.make
 include libff/CMakeFiles/algebra_fields_test.dir/flags.make
 
 libff/CMakeFiles/algebra_fields_test.dir/algebra/fields/tests/test_fields.cpp.o: libff/CMakeFiles/algebra_fields_test.dir/flags.make
-libff/CMakeFiles/algebra_fields_test.dir/algebra/fields/tests/test_fields.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/fields/tests/test_fields.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libff/CMakeFiles/algebra_fields_test.dir/algebra/fields/tests/test_fields.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algebra_fields_test.dir/algebra/fields/tests/test_fields.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/fields/tests/test_fields.cpp
+libff/CMakeFiles/algebra_fields_test.dir/algebra/fields/tests/test_fields.cpp.o: /aleth/build/deps/src/libff/libff/algebra/fields/tests/test_fields.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libff/CMakeFiles/algebra_fields_test.dir/algebra/fields/tests/test_fields.cpp.o"
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algebra_fields_test.dir/algebra/fields/tests/test_fields.cpp.o -c /aleth/build/deps/src/libff/libff/algebra/fields/tests/test_fields.cpp
 
 libff/CMakeFiles/algebra_fields_test.dir/algebra/fields/tests/test_fields.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algebra_fields_test.dir/algebra/fields/tests/test_fields.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/fields/tests/test_fields.cpp > CMakeFiles/algebra_fields_test.dir/algebra/fields/tests/test_fields.cpp.i
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/libff/libff/algebra/fields/tests/test_fields.cpp > CMakeFiles/algebra_fields_test.dir/algebra/fields/tests/test_fields.cpp.i
 
 libff/CMakeFiles/algebra_fields_test.dir/algebra/fields/tests/test_fields.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algebra_fields_test.dir/algebra/fields/tests/test_fields.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/fields/tests/test_fields.cpp -o CMakeFiles/algebra_fields_test.dir/algebra/fields/tests/test_fields.cpp.s
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/libff/libff/algebra/fields/tests/test_fields.cpp -o CMakeFiles/algebra_fields_test.dir/algebra/fields/tests/test_fields.cpp.s
 
 libff/CMakeFiles/algebra_fields_test.dir/algebra/fields/tests/test_fields.cpp.o.requires:
 
@@ -91,10 +91,10 @@ algebra_fields_test_EXTERNAL_OBJECTS =
 libff/algebra_fields_test: libff/CMakeFiles/algebra_fields_test.dir/algebra/fields/tests/test_fields.cpp.o
 libff/algebra_fields_test: libff/CMakeFiles/algebra_fields_test.dir/build.make
 libff/algebra_fields_test: libff/libff.a
-libff/algebra_fields_test: /home/ubuntu/moose/aleth/build/deps/lib/libmpir.a
+libff/algebra_fields_test: /aleth/build/deps/lib/libmpir.a
 libff/algebra_fields_test: libff/CMakeFiles/algebra_fields_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable algebra_fields_test"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/algebra_fields_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable algebra_fields_test"
+	cd /aleth/build/deps/src/libff-build/libff && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/algebra_fields_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libff/CMakeFiles/algebra_fields_test.dir/build: libff/algebra_fields_test
@@ -106,10 +106,10 @@ libff/CMakeFiles/algebra_fields_test.dir/requires: libff/CMakeFiles/algebra_fiel
 .PHONY : libff/CMakeFiles/algebra_fields_test.dir/requires
 
 libff/CMakeFiles/algebra_fields_test.dir/clean:
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && $(CMAKE_COMMAND) -P CMakeFiles/algebra_fields_test.dir/cmake_clean.cmake
+	cd /aleth/build/deps/src/libff-build/libff && $(CMAKE_COMMAND) -P CMakeFiles/algebra_fields_test.dir/cmake_clean.cmake
 .PHONY : libff/CMakeFiles/algebra_fields_test.dir/clean
 
 libff/CMakeFiles/algebra_fields_test.dir/depend:
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth/build/deps/src/libff /home/ubuntu/moose/aleth/build/deps/src/libff/libff /home/ubuntu/moose/aleth/build/deps/src/libff-build /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff/CMakeFiles/algebra_fields_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build/deps/src/libff-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth/build/deps/src/libff /aleth/build/deps/src/libff/libff /aleth/build/deps/src/libff-build /aleth/build/deps/src/libff-build/libff /aleth/build/deps/src/libff-build/libff/CMakeFiles/algebra_fields_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libff/CMakeFiles/algebra_fields_test.dir/depend
 

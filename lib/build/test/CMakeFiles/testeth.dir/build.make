@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth
+CMAKE_SOURCE_DIR = /aleth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build
+CMAKE_BINARY_DIR = /aleth/build
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/testeth.dir/depend.make
@@ -59,16 +59,16 @@ include test/CMakeFiles/testeth.dir/flags.make
 
 test/CMakeFiles/testeth.dir/tools/fuzzTesting/BoostRandomCode.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/tools/fuzzTesting/BoostRandomCode.cpp.o: ../test/tools/fuzzTesting/BoostRandomCode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/testeth.dir/tools/fuzzTesting/BoostRandomCode.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/fuzzTesting/BoostRandomCode.cpp.o -c /home/ubuntu/moose/aleth/test/tools/fuzzTesting/BoostRandomCode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/testeth.dir/tools/fuzzTesting/BoostRandomCode.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/fuzzTesting/BoostRandomCode.cpp.o -c /aleth/test/tools/fuzzTesting/BoostRandomCode.cpp
 
 test/CMakeFiles/testeth.dir/tools/fuzzTesting/BoostRandomCode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/tools/fuzzTesting/BoostRandomCode.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/tools/fuzzTesting/BoostRandomCode.cpp > CMakeFiles/testeth.dir/tools/fuzzTesting/BoostRandomCode.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/tools/fuzzTesting/BoostRandomCode.cpp > CMakeFiles/testeth.dir/tools/fuzzTesting/BoostRandomCode.cpp.i
 
 test/CMakeFiles/testeth.dir/tools/fuzzTesting/BoostRandomCode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/tools/fuzzTesting/BoostRandomCode.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/tools/fuzzTesting/BoostRandomCode.cpp -o CMakeFiles/testeth.dir/tools/fuzzTesting/BoostRandomCode.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/tools/fuzzTesting/BoostRandomCode.cpp -o CMakeFiles/testeth.dir/tools/fuzzTesting/BoostRandomCode.cpp.s
 
 test/CMakeFiles/testeth.dir/tools/fuzzTesting/BoostRandomCode.cpp.o.requires:
 
@@ -83,16 +83,16 @@ test/CMakeFiles/testeth.dir/tools/fuzzTesting/BoostRandomCode.cpp.o.provides.bui
 
 test/CMakeFiles/testeth.dir/tools/fuzzTesting/createRandomTest.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/tools/fuzzTesting/createRandomTest.cpp.o: ../test/tools/fuzzTesting/createRandomTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/testeth.dir/tools/fuzzTesting/createRandomTest.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/fuzzTesting/createRandomTest.cpp.o -c /home/ubuntu/moose/aleth/test/tools/fuzzTesting/createRandomTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/testeth.dir/tools/fuzzTesting/createRandomTest.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/fuzzTesting/createRandomTest.cpp.o -c /aleth/test/tools/fuzzTesting/createRandomTest.cpp
 
 test/CMakeFiles/testeth.dir/tools/fuzzTesting/createRandomTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/tools/fuzzTesting/createRandomTest.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/tools/fuzzTesting/createRandomTest.cpp > CMakeFiles/testeth.dir/tools/fuzzTesting/createRandomTest.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/tools/fuzzTesting/createRandomTest.cpp > CMakeFiles/testeth.dir/tools/fuzzTesting/createRandomTest.cpp.i
 
 test/CMakeFiles/testeth.dir/tools/fuzzTesting/createRandomTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/tools/fuzzTesting/createRandomTest.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/tools/fuzzTesting/createRandomTest.cpp -o CMakeFiles/testeth.dir/tools/fuzzTesting/createRandomTest.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/tools/fuzzTesting/createRandomTest.cpp -o CMakeFiles/testeth.dir/tools/fuzzTesting/createRandomTest.cpp.s
 
 test/CMakeFiles/testeth.dir/tools/fuzzTesting/createRandomTest.cpp.o.requires:
 
@@ -107,16 +107,16 @@ test/CMakeFiles/testeth.dir/tools/fuzzTesting/createRandomTest.cpp.o.provides.bu
 
 test/CMakeFiles/testeth.dir/tools/fuzzTesting/fuzzHelper.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/tools/fuzzTesting/fuzzHelper.cpp.o: ../test/tools/fuzzTesting/fuzzHelper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/CMakeFiles/testeth.dir/tools/fuzzTesting/fuzzHelper.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/fuzzTesting/fuzzHelper.cpp.o -c /home/ubuntu/moose/aleth/test/tools/fuzzTesting/fuzzHelper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/CMakeFiles/testeth.dir/tools/fuzzTesting/fuzzHelper.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/fuzzTesting/fuzzHelper.cpp.o -c /aleth/test/tools/fuzzTesting/fuzzHelper.cpp
 
 test/CMakeFiles/testeth.dir/tools/fuzzTesting/fuzzHelper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/tools/fuzzTesting/fuzzHelper.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/tools/fuzzTesting/fuzzHelper.cpp > CMakeFiles/testeth.dir/tools/fuzzTesting/fuzzHelper.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/tools/fuzzTesting/fuzzHelper.cpp > CMakeFiles/testeth.dir/tools/fuzzTesting/fuzzHelper.cpp.i
 
 test/CMakeFiles/testeth.dir/tools/fuzzTesting/fuzzHelper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/tools/fuzzTesting/fuzzHelper.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/tools/fuzzTesting/fuzzHelper.cpp -o CMakeFiles/testeth.dir/tools/fuzzTesting/fuzzHelper.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/tools/fuzzTesting/fuzzHelper.cpp -o CMakeFiles/testeth.dir/tools/fuzzTesting/fuzzHelper.cpp.s
 
 test/CMakeFiles/testeth.dir/tools/fuzzTesting/fuzzHelper.cpp.o.requires:
 
@@ -131,16 +131,16 @@ test/CMakeFiles/testeth.dir/tools/fuzzTesting/fuzzHelper.cpp.o.provides.build: t
 
 test/CMakeFiles/testeth.dir/tools/jsontests/BlockChainTests.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/tools/jsontests/BlockChainTests.cpp.o: ../test/tools/jsontests/BlockChainTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object test/CMakeFiles/testeth.dir/tools/jsontests/BlockChainTests.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/jsontests/BlockChainTests.cpp.o -c /home/ubuntu/moose/aleth/test/tools/jsontests/BlockChainTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object test/CMakeFiles/testeth.dir/tools/jsontests/BlockChainTests.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/jsontests/BlockChainTests.cpp.o -c /aleth/test/tools/jsontests/BlockChainTests.cpp
 
 test/CMakeFiles/testeth.dir/tools/jsontests/BlockChainTests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/tools/jsontests/BlockChainTests.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/tools/jsontests/BlockChainTests.cpp > CMakeFiles/testeth.dir/tools/jsontests/BlockChainTests.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/tools/jsontests/BlockChainTests.cpp > CMakeFiles/testeth.dir/tools/jsontests/BlockChainTests.cpp.i
 
 test/CMakeFiles/testeth.dir/tools/jsontests/BlockChainTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/tools/jsontests/BlockChainTests.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/tools/jsontests/BlockChainTests.cpp -o CMakeFiles/testeth.dir/tools/jsontests/BlockChainTests.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/tools/jsontests/BlockChainTests.cpp -o CMakeFiles/testeth.dir/tools/jsontests/BlockChainTests.cpp.s
 
 test/CMakeFiles/testeth.dir/tools/jsontests/BlockChainTests.cpp.o.requires:
 
@@ -155,16 +155,16 @@ test/CMakeFiles/testeth.dir/tools/jsontests/BlockChainTests.cpp.o.provides.build
 
 test/CMakeFiles/testeth.dir/tools/jsontests/StateTests.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/tools/jsontests/StateTests.cpp.o: ../test/tools/jsontests/StateTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object test/CMakeFiles/testeth.dir/tools/jsontests/StateTests.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/jsontests/StateTests.cpp.o -c /home/ubuntu/moose/aleth/test/tools/jsontests/StateTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object test/CMakeFiles/testeth.dir/tools/jsontests/StateTests.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/jsontests/StateTests.cpp.o -c /aleth/test/tools/jsontests/StateTests.cpp
 
 test/CMakeFiles/testeth.dir/tools/jsontests/StateTests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/tools/jsontests/StateTests.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/tools/jsontests/StateTests.cpp > CMakeFiles/testeth.dir/tools/jsontests/StateTests.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/tools/jsontests/StateTests.cpp > CMakeFiles/testeth.dir/tools/jsontests/StateTests.cpp.i
 
 test/CMakeFiles/testeth.dir/tools/jsontests/StateTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/tools/jsontests/StateTests.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/tools/jsontests/StateTests.cpp -o CMakeFiles/testeth.dir/tools/jsontests/StateTests.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/tools/jsontests/StateTests.cpp -o CMakeFiles/testeth.dir/tools/jsontests/StateTests.cpp.s
 
 test/CMakeFiles/testeth.dir/tools/jsontests/StateTests.cpp.o.requires:
 
@@ -179,16 +179,16 @@ test/CMakeFiles/testeth.dir/tools/jsontests/StateTests.cpp.o.provides.build: tes
 
 test/CMakeFiles/testeth.dir/tools/jsontests/TransactionTests.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/tools/jsontests/TransactionTests.cpp.o: ../test/tools/jsontests/TransactionTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object test/CMakeFiles/testeth.dir/tools/jsontests/TransactionTests.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/jsontests/TransactionTests.cpp.o -c /home/ubuntu/moose/aleth/test/tools/jsontests/TransactionTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object test/CMakeFiles/testeth.dir/tools/jsontests/TransactionTests.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/jsontests/TransactionTests.cpp.o -c /aleth/test/tools/jsontests/TransactionTests.cpp
 
 test/CMakeFiles/testeth.dir/tools/jsontests/TransactionTests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/tools/jsontests/TransactionTests.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/tools/jsontests/TransactionTests.cpp > CMakeFiles/testeth.dir/tools/jsontests/TransactionTests.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/tools/jsontests/TransactionTests.cpp > CMakeFiles/testeth.dir/tools/jsontests/TransactionTests.cpp.i
 
 test/CMakeFiles/testeth.dir/tools/jsontests/TransactionTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/tools/jsontests/TransactionTests.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/tools/jsontests/TransactionTests.cpp -o CMakeFiles/testeth.dir/tools/jsontests/TransactionTests.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/tools/jsontests/TransactionTests.cpp -o CMakeFiles/testeth.dir/tools/jsontests/TransactionTests.cpp.s
 
 test/CMakeFiles/testeth.dir/tools/jsontests/TransactionTests.cpp.o.requires:
 
@@ -203,16 +203,16 @@ test/CMakeFiles/testeth.dir/tools/jsontests/TransactionTests.cpp.o.provides.buil
 
 test/CMakeFiles/testeth.dir/tools/jsontests/vm.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/tools/jsontests/vm.cpp.o: ../test/tools/jsontests/vm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object test/CMakeFiles/testeth.dir/tools/jsontests/vm.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/jsontests/vm.cpp.o -c /home/ubuntu/moose/aleth/test/tools/jsontests/vm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object test/CMakeFiles/testeth.dir/tools/jsontests/vm.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/jsontests/vm.cpp.o -c /aleth/test/tools/jsontests/vm.cpp
 
 test/CMakeFiles/testeth.dir/tools/jsontests/vm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/tools/jsontests/vm.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/tools/jsontests/vm.cpp > CMakeFiles/testeth.dir/tools/jsontests/vm.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/tools/jsontests/vm.cpp > CMakeFiles/testeth.dir/tools/jsontests/vm.cpp.i
 
 test/CMakeFiles/testeth.dir/tools/jsontests/vm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/tools/jsontests/vm.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/tools/jsontests/vm.cpp -o CMakeFiles/testeth.dir/tools/jsontests/vm.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/tools/jsontests/vm.cpp -o CMakeFiles/testeth.dir/tools/jsontests/vm.cpp.s
 
 test/CMakeFiles/testeth.dir/tools/jsontests/vm.cpp.o.requires:
 
@@ -227,16 +227,16 @@ test/CMakeFiles/testeth.dir/tools/jsontests/vm.cpp.o.provides.build: test/CMakeF
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/BlockChainHelper.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/tools/libtesteth/BlockChainHelper.cpp.o: ../test/tools/libtesteth/BlockChainHelper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object test/CMakeFiles/testeth.dir/tools/libtesteth/BlockChainHelper.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/libtesteth/BlockChainHelper.cpp.o -c /home/ubuntu/moose/aleth/test/tools/libtesteth/BlockChainHelper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object test/CMakeFiles/testeth.dir/tools/libtesteth/BlockChainHelper.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/libtesteth/BlockChainHelper.cpp.o -c /aleth/test/tools/libtesteth/BlockChainHelper.cpp
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/BlockChainHelper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/tools/libtesteth/BlockChainHelper.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/tools/libtesteth/BlockChainHelper.cpp > CMakeFiles/testeth.dir/tools/libtesteth/BlockChainHelper.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/tools/libtesteth/BlockChainHelper.cpp > CMakeFiles/testeth.dir/tools/libtesteth/BlockChainHelper.cpp.i
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/BlockChainHelper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/tools/libtesteth/BlockChainHelper.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/tools/libtesteth/BlockChainHelper.cpp -o CMakeFiles/testeth.dir/tools/libtesteth/BlockChainHelper.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/tools/libtesteth/BlockChainHelper.cpp -o CMakeFiles/testeth.dir/tools/libtesteth/BlockChainHelper.cpp.s
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/BlockChainHelper.cpp.o.requires:
 
@@ -251,16 +251,16 @@ test/CMakeFiles/testeth.dir/tools/libtesteth/BlockChainHelper.cpp.o.provides.bui
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/FillJsonFunctions.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/tools/libtesteth/FillJsonFunctions.cpp.o: ../test/tools/libtesteth/FillJsonFunctions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object test/CMakeFiles/testeth.dir/tools/libtesteth/FillJsonFunctions.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/libtesteth/FillJsonFunctions.cpp.o -c /home/ubuntu/moose/aleth/test/tools/libtesteth/FillJsonFunctions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object test/CMakeFiles/testeth.dir/tools/libtesteth/FillJsonFunctions.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/libtesteth/FillJsonFunctions.cpp.o -c /aleth/test/tools/libtesteth/FillJsonFunctions.cpp
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/FillJsonFunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/tools/libtesteth/FillJsonFunctions.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/tools/libtesteth/FillJsonFunctions.cpp > CMakeFiles/testeth.dir/tools/libtesteth/FillJsonFunctions.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/tools/libtesteth/FillJsonFunctions.cpp > CMakeFiles/testeth.dir/tools/libtesteth/FillJsonFunctions.cpp.i
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/FillJsonFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/tools/libtesteth/FillJsonFunctions.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/tools/libtesteth/FillJsonFunctions.cpp -o CMakeFiles/testeth.dir/tools/libtesteth/FillJsonFunctions.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/tools/libtesteth/FillJsonFunctions.cpp -o CMakeFiles/testeth.dir/tools/libtesteth/FillJsonFunctions.cpp.s
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/FillJsonFunctions.cpp.o.requires:
 
@@ -275,16 +275,16 @@ test/CMakeFiles/testeth.dir/tools/libtesteth/FillJsonFunctions.cpp.o.provides.bu
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/ImportTest.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/tools/libtesteth/ImportTest.cpp.o: ../test/tools/libtesteth/ImportTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object test/CMakeFiles/testeth.dir/tools/libtesteth/ImportTest.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/libtesteth/ImportTest.cpp.o -c /home/ubuntu/moose/aleth/test/tools/libtesteth/ImportTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object test/CMakeFiles/testeth.dir/tools/libtesteth/ImportTest.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/libtesteth/ImportTest.cpp.o -c /aleth/test/tools/libtesteth/ImportTest.cpp
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/ImportTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/tools/libtesteth/ImportTest.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/tools/libtesteth/ImportTest.cpp > CMakeFiles/testeth.dir/tools/libtesteth/ImportTest.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/tools/libtesteth/ImportTest.cpp > CMakeFiles/testeth.dir/tools/libtesteth/ImportTest.cpp.i
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/ImportTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/tools/libtesteth/ImportTest.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/tools/libtesteth/ImportTest.cpp -o CMakeFiles/testeth.dir/tools/libtesteth/ImportTest.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/tools/libtesteth/ImportTest.cpp -o CMakeFiles/testeth.dir/tools/libtesteth/ImportTest.cpp.s
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/ImportTest.cpp.o.requires:
 
@@ -299,16 +299,16 @@ test/CMakeFiles/testeth.dir/tools/libtesteth/ImportTest.cpp.o.provides.build: te
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/Options.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/tools/libtesteth/Options.cpp.o: ../test/tools/libtesteth/Options.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object test/CMakeFiles/testeth.dir/tools/libtesteth/Options.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/libtesteth/Options.cpp.o -c /home/ubuntu/moose/aleth/test/tools/libtesteth/Options.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object test/CMakeFiles/testeth.dir/tools/libtesteth/Options.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/libtesteth/Options.cpp.o -c /aleth/test/tools/libtesteth/Options.cpp
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/Options.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/tools/libtesteth/Options.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/tools/libtesteth/Options.cpp > CMakeFiles/testeth.dir/tools/libtesteth/Options.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/tools/libtesteth/Options.cpp > CMakeFiles/testeth.dir/tools/libtesteth/Options.cpp.i
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/Options.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/tools/libtesteth/Options.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/tools/libtesteth/Options.cpp -o CMakeFiles/testeth.dir/tools/libtesteth/Options.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/tools/libtesteth/Options.cpp -o CMakeFiles/testeth.dir/tools/libtesteth/Options.cpp.s
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/Options.cpp.o.requires:
 
@@ -323,16 +323,16 @@ test/CMakeFiles/testeth.dir/tools/libtesteth/Options.cpp.o.provides.build: test/
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/Stats.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/tools/libtesteth/Stats.cpp.o: ../test/tools/libtesteth/Stats.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object test/CMakeFiles/testeth.dir/tools/libtesteth/Stats.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/libtesteth/Stats.cpp.o -c /home/ubuntu/moose/aleth/test/tools/libtesteth/Stats.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object test/CMakeFiles/testeth.dir/tools/libtesteth/Stats.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/libtesteth/Stats.cpp.o -c /aleth/test/tools/libtesteth/Stats.cpp
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/Stats.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/tools/libtesteth/Stats.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/tools/libtesteth/Stats.cpp > CMakeFiles/testeth.dir/tools/libtesteth/Stats.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/tools/libtesteth/Stats.cpp > CMakeFiles/testeth.dir/tools/libtesteth/Stats.cpp.i
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/Stats.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/tools/libtesteth/Stats.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/tools/libtesteth/Stats.cpp -o CMakeFiles/testeth.dir/tools/libtesteth/Stats.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/tools/libtesteth/Stats.cpp -o CMakeFiles/testeth.dir/tools/libtesteth/Stats.cpp.s
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/Stats.cpp.o.requires:
 
@@ -347,16 +347,16 @@ test/CMakeFiles/testeth.dir/tools/libtesteth/Stats.cpp.o.provides.build: test/CM
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/TestHelper.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/tools/libtesteth/TestHelper.cpp.o: ../test/tools/libtesteth/TestHelper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object test/CMakeFiles/testeth.dir/tools/libtesteth/TestHelper.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/libtesteth/TestHelper.cpp.o -c /home/ubuntu/moose/aleth/test/tools/libtesteth/TestHelper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object test/CMakeFiles/testeth.dir/tools/libtesteth/TestHelper.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/libtesteth/TestHelper.cpp.o -c /aleth/test/tools/libtesteth/TestHelper.cpp
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/TestHelper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/tools/libtesteth/TestHelper.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/tools/libtesteth/TestHelper.cpp > CMakeFiles/testeth.dir/tools/libtesteth/TestHelper.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/tools/libtesteth/TestHelper.cpp > CMakeFiles/testeth.dir/tools/libtesteth/TestHelper.cpp.i
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/TestHelper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/tools/libtesteth/TestHelper.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/tools/libtesteth/TestHelper.cpp -o CMakeFiles/testeth.dir/tools/libtesteth/TestHelper.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/tools/libtesteth/TestHelper.cpp -o CMakeFiles/testeth.dir/tools/libtesteth/TestHelper.cpp.s
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/TestHelper.cpp.o.requires:
 
@@ -371,16 +371,16 @@ test/CMakeFiles/testeth.dir/tools/libtesteth/TestHelper.cpp.o.provides.build: te
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/TestOutputHelper.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/tools/libtesteth/TestOutputHelper.cpp.o: ../test/tools/libtesteth/TestOutputHelper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object test/CMakeFiles/testeth.dir/tools/libtesteth/TestOutputHelper.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/libtesteth/TestOutputHelper.cpp.o -c /home/ubuntu/moose/aleth/test/tools/libtesteth/TestOutputHelper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object test/CMakeFiles/testeth.dir/tools/libtesteth/TestOutputHelper.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/libtesteth/TestOutputHelper.cpp.o -c /aleth/test/tools/libtesteth/TestOutputHelper.cpp
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/TestOutputHelper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/tools/libtesteth/TestOutputHelper.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/tools/libtesteth/TestOutputHelper.cpp > CMakeFiles/testeth.dir/tools/libtesteth/TestOutputHelper.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/tools/libtesteth/TestOutputHelper.cpp > CMakeFiles/testeth.dir/tools/libtesteth/TestOutputHelper.cpp.i
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/TestOutputHelper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/tools/libtesteth/TestOutputHelper.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/tools/libtesteth/TestOutputHelper.cpp -o CMakeFiles/testeth.dir/tools/libtesteth/TestOutputHelper.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/tools/libtesteth/TestOutputHelper.cpp -o CMakeFiles/testeth.dir/tools/libtesteth/TestOutputHelper.cpp.s
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/TestOutputHelper.cpp.o.requires:
 
@@ -395,16 +395,16 @@ test/CMakeFiles/testeth.dir/tools/libtesteth/TestOutputHelper.cpp.o.provides.bui
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/TestSuite.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/tools/libtesteth/TestSuite.cpp.o: ../test/tools/libtesteth/TestSuite.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object test/CMakeFiles/testeth.dir/tools/libtesteth/TestSuite.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/libtesteth/TestSuite.cpp.o -c /home/ubuntu/moose/aleth/test/tools/libtesteth/TestSuite.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object test/CMakeFiles/testeth.dir/tools/libtesteth/TestSuite.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/libtesteth/TestSuite.cpp.o -c /aleth/test/tools/libtesteth/TestSuite.cpp
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/TestSuite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/tools/libtesteth/TestSuite.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/tools/libtesteth/TestSuite.cpp > CMakeFiles/testeth.dir/tools/libtesteth/TestSuite.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/tools/libtesteth/TestSuite.cpp > CMakeFiles/testeth.dir/tools/libtesteth/TestSuite.cpp.i
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/TestSuite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/tools/libtesteth/TestSuite.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/tools/libtesteth/TestSuite.cpp -o CMakeFiles/testeth.dir/tools/libtesteth/TestSuite.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/tools/libtesteth/TestSuite.cpp -o CMakeFiles/testeth.dir/tools/libtesteth/TestSuite.cpp.s
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/TestSuite.cpp.o.requires:
 
@@ -419,16 +419,16 @@ test/CMakeFiles/testeth.dir/tools/libtesteth/TestSuite.cpp.o.provides.build: tes
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/TestUtils.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/tools/libtesteth/TestUtils.cpp.o: ../test/tools/libtesteth/TestUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object test/CMakeFiles/testeth.dir/tools/libtesteth/TestUtils.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/libtesteth/TestUtils.cpp.o -c /home/ubuntu/moose/aleth/test/tools/libtesteth/TestUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object test/CMakeFiles/testeth.dir/tools/libtesteth/TestUtils.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/libtesteth/TestUtils.cpp.o -c /aleth/test/tools/libtesteth/TestUtils.cpp
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/TestUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/tools/libtesteth/TestUtils.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/tools/libtesteth/TestUtils.cpp > CMakeFiles/testeth.dir/tools/libtesteth/TestUtils.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/tools/libtesteth/TestUtils.cpp > CMakeFiles/testeth.dir/tools/libtesteth/TestUtils.cpp.i
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/TestUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/tools/libtesteth/TestUtils.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/tools/libtesteth/TestUtils.cpp -o CMakeFiles/testeth.dir/tools/libtesteth/TestUtils.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/tools/libtesteth/TestUtils.cpp -o CMakeFiles/testeth.dir/tools/libtesteth/TestUtils.cpp.s
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/TestUtils.cpp.o.requires:
 
@@ -443,16 +443,16 @@ test/CMakeFiles/testeth.dir/tools/libtesteth/TestUtils.cpp.o.provides.build: tes
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/boostTest.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/tools/libtesteth/boostTest.cpp.o: ../test/tools/libtesteth/boostTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object test/CMakeFiles/testeth.dir/tools/libtesteth/boostTest.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/libtesteth/boostTest.cpp.o -c /home/ubuntu/moose/aleth/test/tools/libtesteth/boostTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object test/CMakeFiles/testeth.dir/tools/libtesteth/boostTest.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/libtesteth/boostTest.cpp.o -c /aleth/test/tools/libtesteth/boostTest.cpp
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/boostTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/tools/libtesteth/boostTest.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/tools/libtesteth/boostTest.cpp > CMakeFiles/testeth.dir/tools/libtesteth/boostTest.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/tools/libtesteth/boostTest.cpp > CMakeFiles/testeth.dir/tools/libtesteth/boostTest.cpp.i
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/boostTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/tools/libtesteth/boostTest.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/tools/libtesteth/boostTest.cpp -o CMakeFiles/testeth.dir/tools/libtesteth/boostTest.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/tools/libtesteth/boostTest.cpp -o CMakeFiles/testeth.dir/tools/libtesteth/boostTest.cpp.s
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/boostTest.cpp.o.requires:
 
@@ -467,16 +467,16 @@ test/CMakeFiles/testeth.dir/tools/libtesteth/boostTest.cpp.o.provides.build: tes
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/wast2wasm.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/tools/libtesteth/wast2wasm.cpp.o: ../test/tools/libtesteth/wast2wasm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object test/CMakeFiles/testeth.dir/tools/libtesteth/wast2wasm.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/libtesteth/wast2wasm.cpp.o -c /home/ubuntu/moose/aleth/test/tools/libtesteth/wast2wasm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object test/CMakeFiles/testeth.dir/tools/libtesteth/wast2wasm.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/libtesteth/wast2wasm.cpp.o -c /aleth/test/tools/libtesteth/wast2wasm.cpp
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/wast2wasm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/tools/libtesteth/wast2wasm.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/tools/libtesteth/wast2wasm.cpp > CMakeFiles/testeth.dir/tools/libtesteth/wast2wasm.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/tools/libtesteth/wast2wasm.cpp > CMakeFiles/testeth.dir/tools/libtesteth/wast2wasm.cpp.i
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/wast2wasm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/tools/libtesteth/wast2wasm.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/tools/libtesteth/wast2wasm.cpp -o CMakeFiles/testeth.dir/tools/libtesteth/wast2wasm.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/tools/libtesteth/wast2wasm.cpp -o CMakeFiles/testeth.dir/tools/libtesteth/wast2wasm.cpp.s
 
 test/CMakeFiles/testeth.dir/tools/libtesteth/wast2wasm.cpp.o.requires:
 
@@ -491,16 +491,16 @@ test/CMakeFiles/testeth.dir/tools/libtesteth/wast2wasm.cpp.o.provides.build: tes
 
 test/CMakeFiles/testeth.dir/tools/libtestutils/BlockChainLoader.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/tools/libtestutils/BlockChainLoader.cpp.o: ../test/tools/libtestutils/BlockChainLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object test/CMakeFiles/testeth.dir/tools/libtestutils/BlockChainLoader.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/libtestutils/BlockChainLoader.cpp.o -c /home/ubuntu/moose/aleth/test/tools/libtestutils/BlockChainLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object test/CMakeFiles/testeth.dir/tools/libtestutils/BlockChainLoader.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/libtestutils/BlockChainLoader.cpp.o -c /aleth/test/tools/libtestutils/BlockChainLoader.cpp
 
 test/CMakeFiles/testeth.dir/tools/libtestutils/BlockChainLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/tools/libtestutils/BlockChainLoader.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/tools/libtestutils/BlockChainLoader.cpp > CMakeFiles/testeth.dir/tools/libtestutils/BlockChainLoader.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/tools/libtestutils/BlockChainLoader.cpp > CMakeFiles/testeth.dir/tools/libtestutils/BlockChainLoader.cpp.i
 
 test/CMakeFiles/testeth.dir/tools/libtestutils/BlockChainLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/tools/libtestutils/BlockChainLoader.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/tools/libtestutils/BlockChainLoader.cpp -o CMakeFiles/testeth.dir/tools/libtestutils/BlockChainLoader.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/tools/libtestutils/BlockChainLoader.cpp -o CMakeFiles/testeth.dir/tools/libtestutils/BlockChainLoader.cpp.s
 
 test/CMakeFiles/testeth.dir/tools/libtestutils/BlockChainLoader.cpp.o.requires:
 
@@ -515,16 +515,16 @@ test/CMakeFiles/testeth.dir/tools/libtestutils/BlockChainLoader.cpp.o.provides.b
 
 test/CMakeFiles/testeth.dir/tools/libtestutils/Common.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/tools/libtestutils/Common.cpp.o: ../test/tools/libtestutils/Common.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object test/CMakeFiles/testeth.dir/tools/libtestutils/Common.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/libtestutils/Common.cpp.o -c /home/ubuntu/moose/aleth/test/tools/libtestutils/Common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object test/CMakeFiles/testeth.dir/tools/libtestutils/Common.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/libtestutils/Common.cpp.o -c /aleth/test/tools/libtestutils/Common.cpp
 
 test/CMakeFiles/testeth.dir/tools/libtestutils/Common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/tools/libtestutils/Common.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/tools/libtestutils/Common.cpp > CMakeFiles/testeth.dir/tools/libtestutils/Common.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/tools/libtestutils/Common.cpp > CMakeFiles/testeth.dir/tools/libtestutils/Common.cpp.i
 
 test/CMakeFiles/testeth.dir/tools/libtestutils/Common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/tools/libtestutils/Common.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/tools/libtestutils/Common.cpp -o CMakeFiles/testeth.dir/tools/libtestutils/Common.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/tools/libtestutils/Common.cpp -o CMakeFiles/testeth.dir/tools/libtestutils/Common.cpp.s
 
 test/CMakeFiles/testeth.dir/tools/libtestutils/Common.cpp.o.requires:
 
@@ -539,16 +539,16 @@ test/CMakeFiles/testeth.dir/tools/libtestutils/Common.cpp.o.provides.build: test
 
 test/CMakeFiles/testeth.dir/tools/libtestutils/FixedClient.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/tools/libtestutils/FixedClient.cpp.o: ../test/tools/libtestutils/FixedClient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object test/CMakeFiles/testeth.dir/tools/libtestutils/FixedClient.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/libtestutils/FixedClient.cpp.o -c /home/ubuntu/moose/aleth/test/tools/libtestutils/FixedClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object test/CMakeFiles/testeth.dir/tools/libtestutils/FixedClient.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/tools/libtestutils/FixedClient.cpp.o -c /aleth/test/tools/libtestutils/FixedClient.cpp
 
 test/CMakeFiles/testeth.dir/tools/libtestutils/FixedClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/tools/libtestutils/FixedClient.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/tools/libtestutils/FixedClient.cpp > CMakeFiles/testeth.dir/tools/libtestutils/FixedClient.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/tools/libtestutils/FixedClient.cpp > CMakeFiles/testeth.dir/tools/libtestutils/FixedClient.cpp.i
 
 test/CMakeFiles/testeth.dir/tools/libtestutils/FixedClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/tools/libtestutils/FixedClient.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/tools/libtestutils/FixedClient.cpp -o CMakeFiles/testeth.dir/tools/libtestutils/FixedClient.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/tools/libtestutils/FixedClient.cpp -o CMakeFiles/testeth.dir/tools/libtestutils/FixedClient.cpp.s
 
 test/CMakeFiles/testeth.dir/tools/libtestutils/FixedClient.cpp.o.requires:
 
@@ -563,16 +563,16 @@ test/CMakeFiles/testeth.dir/tools/libtestutils/FixedClient.cpp.o.provides.build:
 
 test/CMakeFiles/testeth.dir/unittests/external-dependencies/boost.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/external-dependencies/boost.cpp.o: ../test/unittests/external-dependencies/boost.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object test/CMakeFiles/testeth.dir/unittests/external-dependencies/boost.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/external-dependencies/boost.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/external-dependencies/boost.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object test/CMakeFiles/testeth.dir/unittests/external-dependencies/boost.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/external-dependencies/boost.cpp.o -c /aleth/test/unittests/external-dependencies/boost.cpp
 
 test/CMakeFiles/testeth.dir/unittests/external-dependencies/boost.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/external-dependencies/boost.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/external-dependencies/boost.cpp > CMakeFiles/testeth.dir/unittests/external-dependencies/boost.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/external-dependencies/boost.cpp > CMakeFiles/testeth.dir/unittests/external-dependencies/boost.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/external-dependencies/boost.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/external-dependencies/boost.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/external-dependencies/boost.cpp -o CMakeFiles/testeth.dir/unittests/external-dependencies/boost.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/external-dependencies/boost.cpp -o CMakeFiles/testeth.dir/unittests/external-dependencies/boost.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/external-dependencies/boost.cpp.o.requires:
 
@@ -587,16 +587,16 @@ test/CMakeFiles/testeth.dir/unittests/external-dependencies/boost.cpp.o.provides
 
 test/CMakeFiles/testeth.dir/unittests/libdevcore/CommonJS.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libdevcore/CommonJS.cpp.o: ../test/unittests/libdevcore/CommonJS.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libdevcore/CommonJS.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libdevcore/CommonJS.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libdevcore/CommonJS.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libdevcore/CommonJS.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libdevcore/CommonJS.cpp.o -c /aleth/test/unittests/libdevcore/CommonJS.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libdevcore/CommonJS.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libdevcore/CommonJS.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libdevcore/CommonJS.cpp > CMakeFiles/testeth.dir/unittests/libdevcore/CommonJS.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libdevcore/CommonJS.cpp > CMakeFiles/testeth.dir/unittests/libdevcore/CommonJS.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libdevcore/CommonJS.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libdevcore/CommonJS.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libdevcore/CommonJS.cpp -o CMakeFiles/testeth.dir/unittests/libdevcore/CommonJS.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libdevcore/CommonJS.cpp -o CMakeFiles/testeth.dir/unittests/libdevcore/CommonJS.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libdevcore/CommonJS.cpp.o.requires:
 
@@ -611,16 +611,16 @@ test/CMakeFiles/testeth.dir/unittests/libdevcore/CommonJS.cpp.o.provides.build: 
 
 test/CMakeFiles/testeth.dir/unittests/libdevcore/FixedHash.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libdevcore/FixedHash.cpp.o: ../test/unittests/libdevcore/FixedHash.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libdevcore/FixedHash.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libdevcore/FixedHash.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libdevcore/FixedHash.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libdevcore/FixedHash.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libdevcore/FixedHash.cpp.o -c /aleth/test/unittests/libdevcore/FixedHash.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libdevcore/FixedHash.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libdevcore/FixedHash.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libdevcore/FixedHash.cpp > CMakeFiles/testeth.dir/unittests/libdevcore/FixedHash.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libdevcore/FixedHash.cpp > CMakeFiles/testeth.dir/unittests/libdevcore/FixedHash.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libdevcore/FixedHash.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libdevcore/FixedHash.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libdevcore/FixedHash.cpp -o CMakeFiles/testeth.dir/unittests/libdevcore/FixedHash.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libdevcore/FixedHash.cpp -o CMakeFiles/testeth.dir/unittests/libdevcore/FixedHash.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libdevcore/FixedHash.cpp.o.requires:
 
@@ -635,16 +635,16 @@ test/CMakeFiles/testeth.dir/unittests/libdevcore/FixedHash.cpp.o.provides.build:
 
 test/CMakeFiles/testeth.dir/unittests/libdevcore/RangeMask.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libdevcore/RangeMask.cpp.o: ../test/unittests/libdevcore/RangeMask.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libdevcore/RangeMask.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libdevcore/RangeMask.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libdevcore/RangeMask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libdevcore/RangeMask.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libdevcore/RangeMask.cpp.o -c /aleth/test/unittests/libdevcore/RangeMask.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libdevcore/RangeMask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libdevcore/RangeMask.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libdevcore/RangeMask.cpp > CMakeFiles/testeth.dir/unittests/libdevcore/RangeMask.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libdevcore/RangeMask.cpp > CMakeFiles/testeth.dir/unittests/libdevcore/RangeMask.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libdevcore/RangeMask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libdevcore/RangeMask.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libdevcore/RangeMask.cpp -o CMakeFiles/testeth.dir/unittests/libdevcore/RangeMask.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libdevcore/RangeMask.cpp -o CMakeFiles/testeth.dir/unittests/libdevcore/RangeMask.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libdevcore/RangeMask.cpp.o.requires:
 
@@ -659,16 +659,16 @@ test/CMakeFiles/testeth.dir/unittests/libdevcore/RangeMask.cpp.o.provides.build:
 
 test/CMakeFiles/testeth.dir/unittests/libdevcore/core.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libdevcore/core.cpp.o: ../test/unittests/libdevcore/core.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libdevcore/core.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libdevcore/core.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libdevcore/core.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libdevcore/core.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libdevcore/core.cpp.o -c /aleth/test/unittests/libdevcore/core.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libdevcore/core.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libdevcore/core.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libdevcore/core.cpp > CMakeFiles/testeth.dir/unittests/libdevcore/core.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libdevcore/core.cpp > CMakeFiles/testeth.dir/unittests/libdevcore/core.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libdevcore/core.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libdevcore/core.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libdevcore/core.cpp -o CMakeFiles/testeth.dir/unittests/libdevcore/core.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libdevcore/core.cpp -o CMakeFiles/testeth.dir/unittests/libdevcore/core.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libdevcore/core.cpp.o.requires:
 
@@ -683,16 +683,16 @@ test/CMakeFiles/testeth.dir/unittests/libdevcore/core.cpp.o.provides.build: test
 
 test/CMakeFiles/testeth.dir/unittests/libdevcore/rlp.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libdevcore/rlp.cpp.o: ../test/unittests/libdevcore/rlp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libdevcore/rlp.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libdevcore/rlp.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libdevcore/rlp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libdevcore/rlp.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libdevcore/rlp.cpp.o -c /aleth/test/unittests/libdevcore/rlp.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libdevcore/rlp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libdevcore/rlp.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libdevcore/rlp.cpp > CMakeFiles/testeth.dir/unittests/libdevcore/rlp.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libdevcore/rlp.cpp > CMakeFiles/testeth.dir/unittests/libdevcore/rlp.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libdevcore/rlp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libdevcore/rlp.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libdevcore/rlp.cpp -o CMakeFiles/testeth.dir/unittests/libdevcore/rlp.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libdevcore/rlp.cpp -o CMakeFiles/testeth.dir/unittests/libdevcore/rlp.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libdevcore/rlp.cpp.o.requires:
 
@@ -707,16 +707,16 @@ test/CMakeFiles/testeth.dir/unittests/libdevcore/rlp.cpp.o.provides.build: test/
 
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/AES.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/AES.cpp.o: ../test/unittests/libdevcrypto/AES.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libdevcrypto/AES.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libdevcrypto/AES.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libdevcrypto/AES.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libdevcrypto/AES.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libdevcrypto/AES.cpp.o -c /aleth/test/unittests/libdevcrypto/AES.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/AES.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libdevcrypto/AES.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libdevcrypto/AES.cpp > CMakeFiles/testeth.dir/unittests/libdevcrypto/AES.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libdevcrypto/AES.cpp > CMakeFiles/testeth.dir/unittests/libdevcrypto/AES.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/AES.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libdevcrypto/AES.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libdevcrypto/AES.cpp -o CMakeFiles/testeth.dir/unittests/libdevcrypto/AES.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libdevcrypto/AES.cpp -o CMakeFiles/testeth.dir/unittests/libdevcrypto/AES.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/AES.cpp.o.requires:
 
@@ -731,16 +731,16 @@ test/CMakeFiles/testeth.dir/unittests/libdevcrypto/AES.cpp.o.provides.build: tes
 
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/LibSnark.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/LibSnark.cpp.o: ../test/unittests/libdevcrypto/LibSnark.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libdevcrypto/LibSnark.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libdevcrypto/LibSnark.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libdevcrypto/LibSnark.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libdevcrypto/LibSnark.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libdevcrypto/LibSnark.cpp.o -c /aleth/test/unittests/libdevcrypto/LibSnark.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/LibSnark.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libdevcrypto/LibSnark.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libdevcrypto/LibSnark.cpp > CMakeFiles/testeth.dir/unittests/libdevcrypto/LibSnark.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libdevcrypto/LibSnark.cpp > CMakeFiles/testeth.dir/unittests/libdevcrypto/LibSnark.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/LibSnark.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libdevcrypto/LibSnark.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libdevcrypto/LibSnark.cpp -o CMakeFiles/testeth.dir/unittests/libdevcrypto/LibSnark.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libdevcrypto/LibSnark.cpp -o CMakeFiles/testeth.dir/unittests/libdevcrypto/LibSnark.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/LibSnark.cpp.o.requires:
 
@@ -755,16 +755,16 @@ test/CMakeFiles/testeth.dir/unittests/libdevcrypto/LibSnark.cpp.o.provides.build
 
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/MemTrie.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/MemTrie.cpp.o: ../test/unittests/libdevcrypto/MemTrie.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libdevcrypto/MemTrie.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libdevcrypto/MemTrie.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libdevcrypto/MemTrie.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libdevcrypto/MemTrie.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libdevcrypto/MemTrie.cpp.o -c /aleth/test/unittests/libdevcrypto/MemTrie.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/MemTrie.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libdevcrypto/MemTrie.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libdevcrypto/MemTrie.cpp > CMakeFiles/testeth.dir/unittests/libdevcrypto/MemTrie.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libdevcrypto/MemTrie.cpp > CMakeFiles/testeth.dir/unittests/libdevcrypto/MemTrie.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/MemTrie.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libdevcrypto/MemTrie.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libdevcrypto/MemTrie.cpp -o CMakeFiles/testeth.dir/unittests/libdevcrypto/MemTrie.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libdevcrypto/MemTrie.cpp -o CMakeFiles/testeth.dir/unittests/libdevcrypto/MemTrie.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/MemTrie.cpp.o.requires:
 
@@ -779,16 +779,16 @@ test/CMakeFiles/testeth.dir/unittests/libdevcrypto/MemTrie.cpp.o.provides.build:
 
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/SecretStore.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/SecretStore.cpp.o: ../test/unittests/libdevcrypto/SecretStore.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libdevcrypto/SecretStore.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libdevcrypto/SecretStore.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libdevcrypto/SecretStore.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libdevcrypto/SecretStore.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libdevcrypto/SecretStore.cpp.o -c /aleth/test/unittests/libdevcrypto/SecretStore.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/SecretStore.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libdevcrypto/SecretStore.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libdevcrypto/SecretStore.cpp > CMakeFiles/testeth.dir/unittests/libdevcrypto/SecretStore.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libdevcrypto/SecretStore.cpp > CMakeFiles/testeth.dir/unittests/libdevcrypto/SecretStore.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/SecretStore.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libdevcrypto/SecretStore.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libdevcrypto/SecretStore.cpp -o CMakeFiles/testeth.dir/unittests/libdevcrypto/SecretStore.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libdevcrypto/SecretStore.cpp -o CMakeFiles/testeth.dir/unittests/libdevcrypto/SecretStore.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/SecretStore.cpp.o.requires:
 
@@ -803,16 +803,16 @@ test/CMakeFiles/testeth.dir/unittests/libdevcrypto/SecretStore.cpp.o.provides.bu
 
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/crypto.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/crypto.cpp.o: ../test/unittests/libdevcrypto/crypto.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libdevcrypto/crypto.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libdevcrypto/crypto.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libdevcrypto/crypto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libdevcrypto/crypto.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libdevcrypto/crypto.cpp.o -c /aleth/test/unittests/libdevcrypto/crypto.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/crypto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libdevcrypto/crypto.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libdevcrypto/crypto.cpp > CMakeFiles/testeth.dir/unittests/libdevcrypto/crypto.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libdevcrypto/crypto.cpp > CMakeFiles/testeth.dir/unittests/libdevcrypto/crypto.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/crypto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libdevcrypto/crypto.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libdevcrypto/crypto.cpp -o CMakeFiles/testeth.dir/unittests/libdevcrypto/crypto.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libdevcrypto/crypto.cpp -o CMakeFiles/testeth.dir/unittests/libdevcrypto/crypto.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/crypto.cpp.o.requires:
 
@@ -827,16 +827,16 @@ test/CMakeFiles/testeth.dir/unittests/libdevcrypto/crypto.cpp.o.provides.build: 
 
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/hexPrefix.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/hexPrefix.cpp.o: ../test/unittests/libdevcrypto/hexPrefix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libdevcrypto/hexPrefix.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libdevcrypto/hexPrefix.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libdevcrypto/hexPrefix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libdevcrypto/hexPrefix.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libdevcrypto/hexPrefix.cpp.o -c /aleth/test/unittests/libdevcrypto/hexPrefix.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/hexPrefix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libdevcrypto/hexPrefix.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libdevcrypto/hexPrefix.cpp > CMakeFiles/testeth.dir/unittests/libdevcrypto/hexPrefix.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libdevcrypto/hexPrefix.cpp > CMakeFiles/testeth.dir/unittests/libdevcrypto/hexPrefix.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/hexPrefix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libdevcrypto/hexPrefix.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libdevcrypto/hexPrefix.cpp -o CMakeFiles/testeth.dir/unittests/libdevcrypto/hexPrefix.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libdevcrypto/hexPrefix.cpp -o CMakeFiles/testeth.dir/unittests/libdevcrypto/hexPrefix.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/hexPrefix.cpp.o.requires:
 
@@ -851,16 +851,16 @@ test/CMakeFiles/testeth.dir/unittests/libdevcrypto/hexPrefix.cpp.o.provides.buil
 
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/trie.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/trie.cpp.o: ../test/unittests/libdevcrypto/trie.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libdevcrypto/trie.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libdevcrypto/trie.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libdevcrypto/trie.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libdevcrypto/trie.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libdevcrypto/trie.cpp.o -c /aleth/test/unittests/libdevcrypto/trie.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/trie.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libdevcrypto/trie.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libdevcrypto/trie.cpp > CMakeFiles/testeth.dir/unittests/libdevcrypto/trie.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libdevcrypto/trie.cpp > CMakeFiles/testeth.dir/unittests/libdevcrypto/trie.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/trie.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libdevcrypto/trie.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libdevcrypto/trie.cpp -o CMakeFiles/testeth.dir/unittests/libdevcrypto/trie.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libdevcrypto/trie.cpp -o CMakeFiles/testeth.dir/unittests/libdevcrypto/trie.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libdevcrypto/trie.cpp.o.requires:
 
@@ -875,16 +875,16 @@ test/CMakeFiles/testeth.dir/unittests/libdevcrypto/trie.cpp.o.provides.build: te
 
 test/CMakeFiles/testeth.dir/unittests/libethashseal/EthashTest.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libethashseal/EthashTest.cpp.o: ../test/unittests/libethashseal/EthashTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethashseal/EthashTest.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethashseal/EthashTest.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libethashseal/EthashTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethashseal/EthashTest.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethashseal/EthashTest.cpp.o -c /aleth/test/unittests/libethashseal/EthashTest.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libethashseal/EthashTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libethashseal/EthashTest.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libethashseal/EthashTest.cpp > CMakeFiles/testeth.dir/unittests/libethashseal/EthashTest.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libethashseal/EthashTest.cpp > CMakeFiles/testeth.dir/unittests/libethashseal/EthashTest.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libethashseal/EthashTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libethashseal/EthashTest.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libethashseal/EthashTest.cpp -o CMakeFiles/testeth.dir/unittests/libethashseal/EthashTest.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libethashseal/EthashTest.cpp -o CMakeFiles/testeth.dir/unittests/libethashseal/EthashTest.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libethashseal/EthashTest.cpp.o.requires:
 
@@ -899,16 +899,16 @@ test/CMakeFiles/testeth.dir/unittests/libethashseal/EthashTest.cpp.o.provides.bu
 
 test/CMakeFiles/testeth.dir/unittests/libethcore/PrecompiledTest.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libethcore/PrecompiledTest.cpp.o: ../test/unittests/libethcore/PrecompiledTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethcore/PrecompiledTest.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethcore/PrecompiledTest.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libethcore/PrecompiledTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethcore/PrecompiledTest.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethcore/PrecompiledTest.cpp.o -c /aleth/test/unittests/libethcore/PrecompiledTest.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libethcore/PrecompiledTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libethcore/PrecompiledTest.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libethcore/PrecompiledTest.cpp > CMakeFiles/testeth.dir/unittests/libethcore/PrecompiledTest.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libethcore/PrecompiledTest.cpp > CMakeFiles/testeth.dir/unittests/libethcore/PrecompiledTest.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libethcore/PrecompiledTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libethcore/PrecompiledTest.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libethcore/PrecompiledTest.cpp -o CMakeFiles/testeth.dir/unittests/libethcore/PrecompiledTest.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libethcore/PrecompiledTest.cpp -o CMakeFiles/testeth.dir/unittests/libethcore/PrecompiledTest.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libethcore/PrecompiledTest.cpp.o.requires:
 
@@ -923,16 +923,16 @@ test/CMakeFiles/testeth.dir/unittests/libethcore/PrecompiledTest.cpp.o.provides.
 
 test/CMakeFiles/testeth.dir/unittests/libethcore/SealEngineTest.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libethcore/SealEngineTest.cpp.o: ../test/unittests/libethcore/SealEngineTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethcore/SealEngineTest.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethcore/SealEngineTest.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libethcore/SealEngineTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethcore/SealEngineTest.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethcore/SealEngineTest.cpp.o -c /aleth/test/unittests/libethcore/SealEngineTest.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libethcore/SealEngineTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libethcore/SealEngineTest.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libethcore/SealEngineTest.cpp > CMakeFiles/testeth.dir/unittests/libethcore/SealEngineTest.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libethcore/SealEngineTest.cpp > CMakeFiles/testeth.dir/unittests/libethcore/SealEngineTest.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libethcore/SealEngineTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libethcore/SealEngineTest.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libethcore/SealEngineTest.cpp -o CMakeFiles/testeth.dir/unittests/libethcore/SealEngineTest.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libethcore/SealEngineTest.cpp -o CMakeFiles/testeth.dir/unittests/libethcore/SealEngineTest.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libethcore/SealEngineTest.cpp.o.requires:
 
@@ -947,16 +947,16 @@ test/CMakeFiles/testeth.dir/unittests/libethcore/SealEngineTest.cpp.o.provides.b
 
 test/CMakeFiles/testeth.dir/unittests/libethcore/commonjs.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libethcore/commonjs.cpp.o: ../test/unittests/libethcore/commonjs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethcore/commonjs.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethcore/commonjs.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libethcore/commonjs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethcore/commonjs.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethcore/commonjs.cpp.o -c /aleth/test/unittests/libethcore/commonjs.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libethcore/commonjs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libethcore/commonjs.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libethcore/commonjs.cpp > CMakeFiles/testeth.dir/unittests/libethcore/commonjs.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libethcore/commonjs.cpp > CMakeFiles/testeth.dir/unittests/libethcore/commonjs.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libethcore/commonjs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libethcore/commonjs.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libethcore/commonjs.cpp -o CMakeFiles/testeth.dir/unittests/libethcore/commonjs.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libethcore/commonjs.cpp -o CMakeFiles/testeth.dir/unittests/libethcore/commonjs.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libethcore/commonjs.cpp.o.requires:
 
@@ -971,16 +971,16 @@ test/CMakeFiles/testeth.dir/unittests/libethcore/commonjs.cpp.o.provides.build: 
 
 test/CMakeFiles/testeth.dir/unittests/libethcore/difficulty.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libethcore/difficulty.cpp.o: ../test/unittests/libethcore/difficulty.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethcore/difficulty.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethcore/difficulty.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libethcore/difficulty.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethcore/difficulty.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethcore/difficulty.cpp.o -c /aleth/test/unittests/libethcore/difficulty.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libethcore/difficulty.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libethcore/difficulty.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libethcore/difficulty.cpp > CMakeFiles/testeth.dir/unittests/libethcore/difficulty.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libethcore/difficulty.cpp > CMakeFiles/testeth.dir/unittests/libethcore/difficulty.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libethcore/difficulty.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libethcore/difficulty.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libethcore/difficulty.cpp -o CMakeFiles/testeth.dir/unittests/libethcore/difficulty.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libethcore/difficulty.cpp -o CMakeFiles/testeth.dir/unittests/libethcore/difficulty.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libethcore/difficulty.cpp.o.requires:
 
@@ -995,16 +995,16 @@ test/CMakeFiles/testeth.dir/unittests/libethcore/difficulty.cpp.o.provides.build
 
 test/CMakeFiles/testeth.dir/unittests/libethcore/keymanager.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libethcore/keymanager.cpp.o: ../test/unittests/libethcore/keymanager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethcore/keymanager.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethcore/keymanager.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libethcore/keymanager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethcore/keymanager.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethcore/keymanager.cpp.o -c /aleth/test/unittests/libethcore/keymanager.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libethcore/keymanager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libethcore/keymanager.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libethcore/keymanager.cpp > CMakeFiles/testeth.dir/unittests/libethcore/keymanager.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libethcore/keymanager.cpp > CMakeFiles/testeth.dir/unittests/libethcore/keymanager.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libethcore/keymanager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libethcore/keymanager.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libethcore/keymanager.cpp -o CMakeFiles/testeth.dir/unittests/libethcore/keymanager.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libethcore/keymanager.cpp -o CMakeFiles/testeth.dir/unittests/libethcore/keymanager.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libethcore/keymanager.cpp.o.requires:
 
@@ -1019,16 +1019,16 @@ test/CMakeFiles/testeth.dir/unittests/libethcore/keymanager.cpp.o.provides.build
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/Block.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libethereum/Block.cpp.o: ../test/unittests/libethereum/Block.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethereum/Block.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethereum/Block.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libethereum/Block.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethereum/Block.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethereum/Block.cpp.o -c /aleth/test/unittests/libethereum/Block.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/Block.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libethereum/Block.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libethereum/Block.cpp > CMakeFiles/testeth.dir/unittests/libethereum/Block.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libethereum/Block.cpp > CMakeFiles/testeth.dir/unittests/libethereum/Block.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/Block.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libethereum/Block.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libethereum/Block.cpp -o CMakeFiles/testeth.dir/unittests/libethereum/Block.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libethereum/Block.cpp -o CMakeFiles/testeth.dir/unittests/libethereum/Block.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/Block.cpp.o.requires:
 
@@ -1043,16 +1043,16 @@ test/CMakeFiles/testeth.dir/unittests/libethereum/Block.cpp.o.provides.build: te
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/BlockChain.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libethereum/BlockChain.cpp.o: ../test/unittests/libethereum/BlockChain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethereum/BlockChain.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethereum/BlockChain.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libethereum/BlockChain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethereum/BlockChain.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethereum/BlockChain.cpp.o -c /aleth/test/unittests/libethereum/BlockChain.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/BlockChain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libethereum/BlockChain.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libethereum/BlockChain.cpp > CMakeFiles/testeth.dir/unittests/libethereum/BlockChain.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libethereum/BlockChain.cpp > CMakeFiles/testeth.dir/unittests/libethereum/BlockChain.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/BlockChain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libethereum/BlockChain.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libethereum/BlockChain.cpp -o CMakeFiles/testeth.dir/unittests/libethereum/BlockChain.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libethereum/BlockChain.cpp -o CMakeFiles/testeth.dir/unittests/libethereum/BlockChain.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/BlockChain.cpp.o.requires:
 
@@ -1067,16 +1067,16 @@ test/CMakeFiles/testeth.dir/unittests/libethereum/BlockChain.cpp.o.provides.buil
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/BlockChainInsert.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libethereum/BlockChainInsert.cpp.o: ../test/unittests/libethereum/BlockChainInsert.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethereum/BlockChainInsert.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethereum/BlockChainInsert.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libethereum/BlockChainInsert.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethereum/BlockChainInsert.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethereum/BlockChainInsert.cpp.o -c /aleth/test/unittests/libethereum/BlockChainInsert.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/BlockChainInsert.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libethereum/BlockChainInsert.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libethereum/BlockChainInsert.cpp > CMakeFiles/testeth.dir/unittests/libethereum/BlockChainInsert.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libethereum/BlockChainInsert.cpp > CMakeFiles/testeth.dir/unittests/libethereum/BlockChainInsert.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/BlockChainInsert.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libethereum/BlockChainInsert.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libethereum/BlockChainInsert.cpp -o CMakeFiles/testeth.dir/unittests/libethereum/BlockChainInsert.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libethereum/BlockChainInsert.cpp -o CMakeFiles/testeth.dir/unittests/libethereum/BlockChainInsert.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/BlockChainInsert.cpp.o.requires:
 
@@ -1091,16 +1091,16 @@ test/CMakeFiles/testeth.dir/unittests/libethereum/BlockChainInsert.cpp.o.provide
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/BlockQueue.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libethereum/BlockQueue.cpp.o: ../test/unittests/libethereum/BlockQueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethereum/BlockQueue.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethereum/BlockQueue.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libethereum/BlockQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethereum/BlockQueue.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethereum/BlockQueue.cpp.o -c /aleth/test/unittests/libethereum/BlockQueue.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/BlockQueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libethereum/BlockQueue.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libethereum/BlockQueue.cpp > CMakeFiles/testeth.dir/unittests/libethereum/BlockQueue.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libethereum/BlockQueue.cpp > CMakeFiles/testeth.dir/unittests/libethereum/BlockQueue.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/BlockQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libethereum/BlockQueue.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libethereum/BlockQueue.cpp -o CMakeFiles/testeth.dir/unittests/libethereum/BlockQueue.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libethereum/BlockQueue.cpp -o CMakeFiles/testeth.dir/unittests/libethereum/BlockQueue.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/BlockQueue.cpp.o.requires:
 
@@ -1115,16 +1115,16 @@ test/CMakeFiles/testeth.dir/unittests/libethereum/BlockQueue.cpp.o.provides.buil
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/ClientBase.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libethereum/ClientBase.cpp.o: ../test/unittests/libethereum/ClientBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethereum/ClientBase.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethereum/ClientBase.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libethereum/ClientBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethereum/ClientBase.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethereum/ClientBase.cpp.o -c /aleth/test/unittests/libethereum/ClientBase.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/ClientBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libethereum/ClientBase.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libethereum/ClientBase.cpp > CMakeFiles/testeth.dir/unittests/libethereum/ClientBase.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libethereum/ClientBase.cpp > CMakeFiles/testeth.dir/unittests/libethereum/ClientBase.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/ClientBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libethereum/ClientBase.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libethereum/ClientBase.cpp -o CMakeFiles/testeth.dir/unittests/libethereum/ClientBase.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libethereum/ClientBase.cpp -o CMakeFiles/testeth.dir/unittests/libethereum/ClientBase.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/ClientBase.cpp.o.requires:
 
@@ -1139,16 +1139,16 @@ test/CMakeFiles/testeth.dir/unittests/libethereum/ClientBase.cpp.o.provides.buil
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/ClientTest.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libethereum/ClientTest.cpp.o: ../test/unittests/libethereum/ClientTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethereum/ClientTest.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethereum/ClientTest.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libethereum/ClientTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethereum/ClientTest.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethereum/ClientTest.cpp.o -c /aleth/test/unittests/libethereum/ClientTest.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/ClientTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libethereum/ClientTest.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libethereum/ClientTest.cpp > CMakeFiles/testeth.dir/unittests/libethereum/ClientTest.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libethereum/ClientTest.cpp > CMakeFiles/testeth.dir/unittests/libethereum/ClientTest.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/ClientTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libethereum/ClientTest.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libethereum/ClientTest.cpp -o CMakeFiles/testeth.dir/unittests/libethereum/ClientTest.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libethereum/ClientTest.cpp -o CMakeFiles/testeth.dir/unittests/libethereum/ClientTest.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/ClientTest.cpp.o.requires:
 
@@ -1163,16 +1163,16 @@ test/CMakeFiles/testeth.dir/unittests/libethereum/ClientTest.cpp.o.provides.buil
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/EthereumPeerTest.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libethereum/EthereumPeerTest.cpp.o: ../test/unittests/libethereum/EthereumPeerTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethereum/EthereumPeerTest.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethereum/EthereumPeerTest.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libethereum/EthereumPeerTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethereum/EthereumPeerTest.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethereum/EthereumPeerTest.cpp.o -c /aleth/test/unittests/libethereum/EthereumPeerTest.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/EthereumPeerTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libethereum/EthereumPeerTest.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libethereum/EthereumPeerTest.cpp > CMakeFiles/testeth.dir/unittests/libethereum/EthereumPeerTest.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libethereum/EthereumPeerTest.cpp > CMakeFiles/testeth.dir/unittests/libethereum/EthereumPeerTest.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/EthereumPeerTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libethereum/EthereumPeerTest.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libethereum/EthereumPeerTest.cpp -o CMakeFiles/testeth.dir/unittests/libethereum/EthereumPeerTest.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libethereum/EthereumPeerTest.cpp -o CMakeFiles/testeth.dir/unittests/libethereum/EthereumPeerTest.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/EthereumPeerTest.cpp.o.requires:
 
@@ -1187,16 +1187,16 @@ test/CMakeFiles/testeth.dir/unittests/libethereum/EthereumPeerTest.cpp.o.provide
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/ExtVMTest.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libethereum/ExtVMTest.cpp.o: ../test/unittests/libethereum/ExtVMTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethereum/ExtVMTest.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethereum/ExtVMTest.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libethereum/ExtVMTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethereum/ExtVMTest.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethereum/ExtVMTest.cpp.o -c /aleth/test/unittests/libethereum/ExtVMTest.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/ExtVMTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libethereum/ExtVMTest.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libethereum/ExtVMTest.cpp > CMakeFiles/testeth.dir/unittests/libethereum/ExtVMTest.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libethereum/ExtVMTest.cpp > CMakeFiles/testeth.dir/unittests/libethereum/ExtVMTest.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/ExtVMTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libethereum/ExtVMTest.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libethereum/ExtVMTest.cpp -o CMakeFiles/testeth.dir/unittests/libethereum/ExtVMTest.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libethereum/ExtVMTest.cpp -o CMakeFiles/testeth.dir/unittests/libethereum/ExtVMTest.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/ExtVMTest.cpp.o.requires:
 
@@ -1211,16 +1211,16 @@ test/CMakeFiles/testeth.dir/unittests/libethereum/ExtVMTest.cpp.o.provides.build
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/GasPricer.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libethereum/GasPricer.cpp.o: ../test/unittests/libethereum/GasPricer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethereum/GasPricer.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethereum/GasPricer.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libethereum/GasPricer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethereum/GasPricer.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethereum/GasPricer.cpp.o -c /aleth/test/unittests/libethereum/GasPricer.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/GasPricer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libethereum/GasPricer.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libethereum/GasPricer.cpp > CMakeFiles/testeth.dir/unittests/libethereum/GasPricer.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libethereum/GasPricer.cpp > CMakeFiles/testeth.dir/unittests/libethereum/GasPricer.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/GasPricer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libethereum/GasPricer.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libethereum/GasPricer.cpp -o CMakeFiles/testeth.dir/unittests/libethereum/GasPricer.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libethereum/GasPricer.cpp -o CMakeFiles/testeth.dir/unittests/libethereum/GasPricer.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/GasPricer.cpp.o.requires:
 
@@ -1235,16 +1235,16 @@ test/CMakeFiles/testeth.dir/unittests/libethereum/GasPricer.cpp.o.provides.build
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/Genesis.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libethereum/Genesis.cpp.o: ../test/unittests/libethereum/Genesis.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethereum/Genesis.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethereum/Genesis.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libethereum/Genesis.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethereum/Genesis.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethereum/Genesis.cpp.o -c /aleth/test/unittests/libethereum/Genesis.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/Genesis.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libethereum/Genesis.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libethereum/Genesis.cpp > CMakeFiles/testeth.dir/unittests/libethereum/Genesis.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libethereum/Genesis.cpp > CMakeFiles/testeth.dir/unittests/libethereum/Genesis.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/Genesis.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libethereum/Genesis.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libethereum/Genesis.cpp -o CMakeFiles/testeth.dir/unittests/libethereum/Genesis.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libethereum/Genesis.cpp -o CMakeFiles/testeth.dir/unittests/libethereum/Genesis.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/Genesis.cpp.o.requires:
 
@@ -1259,16 +1259,16 @@ test/CMakeFiles/testeth.dir/unittests/libethereum/Genesis.cpp.o.provides.build: 
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/SnapshotImporterTest.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libethereum/SnapshotImporterTest.cpp.o: ../test/unittests/libethereum/SnapshotImporterTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethereum/SnapshotImporterTest.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethereum/SnapshotImporterTest.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libethereum/SnapshotImporterTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethereum/SnapshotImporterTest.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethereum/SnapshotImporterTest.cpp.o -c /aleth/test/unittests/libethereum/SnapshotImporterTest.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/SnapshotImporterTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libethereum/SnapshotImporterTest.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libethereum/SnapshotImporterTest.cpp > CMakeFiles/testeth.dir/unittests/libethereum/SnapshotImporterTest.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libethereum/SnapshotImporterTest.cpp > CMakeFiles/testeth.dir/unittests/libethereum/SnapshotImporterTest.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/SnapshotImporterTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libethereum/SnapshotImporterTest.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libethereum/SnapshotImporterTest.cpp -o CMakeFiles/testeth.dir/unittests/libethereum/SnapshotImporterTest.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libethereum/SnapshotImporterTest.cpp -o CMakeFiles/testeth.dir/unittests/libethereum/SnapshotImporterTest.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/SnapshotImporterTest.cpp.o.requires:
 
@@ -1283,16 +1283,16 @@ test/CMakeFiles/testeth.dir/unittests/libethereum/SnapshotImporterTest.cpp.o.pro
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/StateUnitTests.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libethereum/StateUnitTests.cpp.o: ../test/unittests/libethereum/StateUnitTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethereum/StateUnitTests.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethereum/StateUnitTests.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libethereum/StateUnitTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethereum/StateUnitTests.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethereum/StateUnitTests.cpp.o -c /aleth/test/unittests/libethereum/StateUnitTests.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/StateUnitTests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libethereum/StateUnitTests.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libethereum/StateUnitTests.cpp > CMakeFiles/testeth.dir/unittests/libethereum/StateUnitTests.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libethereum/StateUnitTests.cpp > CMakeFiles/testeth.dir/unittests/libethereum/StateUnitTests.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/StateUnitTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libethereum/StateUnitTests.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libethereum/StateUnitTests.cpp -o CMakeFiles/testeth.dir/unittests/libethereum/StateUnitTests.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libethereum/StateUnitTests.cpp -o CMakeFiles/testeth.dir/unittests/libethereum/StateUnitTests.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/StateUnitTests.cpp.o.requires:
 
@@ -1307,16 +1307,16 @@ test/CMakeFiles/testeth.dir/unittests/libethereum/StateUnitTests.cpp.o.provides.
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/Transaction.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libethereum/Transaction.cpp.o: ../test/unittests/libethereum/Transaction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethereum/Transaction.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethereum/Transaction.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libethereum/Transaction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethereum/Transaction.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethereum/Transaction.cpp.o -c /aleth/test/unittests/libethereum/Transaction.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/Transaction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libethereum/Transaction.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libethereum/Transaction.cpp > CMakeFiles/testeth.dir/unittests/libethereum/Transaction.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libethereum/Transaction.cpp > CMakeFiles/testeth.dir/unittests/libethereum/Transaction.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/Transaction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libethereum/Transaction.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libethereum/Transaction.cpp -o CMakeFiles/testeth.dir/unittests/libethereum/Transaction.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libethereum/Transaction.cpp -o CMakeFiles/testeth.dir/unittests/libethereum/Transaction.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/Transaction.cpp.o.requires:
 
@@ -1331,16 +1331,16 @@ test/CMakeFiles/testeth.dir/unittests/libethereum/Transaction.cpp.o.provides.bui
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/TransactionQueue.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libethereum/TransactionQueue.cpp.o: ../test/unittests/libethereum/TransactionQueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethereum/TransactionQueue.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethereum/TransactionQueue.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libethereum/TransactionQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libethereum/TransactionQueue.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libethereum/TransactionQueue.cpp.o -c /aleth/test/unittests/libethereum/TransactionQueue.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/TransactionQueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libethereum/TransactionQueue.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libethereum/TransactionQueue.cpp > CMakeFiles/testeth.dir/unittests/libethereum/TransactionQueue.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libethereum/TransactionQueue.cpp > CMakeFiles/testeth.dir/unittests/libethereum/TransactionQueue.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/TransactionQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libethereum/TransactionQueue.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libethereum/TransactionQueue.cpp -o CMakeFiles/testeth.dir/unittests/libethereum/TransactionQueue.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libethereum/TransactionQueue.cpp -o CMakeFiles/testeth.dir/unittests/libethereum/TransactionQueue.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libethereum/TransactionQueue.cpp.o.requires:
 
@@ -1355,16 +1355,16 @@ test/CMakeFiles/testeth.dir/unittests/libethereum/TransactionQueue.cpp.o.provide
 
 test/CMakeFiles/testeth.dir/unittests/libevm/VMTest.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libevm/VMTest.cpp.o: ../test/unittests/libevm/VMTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libevm/VMTest.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libevm/VMTest.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libevm/VMTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libevm/VMTest.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libevm/VMTest.cpp.o -c /aleth/test/unittests/libevm/VMTest.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libevm/VMTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libevm/VMTest.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libevm/VMTest.cpp > CMakeFiles/testeth.dir/unittests/libevm/VMTest.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libevm/VMTest.cpp > CMakeFiles/testeth.dir/unittests/libevm/VMTest.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libevm/VMTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libevm/VMTest.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libevm/VMTest.cpp -o CMakeFiles/testeth.dir/unittests/libevm/VMTest.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libevm/VMTest.cpp -o CMakeFiles/testeth.dir/unittests/libevm/VMTest.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libevm/VMTest.cpp.o.requires:
 
@@ -1379,16 +1379,16 @@ test/CMakeFiles/testeth.dir/unittests/libevm/VMTest.cpp.o.provides.build: test/C
 
 test/CMakeFiles/testeth.dir/unittests/libp2p/capability.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libp2p/capability.cpp.o: ../test/unittests/libp2p/capability.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libp2p/capability.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libp2p/capability.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libp2p/capability.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libp2p/capability.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libp2p/capability.cpp.o -c /aleth/test/unittests/libp2p/capability.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libp2p/capability.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libp2p/capability.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libp2p/capability.cpp > CMakeFiles/testeth.dir/unittests/libp2p/capability.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libp2p/capability.cpp > CMakeFiles/testeth.dir/unittests/libp2p/capability.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libp2p/capability.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libp2p/capability.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libp2p/capability.cpp -o CMakeFiles/testeth.dir/unittests/libp2p/capability.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libp2p/capability.cpp -o CMakeFiles/testeth.dir/unittests/libp2p/capability.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libp2p/capability.cpp.o.requires:
 
@@ -1403,16 +1403,16 @@ test/CMakeFiles/testeth.dir/unittests/libp2p/capability.cpp.o.provides.build: te
 
 test/CMakeFiles/testeth.dir/unittests/libp2p/eip-8.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libp2p/eip-8.cpp.o: ../test/unittests/libp2p/eip-8.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libp2p/eip-8.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libp2p/eip-8.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libp2p/eip-8.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libp2p/eip-8.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libp2p/eip-8.cpp.o -c /aleth/test/unittests/libp2p/eip-8.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libp2p/eip-8.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libp2p/eip-8.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libp2p/eip-8.cpp > CMakeFiles/testeth.dir/unittests/libp2p/eip-8.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libp2p/eip-8.cpp > CMakeFiles/testeth.dir/unittests/libp2p/eip-8.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libp2p/eip-8.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libp2p/eip-8.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libp2p/eip-8.cpp -o CMakeFiles/testeth.dir/unittests/libp2p/eip-8.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libp2p/eip-8.cpp -o CMakeFiles/testeth.dir/unittests/libp2p/eip-8.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libp2p/eip-8.cpp.o.requires:
 
@@ -1427,16 +1427,16 @@ test/CMakeFiles/testeth.dir/unittests/libp2p/eip-8.cpp.o.provides.build: test/CM
 
 test/CMakeFiles/testeth.dir/unittests/libp2p/net.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libp2p/net.cpp.o: ../test/unittests/libp2p/net.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libp2p/net.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libp2p/net.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libp2p/net.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libp2p/net.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libp2p/net.cpp.o -c /aleth/test/unittests/libp2p/net.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libp2p/net.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libp2p/net.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libp2p/net.cpp > CMakeFiles/testeth.dir/unittests/libp2p/net.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libp2p/net.cpp > CMakeFiles/testeth.dir/unittests/libp2p/net.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libp2p/net.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libp2p/net.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libp2p/net.cpp -o CMakeFiles/testeth.dir/unittests/libp2p/net.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libp2p/net.cpp -o CMakeFiles/testeth.dir/unittests/libp2p/net.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libp2p/net.cpp.o.requires:
 
@@ -1451,16 +1451,16 @@ test/CMakeFiles/testeth.dir/unittests/libp2p/net.cpp.o.provides.build: test/CMak
 
 test/CMakeFiles/testeth.dir/unittests/libp2p/peer.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libp2p/peer.cpp.o: ../test/unittests/libp2p/peer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libp2p/peer.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libp2p/peer.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libp2p/peer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libp2p/peer.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libp2p/peer.cpp.o -c /aleth/test/unittests/libp2p/peer.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libp2p/peer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libp2p/peer.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libp2p/peer.cpp > CMakeFiles/testeth.dir/unittests/libp2p/peer.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libp2p/peer.cpp > CMakeFiles/testeth.dir/unittests/libp2p/peer.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libp2p/peer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libp2p/peer.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libp2p/peer.cpp -o CMakeFiles/testeth.dir/unittests/libp2p/peer.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libp2p/peer.cpp -o CMakeFiles/testeth.dir/unittests/libp2p/peer.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libp2p/peer.cpp.o.requires:
 
@@ -1475,16 +1475,16 @@ test/CMakeFiles/testeth.dir/unittests/libp2p/peer.cpp.o.provides.build: test/CMa
 
 test/CMakeFiles/testeth.dir/unittests/libp2p/rlpx.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libp2p/rlpx.cpp.o: ../test/unittests/libp2p/rlpx.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libp2p/rlpx.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libp2p/rlpx.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libp2p/rlpx.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libp2p/rlpx.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libp2p/rlpx.cpp.o -c /aleth/test/unittests/libp2p/rlpx.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libp2p/rlpx.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libp2p/rlpx.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libp2p/rlpx.cpp > CMakeFiles/testeth.dir/unittests/libp2p/rlpx.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libp2p/rlpx.cpp > CMakeFiles/testeth.dir/unittests/libp2p/rlpx.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libp2p/rlpx.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libp2p/rlpx.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libp2p/rlpx.cpp -o CMakeFiles/testeth.dir/unittests/libp2p/rlpx.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libp2p/rlpx.cpp -o CMakeFiles/testeth.dir/unittests/libp2p/rlpx.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libp2p/rlpx.cpp.o.requires:
 
@@ -1499,16 +1499,16 @@ test/CMakeFiles/testeth.dir/unittests/libp2p/rlpx.cpp.o.provides.build: test/CMa
 
 test/CMakeFiles/testeth.dir/unittests/libtesteth/blockchainTest.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libtesteth/blockchainTest.cpp.o: ../test/unittests/libtesteth/blockchainTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libtesteth/blockchainTest.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libtesteth/blockchainTest.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libtesteth/blockchainTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libtesteth/blockchainTest.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libtesteth/blockchainTest.cpp.o -c /aleth/test/unittests/libtesteth/blockchainTest.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libtesteth/blockchainTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libtesteth/blockchainTest.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libtesteth/blockchainTest.cpp > CMakeFiles/testeth.dir/unittests/libtesteth/blockchainTest.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libtesteth/blockchainTest.cpp > CMakeFiles/testeth.dir/unittests/libtesteth/blockchainTest.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libtesteth/blockchainTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libtesteth/blockchainTest.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libtesteth/blockchainTest.cpp -o CMakeFiles/testeth.dir/unittests/libtesteth/blockchainTest.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libtesteth/blockchainTest.cpp -o CMakeFiles/testeth.dir/unittests/libtesteth/blockchainTest.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libtesteth/blockchainTest.cpp.o.requires:
 
@@ -1523,16 +1523,16 @@ test/CMakeFiles/testeth.dir/unittests/libtesteth/blockchainTest.cpp.o.provides.b
 
 test/CMakeFiles/testeth.dir/unittests/libtesteth/testHelperTest.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libtesteth/testHelperTest.cpp.o: ../test/unittests/libtesteth/testHelperTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libtesteth/testHelperTest.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libtesteth/testHelperTest.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libtesteth/testHelperTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libtesteth/testHelperTest.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libtesteth/testHelperTest.cpp.o -c /aleth/test/unittests/libtesteth/testHelperTest.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libtesteth/testHelperTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libtesteth/testHelperTest.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libtesteth/testHelperTest.cpp > CMakeFiles/testeth.dir/unittests/libtesteth/testHelperTest.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libtesteth/testHelperTest.cpp > CMakeFiles/testeth.dir/unittests/libtesteth/testHelperTest.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libtesteth/testHelperTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libtesteth/testHelperTest.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libtesteth/testHelperTest.cpp -o CMakeFiles/testeth.dir/unittests/libtesteth/testHelperTest.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libtesteth/testHelperTest.cpp -o CMakeFiles/testeth.dir/unittests/libtesteth/testHelperTest.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libtesteth/testHelperTest.cpp.o.requires:
 
@@ -1547,16 +1547,16 @@ test/CMakeFiles/testeth.dir/unittests/libtesteth/testHelperTest.cpp.o.provides.b
 
 test/CMakeFiles/testeth.dir/unittests/libweb3core/memorydb.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libweb3core/memorydb.cpp.o: ../test/unittests/libweb3core/memorydb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libweb3core/memorydb.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libweb3core/memorydb.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libweb3core/memorydb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libweb3core/memorydb.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libweb3core/memorydb.cpp.o -c /aleth/test/unittests/libweb3core/memorydb.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libweb3core/memorydb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libweb3core/memorydb.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libweb3core/memorydb.cpp > CMakeFiles/testeth.dir/unittests/libweb3core/memorydb.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libweb3core/memorydb.cpp > CMakeFiles/testeth.dir/unittests/libweb3core/memorydb.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libweb3core/memorydb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libweb3core/memorydb.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libweb3core/memorydb.cpp -o CMakeFiles/testeth.dir/unittests/libweb3core/memorydb.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libweb3core/memorydb.cpp -o CMakeFiles/testeth.dir/unittests/libweb3core/memorydb.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libweb3core/memorydb.cpp.o.requires:
 
@@ -1571,16 +1571,16 @@ test/CMakeFiles/testeth.dir/unittests/libweb3core/memorydb.cpp.o.provides.build:
 
 test/CMakeFiles/testeth.dir/unittests/libweb3core/overlaydb.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libweb3core/overlaydb.cpp.o: ../test/unittests/libweb3core/overlaydb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libweb3core/overlaydb.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libweb3core/overlaydb.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libweb3core/overlaydb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libweb3core/overlaydb.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libweb3core/overlaydb.cpp.o -c /aleth/test/unittests/libweb3core/overlaydb.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libweb3core/overlaydb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libweb3core/overlaydb.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libweb3core/overlaydb.cpp > CMakeFiles/testeth.dir/unittests/libweb3core/overlaydb.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libweb3core/overlaydb.cpp > CMakeFiles/testeth.dir/unittests/libweb3core/overlaydb.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libweb3core/overlaydb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libweb3core/overlaydb.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libweb3core/overlaydb.cpp -o CMakeFiles/testeth.dir/unittests/libweb3core/overlaydb.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libweb3core/overlaydb.cpp -o CMakeFiles/testeth.dir/unittests/libweb3core/overlaydb.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libweb3core/overlaydb.cpp.o.requires:
 
@@ -1595,16 +1595,16 @@ test/CMakeFiles/testeth.dir/unittests/libweb3core/overlaydb.cpp.o.provides.build
 
 test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/AccountHolder.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/AccountHolder.cpp.o: ../test/unittests/libweb3jsonrpc/AccountHolder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/AccountHolder.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/AccountHolder.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libweb3jsonrpc/AccountHolder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/AccountHolder.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/AccountHolder.cpp.o -c /aleth/test/unittests/libweb3jsonrpc/AccountHolder.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/AccountHolder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/AccountHolder.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libweb3jsonrpc/AccountHolder.cpp > CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/AccountHolder.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libweb3jsonrpc/AccountHolder.cpp > CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/AccountHolder.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/AccountHolder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/AccountHolder.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libweb3jsonrpc/AccountHolder.cpp -o CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/AccountHolder.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libweb3jsonrpc/AccountHolder.cpp -o CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/AccountHolder.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/AccountHolder.cpp.o.requires:
 
@@ -1619,16 +1619,16 @@ test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/AccountHolder.cpp.o.provide
 
 test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/Client.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/Client.cpp.o: ../test/unittests/libweb3jsonrpc/Client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/Client.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/Client.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libweb3jsonrpc/Client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/Client.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/Client.cpp.o -c /aleth/test/unittests/libweb3jsonrpc/Client.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/Client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/Client.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libweb3jsonrpc/Client.cpp > CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/Client.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libweb3jsonrpc/Client.cpp > CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/Client.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/Client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/Client.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libweb3jsonrpc/Client.cpp -o CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/Client.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libweb3jsonrpc/Client.cpp -o CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/Client.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/Client.cpp.o.requires:
 
@@ -1643,16 +1643,16 @@ test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/Client.cpp.o.provides.build
 
 test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/jsonrpc.cpp.o: test/CMakeFiles/testeth.dir/flags.make
 test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/jsonrpc.cpp.o: ../test/unittests/libweb3jsonrpc/jsonrpc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/jsonrpc.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/jsonrpc.cpp.o -c /home/ubuntu/moose/aleth/test/unittests/libweb3jsonrpc/jsonrpc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/jsonrpc.cpp.o"
+	cd /aleth/build/test && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/jsonrpc.cpp.o -c /aleth/test/unittests/libweb3jsonrpc/jsonrpc.cpp
 
 test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/jsonrpc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/jsonrpc.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/test/unittests/libweb3jsonrpc/jsonrpc.cpp > CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/jsonrpc.cpp.i
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/test/unittests/libweb3jsonrpc/jsonrpc.cpp > CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/jsonrpc.cpp.i
 
 test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/jsonrpc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/jsonrpc.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/test/unittests/libweb3jsonrpc/jsonrpc.cpp -o CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/jsonrpc.cpp.s
+	cd /aleth/build/test && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/test/unittests/libweb3jsonrpc/jsonrpc.cpp -o CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/jsonrpc.cpp.s
 
 test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/jsonrpc.cpp.o.requires:
 
@@ -1812,38 +1812,38 @@ test/testeth: libweb3jsonrpc/libweb3jsonrpc.a
 test/testeth: libdevcrypto/libdevcrypto.a
 test/testeth: libdevcore/libdevcore.a
 test/testeth: aleth/libaleth-buildinfo.a
-test/testeth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libcryptopp.a
-test/testeth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libyaml-cpp.a
+test/testeth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libcryptopp.a
+test/testeth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libyaml-cpp.a
 test/testeth: deps/lib/libbinaryen.a
-test/testeth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libjsonrpccpp-client.a
+test/testeth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libjsonrpccpp-client.a
 test/testeth: libethashseal/libethashseal.a
 test/testeth: libwebthree/libwebthree.a
 test/testeth: libethereum/libethereum.a
 test/testeth: libevm/libevm.a
 test/testeth: libaleth-interpreter/libaleth-interpreter.a
 test/testeth: evmc/lib/instructions/libevmc-instructions.a
-test/testeth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libboost_program_options-mt.a
+test/testeth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libboost_program_options-mt.a
 test/testeth: evmc/lib/loader/libevmc-loader.a
 test/testeth: libethcore/libethcore.a
-test/testeth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libsnappy.a
-test/testeth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libboost_fiber-mt.a
-test/testeth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libboost_context-mt.a
+test/testeth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libsnappy.a
+test/testeth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libboost_fiber-mt.a
+test/testeth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libboost_context-mt.a
 test/testeth: libp2p/libp2p.a
 test/testeth: libdevcrypto/libdevcrypto.a
-test/testeth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libcryptopp.a
+test/testeth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libcryptopp.a
 test/testeth: deps/lib/libsecp256k1.a
 test/testeth: deps/lib/libff.a
 test/testeth: deps/lib/libmpir.a
-test/testeth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libscrypt.a
+test/testeth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libscrypt.a
 test/testeth: libdevcore/libdevcore.a
 test/testeth: aleth/libaleth-buildinfo.a
-test/testeth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libboost_filesystem-mt.a
-test/testeth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libboost_system-mt.a
-test/testeth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libboost_log-mt.a
-test/testeth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libboost_thread-mt.a
-test/testeth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libethash.a
+test/testeth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libboost_filesystem-mt.a
+test/testeth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libboost_system-mt.a
+test/testeth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libboost_log-mt.a
+test/testeth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libboost_thread-mt.a
+test/testeth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libethash.a
 test/testeth: /usr/lib/x86_64-linux-gnu/libleveldb.so
-test/testeth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libjsonrpccpp-server.a
+test/testeth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libjsonrpccpp-server.a
 test/testeth: deps/src/binaryen-build/lib/libwasm.a
 test/testeth: deps/src/binaryen-build/lib/libasmjs.a
 test/testeth: deps/src/binaryen-build/lib/libpasses.a
@@ -1851,11 +1851,11 @@ test/testeth: deps/src/binaryen-build/lib/libcfg.a
 test/testeth: deps/src/binaryen-build/lib/libir.a
 test/testeth: deps/src/binaryen-build/lib/libemscripten-optimizer.a
 test/testeth: deps/src/binaryen-build/lib/libsupport.a
-test/testeth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libjsonrpccpp-common.a
-test/testeth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libjsoncpp.a
+test/testeth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libjsonrpccpp-common.a
+test/testeth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libjsoncpp.a
 test/testeth: test/CMakeFiles/testeth.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Linking CXX executable testeth"
-	cd /home/ubuntu/moose/aleth/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testeth.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Linking CXX executable testeth"
+	cd /aleth/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testeth.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/CMakeFiles/testeth.dir/build: test/testeth
@@ -1933,10 +1933,10 @@ test/CMakeFiles/testeth.dir/requires: test/CMakeFiles/testeth.dir/unittests/libw
 .PHONY : test/CMakeFiles/testeth.dir/requires
 
 test/CMakeFiles/testeth.dir/clean:
-	cd /home/ubuntu/moose/aleth/build/test && $(CMAKE_COMMAND) -P CMakeFiles/testeth.dir/cmake_clean.cmake
+	cd /aleth/build/test && $(CMAKE_COMMAND) -P CMakeFiles/testeth.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/testeth.dir/clean
 
 test/CMakeFiles/testeth.dir/depend:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth /home/ubuntu/moose/aleth/test /home/ubuntu/moose/aleth/build /home/ubuntu/moose/aleth/build/test /home/ubuntu/moose/aleth/build/test/CMakeFiles/testeth.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth /aleth/test /aleth/build /aleth/build/test /aleth/build/test/CMakeFiles/testeth.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/testeth.dir/depend
 

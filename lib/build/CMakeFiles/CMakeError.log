@@ -1,23 +1,23 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/ubuntu/moose/aleth/build/CMakeFiles/CMakeTmp
+Change Dir: /aleth/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b6d0d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b6d0d.dir/build.make CMakeFiles/cmTC_b6d0d.dir/build
-make[1]: Entering directory '/home/ubuntu/moose/aleth/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b6d0d.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -fPIE   -o CMakeFiles/cmTC_b6d0d.dir/CheckSymbolExists.c.o   -c /home/ubuntu/moose/aleth/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_b6d0d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6d0d.dir/link.txt --verbose=1
-/usr/bin/cc     -fuse-ld=gold  CMakeFiles/cmTC_b6d0d.dir/CheckSymbolExists.c.o  -o cmTC_b6d0d 
-CMakeFiles/cmTC_b6d0d.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
-collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_b6d0d.dir/build.make:97: recipe for target 'cmTC_b6d0d' failed
-make[1]: *** [cmTC_b6d0d] Error 1
-make[1]: Leaving directory '/home/ubuntu/moose/aleth/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_b6d0d/fast' failed
-make: *** [cmTC_b6d0d/fast] Error 2
+Run Build Command:"/usr/bin/make" "cmTC_5369e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5369e.dir/build.make CMakeFiles/cmTC_5369e.dir/build
+make[1]: Entering directory '/aleth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5369e.dir/CheckSymbolExists.c.o
+/usr/bin/clang-7   -fPIE   -o CMakeFiles/cmTC_5369e.dir/CheckSymbolExists.c.o   -c /aleth/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5369e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5369e.dir/link.txt --verbose=1
+/usr/bin/clang-7     -fuse-ld=gold  CMakeFiles/cmTC_5369e.dir/CheckSymbolExists.c.o  -o cmTC_5369e 
+CMakeFiles/cmTC_5369e.dir/CheckSymbolExists.c.o:CheckSymbolExists.c:function main: error: undefined reference to 'pthread_create'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_5369e.dir/build.make:97: recipe for target 'cmTC_5369e' failed
+make[1]: *** [cmTC_5369e] Error 1
+make[1]: Leaving directory '/aleth/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5369e/fast' failed
+make: *** [cmTC_5369e/fast] Error 2
 
-File /home/ubuntu/moose/aleth/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /aleth/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -33,23 +33,23 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/ubuntu/moose/aleth/build/CMakeFiles/CMakeTmp
+Change Dir: /aleth/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_49709/fast"
-/usr/bin/make -f CMakeFiles/cmTC_49709.dir/build.make CMakeFiles/cmTC_49709.dir/build
-make[1]: Entering directory '/home/ubuntu/moose/aleth/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_49709.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -o CMakeFiles/cmTC_49709.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_49709
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49709.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create   -fuse-ld=gold  CMakeFiles/cmTC_49709.dir/CheckFunctionExists.c.o  -o cmTC_49709 -lpthreads 
-/usr/bin/x86_64-linux-gnu-ld.gold: error: cannot find -lpthreads
-CMakeFiles/cmTC_49709.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
-collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_49709.dir/build.make:97: recipe for target 'cmTC_49709' failed
-make[1]: *** [cmTC_49709] Error 1
-make[1]: Leaving directory '/home/ubuntu/moose/aleth/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_49709/fast' failed
-make: *** [cmTC_49709/fast] Error 2
+Run Build Command:"/usr/bin/make" "cmTC_dd23f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dd23f.dir/build.make CMakeFiles/cmTC_dd23f.dir/build
+make[1]: Entering directory '/aleth/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dd23f.dir/CheckFunctionExists.c.o
+/usr/bin/clang-7   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -o CMakeFiles/cmTC_dd23f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dd23f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd23f.dir/link.txt --verbose=1
+/usr/bin/clang-7  -DCHECK_FUNCTION_EXISTS=pthread_create   -fuse-ld=gold  CMakeFiles/cmTC_dd23f.dir/CheckFunctionExists.c.o  -o cmTC_dd23f -lpthreads 
+/usr/bin/ld.gold: error: cannot find -lpthreads
+CMakeFiles/cmTC_dd23f.dir/CheckFunctionExists.c.o:CheckFunctionExists.c:function main: error: undefined reference to 'pthread_create'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_dd23f.dir/build.make:97: recipe for target 'cmTC_dd23f' failed
+make[1]: *** [cmTC_dd23f] Error 1
+make[1]: Leaving directory '/aleth/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_dd23f/fast' failed
+make: *** [cmTC_dd23f/fast] Error 2
 
 

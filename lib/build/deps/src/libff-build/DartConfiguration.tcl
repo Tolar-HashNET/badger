@@ -4,17 +4,17 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/ubuntu/moose/aleth/build/deps/src/libff
-BuildDirectory: /home/ubuntu/moose/aleth/build/deps/src/libff-build
+SourceDirectory: /aleth/build/deps/src/libff
+BuildDirectory: /aleth/build/deps/src/libff-build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: ip-172-31-22-3
+Site: 3cad9e4a601c
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Linux-c++
+BuildName: Linux-clang++-7
 
 # Subprojects
 LabelsForSubprojects: 
@@ -36,7 +36,7 @@ ScpCommand: /usr/bin/scp
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/ubuntu/moose/aleth/build/deps/src/libff"
+ConfigureCommand: "/usr/bin/cmake" "/aleth/build/deps/src/libff"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
@@ -72,8 +72,8 @@ UpdateOptions:
 UpdateType: 
 
 # Compiler info
-Compiler: /usr/bin/c++
-CompilerVersion: 7.3.0
+Compiler: /usr/bin/clang++-7
+CompilerVersion: 7.0.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

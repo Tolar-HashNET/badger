@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth/build/deps/src/secp256k1
+CMAKE_SOURCE_DIR = /aleth/build/deps/src/secp256k1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build/deps/src/secp256k1-build
+CMAKE_BINARY_DIR = /aleth/build/deps/src/secp256k1-build
 
 # Utility rule file for ecmult_static_context.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build/deps/src/secp256k1-build
 include CMakeFiles/ecmult_static_context.dir/progress.make
 
 CMakeFiles/ecmult_static_context:
-	cd /home/ubuntu/moose/aleth/build/deps/src/secp256k1 && /home/ubuntu/moose/aleth/build/deps/src/secp256k1-build/gen_context
+	cd /aleth/build/deps/src/secp256k1 && /aleth/build/deps/src/secp256k1-build/gen_context
 
 ecmult_static_context: CMakeFiles/ecmult_static_context
 ecmult_static_context: CMakeFiles/ecmult_static_context.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/ecmult_static_context.dir/clean:
 .PHONY : CMakeFiles/ecmult_static_context.dir/clean
 
 CMakeFiles/ecmult_static_context.dir/depend:
-	cd /home/ubuntu/moose/aleth/build/deps/src/secp256k1-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth/build/deps/src/secp256k1 /home/ubuntu/moose/aleth/build/deps/src/secp256k1 /home/ubuntu/moose/aleth/build/deps/src/secp256k1-build /home/ubuntu/moose/aleth/build/deps/src/secp256k1-build /home/ubuntu/moose/aleth/build/deps/src/secp256k1-build/CMakeFiles/ecmult_static_context.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build/deps/src/secp256k1-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth/build/deps/src/secp256k1 /aleth/build/deps/src/secp256k1 /aleth/build/deps/src/secp256k1-build /aleth/build/deps/src/secp256k1-build /aleth/build/deps/src/secp256k1-build/CMakeFiles/ecmult_static_context.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ecmult_static_context.dir/depend
 

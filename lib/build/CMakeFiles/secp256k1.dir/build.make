@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth
+CMAKE_SOURCE_DIR = /aleth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build
+CMAKE_BINARY_DIR = /aleth/build
 
 # Utility rule file for secp256k1.
 
@@ -64,55 +64,55 @@ CMakeFiles/secp256k1-complete: deps/src/secp256k1-stamp/secp256k1-patch
 CMakeFiles/secp256k1-complete: deps/src/secp256k1-stamp/secp256k1-configure
 CMakeFiles/secp256k1-complete: deps/src/secp256k1-stamp/secp256k1-build
 CMakeFiles/secp256k1-complete: deps/src/secp256k1-stamp/secp256k1-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'secp256k1'"
-	/usr/bin/cmake -E make_directory /home/ubuntu/moose/aleth/build/CMakeFiles
-	/usr/bin/cmake -E touch /home/ubuntu/moose/aleth/build/CMakeFiles/secp256k1-complete
-	/usr/bin/cmake -E touch /home/ubuntu/moose/aleth/build/deps/src/secp256k1-stamp/secp256k1-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'secp256k1'"
+	/usr/bin/cmake -E make_directory /aleth/build/CMakeFiles
+	/usr/bin/cmake -E touch /aleth/build/CMakeFiles/secp256k1-complete
+	/usr/bin/cmake -E touch /aleth/build/deps/src/secp256k1-stamp/secp256k1-done
 
 deps/src/secp256k1-stamp/secp256k1-install: deps/src/secp256k1-stamp/secp256k1-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing install step for 'secp256k1'"
-	cd /home/ubuntu/moose/aleth/build/deps/src/secp256k1-build && /usr/bin/cmake -Dmake=$(MAKE) -P /home/ubuntu/moose/aleth/build/deps/src/secp256k1-stamp/secp256k1-install-RelWithDebInfo.cmake
-	cd /home/ubuntu/moose/aleth/build/deps/src/secp256k1-build && /usr/bin/cmake -E touch /home/ubuntu/moose/aleth/build/deps/src/secp256k1-stamp/secp256k1-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing install step for 'secp256k1'"
+	cd /aleth/build/deps/src/secp256k1-build && /usr/bin/cmake -Dmake=$(MAKE) -P /aleth/build/deps/src/secp256k1-stamp/secp256k1-install-RelWithDebInfo.cmake
+	cd /aleth/build/deps/src/secp256k1-build && /usr/bin/cmake -E touch /aleth/build/deps/src/secp256k1-stamp/secp256k1-install
 
 deps/src/secp256k1-stamp/secp256k1-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'secp256k1'"
-	/usr/bin/cmake -E make_directory /home/ubuntu/moose/aleth/build/deps/src/secp256k1
-	/usr/bin/cmake -E make_directory /home/ubuntu/moose/aleth/build/deps/src/secp256k1-build
-	/usr/bin/cmake -E make_directory /home/ubuntu/moose/aleth/build/deps
-	/usr/bin/cmake -E make_directory /home/ubuntu/moose/aleth/build/deps/tmp
-	/usr/bin/cmake -E make_directory /home/ubuntu/moose/aleth/build/deps/src/secp256k1-stamp
-	/usr/bin/cmake -E make_directory /home/ubuntu/moose/aleth/build/deps/src
-	/usr/bin/cmake -E touch /home/ubuntu/moose/aleth/build/deps/src/secp256k1-stamp/secp256k1-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'secp256k1'"
+	/usr/bin/cmake -E make_directory /aleth/build/deps/src/secp256k1
+	/usr/bin/cmake -E make_directory /aleth/build/deps/src/secp256k1-build
+	/usr/bin/cmake -E make_directory /aleth/build/deps
+	/usr/bin/cmake -E make_directory /aleth/build/deps/tmp
+	/usr/bin/cmake -E make_directory /aleth/build/deps/src/secp256k1-stamp
+	/usr/bin/cmake -E make_directory /aleth/build/deps/src
+	/usr/bin/cmake -E touch /aleth/build/deps/src/secp256k1-stamp/secp256k1-mkdir
 
 deps/src/secp256k1-stamp/secp256k1-download: deps/src/secp256k1-stamp/secp256k1-urlinfo.txt
 deps/src/secp256k1-stamp/secp256k1-download: deps/src/secp256k1-stamp/secp256k1-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'secp256k1'"
-	cd /home/ubuntu/moose/aleth/build/deps/src && /usr/bin/cmake -P /home/ubuntu/moose/aleth/build/deps/src/secp256k1-stamp/download-secp256k1.cmake
-	cd /home/ubuntu/moose/aleth/build/deps/src && /usr/bin/cmake -P /home/ubuntu/moose/aleth/build/deps/src/secp256k1-stamp/verify-secp256k1.cmake
-	cd /home/ubuntu/moose/aleth/build/deps/src && /usr/bin/cmake -P /home/ubuntu/moose/aleth/build/deps/src/secp256k1-stamp/extract-secp256k1.cmake
-	cd /home/ubuntu/moose/aleth/build/deps/src && /usr/bin/cmake -E touch /home/ubuntu/moose/aleth/build/deps/src/secp256k1-stamp/secp256k1-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'secp256k1'"
+	cd /aleth/build/deps/src && /usr/bin/cmake -P /aleth/build/deps/src/secp256k1-stamp/download-secp256k1.cmake
+	cd /aleth/build/deps/src && /usr/bin/cmake -P /aleth/build/deps/src/secp256k1-stamp/verify-secp256k1.cmake
+	cd /aleth/build/deps/src && /usr/bin/cmake -P /aleth/build/deps/src/secp256k1-stamp/extract-secp256k1.cmake
+	cd /aleth/build/deps/src && /usr/bin/cmake -E touch /aleth/build/deps/src/secp256k1-stamp/secp256k1-download
 
 deps/src/secp256k1-stamp/secp256k1-update: deps/src/secp256k1-stamp/secp256k1-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'secp256k1'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'secp256k1'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/ubuntu/moose/aleth/build/deps/src/secp256k1-stamp/secp256k1-update
+	/usr/bin/cmake -E touch /aleth/build/deps/src/secp256k1-stamp/secp256k1-update
 
 deps/src/secp256k1-stamp/secp256k1-patch: deps/src/secp256k1-stamp/secp256k1-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Performing patch step for 'secp256k1'"
-	cd /home/ubuntu/moose/aleth/build/deps/src/secp256k1 && /usr/bin/cmake -E copy_if_different /home/ubuntu/moose/aleth/cmake/secp256k1/CMakeLists.txt /home/ubuntu/moose/aleth/build/deps/src/secp256k1
-	cd /home/ubuntu/moose/aleth/build/deps/src/secp256k1 && /usr/bin/cmake -E touch /home/ubuntu/moose/aleth/build/deps/src/secp256k1-stamp/secp256k1-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Performing patch step for 'secp256k1'"
+	cd /aleth/build/deps/src/secp256k1 && /usr/bin/cmake -E copy_if_different /aleth/cmake/secp256k1/CMakeLists.txt /aleth/build/deps/src/secp256k1
+	cd /aleth/build/deps/src/secp256k1 && /usr/bin/cmake -E touch /aleth/build/deps/src/secp256k1-stamp/secp256k1-patch
 
 deps/src/secp256k1-stamp/secp256k1-configure: deps/tmp/secp256k1-cfgcmd.txt
 deps/src/secp256k1-stamp/secp256k1-configure: deps/src/secp256k1-stamp/secp256k1-update
 deps/src/secp256k1-stamp/secp256k1-configure: deps/src/secp256k1-stamp/secp256k1-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'secp256k1'"
-	cd /home/ubuntu/moose/aleth/build/deps/src/secp256k1-build && /usr/bin/cmake -P /home/ubuntu/moose/aleth/build/deps/src/secp256k1-stamp/secp256k1-configure-RelWithDebInfo.cmake
-	cd /home/ubuntu/moose/aleth/build/deps/src/secp256k1-build && /usr/bin/cmake -E touch /home/ubuntu/moose/aleth/build/deps/src/secp256k1-stamp/secp256k1-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'secp256k1'"
+	cd /aleth/build/deps/src/secp256k1-build && /usr/bin/cmake -P /aleth/build/deps/src/secp256k1-stamp/secp256k1-configure-RelWithDebInfo.cmake
+	cd /aleth/build/deps/src/secp256k1-build && /usr/bin/cmake -E touch /aleth/build/deps/src/secp256k1-stamp/secp256k1-configure
 
 deps/src/secp256k1-stamp/secp256k1-build: deps/src/secp256k1-stamp/secp256k1-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No build step for 'secp256k1'"
-	cd /home/ubuntu/moose/aleth/build/deps/src/secp256k1-build && /usr/bin/cmake -E echo_append
-	cd /home/ubuntu/moose/aleth/build/deps/src/secp256k1-build && /usr/bin/cmake -E touch /home/ubuntu/moose/aleth/build/deps/src/secp256k1-stamp/secp256k1-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No build step for 'secp256k1'"
+	cd /aleth/build/deps/src/secp256k1-build && /usr/bin/cmake -E echo_append
+	cd /aleth/build/deps/src/secp256k1-build && /usr/bin/cmake -E touch /aleth/build/deps/src/secp256k1-stamp/secp256k1-build
 
 secp256k1: CMakeFiles/secp256k1
 secp256k1: CMakeFiles/secp256k1-complete
@@ -137,6 +137,6 @@ CMakeFiles/secp256k1.dir/clean:
 .PHONY : CMakeFiles/secp256k1.dir/clean
 
 CMakeFiles/secp256k1.dir/depend:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth /home/ubuntu/moose/aleth /home/ubuntu/moose/aleth/build /home/ubuntu/moose/aleth/build /home/ubuntu/moose/aleth/build/CMakeFiles/secp256k1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth /aleth /aleth/build /aleth/build /aleth/build/CMakeFiles/secp256k1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/secp256k1.dir/depend
 

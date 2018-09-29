@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/moose/aleth/libweb3jsonrpc
+# Install script for directory: /aleth/libweb3jsonrpc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

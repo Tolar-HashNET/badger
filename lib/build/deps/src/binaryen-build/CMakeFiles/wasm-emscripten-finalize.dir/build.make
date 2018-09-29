@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen
+CMAKE_SOURCE_DIR = /aleth/build/deps/src/binaryen
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen-build
+CMAKE_BINARY_DIR = /aleth/build/deps/src/binaryen-build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/wasm-emscripten-finalize.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/wasm-emscripten-finalize.dir/progress.make
 include CMakeFiles/wasm-emscripten-finalize.dir/flags.make
 
 CMakeFiles/wasm-emscripten-finalize.dir/src/tools/wasm-emscripten-finalize.cpp.o: CMakeFiles/wasm-emscripten-finalize.dir/flags.make
-CMakeFiles/wasm-emscripten-finalize.dir/src/tools/wasm-emscripten-finalize.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/tools/wasm-emscripten-finalize.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/wasm-emscripten-finalize.dir/src/tools/wasm-emscripten-finalize.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wasm-emscripten-finalize.dir/src/tools/wasm-emscripten-finalize.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/tools/wasm-emscripten-finalize.cpp
+CMakeFiles/wasm-emscripten-finalize.dir/src/tools/wasm-emscripten-finalize.cpp.o: /aleth/build/deps/src/binaryen/src/tools/wasm-emscripten-finalize.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/wasm-emscripten-finalize.dir/src/tools/wasm-emscripten-finalize.cpp.o"
+	/usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wasm-emscripten-finalize.dir/src/tools/wasm-emscripten-finalize.cpp.o -c /aleth/build/deps/src/binaryen/src/tools/wasm-emscripten-finalize.cpp
 
 CMakeFiles/wasm-emscripten-finalize.dir/src/tools/wasm-emscripten-finalize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wasm-emscripten-finalize.dir/src/tools/wasm-emscripten-finalize.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/tools/wasm-emscripten-finalize.cpp > CMakeFiles/wasm-emscripten-finalize.dir/src/tools/wasm-emscripten-finalize.cpp.i
+	/usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/tools/wasm-emscripten-finalize.cpp > CMakeFiles/wasm-emscripten-finalize.dir/src/tools/wasm-emscripten-finalize.cpp.i
 
 CMakeFiles/wasm-emscripten-finalize.dir/src/tools/wasm-emscripten-finalize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wasm-emscripten-finalize.dir/src/tools/wasm-emscripten-finalize.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/tools/wasm-emscripten-finalize.cpp -o CMakeFiles/wasm-emscripten-finalize.dir/src/tools/wasm-emscripten-finalize.cpp.s
+	/usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/tools/wasm-emscripten-finalize.cpp -o CMakeFiles/wasm-emscripten-finalize.dir/src/tools/wasm-emscripten-finalize.cpp.s
 
 CMakeFiles/wasm-emscripten-finalize.dir/src/tools/wasm-emscripten-finalize.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/wasm-emscripten-finalize.dir/src/tools/wasm-emscripten-finalize.cpp.o
 
 
 CMakeFiles/wasm-emscripten-finalize.dir/src/wasm-emscripten.cpp.o: CMakeFiles/wasm-emscripten-finalize.dir/flags.make
-CMakeFiles/wasm-emscripten-finalize.dir/src/wasm-emscripten.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/wasm-emscripten.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/wasm-emscripten-finalize.dir/src/wasm-emscripten.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wasm-emscripten-finalize.dir/src/wasm-emscripten.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/wasm-emscripten.cpp
+CMakeFiles/wasm-emscripten-finalize.dir/src/wasm-emscripten.cpp.o: /aleth/build/deps/src/binaryen/src/wasm-emscripten.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/wasm-emscripten-finalize.dir/src/wasm-emscripten.cpp.o"
+	/usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wasm-emscripten-finalize.dir/src/wasm-emscripten.cpp.o -c /aleth/build/deps/src/binaryen/src/wasm-emscripten.cpp
 
 CMakeFiles/wasm-emscripten-finalize.dir/src/wasm-emscripten.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wasm-emscripten-finalize.dir/src/wasm-emscripten.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/wasm-emscripten.cpp > CMakeFiles/wasm-emscripten-finalize.dir/src/wasm-emscripten.cpp.i
+	/usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/wasm-emscripten.cpp > CMakeFiles/wasm-emscripten-finalize.dir/src/wasm-emscripten.cpp.i
 
 CMakeFiles/wasm-emscripten-finalize.dir/src/wasm-emscripten.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wasm-emscripten-finalize.dir/src/wasm-emscripten.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/wasm-emscripten.cpp -o CMakeFiles/wasm-emscripten-finalize.dir/src/wasm-emscripten.cpp.s
+	/usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/wasm-emscripten.cpp -o CMakeFiles/wasm-emscripten-finalize.dir/src/wasm-emscripten.cpp.s
 
 CMakeFiles/wasm-emscripten-finalize.dir/src/wasm-emscripten.cpp.o.requires:
 
@@ -123,7 +123,7 @@ bin/wasm-emscripten-finalize: lib/libir.a
 bin/wasm-emscripten-finalize: lib/libcfg.a
 bin/wasm-emscripten-finalize: lib/libsupport.a
 bin/wasm-emscripten-finalize: CMakeFiles/wasm-emscripten-finalize.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bin/wasm-emscripten-finalize"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bin/wasm-emscripten-finalize"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wasm-emscripten-finalize.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -141,6 +141,6 @@ CMakeFiles/wasm-emscripten-finalize.dir/clean:
 .PHONY : CMakeFiles/wasm-emscripten-finalize.dir/clean
 
 CMakeFiles/wasm-emscripten-finalize.dir/depend:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth/build/deps/src/binaryen /home/ubuntu/moose/aleth/build/deps/src/binaryen /home/ubuntu/moose/aleth/build/deps/src/binaryen-build /home/ubuntu/moose/aleth/build/deps/src/binaryen-build /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles/wasm-emscripten-finalize.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth/build/deps/src/binaryen /aleth/build/deps/src/binaryen /aleth/build/deps/src/binaryen-build /aleth/build/deps/src/binaryen-build /aleth/build/deps/src/binaryen-build/CMakeFiles/wasm-emscripten-finalize.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/wasm-emscripten-finalize.dir/depend
 

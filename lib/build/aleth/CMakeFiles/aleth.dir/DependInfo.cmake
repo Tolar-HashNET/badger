@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ubuntu/moose/aleth/aleth/AccountManager.cpp" "/home/ubuntu/moose/aleth/build/aleth/CMakeFiles/aleth.dir/AccountManager.cpp.o"
-  "/home/ubuntu/moose/aleth/aleth/MinerAux.cpp" "/home/ubuntu/moose/aleth/build/aleth/CMakeFiles/aleth.dir/MinerAux.cpp.o"
-  "/home/ubuntu/moose/aleth/aleth/main.cpp" "/home/ubuntu/moose/aleth/build/aleth/CMakeFiles/aleth.dir/main.cpp.o"
+  "/aleth/aleth/AccountManager.cpp" "/aleth/build/aleth/CMakeFiles/aleth.dir/AccountManager.cpp.o"
+  "/aleth/aleth/MinerAux.cpp" "/aleth/build/aleth/CMakeFiles/aleth.dir/MinerAux.cpp.o"
+  "/aleth/aleth/main.cpp" "/aleth/build/aleth/CMakeFiles/aleth.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
@@ -19,7 +19,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../"
   "../aleth/../utils"
-  "/home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/include"
+  "/root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/include"
   "."
   "deps/include"
   "../evmc/include"
@@ -27,19 +27,19 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ubuntu/moose/aleth/build/libethereum/CMakeFiles/ethereum.dir/DependInfo.cmake"
-  "/home/ubuntu/moose/aleth/build/libethashseal/CMakeFiles/ethashseal.dir/DependInfo.cmake"
-  "/home/ubuntu/moose/aleth/build/libevm/CMakeFiles/evm.dir/DependInfo.cmake"
-  "/home/ubuntu/moose/aleth/build/libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/DependInfo.cmake"
-  "/home/ubuntu/moose/aleth/build/libwebthree/CMakeFiles/webthree.dir/DependInfo.cmake"
-  "/home/ubuntu/moose/aleth/build/libdevcore/CMakeFiles/devcore.dir/DependInfo.cmake"
-  "/home/ubuntu/moose/aleth/build/libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/DependInfo.cmake"
-  "/home/ubuntu/moose/aleth/build/evmc/lib/instructions/CMakeFiles/instructions.dir/DependInfo.cmake"
-  "/home/ubuntu/moose/aleth/build/evmc/lib/loader/CMakeFiles/loader.dir/DependInfo.cmake"
-  "/home/ubuntu/moose/aleth/build/libethcore/CMakeFiles/ethcore.dir/DependInfo.cmake"
-  "/home/ubuntu/moose/aleth/build/libp2p/CMakeFiles/p2p.dir/DependInfo.cmake"
-  "/home/ubuntu/moose/aleth/build/libdevcrypto/CMakeFiles/devcrypto.dir/DependInfo.cmake"
-  "/home/ubuntu/moose/aleth/build/CMakeFiles/aleth-buildinfo.dir/DependInfo.cmake"
+  "/aleth/build/libethereum/CMakeFiles/ethereum.dir/DependInfo.cmake"
+  "/aleth/build/libethashseal/CMakeFiles/ethashseal.dir/DependInfo.cmake"
+  "/aleth/build/libevm/CMakeFiles/evm.dir/DependInfo.cmake"
+  "/aleth/build/libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/DependInfo.cmake"
+  "/aleth/build/libwebthree/CMakeFiles/webthree.dir/DependInfo.cmake"
+  "/aleth/build/libdevcore/CMakeFiles/devcore.dir/DependInfo.cmake"
+  "/aleth/build/libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/DependInfo.cmake"
+  "/aleth/build/evmc/lib/instructions/CMakeFiles/instructions.dir/DependInfo.cmake"
+  "/aleth/build/evmc/lib/loader/CMakeFiles/loader.dir/DependInfo.cmake"
+  "/aleth/build/libethcore/CMakeFiles/ethcore.dir/DependInfo.cmake"
+  "/aleth/build/libp2p/CMakeFiles/p2p.dir/DependInfo.cmake"
+  "/aleth/build/libdevcrypto/CMakeFiles/devcrypto.dir/DependInfo.cmake"
+  "/aleth/build/CMakeFiles/aleth-buildinfo.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

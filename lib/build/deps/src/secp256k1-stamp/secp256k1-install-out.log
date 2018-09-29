@@ -1,8 +1,4 @@
-Scanning dependencies of target gen_context
-[ 25%] Building C object CMakeFiles/gen_context.dir/src/gen_context.c.o
-[ 50%] Linking C executable gen_context
 [ 50%] Built target gen_context
-Scanning dependencies of target ecmult_static_context
 [ 50%] Built target ecmult_static_context
 Scanning dependencies of target secp256k1
 [ 75%] Building C object CMakeFiles/secp256k1.dir/src/secp256k1.c.o
@@ -10,9 +6,9 @@ Scanning dependencies of target secp256k1
 [100%] Built target secp256k1
 Install the project...
 -- Install configuration: ""
--- Installing: /home/ubuntu/moose/aleth/build/deps/lib/libsecp256k1.a
--- Up-to-date: /home/ubuntu/moose/aleth/build/deps/include
--- Installing: /home/ubuntu/moose/aleth/build/deps/include/secp256k1_ecdh.h
--- Installing: /home/ubuntu/moose/aleth/build/deps/include/secp256k1.h
--- Installing: /home/ubuntu/moose/aleth/build/deps/include/secp256k1_recovery.h
--- Installing: /home/ubuntu/moose/aleth/build/deps/include/secp256k1_sha256.h
+-- Installing: /aleth/build/deps/lib/libsecp256k1.a
+-- Up-to-date: /aleth/build/deps/include
+-- Up-to-date: /aleth/build/deps/include/secp256k1_ecdh.h
+-- Up-to-date: /aleth/build/deps/include/secp256k1.h
+-- Up-to-date: /aleth/build/deps/include/secp256k1_recovery.h
+-- Up-to-date: /aleth/build/deps/include/secp256k1_sha256.h

@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/moose/aleth/libethereum
+# Install script for directory: /aleth/libethereum
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

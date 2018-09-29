@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer
+# Install script for directory: /aleth/build/deps/src/binaryen/src/emscripten-optimizer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/moose/aleth/build/deps")
+  set(CMAKE_INSTALL_PREFIX "/aleth/build/deps")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

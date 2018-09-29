@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth/build/deps/src/libff
+CMAKE_SOURCE_DIR = /aleth/build/deps/src/libff
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build/deps/src/libff-build
+CMAKE_BINARY_DIR = /aleth/build/deps/src/libff-build
 
 # Utility rule file for doc.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build/deps/src/libff-build
 include CMakeFiles/doc.dir/progress.make
 
 CMakeFiles/doc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Translating from markdown to HTML"
-	MARKDOWN-NOTFOUND -f /home/ubuntu/moose/aleth/build/deps/src/libff-build/README.html -x toc -x extra --noisy /home/ubuntu/moose/aleth/build/deps/src/libff/README.md
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Translating from markdown to HTML"
+	MARKDOWN-NOTFOUND -f /aleth/build/deps/src/libff-build/README.html -x toc -x extra --noisy /aleth/build/deps/src/libff/README.md
 
 doc: CMakeFiles/doc
 doc: CMakeFiles/doc.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/doc.dir/clean:
 .PHONY : CMakeFiles/doc.dir/clean
 
 CMakeFiles/doc.dir/depend:
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth/build/deps/src/libff /home/ubuntu/moose/aleth/build/deps/src/libff /home/ubuntu/moose/aleth/build/deps/src/libff-build /home/ubuntu/moose/aleth/build/deps/src/libff-build /home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles/doc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build/deps/src/libff-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth/build/deps/src/libff /aleth/build/deps/src/libff /aleth/build/deps/src/libff-build /aleth/build/deps/src/libff-build /aleth/build/deps/src/libff-build/CMakeFiles/doc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doc.dir/depend
 

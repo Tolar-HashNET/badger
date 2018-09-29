@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen
+CMAKE_SOURCE_DIR = /aleth/build/deps/src/binaryen
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen-build
+CMAKE_BINARY_DIR = /aleth/build/deps/src/binaryen-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/wasm/CMakeFiles/progress.marks
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/wasm/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 0
+	cd /aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles /aleth/build/deps/src/binaryen-build/src/wasm/CMakeFiles/progress.marks
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/wasm/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/wasm/clean
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/wasm/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/wasm/preinstall
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/wasm/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/wasm/preinstall
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/wasm/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/wasm/CMakeFiles/wasm.dir/rule:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/wasm/CMakeFiles/wasm.dir/rule
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/wasm/CMakeFiles/wasm.dir/rule
 .PHONY : src/wasm/CMakeFiles/wasm.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ wasm: src/wasm/CMakeFiles/wasm.dir/rule
 
 # fast build rule for target.
 wasm/fast:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/build
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/build
 .PHONY : wasm/fast
 
 literal.o: literal.cpp.o
@@ -177,7 +177,7 @@ literal.o: literal.cpp.o
 
 # target to build an object file
 literal.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/literal.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/literal.cpp.o
 .PHONY : literal.cpp.o
 
 literal.i: literal.cpp.i
@@ -186,7 +186,7 @@ literal.i: literal.cpp.i
 
 # target to preprocess a source file
 literal.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/literal.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/literal.cpp.i
 .PHONY : literal.cpp.i
 
 literal.s: literal.cpp.s
@@ -195,7 +195,7 @@ literal.s: literal.cpp.s
 
 # target to generate assembly for a file
 literal.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/literal.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/literal.cpp.s
 .PHONY : literal.cpp.s
 
 wasm-binary.o: wasm-binary.cpp.o
@@ -204,7 +204,7 @@ wasm-binary.o: wasm-binary.cpp.o
 
 # target to build an object file
 wasm-binary.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-binary.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-binary.cpp.o
 .PHONY : wasm-binary.cpp.o
 
 wasm-binary.i: wasm-binary.cpp.i
@@ -213,7 +213,7 @@ wasm-binary.i: wasm-binary.cpp.i
 
 # target to preprocess a source file
 wasm-binary.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-binary.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-binary.cpp.i
 .PHONY : wasm-binary.cpp.i
 
 wasm-binary.s: wasm-binary.cpp.s
@@ -222,7 +222,7 @@ wasm-binary.s: wasm-binary.cpp.s
 
 # target to generate assembly for a file
 wasm-binary.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-binary.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-binary.cpp.s
 .PHONY : wasm-binary.cpp.s
 
 wasm-io.o: wasm-io.cpp.o
@@ -231,7 +231,7 @@ wasm-io.o: wasm-io.cpp.o
 
 # target to build an object file
 wasm-io.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-io.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-io.cpp.o
 .PHONY : wasm-io.cpp.o
 
 wasm-io.i: wasm-io.cpp.i
@@ -240,7 +240,7 @@ wasm-io.i: wasm-io.cpp.i
 
 # target to preprocess a source file
 wasm-io.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-io.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-io.cpp.i
 .PHONY : wasm-io.cpp.i
 
 wasm-io.s: wasm-io.cpp.s
@@ -249,7 +249,7 @@ wasm-io.s: wasm-io.cpp.s
 
 # target to generate assembly for a file
 wasm-io.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-io.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-io.cpp.s
 .PHONY : wasm-io.cpp.s
 
 wasm-s-parser.o: wasm-s-parser.cpp.o
@@ -258,7 +258,7 @@ wasm-s-parser.o: wasm-s-parser.cpp.o
 
 # target to build an object file
 wasm-s-parser.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-s-parser.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-s-parser.cpp.o
 .PHONY : wasm-s-parser.cpp.o
 
 wasm-s-parser.i: wasm-s-parser.cpp.i
@@ -267,7 +267,7 @@ wasm-s-parser.i: wasm-s-parser.cpp.i
 
 # target to preprocess a source file
 wasm-s-parser.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-s-parser.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-s-parser.cpp.i
 .PHONY : wasm-s-parser.cpp.i
 
 wasm-s-parser.s: wasm-s-parser.cpp.s
@@ -276,7 +276,7 @@ wasm-s-parser.s: wasm-s-parser.cpp.s
 
 # target to generate assembly for a file
 wasm-s-parser.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-s-parser.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-s-parser.cpp.s
 .PHONY : wasm-s-parser.cpp.s
 
 wasm-type.o: wasm-type.cpp.o
@@ -285,7 +285,7 @@ wasm-type.o: wasm-type.cpp.o
 
 # target to build an object file
 wasm-type.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-type.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-type.cpp.o
 .PHONY : wasm-type.cpp.o
 
 wasm-type.i: wasm-type.cpp.i
@@ -294,7 +294,7 @@ wasm-type.i: wasm-type.cpp.i
 
 # target to preprocess a source file
 wasm-type.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-type.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-type.cpp.i
 .PHONY : wasm-type.cpp.i
 
 wasm-type.s: wasm-type.cpp.s
@@ -303,7 +303,7 @@ wasm-type.s: wasm-type.cpp.s
 
 # target to generate assembly for a file
 wasm-type.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-type.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-type.cpp.s
 .PHONY : wasm-type.cpp.s
 
 wasm-validator.o: wasm-validator.cpp.o
@@ -312,7 +312,7 @@ wasm-validator.o: wasm-validator.cpp.o
 
 # target to build an object file
 wasm-validator.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-validator.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-validator.cpp.o
 .PHONY : wasm-validator.cpp.o
 
 wasm-validator.i: wasm-validator.cpp.i
@@ -321,7 +321,7 @@ wasm-validator.i: wasm-validator.cpp.i
 
 # target to preprocess a source file
 wasm-validator.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-validator.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-validator.cpp.i
 .PHONY : wasm-validator.cpp.i
 
 wasm-validator.s: wasm-validator.cpp.s
@@ -330,7 +330,7 @@ wasm-validator.s: wasm-validator.cpp.s
 
 # target to generate assembly for a file
 wasm-validator.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-validator.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm-validator.cpp.s
 .PHONY : wasm-validator.cpp.s
 
 wasm.o: wasm.cpp.o
@@ -339,7 +339,7 @@ wasm.o: wasm.cpp.o
 
 # target to build an object file
 wasm.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm.cpp.o
 .PHONY : wasm.cpp.o
 
 wasm.i: wasm.cpp.i
@@ -348,7 +348,7 @@ wasm.i: wasm.cpp.i
 
 # target to preprocess a source file
 wasm.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm.cpp.i
 .PHONY : wasm.cpp.i
 
 wasm.s: wasm.cpp.s
@@ -357,7 +357,7 @@ wasm.s: wasm.cpp.s
 
 # target to generate assembly for a file
 wasm.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/wasm.cpp.s
 .PHONY : wasm.cpp.s
 
 # Help Target
@@ -405,6 +405,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen
+CMAKE_SOURCE_DIR = /aleth/build/deps/src/binaryen
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen-build
+CMAKE_BINARY_DIR = /aleth/build/deps/src/binaryen-build
 
 # Include any dependencies generated for this target.
 include src/ir/CMakeFiles/ir.dir/depend.make
@@ -58,17 +58,17 @@ include src/ir/CMakeFiles/ir.dir/progress.make
 include src/ir/CMakeFiles/ir.dir/flags.make
 
 src/ir/CMakeFiles/ir.dir/ExpressionAnalyzer.cpp.o: src/ir/CMakeFiles/ir.dir/flags.make
-src/ir/CMakeFiles/ir.dir/ExpressionAnalyzer.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/ExpressionAnalyzer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/ir/CMakeFiles/ir.dir/ExpressionAnalyzer.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/ir && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ir.dir/ExpressionAnalyzer.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/ExpressionAnalyzer.cpp
+src/ir/CMakeFiles/ir.dir/ExpressionAnalyzer.cpp.o: /aleth/build/deps/src/binaryen/src/ir/ExpressionAnalyzer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/ir/CMakeFiles/ir.dir/ExpressionAnalyzer.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/ir && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ir.dir/ExpressionAnalyzer.cpp.o -c /aleth/build/deps/src/binaryen/src/ir/ExpressionAnalyzer.cpp
 
 src/ir/CMakeFiles/ir.dir/ExpressionAnalyzer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ir.dir/ExpressionAnalyzer.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/ir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/ExpressionAnalyzer.cpp > CMakeFiles/ir.dir/ExpressionAnalyzer.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/ir && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/ir/ExpressionAnalyzer.cpp > CMakeFiles/ir.dir/ExpressionAnalyzer.cpp.i
 
 src/ir/CMakeFiles/ir.dir/ExpressionAnalyzer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ir.dir/ExpressionAnalyzer.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/ir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/ExpressionAnalyzer.cpp -o CMakeFiles/ir.dir/ExpressionAnalyzer.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/ir && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/ir/ExpressionAnalyzer.cpp -o CMakeFiles/ir.dir/ExpressionAnalyzer.cpp.s
 
 src/ir/CMakeFiles/ir.dir/ExpressionAnalyzer.cpp.o.requires:
 
@@ -82,17 +82,17 @@ src/ir/CMakeFiles/ir.dir/ExpressionAnalyzer.cpp.o.provides.build: src/ir/CMakeFi
 
 
 src/ir/CMakeFiles/ir.dir/ExpressionManipulator.cpp.o: src/ir/CMakeFiles/ir.dir/flags.make
-src/ir/CMakeFiles/ir.dir/ExpressionManipulator.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/ExpressionManipulator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/ir/CMakeFiles/ir.dir/ExpressionManipulator.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/ir && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ir.dir/ExpressionManipulator.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/ExpressionManipulator.cpp
+src/ir/CMakeFiles/ir.dir/ExpressionManipulator.cpp.o: /aleth/build/deps/src/binaryen/src/ir/ExpressionManipulator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/ir/CMakeFiles/ir.dir/ExpressionManipulator.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/ir && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ir.dir/ExpressionManipulator.cpp.o -c /aleth/build/deps/src/binaryen/src/ir/ExpressionManipulator.cpp
 
 src/ir/CMakeFiles/ir.dir/ExpressionManipulator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ir.dir/ExpressionManipulator.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/ir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/ExpressionManipulator.cpp > CMakeFiles/ir.dir/ExpressionManipulator.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/ir && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/ir/ExpressionManipulator.cpp > CMakeFiles/ir.dir/ExpressionManipulator.cpp.i
 
 src/ir/CMakeFiles/ir.dir/ExpressionManipulator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ir.dir/ExpressionManipulator.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/ir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/ExpressionManipulator.cpp -o CMakeFiles/ir.dir/ExpressionManipulator.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/ir && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/ir/ExpressionManipulator.cpp -o CMakeFiles/ir.dir/ExpressionManipulator.cpp.s
 
 src/ir/CMakeFiles/ir.dir/ExpressionManipulator.cpp.o.requires:
 
@@ -106,17 +106,17 @@ src/ir/CMakeFiles/ir.dir/ExpressionManipulator.cpp.o.provides.build: src/ir/CMak
 
 
 src/ir/CMakeFiles/ir.dir/LocalGraph.cpp.o: src/ir/CMakeFiles/ir.dir/flags.make
-src/ir/CMakeFiles/ir.dir/LocalGraph.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/LocalGraph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/ir/CMakeFiles/ir.dir/LocalGraph.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/ir && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ir.dir/LocalGraph.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/LocalGraph.cpp
+src/ir/CMakeFiles/ir.dir/LocalGraph.cpp.o: /aleth/build/deps/src/binaryen/src/ir/LocalGraph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/ir/CMakeFiles/ir.dir/LocalGraph.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/ir && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ir.dir/LocalGraph.cpp.o -c /aleth/build/deps/src/binaryen/src/ir/LocalGraph.cpp
 
 src/ir/CMakeFiles/ir.dir/LocalGraph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ir.dir/LocalGraph.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/ir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/LocalGraph.cpp > CMakeFiles/ir.dir/LocalGraph.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/ir && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/ir/LocalGraph.cpp > CMakeFiles/ir.dir/LocalGraph.cpp.i
 
 src/ir/CMakeFiles/ir.dir/LocalGraph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ir.dir/LocalGraph.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/ir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/LocalGraph.cpp -o CMakeFiles/ir.dir/LocalGraph.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/ir && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/ir/LocalGraph.cpp -o CMakeFiles/ir.dir/LocalGraph.cpp.s
 
 src/ir/CMakeFiles/ir.dir/LocalGraph.cpp.o.requires:
 
@@ -143,9 +143,9 @@ lib/libir.a: src/ir/CMakeFiles/ir.dir/ExpressionManipulator.cpp.o
 lib/libir.a: src/ir/CMakeFiles/ir.dir/LocalGraph.cpp.o
 lib/libir.a: src/ir/CMakeFiles/ir.dir/build.make
 lib/libir.a: src/ir/CMakeFiles/ir.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ../../lib/libir.a"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/ir && $(CMAKE_COMMAND) -P CMakeFiles/ir.dir/cmake_clean_target.cmake
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/ir && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ir.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ../../lib/libir.a"
+	cd /aleth/build/deps/src/binaryen-build/src/ir && $(CMAKE_COMMAND) -P CMakeFiles/ir.dir/cmake_clean_target.cmake
+	cd /aleth/build/deps/src/binaryen-build/src/ir && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ir.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/ir/CMakeFiles/ir.dir/build: lib/libir.a
@@ -159,10 +159,10 @@ src/ir/CMakeFiles/ir.dir/requires: src/ir/CMakeFiles/ir.dir/LocalGraph.cpp.o.req
 .PHONY : src/ir/CMakeFiles/ir.dir/requires
 
 src/ir/CMakeFiles/ir.dir/clean:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/ir && $(CMAKE_COMMAND) -P CMakeFiles/ir.dir/cmake_clean.cmake
+	cd /aleth/build/deps/src/binaryen-build/src/ir && $(CMAKE_COMMAND) -P CMakeFiles/ir.dir/cmake_clean.cmake
 .PHONY : src/ir/CMakeFiles/ir.dir/clean
 
 src/ir/CMakeFiles/ir.dir/depend:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth/build/deps/src/binaryen /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir /home/ubuntu/moose/aleth/build/deps/src/binaryen-build /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/ir /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/ir/CMakeFiles/ir.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth/build/deps/src/binaryen /aleth/build/deps/src/binaryen/src/ir /aleth/build/deps/src/binaryen-build /aleth/build/deps/src/binaryen-build/src/ir /aleth/build/deps/src/binaryen-build/src/ir/CMakeFiles/ir.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/ir/CMakeFiles/ir.dir/depend
 

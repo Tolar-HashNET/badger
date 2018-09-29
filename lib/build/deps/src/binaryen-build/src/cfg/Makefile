@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen
+CMAKE_SOURCE_DIR = /aleth/build/deps/src/binaryen
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen-build
+CMAKE_BINARY_DIR = /aleth/build/deps/src/binaryen-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/cfg/CMakeFiles/progress.marks
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/cfg/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 0
+	cd /aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles /aleth/build/deps/src/binaryen-build/src/cfg/CMakeFiles/progress.marks
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/cfg/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/cfg/clean
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/cfg/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/cfg/preinstall
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/cfg/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/cfg/preinstall
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/cfg/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/cfg/CMakeFiles/cfg.dir/rule:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/cfg/CMakeFiles/cfg.dir/rule
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/cfg/CMakeFiles/cfg.dir/rule
 .PHONY : src/cfg/CMakeFiles/cfg.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ cfg: src/cfg/CMakeFiles/cfg.dir/rule
 
 # fast build rule for target.
 cfg/fast:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/cfg/CMakeFiles/cfg.dir/build.make src/cfg/CMakeFiles/cfg.dir/build
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/cfg/CMakeFiles/cfg.dir/build.make src/cfg/CMakeFiles/cfg.dir/build
 .PHONY : cfg/fast
 
 Relooper.o: Relooper.cpp.o
@@ -177,7 +177,7 @@ Relooper.o: Relooper.cpp.o
 
 # target to build an object file
 Relooper.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/cfg/CMakeFiles/cfg.dir/build.make src/cfg/CMakeFiles/cfg.dir/Relooper.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/cfg/CMakeFiles/cfg.dir/build.make src/cfg/CMakeFiles/cfg.dir/Relooper.cpp.o
 .PHONY : Relooper.cpp.o
 
 Relooper.i: Relooper.cpp.i
@@ -186,7 +186,7 @@ Relooper.i: Relooper.cpp.i
 
 # target to preprocess a source file
 Relooper.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/cfg/CMakeFiles/cfg.dir/build.make src/cfg/CMakeFiles/cfg.dir/Relooper.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/cfg/CMakeFiles/cfg.dir/build.make src/cfg/CMakeFiles/cfg.dir/Relooper.cpp.i
 .PHONY : Relooper.cpp.i
 
 Relooper.s: Relooper.cpp.s
@@ -195,7 +195,7 @@ Relooper.s: Relooper.cpp.s
 
 # target to generate assembly for a file
 Relooper.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/cfg/CMakeFiles/cfg.dir/build.make src/cfg/CMakeFiles/cfg.dir/Relooper.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/cfg/CMakeFiles/cfg.dir/build.make src/cfg/CMakeFiles/cfg.dir/Relooper.cpp.s
 .PHONY : Relooper.cpp.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

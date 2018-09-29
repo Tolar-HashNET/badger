@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth
+CMAKE_SOURCE_DIR = /aleth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build
+CMAKE_BINARY_DIR = /aleth/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -93,7 +93,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/ubuntu/moose/aleth/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /aleth/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -104,7 +104,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/ubuntu/moose/aleth/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/ubuntu/moose/aleth/build/CPackSourceConfig.cmake
+	cd /aleth/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /aleth/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -159,14 +159,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles /home/ubuntu/moose/aleth/build/libethcore/CMakeFiles/progress.marks
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libethcore/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	cd /aleth/build && $(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles /aleth/build/libethcore/CMakeFiles/progress.marks
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libethcore/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libethcore/clean
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libethcore/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libethcore/preinstall
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libethcore/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libethcore/preinstall
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libethcore/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libethcore/CMakeFiles/ethcore.dir/rule:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libethcore/CMakeFiles/ethcore.dir/rule
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libethcore/CMakeFiles/ethcore.dir/rule
 .PHONY : libethcore/CMakeFiles/ethcore.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ ethcore: libethcore/CMakeFiles/ethcore.dir/rule
 
 # fast build rule for target.
 ethcore/fast:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/build
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/build
 .PHONY : ethcore/fast
 
 BasicAuthority.o: BasicAuthority.cpp.o
@@ -210,7 +210,7 @@ BasicAuthority.o: BasicAuthority.cpp.o
 
 # target to build an object file
 BasicAuthority.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/BasicAuthority.cpp.o
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/BasicAuthority.cpp.o
 .PHONY : BasicAuthority.cpp.o
 
 BasicAuthority.i: BasicAuthority.cpp.i
@@ -219,7 +219,7 @@ BasicAuthority.i: BasicAuthority.cpp.i
 
 # target to preprocess a source file
 BasicAuthority.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/BasicAuthority.cpp.i
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/BasicAuthority.cpp.i
 .PHONY : BasicAuthority.cpp.i
 
 BasicAuthority.s: BasicAuthority.cpp.s
@@ -228,7 +228,7 @@ BasicAuthority.s: BasicAuthority.cpp.s
 
 # target to generate assembly for a file
 BasicAuthority.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/BasicAuthority.cpp.s
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/BasicAuthority.cpp.s
 .PHONY : BasicAuthority.cpp.s
 
 BlockHeader.o: BlockHeader.cpp.o
@@ -237,7 +237,7 @@ BlockHeader.o: BlockHeader.cpp.o
 
 # target to build an object file
 BlockHeader.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/BlockHeader.cpp.o
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/BlockHeader.cpp.o
 .PHONY : BlockHeader.cpp.o
 
 BlockHeader.i: BlockHeader.cpp.i
@@ -246,7 +246,7 @@ BlockHeader.i: BlockHeader.cpp.i
 
 # target to preprocess a source file
 BlockHeader.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/BlockHeader.cpp.i
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/BlockHeader.cpp.i
 .PHONY : BlockHeader.cpp.i
 
 BlockHeader.s: BlockHeader.cpp.s
@@ -255,7 +255,7 @@ BlockHeader.s: BlockHeader.cpp.s
 
 # target to generate assembly for a file
 BlockHeader.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/BlockHeader.cpp.s
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/BlockHeader.cpp.s
 .PHONY : BlockHeader.cpp.s
 
 ChainOperationParams.o: ChainOperationParams.cpp.o
@@ -264,7 +264,7 @@ ChainOperationParams.o: ChainOperationParams.cpp.o
 
 # target to build an object file
 ChainOperationParams.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/ChainOperationParams.cpp.o
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/ChainOperationParams.cpp.o
 .PHONY : ChainOperationParams.cpp.o
 
 ChainOperationParams.i: ChainOperationParams.cpp.i
@@ -273,7 +273,7 @@ ChainOperationParams.i: ChainOperationParams.cpp.i
 
 # target to preprocess a source file
 ChainOperationParams.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/ChainOperationParams.cpp.i
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/ChainOperationParams.cpp.i
 .PHONY : ChainOperationParams.cpp.i
 
 ChainOperationParams.s: ChainOperationParams.cpp.s
@@ -282,7 +282,7 @@ ChainOperationParams.s: ChainOperationParams.cpp.s
 
 # target to generate assembly for a file
 ChainOperationParams.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/ChainOperationParams.cpp.s
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/ChainOperationParams.cpp.s
 .PHONY : ChainOperationParams.cpp.s
 
 Common.o: Common.cpp.o
@@ -291,7 +291,7 @@ Common.o: Common.cpp.o
 
 # target to build an object file
 Common.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/Common.cpp.o
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/Common.cpp.o
 .PHONY : Common.cpp.o
 
 Common.i: Common.cpp.i
@@ -300,7 +300,7 @@ Common.i: Common.cpp.i
 
 # target to preprocess a source file
 Common.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/Common.cpp.i
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/Common.cpp.i
 .PHONY : Common.cpp.i
 
 Common.s: Common.cpp.s
@@ -309,7 +309,7 @@ Common.s: Common.cpp.s
 
 # target to generate assembly for a file
 Common.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/Common.cpp.s
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/Common.cpp.s
 .PHONY : Common.cpp.s
 
 CommonJS.o: CommonJS.cpp.o
@@ -318,7 +318,7 @@ CommonJS.o: CommonJS.cpp.o
 
 # target to build an object file
 CommonJS.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/CommonJS.cpp.o
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/CommonJS.cpp.o
 .PHONY : CommonJS.cpp.o
 
 CommonJS.i: CommonJS.cpp.i
@@ -327,7 +327,7 @@ CommonJS.i: CommonJS.cpp.i
 
 # target to preprocess a source file
 CommonJS.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/CommonJS.cpp.i
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/CommonJS.cpp.i
 .PHONY : CommonJS.cpp.i
 
 CommonJS.s: CommonJS.cpp.s
@@ -336,7 +336,7 @@ CommonJS.s: CommonJS.cpp.s
 
 # target to generate assembly for a file
 CommonJS.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/CommonJS.cpp.s
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/CommonJS.cpp.s
 .PHONY : CommonJS.cpp.s
 
 KeyManager.o: KeyManager.cpp.o
@@ -345,7 +345,7 @@ KeyManager.o: KeyManager.cpp.o
 
 # target to build an object file
 KeyManager.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/KeyManager.cpp.o
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/KeyManager.cpp.o
 .PHONY : KeyManager.cpp.o
 
 KeyManager.i: KeyManager.cpp.i
@@ -354,7 +354,7 @@ KeyManager.i: KeyManager.cpp.i
 
 # target to preprocess a source file
 KeyManager.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/KeyManager.cpp.i
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/KeyManager.cpp.i
 .PHONY : KeyManager.cpp.i
 
 KeyManager.s: KeyManager.cpp.s
@@ -363,7 +363,7 @@ KeyManager.s: KeyManager.cpp.s
 
 # target to generate assembly for a file
 KeyManager.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/KeyManager.cpp.s
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/KeyManager.cpp.s
 .PHONY : KeyManager.cpp.s
 
 LogEntry.o: LogEntry.cpp.o
@@ -372,7 +372,7 @@ LogEntry.o: LogEntry.cpp.o
 
 # target to build an object file
 LogEntry.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/LogEntry.cpp.o
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/LogEntry.cpp.o
 .PHONY : LogEntry.cpp.o
 
 LogEntry.i: LogEntry.cpp.i
@@ -381,7 +381,7 @@ LogEntry.i: LogEntry.cpp.i
 
 # target to preprocess a source file
 LogEntry.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/LogEntry.cpp.i
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/LogEntry.cpp.i
 .PHONY : LogEntry.cpp.i
 
 LogEntry.s: LogEntry.cpp.s
@@ -390,7 +390,7 @@ LogEntry.s: LogEntry.cpp.s
 
 # target to generate assembly for a file
 LogEntry.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/LogEntry.cpp.s
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/LogEntry.cpp.s
 .PHONY : LogEntry.cpp.s
 
 Precompiled.o: Precompiled.cpp.o
@@ -399,7 +399,7 @@ Precompiled.o: Precompiled.cpp.o
 
 # target to build an object file
 Precompiled.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/Precompiled.cpp.o
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/Precompiled.cpp.o
 .PHONY : Precompiled.cpp.o
 
 Precompiled.i: Precompiled.cpp.i
@@ -408,7 +408,7 @@ Precompiled.i: Precompiled.cpp.i
 
 # target to preprocess a source file
 Precompiled.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/Precompiled.cpp.i
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/Precompiled.cpp.i
 .PHONY : Precompiled.cpp.i
 
 Precompiled.s: Precompiled.cpp.s
@@ -417,7 +417,7 @@ Precompiled.s: Precompiled.cpp.s
 
 # target to generate assembly for a file
 Precompiled.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/Precompiled.cpp.s
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/Precompiled.cpp.s
 .PHONY : Precompiled.cpp.s
 
 SealEngine.o: SealEngine.cpp.o
@@ -426,7 +426,7 @@ SealEngine.o: SealEngine.cpp.o
 
 # target to build an object file
 SealEngine.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/SealEngine.cpp.o
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/SealEngine.cpp.o
 .PHONY : SealEngine.cpp.o
 
 SealEngine.i: SealEngine.cpp.i
@@ -435,7 +435,7 @@ SealEngine.i: SealEngine.cpp.i
 
 # target to preprocess a source file
 SealEngine.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/SealEngine.cpp.i
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/SealEngine.cpp.i
 .PHONY : SealEngine.cpp.i
 
 SealEngine.s: SealEngine.cpp.s
@@ -444,7 +444,7 @@ SealEngine.s: SealEngine.cpp.s
 
 # target to generate assembly for a file
 SealEngine.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/SealEngine.cpp.s
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/SealEngine.cpp.s
 .PHONY : SealEngine.cpp.s
 
 TransactionBase.o: TransactionBase.cpp.o
@@ -453,7 +453,7 @@ TransactionBase.o: TransactionBase.cpp.o
 
 # target to build an object file
 TransactionBase.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/TransactionBase.cpp.o
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/TransactionBase.cpp.o
 .PHONY : TransactionBase.cpp.o
 
 TransactionBase.i: TransactionBase.cpp.i
@@ -462,7 +462,7 @@ TransactionBase.i: TransactionBase.cpp.i
 
 # target to preprocess a source file
 TransactionBase.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/TransactionBase.cpp.i
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/TransactionBase.cpp.i
 .PHONY : TransactionBase.cpp.i
 
 TransactionBase.s: TransactionBase.cpp.s
@@ -471,7 +471,7 @@ TransactionBase.s: TransactionBase.cpp.s
 
 # target to generate assembly for a file
 TransactionBase.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/TransactionBase.cpp.s
+	cd /aleth/build && $(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/TransactionBase.cpp.s
 .PHONY : TransactionBase.cpp.s
 
 # Help Target
@@ -531,6 +531,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

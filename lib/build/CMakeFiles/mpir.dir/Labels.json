@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/CMakeFiles/mpir"
+			"file" : "/aleth/build/CMakeFiles/mpir"
 		},
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/CMakeFiles/mpir.rule"
+			"file" : "/aleth/build/CMakeFiles/mpir.rule"
 		},
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/CMakeFiles/mpir-complete.rule"
+			"file" : "/aleth/build/CMakeFiles/mpir-complete.rule"
 		},
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/deps/src/mpir-stamp/mpir-install.rule"
+			"file" : "/aleth/build/deps/src/mpir-stamp/mpir-install.rule"
 		},
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/deps/src/mpir-stamp/mpir-mkdir.rule"
+			"file" : "/aleth/build/deps/src/mpir-stamp/mpir-mkdir.rule"
 		},
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/deps/src/mpir-stamp/mpir-download.rule"
+			"file" : "/aleth/build/deps/src/mpir-stamp/mpir-download.rule"
 		},
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/deps/src/mpir-stamp/mpir-update.rule"
+			"file" : "/aleth/build/deps/src/mpir-stamp/mpir-update.rule"
 		},
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/deps/src/mpir-stamp/mpir-patch.rule"
+			"file" : "/aleth/build/deps/src/mpir-stamp/mpir-patch.rule"
 		},
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/deps/src/mpir-stamp/mpir-configure.rule"
+			"file" : "/aleth/build/deps/src/mpir-stamp/mpir-configure.rule"
 		},
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/deps/src/mpir-stamp/mpir-build.rule"
+			"file" : "/aleth/build/deps/src/mpir-stamp/mpir-build.rule"
 		}
 	],
 	"target" : 

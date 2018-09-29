@@ -6,45 +6,45 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/asm_v_wasm.h
+/aleth/build/deps/src/binaryen/src/asm_v_wasm.h
 mixed_arena.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/mixed_arena.h
+/aleth/build/deps/src/binaryen/src/mixed_arena.h
 emscripten-optimizer/optimizer.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/optimizer.h
+/aleth/build/deps/src/binaryen/src/emscripten-optimizer/optimizer.h
 wasm.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/wasm.h
+/aleth/build/deps/src/binaryen/src/wasm.h
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/asmjs/asm_v_wasm.cpp
+/aleth/build/deps/src/binaryen/src/asmjs/asm_v_wasm.cpp
 asm_v_wasm.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/asmjs/asm_v_wasm.h
+/aleth/build/deps/src/binaryen/src/asmjs/asm_v_wasm.h
 wasm.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/asmjs/wasm.h
+/aleth/build/deps/src/binaryen/src/asmjs/wasm.h
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/asmjs/asmangle.cpp
+/aleth/build/deps/src/binaryen/src/asmjs/asmangle.cpp
 asmjs/asmangle.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/asmjs/asmjs/asmangle.h
+/aleth/build/deps/src/binaryen/src/asmjs/asmjs/asmangle.h
 assert.h
 -
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/asmjs/asmangle.h
+/aleth/build/deps/src/binaryen/src/asmjs/asmangle.h
 string
 -
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/asmjs/shared-constants.cpp
+/aleth/build/deps/src/binaryen/src/asmjs/shared-constants.cpp
 asmjs/shared-constants.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/asmjs/asmjs/shared-constants.h
+/aleth/build/deps/src/binaryen/src/asmjs/asmjs/shared-constants.h
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/asmjs/shared-constants.h
+/aleth/build/deps/src/binaryen/src/asmjs/shared-constants.h
 emscripten-optimizer/istring.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/asmjs/emscripten-optimizer/istring.h
+/aleth/build/deps/src/binaryen/src/asmjs/emscripten-optimizer/istring.h
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/compiler-support.h
+/aleth/build/deps/src/binaryen/src/compiler-support.h
 sanitizer/common_interface_defs.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/sanitizer/common_interface_defs.h
+/aleth/build/deps/src/binaryen/src/sanitizer/common_interface_defs.h
 stdlib.h
 -
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/istring.h
+/aleth/build/deps/src/binaryen/src/emscripten-optimizer/istring.h
 unordered_set
 -
 unordered_map
@@ -62,15 +62,15 @@ stdio.h
 assert.h
 -
 support/threads.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/support/threads.h
+/aleth/build/deps/src/binaryen/src/emscripten-optimizer/support/threads.h
 support/utilities.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/support/utilities.h
+/aleth/build/deps/src/binaryen/src/emscripten-optimizer/support/utilities.h
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/optimizer.h
+/aleth/build/deps/src/binaryen/src/emscripten-optimizer/optimizer.h
 simple_ast.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/simple_ast.h
+/aleth/build/deps/src/binaryen/src/emscripten-optimizer/simple_ast.h
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/parser.h
+/aleth/build/deps/src/binaryen/src/emscripten-optimizer/parser.h
 algorithm
 -
 cstdio
@@ -82,11 +82,11 @@ limits
 vector
 -
 istring.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/istring.h
+/aleth/build/deps/src/binaryen/src/emscripten-optimizer/istring.h
 support/safe_integer.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/support/safe_integer.h
+/aleth/build/deps/src/binaryen/src/emscripten-optimizer/support/safe_integer.h
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/simple_ast.h
+/aleth/build/deps/src/binaryen/src/emscripten-optimizer/simple_ast.h
 algorithm
 -
 cassert
@@ -118,31 +118,31 @@ unordered_set
 vector
 -
 parser.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/parser.h
+/aleth/build/deps/src/binaryen/src/emscripten-optimizer/parser.h
 snprintf.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/snprintf.h
+/aleth/build/deps/src/binaryen/src/emscripten-optimizer/snprintf.h
 support/safe_integer.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/support/safe_integer.h
+/aleth/build/deps/src/binaryen/src/emscripten-optimizer/support/safe_integer.h
 mixed_arena.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/mixed_arena.h
+/aleth/build/deps/src/binaryen/src/emscripten-optimizer/mixed_arena.h
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/snprintf.h
+/aleth/build/deps/src/binaryen/src/emscripten-optimizer/snprintf.h
 stdarg.h
 -
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/literal.h
+/aleth/build/deps/src/binaryen/src/literal.h
 iostream
 -
 support/hash.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/hash.h
+/aleth/build/deps/src/binaryen/src/support/hash.h
 support/utilities.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/utilities.h
+/aleth/build/deps/src/binaryen/src/support/utilities.h
 compiler-support.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/compiler-support.h
+/aleth/build/deps/src/binaryen/src/compiler-support.h
 wasm-type.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/wasm-type.h
+/aleth/build/deps/src/binaryen/src/wasm-type.h
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/mixed_arena.h
+/aleth/build/deps/src/binaryen/src/mixed_arena.h
 atomic
 -
 cassert
@@ -158,7 +158,7 @@ thread
 vector
 -
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/bits.h
+/aleth/build/deps/src/binaryen/src/support/bits.h
 climits
 -
 cstdint
@@ -166,23 +166,23 @@ cstdint
 type_traits
 -
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/hash.h
+/aleth/build/deps/src/binaryen/src/support/hash.h
 functional
 -
 stdint.h
 -
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/name.h
+/aleth/build/deps/src/binaryen/src/support/name.h
 cstring
 -
 emscripten-optimizer/istring.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/emscripten-optimizer/istring.h
+/aleth/build/deps/src/binaryen/src/support/emscripten-optimizer/istring.h
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/safe_integer.h
+/aleth/build/deps/src/binaryen/src/support/safe_integer.h
 cstdint
 -
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/threads.h
+/aleth/build/deps/src/binaryen/src/support/threads.h
 atomic
 -
 condition_variable
@@ -198,9 +198,9 @@ thread
 vector
 -
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/utilities.h
+/aleth/build/deps/src/binaryen/src/support/utilities.h
 compiler-support.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/compiler-support.h
+/aleth/build/deps/src/binaryen/src/support/compiler-support.h
 cassert
 -
 cstdint
@@ -214,11 +214,11 @@ iostream
 type_traits
 -
 support/bits.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/support/bits.h
+/aleth/build/deps/src/binaryen/src/support/support/bits.h
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/wasm-type.h
+/aleth/build/deps/src/binaryen/src/wasm-type.h
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/wasm.h
+/aleth/build/deps/src/binaryen/src/wasm.h
 algorithm
 -
 cassert
@@ -230,11 +230,11 @@ string
 vector
 -
 literal.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/literal.h
+/aleth/build/deps/src/binaryen/src/literal.h
 mixed_arena.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/mixed_arena.h
+/aleth/build/deps/src/binaryen/src/mixed_arena.h
 support/name.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/name.h
+/aleth/build/deps/src/binaryen/src/support/name.h
 wasm-type.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/wasm-type.h
+/aleth/build/deps/src/binaryen/src/wasm-type.h
 

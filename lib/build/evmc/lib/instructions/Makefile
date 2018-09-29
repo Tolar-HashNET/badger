@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth
+CMAKE_SOURCE_DIR = /aleth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build
+CMAKE_BINARY_DIR = /aleth/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -93,7 +93,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/ubuntu/moose/aleth/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /aleth/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -104,7 +104,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/ubuntu/moose/aleth/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/ubuntu/moose/aleth/build/CPackSourceConfig.cmake
+	cd /aleth/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /aleth/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -159,14 +159,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles /home/ubuntu/moose/aleth/build/evmc/lib/instructions/CMakeFiles/progress.marks
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 evmc/lib/instructions/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	cd /aleth/build && $(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles /aleth/build/evmc/lib/instructions/CMakeFiles/progress.marks
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 evmc/lib/instructions/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 evmc/lib/instructions/clean
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 evmc/lib/instructions/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 evmc/lib/instructions/preinstall
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 evmc/lib/instructions/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 evmc/lib/instructions/preinstall
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 evmc/lib/instructions/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 evmc/lib/instructions/CMakeFiles/instructions.dir/rule:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 evmc/lib/instructions/CMakeFiles/instructions.dir/rule
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 evmc/lib/instructions/CMakeFiles/instructions.dir/rule
 .PHONY : evmc/lib/instructions/CMakeFiles/instructions.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ instructions: evmc/lib/instructions/CMakeFiles/instructions.dir/rule
 
 # fast build rule for target.
 instructions/fast:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f evmc/lib/instructions/CMakeFiles/instructions.dir/build.make evmc/lib/instructions/CMakeFiles/instructions.dir/build
+	cd /aleth/build && $(MAKE) -f evmc/lib/instructions/CMakeFiles/instructions.dir/build.make evmc/lib/instructions/CMakeFiles/instructions.dir/build
 .PHONY : instructions/fast
 
 instruction_metrics.o: instruction_metrics.c.o
@@ -210,7 +210,7 @@ instruction_metrics.o: instruction_metrics.c.o
 
 # target to build an object file
 instruction_metrics.c.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f evmc/lib/instructions/CMakeFiles/instructions.dir/build.make evmc/lib/instructions/CMakeFiles/instructions.dir/instruction_metrics.c.o
+	cd /aleth/build && $(MAKE) -f evmc/lib/instructions/CMakeFiles/instructions.dir/build.make evmc/lib/instructions/CMakeFiles/instructions.dir/instruction_metrics.c.o
 .PHONY : instruction_metrics.c.o
 
 instruction_metrics.i: instruction_metrics.c.i
@@ -219,7 +219,7 @@ instruction_metrics.i: instruction_metrics.c.i
 
 # target to preprocess a source file
 instruction_metrics.c.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f evmc/lib/instructions/CMakeFiles/instructions.dir/build.make evmc/lib/instructions/CMakeFiles/instructions.dir/instruction_metrics.c.i
+	cd /aleth/build && $(MAKE) -f evmc/lib/instructions/CMakeFiles/instructions.dir/build.make evmc/lib/instructions/CMakeFiles/instructions.dir/instruction_metrics.c.i
 .PHONY : instruction_metrics.c.i
 
 instruction_metrics.s: instruction_metrics.c.s
@@ -228,7 +228,7 @@ instruction_metrics.s: instruction_metrics.c.s
 
 # target to generate assembly for a file
 instruction_metrics.c.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f evmc/lib/instructions/CMakeFiles/instructions.dir/build.make evmc/lib/instructions/CMakeFiles/instructions.dir/instruction_metrics.c.s
+	cd /aleth/build && $(MAKE) -f evmc/lib/instructions/CMakeFiles/instructions.dir/build.make evmc/lib/instructions/CMakeFiles/instructions.dir/instruction_metrics.c.s
 .PHONY : instruction_metrics.c.s
 
 instruction_names.o: instruction_names.c.o
@@ -237,7 +237,7 @@ instruction_names.o: instruction_names.c.o
 
 # target to build an object file
 instruction_names.c.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f evmc/lib/instructions/CMakeFiles/instructions.dir/build.make evmc/lib/instructions/CMakeFiles/instructions.dir/instruction_names.c.o
+	cd /aleth/build && $(MAKE) -f evmc/lib/instructions/CMakeFiles/instructions.dir/build.make evmc/lib/instructions/CMakeFiles/instructions.dir/instruction_names.c.o
 .PHONY : instruction_names.c.o
 
 instruction_names.i: instruction_names.c.i
@@ -246,7 +246,7 @@ instruction_names.i: instruction_names.c.i
 
 # target to preprocess a source file
 instruction_names.c.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f evmc/lib/instructions/CMakeFiles/instructions.dir/build.make evmc/lib/instructions/CMakeFiles/instructions.dir/instruction_names.c.i
+	cd /aleth/build && $(MAKE) -f evmc/lib/instructions/CMakeFiles/instructions.dir/build.make evmc/lib/instructions/CMakeFiles/instructions.dir/instruction_names.c.i
 .PHONY : instruction_names.c.i
 
 instruction_names.s: instruction_names.c.s
@@ -255,7 +255,7 @@ instruction_names.s: instruction_names.c.s
 
 # target to generate assembly for a file
 instruction_names.c.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f evmc/lib/instructions/CMakeFiles/instructions.dir/build.make evmc/lib/instructions/CMakeFiles/instructions.dir/instruction_names.c.s
+	cd /aleth/build && $(MAKE) -f evmc/lib/instructions/CMakeFiles/instructions.dir/build.make evmc/lib/instructions/CMakeFiles/instructions.dir/instruction_names.c.s
 .PHONY : instruction_names.c.s
 
 # Help Target
@@ -291,6 +291,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

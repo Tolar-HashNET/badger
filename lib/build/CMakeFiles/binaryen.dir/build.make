@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth
+CMAKE_SOURCE_DIR = /aleth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build
+CMAKE_BINARY_DIR = /aleth/build
 
 # Utility rule file for binaryen.
 
@@ -64,55 +64,55 @@ CMakeFiles/binaryen-complete: deps/src/binaryen-stamp/binaryen-patch
 CMakeFiles/binaryen-complete: deps/src/binaryen-stamp/binaryen-configure
 CMakeFiles/binaryen-complete: deps/src/binaryen-stamp/binaryen-build
 CMakeFiles/binaryen-complete: deps/src/binaryen-stamp/binaryen-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'binaryen'"
-	/usr/bin/cmake -E make_directory /home/ubuntu/moose/aleth/build/CMakeFiles
-	/usr/bin/cmake -E touch /home/ubuntu/moose/aleth/build/CMakeFiles/binaryen-complete
-	/usr/bin/cmake -E touch /home/ubuntu/moose/aleth/build/deps/src/binaryen-stamp/binaryen-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'binaryen'"
+	/usr/bin/cmake -E make_directory /aleth/build/CMakeFiles
+	/usr/bin/cmake -E touch /aleth/build/CMakeFiles/binaryen-complete
+	/usr/bin/cmake -E touch /aleth/build/deps/src/binaryen-stamp/binaryen-done
 
 deps/src/binaryen-stamp/binaryen-install: deps/src/binaryen-stamp/binaryen-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing install step for 'binaryen'"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) install
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && /usr/bin/cmake -E touch /home/ubuntu/moose/aleth/build/deps/src/binaryen-stamp/binaryen-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing install step for 'binaryen'"
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) install
+	cd /aleth/build/deps/src/binaryen-build && /usr/bin/cmake -E touch /aleth/build/deps/src/binaryen-stamp/binaryen-install
 
 deps/src/binaryen-stamp/binaryen-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'binaryen'"
-	/usr/bin/cmake -E make_directory /home/ubuntu/moose/aleth/build/deps/src/binaryen
-	/usr/bin/cmake -E make_directory /home/ubuntu/moose/aleth/build/deps/src/binaryen-build
-	/usr/bin/cmake -E make_directory /home/ubuntu/moose/aleth/build/deps
-	/usr/bin/cmake -E make_directory /home/ubuntu/moose/aleth/build/deps/tmp
-	/usr/bin/cmake -E make_directory /home/ubuntu/moose/aleth/build/deps/src/binaryen-stamp
-	/usr/bin/cmake -E make_directory /home/ubuntu/moose/aleth/build/deps/downloads
-	/usr/bin/cmake -E touch /home/ubuntu/moose/aleth/build/deps/src/binaryen-stamp/binaryen-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'binaryen'"
+	/usr/bin/cmake -E make_directory /aleth/build/deps/src/binaryen
+	/usr/bin/cmake -E make_directory /aleth/build/deps/src/binaryen-build
+	/usr/bin/cmake -E make_directory /aleth/build/deps
+	/usr/bin/cmake -E make_directory /aleth/build/deps/tmp
+	/usr/bin/cmake -E make_directory /aleth/build/deps/src/binaryen-stamp
+	/usr/bin/cmake -E make_directory /aleth/build/deps/downloads
+	/usr/bin/cmake -E touch /aleth/build/deps/src/binaryen-stamp/binaryen-mkdir
 
 deps/src/binaryen-stamp/binaryen-download: deps/src/binaryen-stamp/binaryen-urlinfo.txt
 deps/src/binaryen-stamp/binaryen-download: deps/src/binaryen-stamp/binaryen-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'binaryen'"
-	cd /home/ubuntu/moose/aleth/build/deps/src && /usr/bin/cmake -P /home/ubuntu/moose/aleth/build/deps/src/binaryen-stamp/download-binaryen.cmake
-	cd /home/ubuntu/moose/aleth/build/deps/src && /usr/bin/cmake -P /home/ubuntu/moose/aleth/build/deps/src/binaryen-stamp/verify-binaryen.cmake
-	cd /home/ubuntu/moose/aleth/build/deps/src && /usr/bin/cmake -P /home/ubuntu/moose/aleth/build/deps/src/binaryen-stamp/extract-binaryen.cmake
-	cd /home/ubuntu/moose/aleth/build/deps/src && /usr/bin/cmake -E touch /home/ubuntu/moose/aleth/build/deps/src/binaryen-stamp/binaryen-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'binaryen'"
+	cd /aleth/build/deps/src && /usr/bin/cmake -P /aleth/build/deps/src/binaryen-stamp/download-binaryen.cmake
+	cd /aleth/build/deps/src && /usr/bin/cmake -P /aleth/build/deps/src/binaryen-stamp/verify-binaryen.cmake
+	cd /aleth/build/deps/src && /usr/bin/cmake -P /aleth/build/deps/src/binaryen-stamp/extract-binaryen.cmake
+	cd /aleth/build/deps/src && /usr/bin/cmake -E touch /aleth/build/deps/src/binaryen-stamp/binaryen-download
 
 deps/src/binaryen-stamp/binaryen-update: deps/src/binaryen-stamp/binaryen-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'binaryen'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'binaryen'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/ubuntu/moose/aleth/build/deps/src/binaryen-stamp/binaryen-update
+	/usr/bin/cmake -E touch /aleth/build/deps/src/binaryen-stamp/binaryen-update
 
 deps/src/binaryen-stamp/binaryen-patch: deps/src/binaryen-stamp/binaryen-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'binaryen'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'binaryen'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/ubuntu/moose/aleth/build/deps/src/binaryen-stamp/binaryen-patch
+	/usr/bin/cmake -E touch /aleth/build/deps/src/binaryen-stamp/binaryen-patch
 
 deps/src/binaryen-stamp/binaryen-configure: deps/tmp/binaryen-cfgcmd.txt
 deps/src/binaryen-stamp/binaryen-configure: deps/src/binaryen-stamp/binaryen-update
 deps/src/binaryen-stamp/binaryen-configure: deps/src/binaryen-stamp/binaryen-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'binaryen'"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && /usr/bin/cmake -DCMAKE_INSTALL_PREFIX=/home/ubuntu/moose/aleth/build/deps -DCMAKE_BUILD_TYPE=Release -DBUILD_STATIC_LIB=ON "-GUnix Makefiles" /home/ubuntu/moose/aleth/build/deps/src/binaryen
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && /usr/bin/cmake -E touch /home/ubuntu/moose/aleth/build/deps/src/binaryen-stamp/binaryen-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'binaryen'"
+	cd /aleth/build/deps/src/binaryen-build && /usr/bin/cmake -DCMAKE_INSTALL_PREFIX=/aleth/build/deps -DCMAKE_BUILD_TYPE=Release -DBUILD_STATIC_LIB=ON "-GUnix Makefiles" /aleth/build/deps/src/binaryen
+	cd /aleth/build/deps/src/binaryen-build && /usr/bin/cmake -E touch /aleth/build/deps/src/binaryen-stamp/binaryen-configure
 
 deps/src/binaryen-stamp/binaryen-build: deps/src/binaryen-stamp/binaryen-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'binaryen'"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE)
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && /usr/bin/cmake -E touch /home/ubuntu/moose/aleth/build/deps/src/binaryen-stamp/binaryen-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'binaryen'"
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE)
+	cd /aleth/build/deps/src/binaryen-build && /usr/bin/cmake -E touch /aleth/build/deps/src/binaryen-stamp/binaryen-build
 
 binaryen: CMakeFiles/binaryen
 binaryen: CMakeFiles/binaryen-complete
@@ -137,6 +137,6 @@ CMakeFiles/binaryen.dir/clean:
 .PHONY : CMakeFiles/binaryen.dir/clean
 
 CMakeFiles/binaryen.dir/depend:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth /home/ubuntu/moose/aleth /home/ubuntu/moose/aleth/build /home/ubuntu/moose/aleth/build /home/ubuntu/moose/aleth/build/CMakeFiles/binaryen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth /aleth /aleth/build /aleth/build /aleth/build/CMakeFiles/binaryen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/binaryen.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen
+CMAKE_SOURCE_DIR = /aleth/build/deps/src/binaryen
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen-build
+CMAKE_BINARY_DIR = /aleth/build/deps/src/binaryen-build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/wasm-shell.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/wasm-shell.dir/progress.make
 include CMakeFiles/wasm-shell.dir/flags.make
 
 CMakeFiles/wasm-shell.dir/src/tools/wasm-shell.cpp.o: CMakeFiles/wasm-shell.dir/flags.make
-CMakeFiles/wasm-shell.dir/src/tools/wasm-shell.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/tools/wasm-shell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/wasm-shell.dir/src/tools/wasm-shell.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wasm-shell.dir/src/tools/wasm-shell.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/tools/wasm-shell.cpp
+CMakeFiles/wasm-shell.dir/src/tools/wasm-shell.cpp.o: /aleth/build/deps/src/binaryen/src/tools/wasm-shell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/wasm-shell.dir/src/tools/wasm-shell.cpp.o"
+	/usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wasm-shell.dir/src/tools/wasm-shell.cpp.o -c /aleth/build/deps/src/binaryen/src/tools/wasm-shell.cpp
 
 CMakeFiles/wasm-shell.dir/src/tools/wasm-shell.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wasm-shell.dir/src/tools/wasm-shell.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/tools/wasm-shell.cpp > CMakeFiles/wasm-shell.dir/src/tools/wasm-shell.cpp.i
+	/usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/tools/wasm-shell.cpp > CMakeFiles/wasm-shell.dir/src/tools/wasm-shell.cpp.i
 
 CMakeFiles/wasm-shell.dir/src/tools/wasm-shell.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wasm-shell.dir/src/tools/wasm-shell.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/tools/wasm-shell.cpp -o CMakeFiles/wasm-shell.dir/src/tools/wasm-shell.cpp.s
+	/usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/tools/wasm-shell.cpp -o CMakeFiles/wasm-shell.dir/src/tools/wasm-shell.cpp.s
 
 CMakeFiles/wasm-shell.dir/src/tools/wasm-shell.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/wasm-shell.dir/src/tools/wasm-shell.cpp.o.provides.build: CMakeFiles/
 
 
 CMakeFiles/wasm-shell.dir/src/wasm-interpreter.cpp.o: CMakeFiles/wasm-shell.dir/flags.make
-CMakeFiles/wasm-shell.dir/src/wasm-interpreter.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/wasm-interpreter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/wasm-shell.dir/src/wasm-interpreter.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wasm-shell.dir/src/wasm-interpreter.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/wasm-interpreter.cpp
+CMakeFiles/wasm-shell.dir/src/wasm-interpreter.cpp.o: /aleth/build/deps/src/binaryen/src/wasm-interpreter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/wasm-shell.dir/src/wasm-interpreter.cpp.o"
+	/usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wasm-shell.dir/src/wasm-interpreter.cpp.o -c /aleth/build/deps/src/binaryen/src/wasm-interpreter.cpp
 
 CMakeFiles/wasm-shell.dir/src/wasm-interpreter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wasm-shell.dir/src/wasm-interpreter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/wasm-interpreter.cpp > CMakeFiles/wasm-shell.dir/src/wasm-interpreter.cpp.i
+	/usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/wasm-interpreter.cpp > CMakeFiles/wasm-shell.dir/src/wasm-interpreter.cpp.i
 
 CMakeFiles/wasm-shell.dir/src/wasm-interpreter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wasm-shell.dir/src/wasm-interpreter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/wasm-interpreter.cpp -o CMakeFiles/wasm-shell.dir/src/wasm-interpreter.cpp.s
+	/usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/wasm-interpreter.cpp -o CMakeFiles/wasm-shell.dir/src/wasm-interpreter.cpp.s
 
 CMakeFiles/wasm-shell.dir/src/wasm-interpreter.cpp.o.requires:
 
@@ -124,7 +124,7 @@ bin/wasm-shell: lib/libir.a
 bin/wasm-shell: lib/libcfg.a
 bin/wasm-shell: lib/libsupport.a
 bin/wasm-shell: CMakeFiles/wasm-shell.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bin/wasm-shell"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bin/wasm-shell"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wasm-shell.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -142,6 +142,6 @@ CMakeFiles/wasm-shell.dir/clean:
 .PHONY : CMakeFiles/wasm-shell.dir/clean
 
 CMakeFiles/wasm-shell.dir/depend:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth/build/deps/src/binaryen /home/ubuntu/moose/aleth/build/deps/src/binaryen /home/ubuntu/moose/aleth/build/deps/src/binaryen-build /home/ubuntu/moose/aleth/build/deps/src/binaryen-build /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles/wasm-shell.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth/build/deps/src/binaryen /aleth/build/deps/src/binaryen /aleth/build/deps/src/binaryen-build /aleth/build/deps/src/binaryen-build /aleth/build/deps/src/binaryen-build/CMakeFiles/wasm-shell.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/wasm-shell.dir/depend
 

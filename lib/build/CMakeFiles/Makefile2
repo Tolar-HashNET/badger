@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth
+CMAKE_SOURCE_DIR = /aleth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build
+CMAKE_BINARY_DIR = /aleth/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/aleth-buildinfo.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build
 CMakeFiles/aleth-buildinfo.dir/all: CMakeFiles/aleth-buildinfo-git.dir/all
 	$(MAKE) -f CMakeFiles/aleth-buildinfo.dir/build.make CMakeFiles/aleth-buildinfo.dir/depend
 	$(MAKE) -f CMakeFiles/aleth-buildinfo.dir/build.make CMakeFiles/aleth-buildinfo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=2 "Built target aleth-buildinfo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/CMakeFiles --progress-num=2 "Built target aleth-buildinfo"
 .PHONY : CMakeFiles/aleth-buildinfo.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/aleth-buildinfo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/aleth-buildinfo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/aleth-buildinfo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : CMakeFiles/aleth-buildinfo.dir/rule
 
 # Convenience name for target.
@@ -103,7 +103,7 @@ clean: CMakeFiles/aleth-buildinfo.dir/clean
 CMakeFiles/libff.dir/all: CMakeFiles/mpir.dir/all
 	$(MAKE) -f CMakeFiles/libff.dir/build.make CMakeFiles/libff.dir/depend
 	$(MAKE) -f CMakeFiles/libff.dir/build.make CMakeFiles/libff.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=49,50,51 "Built target libff"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/CMakeFiles --progress-num=49,50,51 "Built target libff"
 .PHONY : CMakeFiles/libff.dir/all
 
 # Include target in all.
@@ -113,9 +113,9 @@ all: CMakeFiles/libff.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/libff.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/libff.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : CMakeFiles/libff.dir/rule
 
 # Convenience name for target.
@@ -140,14 +140,14 @@ clean: CMakeFiles/libff.dir/clean
 CMakeFiles/aleth-buildinfo-git.dir/all:
 	$(MAKE) -f CMakeFiles/aleth-buildinfo-git.dir/build.make CMakeFiles/aleth-buildinfo-git.dir/depend
 	$(MAKE) -f CMakeFiles/aleth-buildinfo-git.dir/build.make CMakeFiles/aleth-buildinfo-git.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num= "Built target aleth-buildinfo-git"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/CMakeFiles --progress-num= "Built target aleth-buildinfo-git"
 .PHONY : CMakeFiles/aleth-buildinfo-git.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/aleth-buildinfo-git.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/aleth-buildinfo-git.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : CMakeFiles/aleth-buildinfo-git.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ clean: CMakeFiles/aleth-buildinfo-git.dir/clean
 CMakeFiles/secp256k1.dir/all:
 	$(MAKE) -f CMakeFiles/secp256k1.dir/build.make CMakeFiles/secp256k1.dir/depend
 	$(MAKE) -f CMakeFiles/secp256k1.dir/build.make CMakeFiles/secp256k1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=62,63,64 "Built target secp256k1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/CMakeFiles --progress-num=62,63,64 "Built target secp256k1"
 .PHONY : CMakeFiles/secp256k1.dir/all
 
 # Include target in all.
@@ -182,9 +182,9 @@ all: CMakeFiles/secp256k1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/secp256k1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/secp256k1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : CMakeFiles/secp256k1.dir/rule
 
 # Convenience name for target.
@@ -209,7 +209,7 @@ clean: CMakeFiles/secp256k1.dir/clean
 CMakeFiles/mpir.dir/all:
 	$(MAKE) -f CMakeFiles/mpir.dir/build.make CMakeFiles/mpir.dir/depend
 	$(MAKE) -f CMakeFiles/mpir.dir/build.make CMakeFiles/mpir.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=53,54,55 "Built target mpir"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/CMakeFiles --progress-num=53,54,55 "Built target mpir"
 .PHONY : CMakeFiles/mpir.dir/all
 
 # Include target in all.
@@ -219,9 +219,9 @@ all: CMakeFiles/mpir.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mpir.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mpir.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : CMakeFiles/mpir.dir/rule
 
 # Convenience name for target.
@@ -246,7 +246,7 @@ clean: CMakeFiles/mpir.dir/clean
 CMakeFiles/binaryen.dir/all:
 	$(MAKE) -f CMakeFiles/binaryen.dir/build.make CMakeFiles/binaryen.dir/depend
 	$(MAKE) -f CMakeFiles/binaryen.dir/build.make CMakeFiles/binaryen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=7,8,9 "Built target binaryen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/CMakeFiles --progress-num=7,8,9 "Built target binaryen"
 .PHONY : CMakeFiles/binaryen.dir/all
 
 # Include target in all.
@@ -256,9 +256,9 @@ all: CMakeFiles/binaryen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/binaryen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/binaryen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : CMakeFiles/binaryen.dir/rule
 
 # Convenience name for target.
@@ -340,7 +340,7 @@ evmc/lib/instructions/preinstall:
 evmc/lib/instructions/CMakeFiles/instructions.dir/all:
 	$(MAKE) -f evmc/lib/instructions/CMakeFiles/instructions.dir/build.make evmc/lib/instructions/CMakeFiles/instructions.dir/depend
 	$(MAKE) -f evmc/lib/instructions/CMakeFiles/instructions.dir/build.make evmc/lib/instructions/CMakeFiles/instructions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=47,48 "Built target instructions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/CMakeFiles --progress-num=47,48 "Built target instructions"
 .PHONY : evmc/lib/instructions/CMakeFiles/instructions.dir/all
 
 # Include target in all.
@@ -350,9 +350,9 @@ all: evmc/lib/instructions/CMakeFiles/instructions.dir/all
 
 # Build rule for subdir invocation for target.
 evmc/lib/instructions/CMakeFiles/instructions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 evmc/lib/instructions/CMakeFiles/instructions.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : evmc/lib/instructions/CMakeFiles/instructions.dir/rule
 
 # Convenience name for target.
@@ -395,7 +395,7 @@ evmc/lib/loader/preinstall:
 evmc/lib/loader/CMakeFiles/loader.dir/all:
 	$(MAKE) -f evmc/lib/loader/CMakeFiles/loader.dir/build.make evmc/lib/loader/CMakeFiles/loader.dir/depend
 	$(MAKE) -f evmc/lib/loader/CMakeFiles/loader.dir/build.make evmc/lib/loader/CMakeFiles/loader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=52 "Built target loader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/CMakeFiles --progress-num=52 "Built target loader"
 .PHONY : evmc/lib/loader/CMakeFiles/loader.dir/all
 
 # Include target in all.
@@ -405,9 +405,9 @@ all: evmc/lib/loader/CMakeFiles/loader.dir/all
 
 # Build rule for subdir invocation for target.
 evmc/lib/loader/CMakeFiles/loader.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 evmc/lib/loader/CMakeFiles/loader.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : evmc/lib/loader/CMakeFiles/loader.dir/rule
 
 # Convenience name for target.
@@ -452,7 +452,7 @@ libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/all: evmc/lib/instructions
 libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/all: libdevcore/CMakeFiles/devcore.dir/all
 	$(MAKE) -f libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/build.make libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/depend
 	$(MAKE) -f libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/build.make libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=3,4 "Built target aleth-interpreter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/CMakeFiles --progress-num=3,4 "Built target aleth-interpreter"
 .PHONY : libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/all
 
 # Include target in all.
@@ -462,9 +462,9 @@ all: libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/all
 
 # Build rule for subdir invocation for target.
 libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 14
 	$(MAKE) -f CMakeFiles/Makefile2 libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/rule
 
 # Convenience name for target.
@@ -507,7 +507,7 @@ libdevcore/preinstall:
 libdevcore/CMakeFiles/devcore.dir/all: CMakeFiles/aleth-buildinfo.dir/all
 	$(MAKE) -f libdevcore/CMakeFiles/devcore.dir/build.make libdevcore/CMakeFiles/devcore.dir/depend
 	$(MAKE) -f libdevcore/CMakeFiles/devcore.dir/build.make libdevcore/CMakeFiles/devcore.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=10,11,12,13,14,15,16,17,18 "Built target devcore"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/CMakeFiles --progress-num=10,11,12,13,14,15,16,17,18 "Built target devcore"
 .PHONY : libdevcore/CMakeFiles/devcore.dir/all
 
 # Include target in all.
@@ -517,9 +517,9 @@ all: libdevcore/CMakeFiles/devcore.dir/all
 
 # Build rule for subdir invocation for target.
 libdevcore/CMakeFiles/devcore.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 libdevcore/CMakeFiles/devcore.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : libdevcore/CMakeFiles/devcore.dir/rule
 
 # Convenience name for target.
@@ -566,7 +566,7 @@ libdevcrypto/CMakeFiles/devcrypto.dir/all: CMakeFiles/mpir.dir/all
 libdevcrypto/CMakeFiles/devcrypto.dir/all: libdevcore/CMakeFiles/devcore.dir/all
 	$(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/depend
 	$(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=19,20,21 "Built target devcrypto"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/CMakeFiles --progress-num=19,20,21 "Built target devcrypto"
 .PHONY : libdevcrypto/CMakeFiles/devcrypto.dir/all
 
 # Include target in all.
@@ -576,9 +576,9 @@ all: libdevcrypto/CMakeFiles/devcrypto.dir/all
 
 # Build rule for subdir invocation for target.
 libdevcrypto/CMakeFiles/devcrypto.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 22
 	$(MAKE) -f CMakeFiles/Makefile2 libdevcrypto/CMakeFiles/devcrypto.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : libdevcrypto/CMakeFiles/devcrypto.dir/rule
 
 # Convenience name for target.
@@ -626,7 +626,7 @@ libp2p/CMakeFiles/p2p.dir/all: libdevcore/CMakeFiles/devcore.dir/all
 libp2p/CMakeFiles/p2p.dir/all: libdevcrypto/CMakeFiles/devcrypto.dir/all
 	$(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/depend
 	$(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=56,57,58,59,60 "Built target p2p"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/CMakeFiles --progress-num=56,57,58,59,60 "Built target p2p"
 .PHONY : libp2p/CMakeFiles/p2p.dir/all
 
 # Include target in all.
@@ -636,9 +636,9 @@ all: libp2p/CMakeFiles/p2p.dir/all
 
 # Build rule for subdir invocation for target.
 libp2p/CMakeFiles/p2p.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 27
 	$(MAKE) -f CMakeFiles/Makefile2 libp2p/CMakeFiles/p2p.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : libp2p/CMakeFiles/p2p.dir/rule
 
 # Convenience name for target.
@@ -686,7 +686,7 @@ libethcore/CMakeFiles/ethcore.dir/all: libdevcore/CMakeFiles/devcore.dir/all
 libethcore/CMakeFiles/ethcore.dir/all: libdevcrypto/CMakeFiles/devcrypto.dir/all
 	$(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/depend
 	$(MAKE) -f libethcore/CMakeFiles/ethcore.dir/build.make libethcore/CMakeFiles/ethcore.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=25,26,27,28 "Built target ethcore"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/CMakeFiles --progress-num=25,26,27,28 "Built target ethcore"
 .PHONY : libethcore/CMakeFiles/ethcore.dir/all
 
 # Include target in all.
@@ -696,9 +696,9 @@ all: libethcore/CMakeFiles/ethcore.dir/all
 
 # Build rule for subdir invocation for target.
 libethcore/CMakeFiles/ethcore.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 26
 	$(MAKE) -f CMakeFiles/Makefile2 libethcore/CMakeFiles/ethcore.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : libethcore/CMakeFiles/ethcore.dir/rule
 
 # Convenience name for target.
@@ -750,7 +750,7 @@ libevm/CMakeFiles/evm.dir/all: libdevcrypto/CMakeFiles/devcrypto.dir/all
 libevm/CMakeFiles/evm.dir/all: libethcore/CMakeFiles/ethcore.dir/all
 	$(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/depend
 	$(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=44,45,46 "Built target evm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/CMakeFiles --progress-num=44,45,46 "Built target evm"
 .PHONY : libevm/CMakeFiles/evm.dir/all
 
 # Include target in all.
@@ -760,9 +760,9 @@ all: libevm/CMakeFiles/evm.dir/all
 
 # Build rule for subdir invocation for target.
 libevm/CMakeFiles/evm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 34
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 34
 	$(MAKE) -f CMakeFiles/Makefile2 libevm/CMakeFiles/evm.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : libevm/CMakeFiles/evm.dir/rule
 
 # Convenience name for target.
@@ -816,7 +816,7 @@ libethereum/CMakeFiles/ethereum.dir/all: libethcore/CMakeFiles/ethcore.dir/all
 libethereum/CMakeFiles/ethereum.dir/all: libevm/CMakeFiles/evm.dir/all
 	$(MAKE) -f libethereum/CMakeFiles/ethereum.dir/build.make libethereum/CMakeFiles/ethereum.dir/depend
 	$(MAKE) -f libethereum/CMakeFiles/ethereum.dir/build.make libethereum/CMakeFiles/ethereum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=29,30,31,32,33,34,35,36,37,38,39,40,41,42,43 "Built target ethereum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/CMakeFiles --progress-num=29,30,31,32,33,34,35,36,37,38,39,40,41,42,43 "Built target ethereum"
 .PHONY : libethereum/CMakeFiles/ethereum.dir/all
 
 # Include target in all.
@@ -826,9 +826,9 @@ all: libethereum/CMakeFiles/ethereum.dir/all
 
 # Build rule for subdir invocation for target.
 libethereum/CMakeFiles/ethereum.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 54
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 54
 	$(MAKE) -f CMakeFiles/Makefile2 libethereum/CMakeFiles/ethereum.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : libethereum/CMakeFiles/ethereum.dir/rule
 
 # Convenience name for target.
@@ -883,7 +883,7 @@ libethashseal/CMakeFiles/ethashseal.dir/all: libevm/CMakeFiles/evm.dir/all
 libethashseal/CMakeFiles/ethashseal.dir/all: libethereum/CMakeFiles/ethereum.dir/all
 	$(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/depend
 	$(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=22,23,24 "Built target ethashseal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/CMakeFiles --progress-num=22,23,24 "Built target ethashseal"
 .PHONY : libethashseal/CMakeFiles/ethashseal.dir/all
 
 # Include target in all.
@@ -893,9 +893,9 @@ all: libethashseal/CMakeFiles/ethashseal.dir/all
 
 # Build rule for subdir invocation for target.
 libethashseal/CMakeFiles/ethashseal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 57
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 57
 	$(MAKE) -f CMakeFiles/Makefile2 libethashseal/CMakeFiles/ethashseal.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : libethashseal/CMakeFiles/ethashseal.dir/rule
 
 # Convenience name for target.
@@ -950,7 +950,7 @@ libwebthree/CMakeFiles/webthree.dir/all: libevm/CMakeFiles/evm.dir/all
 libwebthree/CMakeFiles/webthree.dir/all: libethereum/CMakeFiles/ethereum.dir/all
 	$(MAKE) -f libwebthree/CMakeFiles/webthree.dir/build.make libwebthree/CMakeFiles/webthree.dir/depend
 	$(MAKE) -f libwebthree/CMakeFiles/webthree.dir/build.make libwebthree/CMakeFiles/webthree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=100 "Built target webthree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/CMakeFiles --progress-num=100 "Built target webthree"
 .PHONY : libwebthree/CMakeFiles/webthree.dir/all
 
 # Include target in all.
@@ -960,9 +960,9 @@ all: libwebthree/CMakeFiles/webthree.dir/all
 
 # Build rule for subdir invocation for target.
 libwebthree/CMakeFiles/webthree.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 55
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 55
 	$(MAKE) -f CMakeFiles/Makefile2 libwebthree/CMakeFiles/webthree.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : libwebthree/CMakeFiles/webthree.dir/rule
 
 # Convenience name for target.
@@ -1019,7 +1019,7 @@ libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/all: libethashseal/CMakeFiles/ethashse
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/all: libwebthree/CMakeFiles/webthree.dir/all
 	$(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/depend
 	$(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=94,95,96,97,98,99 "Built target web3jsonrpc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/CMakeFiles --progress-num=94,95,96,97,98,99 "Built target web3jsonrpc"
 .PHONY : libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/all
 
 # Include target in all.
@@ -1029,9 +1029,9 @@ all: libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/all
 
 # Build rule for subdir invocation for target.
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 64
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 64
 	$(MAKE) -f CMakeFiles/Makefile2 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/rule
 
 # Convenience name for target.
@@ -1089,7 +1089,7 @@ aleth/CMakeFiles/aleth.dir/all: libwebthree/CMakeFiles/webthree.dir/all
 aleth/CMakeFiles/aleth.dir/all: libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/all
 	$(MAKE) -f aleth/CMakeFiles/aleth.dir/build.make aleth/CMakeFiles/aleth.dir/depend
 	$(MAKE) -f aleth/CMakeFiles/aleth.dir/build.make aleth/CMakeFiles/aleth.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=1 "Built target aleth"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/CMakeFiles --progress-num=1 "Built target aleth"
 .PHONY : aleth/CMakeFiles/aleth.dir/all
 
 # Include target in all.
@@ -1099,9 +1099,9 @@ all: aleth/CMakeFiles/aleth.dir/all
 
 # Build rule for subdir invocation for target.
 aleth/CMakeFiles/aleth.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 65
 	$(MAKE) -f CMakeFiles/Makefile2 aleth/CMakeFiles/aleth.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : aleth/CMakeFiles/aleth.dir/rule
 
 # Convenience name for target.
@@ -1150,7 +1150,7 @@ aleth-key/CMakeFiles/aleth-key.dir/all: libdevcrypto/CMakeFiles/devcrypto.dir/al
 aleth-key/CMakeFiles/aleth-key.dir/all: libethcore/CMakeFiles/ethcore.dir/all
 	$(MAKE) -f aleth-key/CMakeFiles/aleth-key.dir/build.make aleth-key/CMakeFiles/aleth-key.dir/depend
 	$(MAKE) -f aleth-key/CMakeFiles/aleth-key.dir/build.make aleth-key/CMakeFiles/aleth-key.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=5 "Built target aleth-key"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/CMakeFiles --progress-num=5 "Built target aleth-key"
 .PHONY : aleth-key/CMakeFiles/aleth-key.dir/all
 
 # Include target in all.
@@ -1160,9 +1160,9 @@ all: aleth-key/CMakeFiles/aleth-key.dir/all
 
 # Build rule for subdir invocation for target.
 aleth-key/CMakeFiles/aleth-key.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 27
 	$(MAKE) -f CMakeFiles/Makefile2 aleth-key/CMakeFiles/aleth-key.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : aleth-key/CMakeFiles/aleth-key.dir/rule
 
 # Convenience name for target.
@@ -1218,7 +1218,7 @@ aleth-vm/CMakeFiles/aleth-vm.dir/all: libethereum/CMakeFiles/ethereum.dir/all
 aleth-vm/CMakeFiles/aleth-vm.dir/all: libethashseal/CMakeFiles/ethashseal.dir/all
 	$(MAKE) -f aleth-vm/CMakeFiles/aleth-vm.dir/build.make aleth-vm/CMakeFiles/aleth-vm.dir/depend
 	$(MAKE) -f aleth-vm/CMakeFiles/aleth-vm.dir/build.make aleth-vm/CMakeFiles/aleth-vm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=6 "Built target aleth-vm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/CMakeFiles --progress-num=6 "Built target aleth-vm"
 .PHONY : aleth-vm/CMakeFiles/aleth-vm.dir/all
 
 # Include target in all.
@@ -1228,9 +1228,9 @@ all: aleth-vm/CMakeFiles/aleth-vm.dir/all
 
 # Build rule for subdir invocation for target.
 aleth-vm/CMakeFiles/aleth-vm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 58
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 58
 	$(MAKE) -f CMakeFiles/Makefile2 aleth-vm/CMakeFiles/aleth-vm.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : aleth-vm/CMakeFiles/aleth-vm.dir/rule
 
 # Convenience name for target.
@@ -1278,7 +1278,7 @@ rlp/CMakeFiles/rlp.dir/all: libdevcore/CMakeFiles/devcore.dir/all
 rlp/CMakeFiles/rlp.dir/all: libdevcrypto/CMakeFiles/devcrypto.dir/all
 	$(MAKE) -f rlp/CMakeFiles/rlp.dir/build.make rlp/CMakeFiles/rlp.dir/depend
 	$(MAKE) -f rlp/CMakeFiles/rlp.dir/build.make rlp/CMakeFiles/rlp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=61 "Built target rlp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/CMakeFiles --progress-num=61 "Built target rlp"
 .PHONY : rlp/CMakeFiles/rlp.dir/all
 
 # Include target in all.
@@ -1288,9 +1288,9 @@ all: rlp/CMakeFiles/rlp.dir/all
 
 # Build rule for subdir invocation for target.
 rlp/CMakeFiles/rlp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 23
 	$(MAKE) -f CMakeFiles/Makefile2 rlp/CMakeFiles/rlp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : rlp/CMakeFiles/rlp.dir/rule
 
 # Convenience name for target.
@@ -1334,14 +1334,14 @@ test/preinstall:
 test/CMakeFiles/test.ClientBase.dir/all: test/CMakeFiles/testeth.dir/all
 	$(MAKE) -f test/CMakeFiles/test.ClientBase.dir/build.make test/CMakeFiles/test.ClientBase.dir/depend
 	$(MAKE) -f test/CMakeFiles/test.ClientBase.dir/build.make test/CMakeFiles/test.ClientBase.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num= "Built target test.ClientBase"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/CMakeFiles --progress-num= "Built target test.ClientBase"
 .PHONY : test/CMakeFiles/test.ClientBase.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/test.ClientBase.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 96
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 96
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/test.ClientBase.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : test/CMakeFiles/test.ClientBase.dir/rule
 
 # Convenience name for target.
@@ -1382,7 +1382,7 @@ test/CMakeFiles/testeth.dir/all: libwebthree/CMakeFiles/webthree.dir/all
 test/CMakeFiles/testeth.dir/all: libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/all
 	$(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/depend
 	$(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93 "Built target testeth"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/CMakeFiles --progress-num=65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93 "Built target testeth"
 .PHONY : test/CMakeFiles/testeth.dir/all
 
 # Include target in all.
@@ -1392,9 +1392,9 @@ all: test/CMakeFiles/testeth.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/testeth.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 96
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 96
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/testeth.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : test/CMakeFiles/testeth.dir/rule
 
 # Convenience name for target.

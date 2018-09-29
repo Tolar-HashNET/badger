@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen
+CMAKE_SOURCE_DIR = /aleth/build/deps/src/binaryen
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen-build
+CMAKE_BINARY_DIR = /aleth/build/deps/src/binaryen-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/passes/CMakeFiles/progress.marks
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/passes/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 0
+	cd /aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles /aleth/build/deps/src/binaryen-build/src/passes/CMakeFiles/progress.marks
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/passes/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/passes/clean
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/passes/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/passes/preinstall
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/passes/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/passes/preinstall
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/passes/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/passes/CMakeFiles/passes.dir/rule:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/passes/CMakeFiles/passes.dir/rule
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/passes/CMakeFiles/passes.dir/rule
 .PHONY : src/passes/CMakeFiles/passes.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ passes: src/passes/CMakeFiles/passes.dir/rule
 
 # fast build rule for target.
 passes/fast:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/build
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/build
 .PHONY : passes/fast
 
 CoalesceLocals.o: CoalesceLocals.cpp.o
@@ -177,7 +177,7 @@ CoalesceLocals.o: CoalesceLocals.cpp.o
 
 # target to build an object file
 CoalesceLocals.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/CoalesceLocals.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/CoalesceLocals.cpp.o
 .PHONY : CoalesceLocals.cpp.o
 
 CoalesceLocals.i: CoalesceLocals.cpp.i
@@ -186,7 +186,7 @@ CoalesceLocals.i: CoalesceLocals.cpp.i
 
 # target to preprocess a source file
 CoalesceLocals.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/CoalesceLocals.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/CoalesceLocals.cpp.i
 .PHONY : CoalesceLocals.cpp.i
 
 CoalesceLocals.s: CoalesceLocals.cpp.s
@@ -195,7 +195,7 @@ CoalesceLocals.s: CoalesceLocals.cpp.s
 
 # target to generate assembly for a file
 CoalesceLocals.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/CoalesceLocals.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/CoalesceLocals.cpp.s
 .PHONY : CoalesceLocals.cpp.s
 
 CodeFolding.o: CodeFolding.cpp.o
@@ -204,7 +204,7 @@ CodeFolding.o: CodeFolding.cpp.o
 
 # target to build an object file
 CodeFolding.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/CodeFolding.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/CodeFolding.cpp.o
 .PHONY : CodeFolding.cpp.o
 
 CodeFolding.i: CodeFolding.cpp.i
@@ -213,7 +213,7 @@ CodeFolding.i: CodeFolding.cpp.i
 
 # target to preprocess a source file
 CodeFolding.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/CodeFolding.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/CodeFolding.cpp.i
 .PHONY : CodeFolding.cpp.i
 
 CodeFolding.s: CodeFolding.cpp.s
@@ -222,7 +222,7 @@ CodeFolding.s: CodeFolding.cpp.s
 
 # target to generate assembly for a file
 CodeFolding.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/CodeFolding.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/CodeFolding.cpp.s
 .PHONY : CodeFolding.cpp.s
 
 CodePushing.o: CodePushing.cpp.o
@@ -231,7 +231,7 @@ CodePushing.o: CodePushing.cpp.o
 
 # target to build an object file
 CodePushing.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/CodePushing.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/CodePushing.cpp.o
 .PHONY : CodePushing.cpp.o
 
 CodePushing.i: CodePushing.cpp.i
@@ -240,7 +240,7 @@ CodePushing.i: CodePushing.cpp.i
 
 # target to preprocess a source file
 CodePushing.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/CodePushing.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/CodePushing.cpp.i
 .PHONY : CodePushing.cpp.i
 
 CodePushing.s: CodePushing.cpp.s
@@ -249,7 +249,7 @@ CodePushing.s: CodePushing.cpp.s
 
 # target to generate assembly for a file
 CodePushing.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/CodePushing.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/CodePushing.cpp.s
 .PHONY : CodePushing.cpp.s
 
 ConstHoisting.o: ConstHoisting.cpp.o
@@ -258,7 +258,7 @@ ConstHoisting.o: ConstHoisting.cpp.o
 
 # target to build an object file
 ConstHoisting.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ConstHoisting.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ConstHoisting.cpp.o
 .PHONY : ConstHoisting.cpp.o
 
 ConstHoisting.i: ConstHoisting.cpp.i
@@ -267,7 +267,7 @@ ConstHoisting.i: ConstHoisting.cpp.i
 
 # target to preprocess a source file
 ConstHoisting.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ConstHoisting.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ConstHoisting.cpp.i
 .PHONY : ConstHoisting.cpp.i
 
 ConstHoisting.s: ConstHoisting.cpp.s
@@ -276,7 +276,7 @@ ConstHoisting.s: ConstHoisting.cpp.s
 
 # target to generate assembly for a file
 ConstHoisting.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ConstHoisting.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ConstHoisting.cpp.s
 .PHONY : ConstHoisting.cpp.s
 
 DeadCodeElimination.o: DeadCodeElimination.cpp.o
@@ -285,7 +285,7 @@ DeadCodeElimination.o: DeadCodeElimination.cpp.o
 
 # target to build an object file
 DeadCodeElimination.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/DeadCodeElimination.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/DeadCodeElimination.cpp.o
 .PHONY : DeadCodeElimination.cpp.o
 
 DeadCodeElimination.i: DeadCodeElimination.cpp.i
@@ -294,7 +294,7 @@ DeadCodeElimination.i: DeadCodeElimination.cpp.i
 
 # target to preprocess a source file
 DeadCodeElimination.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/DeadCodeElimination.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/DeadCodeElimination.cpp.i
 .PHONY : DeadCodeElimination.cpp.i
 
 DeadCodeElimination.s: DeadCodeElimination.cpp.s
@@ -303,7 +303,7 @@ DeadCodeElimination.s: DeadCodeElimination.cpp.s
 
 # target to generate assembly for a file
 DeadCodeElimination.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/DeadCodeElimination.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/DeadCodeElimination.cpp.s
 .PHONY : DeadCodeElimination.cpp.s
 
 DuplicateFunctionElimination.o: DuplicateFunctionElimination.cpp.o
@@ -312,7 +312,7 @@ DuplicateFunctionElimination.o: DuplicateFunctionElimination.cpp.o
 
 # target to build an object file
 DuplicateFunctionElimination.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/DuplicateFunctionElimination.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/DuplicateFunctionElimination.cpp.o
 .PHONY : DuplicateFunctionElimination.cpp.o
 
 DuplicateFunctionElimination.i: DuplicateFunctionElimination.cpp.i
@@ -321,7 +321,7 @@ DuplicateFunctionElimination.i: DuplicateFunctionElimination.cpp.i
 
 # target to preprocess a source file
 DuplicateFunctionElimination.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/DuplicateFunctionElimination.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/DuplicateFunctionElimination.cpp.i
 .PHONY : DuplicateFunctionElimination.cpp.i
 
 DuplicateFunctionElimination.s: DuplicateFunctionElimination.cpp.s
@@ -330,7 +330,7 @@ DuplicateFunctionElimination.s: DuplicateFunctionElimination.cpp.s
 
 # target to generate assembly for a file
 DuplicateFunctionElimination.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/DuplicateFunctionElimination.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/DuplicateFunctionElimination.cpp.s
 .PHONY : DuplicateFunctionElimination.cpp.s
 
 ExtractFunction.o: ExtractFunction.cpp.o
@@ -339,7 +339,7 @@ ExtractFunction.o: ExtractFunction.cpp.o
 
 # target to build an object file
 ExtractFunction.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ExtractFunction.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ExtractFunction.cpp.o
 .PHONY : ExtractFunction.cpp.o
 
 ExtractFunction.i: ExtractFunction.cpp.i
@@ -348,7 +348,7 @@ ExtractFunction.i: ExtractFunction.cpp.i
 
 # target to preprocess a source file
 ExtractFunction.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ExtractFunction.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ExtractFunction.cpp.i
 .PHONY : ExtractFunction.cpp.i
 
 ExtractFunction.s: ExtractFunction.cpp.s
@@ -357,7 +357,7 @@ ExtractFunction.s: ExtractFunction.cpp.s
 
 # target to generate assembly for a file
 ExtractFunction.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ExtractFunction.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ExtractFunction.cpp.s
 .PHONY : ExtractFunction.cpp.s
 
 Flatten.o: Flatten.cpp.o
@@ -366,7 +366,7 @@ Flatten.o: Flatten.cpp.o
 
 # target to build an object file
 Flatten.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Flatten.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Flatten.cpp.o
 .PHONY : Flatten.cpp.o
 
 Flatten.i: Flatten.cpp.i
@@ -375,7 +375,7 @@ Flatten.i: Flatten.cpp.i
 
 # target to preprocess a source file
 Flatten.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Flatten.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Flatten.cpp.i
 .PHONY : Flatten.cpp.i
 
 Flatten.s: Flatten.cpp.s
@@ -384,7 +384,7 @@ Flatten.s: Flatten.cpp.s
 
 # target to generate assembly for a file
 Flatten.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Flatten.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Flatten.cpp.s
 .PHONY : Flatten.cpp.s
 
 I64ToI32Lowering.o: I64ToI32Lowering.cpp.o
@@ -393,7 +393,7 @@ I64ToI32Lowering.o: I64ToI32Lowering.cpp.o
 
 # target to build an object file
 I64ToI32Lowering.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/I64ToI32Lowering.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/I64ToI32Lowering.cpp.o
 .PHONY : I64ToI32Lowering.cpp.o
 
 I64ToI32Lowering.i: I64ToI32Lowering.cpp.i
@@ -402,7 +402,7 @@ I64ToI32Lowering.i: I64ToI32Lowering.cpp.i
 
 # target to preprocess a source file
 I64ToI32Lowering.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/I64ToI32Lowering.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/I64ToI32Lowering.cpp.i
 .PHONY : I64ToI32Lowering.cpp.i
 
 I64ToI32Lowering.s: I64ToI32Lowering.cpp.s
@@ -411,7 +411,7 @@ I64ToI32Lowering.s: I64ToI32Lowering.cpp.s
 
 # target to generate assembly for a file
 I64ToI32Lowering.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/I64ToI32Lowering.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/I64ToI32Lowering.cpp.s
 .PHONY : I64ToI32Lowering.cpp.s
 
 Inlining.o: Inlining.cpp.o
@@ -420,7 +420,7 @@ Inlining.o: Inlining.cpp.o
 
 # target to build an object file
 Inlining.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Inlining.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Inlining.cpp.o
 .PHONY : Inlining.cpp.o
 
 Inlining.i: Inlining.cpp.i
@@ -429,7 +429,7 @@ Inlining.i: Inlining.cpp.i
 
 # target to preprocess a source file
 Inlining.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Inlining.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Inlining.cpp.i
 .PHONY : Inlining.cpp.i
 
 Inlining.s: Inlining.cpp.s
@@ -438,7 +438,7 @@ Inlining.s: Inlining.cpp.s
 
 # target to generate assembly for a file
 Inlining.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Inlining.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Inlining.cpp.s
 .PHONY : Inlining.cpp.s
 
 InstrumentLocals.o: InstrumentLocals.cpp.o
@@ -447,7 +447,7 @@ InstrumentLocals.o: InstrumentLocals.cpp.o
 
 # target to build an object file
 InstrumentLocals.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/InstrumentLocals.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/InstrumentLocals.cpp.o
 .PHONY : InstrumentLocals.cpp.o
 
 InstrumentLocals.i: InstrumentLocals.cpp.i
@@ -456,7 +456,7 @@ InstrumentLocals.i: InstrumentLocals.cpp.i
 
 # target to preprocess a source file
 InstrumentLocals.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/InstrumentLocals.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/InstrumentLocals.cpp.i
 .PHONY : InstrumentLocals.cpp.i
 
 InstrumentLocals.s: InstrumentLocals.cpp.s
@@ -465,7 +465,7 @@ InstrumentLocals.s: InstrumentLocals.cpp.s
 
 # target to generate assembly for a file
 InstrumentLocals.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/InstrumentLocals.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/InstrumentLocals.cpp.s
 .PHONY : InstrumentLocals.cpp.s
 
 InstrumentMemory.o: InstrumentMemory.cpp.o
@@ -474,7 +474,7 @@ InstrumentMemory.o: InstrumentMemory.cpp.o
 
 # target to build an object file
 InstrumentMemory.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/InstrumentMemory.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/InstrumentMemory.cpp.o
 .PHONY : InstrumentMemory.cpp.o
 
 InstrumentMemory.i: InstrumentMemory.cpp.i
@@ -483,7 +483,7 @@ InstrumentMemory.i: InstrumentMemory.cpp.i
 
 # target to preprocess a source file
 InstrumentMemory.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/InstrumentMemory.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/InstrumentMemory.cpp.i
 .PHONY : InstrumentMemory.cpp.i
 
 InstrumentMemory.s: InstrumentMemory.cpp.s
@@ -492,7 +492,7 @@ InstrumentMemory.s: InstrumentMemory.cpp.s
 
 # target to generate assembly for a file
 InstrumentMemory.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/InstrumentMemory.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/InstrumentMemory.cpp.s
 .PHONY : InstrumentMemory.cpp.s
 
 LegalizeJSInterface.o: LegalizeJSInterface.cpp.o
@@ -501,7 +501,7 @@ LegalizeJSInterface.o: LegalizeJSInterface.cpp.o
 
 # target to build an object file
 LegalizeJSInterface.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/LegalizeJSInterface.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/LegalizeJSInterface.cpp.o
 .PHONY : LegalizeJSInterface.cpp.o
 
 LegalizeJSInterface.i: LegalizeJSInterface.cpp.i
@@ -510,7 +510,7 @@ LegalizeJSInterface.i: LegalizeJSInterface.cpp.i
 
 # target to preprocess a source file
 LegalizeJSInterface.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/LegalizeJSInterface.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/LegalizeJSInterface.cpp.i
 .PHONY : LegalizeJSInterface.cpp.i
 
 LegalizeJSInterface.s: LegalizeJSInterface.cpp.s
@@ -519,7 +519,7 @@ LegalizeJSInterface.s: LegalizeJSInterface.cpp.s
 
 # target to generate assembly for a file
 LegalizeJSInterface.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/LegalizeJSInterface.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/LegalizeJSInterface.cpp.s
 .PHONY : LegalizeJSInterface.cpp.s
 
 LocalCSE.o: LocalCSE.cpp.o
@@ -528,7 +528,7 @@ LocalCSE.o: LocalCSE.cpp.o
 
 # target to build an object file
 LocalCSE.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/LocalCSE.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/LocalCSE.cpp.o
 .PHONY : LocalCSE.cpp.o
 
 LocalCSE.i: LocalCSE.cpp.i
@@ -537,7 +537,7 @@ LocalCSE.i: LocalCSE.cpp.i
 
 # target to preprocess a source file
 LocalCSE.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/LocalCSE.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/LocalCSE.cpp.i
 .PHONY : LocalCSE.cpp.i
 
 LocalCSE.s: LocalCSE.cpp.s
@@ -546,7 +546,7 @@ LocalCSE.s: LocalCSE.cpp.s
 
 # target to generate assembly for a file
 LocalCSE.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/LocalCSE.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/LocalCSE.cpp.s
 .PHONY : LocalCSE.cpp.s
 
 LogExecution.o: LogExecution.cpp.o
@@ -555,7 +555,7 @@ LogExecution.o: LogExecution.cpp.o
 
 # target to build an object file
 LogExecution.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/LogExecution.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/LogExecution.cpp.o
 .PHONY : LogExecution.cpp.o
 
 LogExecution.i: LogExecution.cpp.i
@@ -564,7 +564,7 @@ LogExecution.i: LogExecution.cpp.i
 
 # target to preprocess a source file
 LogExecution.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/LogExecution.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/LogExecution.cpp.i
 .PHONY : LogExecution.cpp.i
 
 LogExecution.s: LogExecution.cpp.s
@@ -573,7 +573,7 @@ LogExecution.s: LogExecution.cpp.s
 
 # target to generate assembly for a file
 LogExecution.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/LogExecution.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/LogExecution.cpp.s
 .PHONY : LogExecution.cpp.s
 
 MemoryPacking.o: MemoryPacking.cpp.o
@@ -582,7 +582,7 @@ MemoryPacking.o: MemoryPacking.cpp.o
 
 # target to build an object file
 MemoryPacking.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/MemoryPacking.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/MemoryPacking.cpp.o
 .PHONY : MemoryPacking.cpp.o
 
 MemoryPacking.i: MemoryPacking.cpp.i
@@ -591,7 +591,7 @@ MemoryPacking.i: MemoryPacking.cpp.i
 
 # target to preprocess a source file
 MemoryPacking.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/MemoryPacking.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/MemoryPacking.cpp.i
 .PHONY : MemoryPacking.cpp.i
 
 MemoryPacking.s: MemoryPacking.cpp.s
@@ -600,7 +600,7 @@ MemoryPacking.s: MemoryPacking.cpp.s
 
 # target to generate assembly for a file
 MemoryPacking.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/MemoryPacking.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/MemoryPacking.cpp.s
 .PHONY : MemoryPacking.cpp.s
 
 MergeBlocks.o: MergeBlocks.cpp.o
@@ -609,7 +609,7 @@ MergeBlocks.o: MergeBlocks.cpp.o
 
 # target to build an object file
 MergeBlocks.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/MergeBlocks.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/MergeBlocks.cpp.o
 .PHONY : MergeBlocks.cpp.o
 
 MergeBlocks.i: MergeBlocks.cpp.i
@@ -618,7 +618,7 @@ MergeBlocks.i: MergeBlocks.cpp.i
 
 # target to preprocess a source file
 MergeBlocks.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/MergeBlocks.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/MergeBlocks.cpp.i
 .PHONY : MergeBlocks.cpp.i
 
 MergeBlocks.s: MergeBlocks.cpp.s
@@ -627,7 +627,7 @@ MergeBlocks.s: MergeBlocks.cpp.s
 
 # target to generate assembly for a file
 MergeBlocks.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/MergeBlocks.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/MergeBlocks.cpp.s
 .PHONY : MergeBlocks.cpp.s
 
 MergeLocals.o: MergeLocals.cpp.o
@@ -636,7 +636,7 @@ MergeLocals.o: MergeLocals.cpp.o
 
 # target to build an object file
 MergeLocals.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/MergeLocals.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/MergeLocals.cpp.o
 .PHONY : MergeLocals.cpp.o
 
 MergeLocals.i: MergeLocals.cpp.i
@@ -645,7 +645,7 @@ MergeLocals.i: MergeLocals.cpp.i
 
 # target to preprocess a source file
 MergeLocals.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/MergeLocals.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/MergeLocals.cpp.i
 .PHONY : MergeLocals.cpp.i
 
 MergeLocals.s: MergeLocals.cpp.s
@@ -654,7 +654,7 @@ MergeLocals.s: MergeLocals.cpp.s
 
 # target to generate assembly for a file
 MergeLocals.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/MergeLocals.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/MergeLocals.cpp.s
 .PHONY : MergeLocals.cpp.s
 
 Metrics.o: Metrics.cpp.o
@@ -663,7 +663,7 @@ Metrics.o: Metrics.cpp.o
 
 # target to build an object file
 Metrics.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Metrics.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Metrics.cpp.o
 .PHONY : Metrics.cpp.o
 
 Metrics.i: Metrics.cpp.i
@@ -672,7 +672,7 @@ Metrics.i: Metrics.cpp.i
 
 # target to preprocess a source file
 Metrics.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Metrics.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Metrics.cpp.i
 .PHONY : Metrics.cpp.i
 
 Metrics.s: Metrics.cpp.s
@@ -681,7 +681,7 @@ Metrics.s: Metrics.cpp.s
 
 # target to generate assembly for a file
 Metrics.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Metrics.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Metrics.cpp.s
 .PHONY : Metrics.cpp.s
 
 NameList.o: NameList.cpp.o
@@ -690,7 +690,7 @@ NameList.o: NameList.cpp.o
 
 # target to build an object file
 NameList.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/NameList.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/NameList.cpp.o
 .PHONY : NameList.cpp.o
 
 NameList.i: NameList.cpp.i
@@ -699,7 +699,7 @@ NameList.i: NameList.cpp.i
 
 # target to preprocess a source file
 NameList.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/NameList.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/NameList.cpp.i
 .PHONY : NameList.cpp.i
 
 NameList.s: NameList.cpp.s
@@ -708,7 +708,7 @@ NameList.s: NameList.cpp.s
 
 # target to generate assembly for a file
 NameList.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/NameList.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/NameList.cpp.s
 .PHONY : NameList.cpp.s
 
 OptimizeInstructions.o: OptimizeInstructions.cpp.o
@@ -717,7 +717,7 @@ OptimizeInstructions.o: OptimizeInstructions.cpp.o
 
 # target to build an object file
 OptimizeInstructions.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/OptimizeInstructions.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/OptimizeInstructions.cpp.o
 .PHONY : OptimizeInstructions.cpp.o
 
 OptimizeInstructions.i: OptimizeInstructions.cpp.i
@@ -726,7 +726,7 @@ OptimizeInstructions.i: OptimizeInstructions.cpp.i
 
 # target to preprocess a source file
 OptimizeInstructions.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/OptimizeInstructions.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/OptimizeInstructions.cpp.i
 .PHONY : OptimizeInstructions.cpp.i
 
 OptimizeInstructions.s: OptimizeInstructions.cpp.s
@@ -735,7 +735,7 @@ OptimizeInstructions.s: OptimizeInstructions.cpp.s
 
 # target to generate assembly for a file
 OptimizeInstructions.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/OptimizeInstructions.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/OptimizeInstructions.cpp.s
 .PHONY : OptimizeInstructions.cpp.s
 
 PickLoadSigns.o: PickLoadSigns.cpp.o
@@ -744,7 +744,7 @@ PickLoadSigns.o: PickLoadSigns.cpp.o
 
 # target to build an object file
 PickLoadSigns.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/PickLoadSigns.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/PickLoadSigns.cpp.o
 .PHONY : PickLoadSigns.cpp.o
 
 PickLoadSigns.i: PickLoadSigns.cpp.i
@@ -753,7 +753,7 @@ PickLoadSigns.i: PickLoadSigns.cpp.i
 
 # target to preprocess a source file
 PickLoadSigns.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/PickLoadSigns.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/PickLoadSigns.cpp.i
 .PHONY : PickLoadSigns.cpp.i
 
 PickLoadSigns.s: PickLoadSigns.cpp.s
@@ -762,7 +762,7 @@ PickLoadSigns.s: PickLoadSigns.cpp.s
 
 # target to generate assembly for a file
 PickLoadSigns.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/PickLoadSigns.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/PickLoadSigns.cpp.s
 .PHONY : PickLoadSigns.cpp.s
 
 PostEmscripten.o: PostEmscripten.cpp.o
@@ -771,7 +771,7 @@ PostEmscripten.o: PostEmscripten.cpp.o
 
 # target to build an object file
 PostEmscripten.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/PostEmscripten.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/PostEmscripten.cpp.o
 .PHONY : PostEmscripten.cpp.o
 
 PostEmscripten.i: PostEmscripten.cpp.i
@@ -780,7 +780,7 @@ PostEmscripten.i: PostEmscripten.cpp.i
 
 # target to preprocess a source file
 PostEmscripten.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/PostEmscripten.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/PostEmscripten.cpp.i
 .PHONY : PostEmscripten.cpp.i
 
 PostEmscripten.s: PostEmscripten.cpp.s
@@ -789,7 +789,7 @@ PostEmscripten.s: PostEmscripten.cpp.s
 
 # target to generate assembly for a file
 PostEmscripten.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/PostEmscripten.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/PostEmscripten.cpp.s
 .PHONY : PostEmscripten.cpp.s
 
 Precompute.o: Precompute.cpp.o
@@ -798,7 +798,7 @@ Precompute.o: Precompute.cpp.o
 
 # target to build an object file
 Precompute.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Precompute.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Precompute.cpp.o
 .PHONY : Precompute.cpp.o
 
 Precompute.i: Precompute.cpp.i
@@ -807,7 +807,7 @@ Precompute.i: Precompute.cpp.i
 
 # target to preprocess a source file
 Precompute.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Precompute.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Precompute.cpp.i
 .PHONY : Precompute.cpp.i
 
 Precompute.s: Precompute.cpp.s
@@ -816,7 +816,7 @@ Precompute.s: Precompute.cpp.s
 
 # target to generate assembly for a file
 Precompute.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Precompute.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Precompute.cpp.s
 .PHONY : Precompute.cpp.s
 
 Print.o: Print.cpp.o
@@ -825,7 +825,7 @@ Print.o: Print.cpp.o
 
 # target to build an object file
 Print.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Print.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Print.cpp.o
 .PHONY : Print.cpp.o
 
 Print.i: Print.cpp.i
@@ -834,7 +834,7 @@ Print.i: Print.cpp.i
 
 # target to preprocess a source file
 Print.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Print.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Print.cpp.i
 .PHONY : Print.cpp.i
 
 Print.s: Print.cpp.s
@@ -843,7 +843,7 @@ Print.s: Print.cpp.s
 
 # target to generate assembly for a file
 Print.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Print.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Print.cpp.s
 .PHONY : Print.cpp.s
 
 PrintCallGraph.o: PrintCallGraph.cpp.o
@@ -852,7 +852,7 @@ PrintCallGraph.o: PrintCallGraph.cpp.o
 
 # target to build an object file
 PrintCallGraph.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/PrintCallGraph.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/PrintCallGraph.cpp.o
 .PHONY : PrintCallGraph.cpp.o
 
 PrintCallGraph.i: PrintCallGraph.cpp.i
@@ -861,7 +861,7 @@ PrintCallGraph.i: PrintCallGraph.cpp.i
 
 # target to preprocess a source file
 PrintCallGraph.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/PrintCallGraph.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/PrintCallGraph.cpp.i
 .PHONY : PrintCallGraph.cpp.i
 
 PrintCallGraph.s: PrintCallGraph.cpp.s
@@ -870,7 +870,7 @@ PrintCallGraph.s: PrintCallGraph.cpp.s
 
 # target to generate assembly for a file
 PrintCallGraph.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/PrintCallGraph.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/PrintCallGraph.cpp.s
 .PHONY : PrintCallGraph.cpp.s
 
 ReReloop.o: ReReloop.cpp.o
@@ -879,7 +879,7 @@ ReReloop.o: ReReloop.cpp.o
 
 # target to build an object file
 ReReloop.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ReReloop.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ReReloop.cpp.o
 .PHONY : ReReloop.cpp.o
 
 ReReloop.i: ReReloop.cpp.i
@@ -888,7 +888,7 @@ ReReloop.i: ReReloop.cpp.i
 
 # target to preprocess a source file
 ReReloop.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ReReloop.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ReReloop.cpp.i
 .PHONY : ReReloop.cpp.i
 
 ReReloop.s: ReReloop.cpp.s
@@ -897,7 +897,7 @@ ReReloop.s: ReReloop.cpp.s
 
 # target to generate assembly for a file
 ReReloop.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ReReloop.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ReReloop.cpp.s
 .PHONY : ReReloop.cpp.s
 
 RedundantSetElimination.o: RedundantSetElimination.cpp.o
@@ -906,7 +906,7 @@ RedundantSetElimination.o: RedundantSetElimination.cpp.o
 
 # target to build an object file
 RedundantSetElimination.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RedundantSetElimination.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RedundantSetElimination.cpp.o
 .PHONY : RedundantSetElimination.cpp.o
 
 RedundantSetElimination.i: RedundantSetElimination.cpp.i
@@ -915,7 +915,7 @@ RedundantSetElimination.i: RedundantSetElimination.cpp.i
 
 # target to preprocess a source file
 RedundantSetElimination.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RedundantSetElimination.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RedundantSetElimination.cpp.i
 .PHONY : RedundantSetElimination.cpp.i
 
 RedundantSetElimination.s: RedundantSetElimination.cpp.s
@@ -924,7 +924,7 @@ RedundantSetElimination.s: RedundantSetElimination.cpp.s
 
 # target to generate assembly for a file
 RedundantSetElimination.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RedundantSetElimination.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RedundantSetElimination.cpp.s
 .PHONY : RedundantSetElimination.cpp.s
 
 RelooperJumpThreading.o: RelooperJumpThreading.cpp.o
@@ -933,7 +933,7 @@ RelooperJumpThreading.o: RelooperJumpThreading.cpp.o
 
 # target to build an object file
 RelooperJumpThreading.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RelooperJumpThreading.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RelooperJumpThreading.cpp.o
 .PHONY : RelooperJumpThreading.cpp.o
 
 RelooperJumpThreading.i: RelooperJumpThreading.cpp.i
@@ -942,7 +942,7 @@ RelooperJumpThreading.i: RelooperJumpThreading.cpp.i
 
 # target to preprocess a source file
 RelooperJumpThreading.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RelooperJumpThreading.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RelooperJumpThreading.cpp.i
 .PHONY : RelooperJumpThreading.cpp.i
 
 RelooperJumpThreading.s: RelooperJumpThreading.cpp.s
@@ -951,7 +951,7 @@ RelooperJumpThreading.s: RelooperJumpThreading.cpp.s
 
 # target to generate assembly for a file
 RelooperJumpThreading.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RelooperJumpThreading.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RelooperJumpThreading.cpp.s
 .PHONY : RelooperJumpThreading.cpp.s
 
 RemoveImports.o: RemoveImports.cpp.o
@@ -960,7 +960,7 @@ RemoveImports.o: RemoveImports.cpp.o
 
 # target to build an object file
 RemoveImports.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveImports.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveImports.cpp.o
 .PHONY : RemoveImports.cpp.o
 
 RemoveImports.i: RemoveImports.cpp.i
@@ -969,7 +969,7 @@ RemoveImports.i: RemoveImports.cpp.i
 
 # target to preprocess a source file
 RemoveImports.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveImports.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveImports.cpp.i
 .PHONY : RemoveImports.cpp.i
 
 RemoveImports.s: RemoveImports.cpp.s
@@ -978,7 +978,7 @@ RemoveImports.s: RemoveImports.cpp.s
 
 # target to generate assembly for a file
 RemoveImports.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveImports.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveImports.cpp.s
 .PHONY : RemoveImports.cpp.s
 
 RemoveMemory.o: RemoveMemory.cpp.o
@@ -987,7 +987,7 @@ RemoveMemory.o: RemoveMemory.cpp.o
 
 # target to build an object file
 RemoveMemory.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveMemory.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveMemory.cpp.o
 .PHONY : RemoveMemory.cpp.o
 
 RemoveMemory.i: RemoveMemory.cpp.i
@@ -996,7 +996,7 @@ RemoveMemory.i: RemoveMemory.cpp.i
 
 # target to preprocess a source file
 RemoveMemory.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveMemory.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveMemory.cpp.i
 .PHONY : RemoveMemory.cpp.i
 
 RemoveMemory.s: RemoveMemory.cpp.s
@@ -1005,7 +1005,7 @@ RemoveMemory.s: RemoveMemory.cpp.s
 
 # target to generate assembly for a file
 RemoveMemory.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveMemory.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveMemory.cpp.s
 .PHONY : RemoveMemory.cpp.s
 
 RemoveUnusedBrs.o: RemoveUnusedBrs.cpp.o
@@ -1014,7 +1014,7 @@ RemoveUnusedBrs.o: RemoveUnusedBrs.cpp.o
 
 # target to build an object file
 RemoveUnusedBrs.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveUnusedBrs.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveUnusedBrs.cpp.o
 .PHONY : RemoveUnusedBrs.cpp.o
 
 RemoveUnusedBrs.i: RemoveUnusedBrs.cpp.i
@@ -1023,7 +1023,7 @@ RemoveUnusedBrs.i: RemoveUnusedBrs.cpp.i
 
 # target to preprocess a source file
 RemoveUnusedBrs.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveUnusedBrs.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveUnusedBrs.cpp.i
 .PHONY : RemoveUnusedBrs.cpp.i
 
 RemoveUnusedBrs.s: RemoveUnusedBrs.cpp.s
@@ -1032,7 +1032,7 @@ RemoveUnusedBrs.s: RemoveUnusedBrs.cpp.s
 
 # target to generate assembly for a file
 RemoveUnusedBrs.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveUnusedBrs.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveUnusedBrs.cpp.s
 .PHONY : RemoveUnusedBrs.cpp.s
 
 RemoveUnusedModuleElements.o: RemoveUnusedModuleElements.cpp.o
@@ -1041,7 +1041,7 @@ RemoveUnusedModuleElements.o: RemoveUnusedModuleElements.cpp.o
 
 # target to build an object file
 RemoveUnusedModuleElements.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveUnusedModuleElements.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveUnusedModuleElements.cpp.o
 .PHONY : RemoveUnusedModuleElements.cpp.o
 
 RemoveUnusedModuleElements.i: RemoveUnusedModuleElements.cpp.i
@@ -1050,7 +1050,7 @@ RemoveUnusedModuleElements.i: RemoveUnusedModuleElements.cpp.i
 
 # target to preprocess a source file
 RemoveUnusedModuleElements.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveUnusedModuleElements.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveUnusedModuleElements.cpp.i
 .PHONY : RemoveUnusedModuleElements.cpp.i
 
 RemoveUnusedModuleElements.s: RemoveUnusedModuleElements.cpp.s
@@ -1059,7 +1059,7 @@ RemoveUnusedModuleElements.s: RemoveUnusedModuleElements.cpp.s
 
 # target to generate assembly for a file
 RemoveUnusedModuleElements.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveUnusedModuleElements.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveUnusedModuleElements.cpp.s
 .PHONY : RemoveUnusedModuleElements.cpp.s
 
 RemoveUnusedNames.o: RemoveUnusedNames.cpp.o
@@ -1068,7 +1068,7 @@ RemoveUnusedNames.o: RemoveUnusedNames.cpp.o
 
 # target to build an object file
 RemoveUnusedNames.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveUnusedNames.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveUnusedNames.cpp.o
 .PHONY : RemoveUnusedNames.cpp.o
 
 RemoveUnusedNames.i: RemoveUnusedNames.cpp.i
@@ -1077,7 +1077,7 @@ RemoveUnusedNames.i: RemoveUnusedNames.cpp.i
 
 # target to preprocess a source file
 RemoveUnusedNames.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveUnusedNames.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveUnusedNames.cpp.i
 .PHONY : RemoveUnusedNames.cpp.i
 
 RemoveUnusedNames.s: RemoveUnusedNames.cpp.s
@@ -1086,7 +1086,7 @@ RemoveUnusedNames.s: RemoveUnusedNames.cpp.s
 
 # target to generate assembly for a file
 RemoveUnusedNames.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveUnusedNames.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/RemoveUnusedNames.cpp.s
 .PHONY : RemoveUnusedNames.cpp.s
 
 ReorderFunctions.o: ReorderFunctions.cpp.o
@@ -1095,7 +1095,7 @@ ReorderFunctions.o: ReorderFunctions.cpp.o
 
 # target to build an object file
 ReorderFunctions.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ReorderFunctions.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ReorderFunctions.cpp.o
 .PHONY : ReorderFunctions.cpp.o
 
 ReorderFunctions.i: ReorderFunctions.cpp.i
@@ -1104,7 +1104,7 @@ ReorderFunctions.i: ReorderFunctions.cpp.i
 
 # target to preprocess a source file
 ReorderFunctions.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ReorderFunctions.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ReorderFunctions.cpp.i
 .PHONY : ReorderFunctions.cpp.i
 
 ReorderFunctions.s: ReorderFunctions.cpp.s
@@ -1113,7 +1113,7 @@ ReorderFunctions.s: ReorderFunctions.cpp.s
 
 # target to generate assembly for a file
 ReorderFunctions.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ReorderFunctions.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ReorderFunctions.cpp.s
 .PHONY : ReorderFunctions.cpp.s
 
 ReorderLocals.o: ReorderLocals.cpp.o
@@ -1122,7 +1122,7 @@ ReorderLocals.o: ReorderLocals.cpp.o
 
 # target to build an object file
 ReorderLocals.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ReorderLocals.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ReorderLocals.cpp.o
 .PHONY : ReorderLocals.cpp.o
 
 ReorderLocals.i: ReorderLocals.cpp.i
@@ -1131,7 +1131,7 @@ ReorderLocals.i: ReorderLocals.cpp.i
 
 # target to preprocess a source file
 ReorderLocals.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ReorderLocals.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ReorderLocals.cpp.i
 .PHONY : ReorderLocals.cpp.i
 
 ReorderLocals.s: ReorderLocals.cpp.s
@@ -1140,7 +1140,7 @@ ReorderLocals.s: ReorderLocals.cpp.s
 
 # target to generate assembly for a file
 ReorderLocals.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ReorderLocals.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/ReorderLocals.cpp.s
 .PHONY : ReorderLocals.cpp.s
 
 SSAify.o: SSAify.cpp.o
@@ -1149,7 +1149,7 @@ SSAify.o: SSAify.cpp.o
 
 # target to build an object file
 SSAify.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/SSAify.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/SSAify.cpp.o
 .PHONY : SSAify.cpp.o
 
 SSAify.i: SSAify.cpp.i
@@ -1158,7 +1158,7 @@ SSAify.i: SSAify.cpp.i
 
 # target to preprocess a source file
 SSAify.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/SSAify.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/SSAify.cpp.i
 .PHONY : SSAify.cpp.i
 
 SSAify.s: SSAify.cpp.s
@@ -1167,7 +1167,7 @@ SSAify.s: SSAify.cpp.s
 
 # target to generate assembly for a file
 SSAify.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/SSAify.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/SSAify.cpp.s
 .PHONY : SSAify.cpp.s
 
 SafeHeap.o: SafeHeap.cpp.o
@@ -1176,7 +1176,7 @@ SafeHeap.o: SafeHeap.cpp.o
 
 # target to build an object file
 SafeHeap.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/SafeHeap.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/SafeHeap.cpp.o
 .PHONY : SafeHeap.cpp.o
 
 SafeHeap.i: SafeHeap.cpp.i
@@ -1185,7 +1185,7 @@ SafeHeap.i: SafeHeap.cpp.i
 
 # target to preprocess a source file
 SafeHeap.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/SafeHeap.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/SafeHeap.cpp.i
 .PHONY : SafeHeap.cpp.i
 
 SafeHeap.s: SafeHeap.cpp.s
@@ -1194,7 +1194,7 @@ SafeHeap.s: SafeHeap.cpp.s
 
 # target to generate assembly for a file
 SafeHeap.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/SafeHeap.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/SafeHeap.cpp.s
 .PHONY : SafeHeap.cpp.s
 
 SimplifyLocals.o: SimplifyLocals.cpp.o
@@ -1203,7 +1203,7 @@ SimplifyLocals.o: SimplifyLocals.cpp.o
 
 # target to build an object file
 SimplifyLocals.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/SimplifyLocals.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/SimplifyLocals.cpp.o
 .PHONY : SimplifyLocals.cpp.o
 
 SimplifyLocals.i: SimplifyLocals.cpp.i
@@ -1212,7 +1212,7 @@ SimplifyLocals.i: SimplifyLocals.cpp.i
 
 # target to preprocess a source file
 SimplifyLocals.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/SimplifyLocals.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/SimplifyLocals.cpp.i
 .PHONY : SimplifyLocals.cpp.i
 
 SimplifyLocals.s: SimplifyLocals.cpp.s
@@ -1221,7 +1221,7 @@ SimplifyLocals.s: SimplifyLocals.cpp.s
 
 # target to generate assembly for a file
 SimplifyLocals.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/SimplifyLocals.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/SimplifyLocals.cpp.s
 .PHONY : SimplifyLocals.cpp.s
 
 SpillPointers.o: SpillPointers.cpp.o
@@ -1230,7 +1230,7 @@ SpillPointers.o: SpillPointers.cpp.o
 
 # target to build an object file
 SpillPointers.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/SpillPointers.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/SpillPointers.cpp.o
 .PHONY : SpillPointers.cpp.o
 
 SpillPointers.i: SpillPointers.cpp.i
@@ -1239,7 +1239,7 @@ SpillPointers.i: SpillPointers.cpp.i
 
 # target to preprocess a source file
 SpillPointers.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/SpillPointers.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/SpillPointers.cpp.i
 .PHONY : SpillPointers.cpp.i
 
 SpillPointers.s: SpillPointers.cpp.s
@@ -1248,7 +1248,7 @@ SpillPointers.s: SpillPointers.cpp.s
 
 # target to generate assembly for a file
 SpillPointers.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/SpillPointers.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/SpillPointers.cpp.s
 .PHONY : SpillPointers.cpp.s
 
 TrapMode.o: TrapMode.cpp.o
@@ -1257,7 +1257,7 @@ TrapMode.o: TrapMode.cpp.o
 
 # target to build an object file
 TrapMode.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/TrapMode.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/TrapMode.cpp.o
 .PHONY : TrapMode.cpp.o
 
 TrapMode.i: TrapMode.cpp.i
@@ -1266,7 +1266,7 @@ TrapMode.i: TrapMode.cpp.i
 
 # target to preprocess a source file
 TrapMode.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/TrapMode.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/TrapMode.cpp.i
 .PHONY : TrapMode.cpp.i
 
 TrapMode.s: TrapMode.cpp.s
@@ -1275,7 +1275,7 @@ TrapMode.s: TrapMode.cpp.s
 
 # target to generate assembly for a file
 TrapMode.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/TrapMode.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/TrapMode.cpp.s
 .PHONY : TrapMode.cpp.s
 
 Untee.o: Untee.cpp.o
@@ -1284,7 +1284,7 @@ Untee.o: Untee.cpp.o
 
 # target to build an object file
 Untee.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Untee.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Untee.cpp.o
 .PHONY : Untee.cpp.o
 
 Untee.i: Untee.cpp.i
@@ -1293,7 +1293,7 @@ Untee.i: Untee.cpp.i
 
 # target to preprocess a source file
 Untee.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Untee.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Untee.cpp.i
 .PHONY : Untee.cpp.i
 
 Untee.s: Untee.cpp.s
@@ -1302,7 +1302,7 @@ Untee.s: Untee.cpp.s
 
 # target to generate assembly for a file
 Untee.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Untee.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Untee.cpp.s
 .PHONY : Untee.cpp.s
 
 Vacuum.o: Vacuum.cpp.o
@@ -1311,7 +1311,7 @@ Vacuum.o: Vacuum.cpp.o
 
 # target to build an object file
 Vacuum.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Vacuum.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Vacuum.cpp.o
 .PHONY : Vacuum.cpp.o
 
 Vacuum.i: Vacuum.cpp.i
@@ -1320,7 +1320,7 @@ Vacuum.i: Vacuum.cpp.i
 
 # target to preprocess a source file
 Vacuum.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Vacuum.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Vacuum.cpp.i
 .PHONY : Vacuum.cpp.i
 
 Vacuum.s: Vacuum.cpp.s
@@ -1329,7 +1329,7 @@ Vacuum.s: Vacuum.cpp.s
 
 # target to generate assembly for a file
 Vacuum.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Vacuum.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/Vacuum.cpp.s
 .PHONY : Vacuum.cpp.s
 
 pass.o: pass.cpp.o
@@ -1338,7 +1338,7 @@ pass.o: pass.cpp.o
 
 # target to build an object file
 pass.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/pass.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/pass.cpp.o
 .PHONY : pass.cpp.o
 
 pass.i: pass.cpp.i
@@ -1347,7 +1347,7 @@ pass.i: pass.cpp.i
 
 # target to preprocess a source file
 pass.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/pass.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/pass.cpp.i
 .PHONY : pass.cpp.i
 
 pass.s: pass.cpp.s
@@ -1356,7 +1356,7 @@ pass.s: pass.cpp.s
 
 # target to generate assembly for a file
 pass.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/pass.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/pass.cpp.s
 .PHONY : pass.cpp.s
 
 # Help Target
@@ -1515,6 +1515,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

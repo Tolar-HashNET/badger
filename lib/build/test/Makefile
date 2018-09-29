@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth
+CMAKE_SOURCE_DIR = /aleth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build
+CMAKE_BINARY_DIR = /aleth/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -127,7 +127,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/ubuntu/moose/aleth/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /aleth/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -138,7 +138,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/ubuntu/moose/aleth/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/ubuntu/moose/aleth/build/CPackSourceConfig.cmake
+	cd /aleth/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /aleth/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -159,14 +159,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles /home/ubuntu/moose/aleth/build/test/CMakeFiles/progress.marks
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	cd /aleth/build && $(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles /aleth/build/test/CMakeFiles/progress.marks
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 test/clean
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/test.ClientBase.dir/rule:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/test.ClientBase.dir/rule
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/test.ClientBase.dir/rule
 .PHONY : test/CMakeFiles/test.ClientBase.dir/rule
 
 # Convenience name for target.
@@ -201,12 +201,12 @@ test.ClientBase: test/CMakeFiles/test.ClientBase.dir/rule
 
 # fast build rule for target.
 test.ClientBase/fast:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/test.ClientBase.dir/build.make test/CMakeFiles/test.ClientBase.dir/build
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/test.ClientBase.dir/build.make test/CMakeFiles/test.ClientBase.dir/build
 .PHONY : test.ClientBase/fast
 
 # Convenience name for target.
 test/CMakeFiles/testeth.dir/rule:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/testeth.dir/rule
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/testeth.dir/rule
 .PHONY : test/CMakeFiles/testeth.dir/rule
 
 # Convenience name for target.
@@ -216,7 +216,7 @@ testeth: test/CMakeFiles/testeth.dir/rule
 
 # fast build rule for target.
 testeth/fast:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/build
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/build
 .PHONY : testeth/fast
 
 tools/fuzzTesting/BoostRandomCode.o: tools/fuzzTesting/BoostRandomCode.cpp.o
@@ -225,7 +225,7 @@ tools/fuzzTesting/BoostRandomCode.o: tools/fuzzTesting/BoostRandomCode.cpp.o
 
 # target to build an object file
 tools/fuzzTesting/BoostRandomCode.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/fuzzTesting/BoostRandomCode.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/fuzzTesting/BoostRandomCode.cpp.o
 .PHONY : tools/fuzzTesting/BoostRandomCode.cpp.o
 
 tools/fuzzTesting/BoostRandomCode.i: tools/fuzzTesting/BoostRandomCode.cpp.i
@@ -234,7 +234,7 @@ tools/fuzzTesting/BoostRandomCode.i: tools/fuzzTesting/BoostRandomCode.cpp.i
 
 # target to preprocess a source file
 tools/fuzzTesting/BoostRandomCode.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/fuzzTesting/BoostRandomCode.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/fuzzTesting/BoostRandomCode.cpp.i
 .PHONY : tools/fuzzTesting/BoostRandomCode.cpp.i
 
 tools/fuzzTesting/BoostRandomCode.s: tools/fuzzTesting/BoostRandomCode.cpp.s
@@ -243,7 +243,7 @@ tools/fuzzTesting/BoostRandomCode.s: tools/fuzzTesting/BoostRandomCode.cpp.s
 
 # target to generate assembly for a file
 tools/fuzzTesting/BoostRandomCode.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/fuzzTesting/BoostRandomCode.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/fuzzTesting/BoostRandomCode.cpp.s
 .PHONY : tools/fuzzTesting/BoostRandomCode.cpp.s
 
 tools/fuzzTesting/createRandomTest.o: tools/fuzzTesting/createRandomTest.cpp.o
@@ -252,7 +252,7 @@ tools/fuzzTesting/createRandomTest.o: tools/fuzzTesting/createRandomTest.cpp.o
 
 # target to build an object file
 tools/fuzzTesting/createRandomTest.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/fuzzTesting/createRandomTest.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/fuzzTesting/createRandomTest.cpp.o
 .PHONY : tools/fuzzTesting/createRandomTest.cpp.o
 
 tools/fuzzTesting/createRandomTest.i: tools/fuzzTesting/createRandomTest.cpp.i
@@ -261,7 +261,7 @@ tools/fuzzTesting/createRandomTest.i: tools/fuzzTesting/createRandomTest.cpp.i
 
 # target to preprocess a source file
 tools/fuzzTesting/createRandomTest.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/fuzzTesting/createRandomTest.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/fuzzTesting/createRandomTest.cpp.i
 .PHONY : tools/fuzzTesting/createRandomTest.cpp.i
 
 tools/fuzzTesting/createRandomTest.s: tools/fuzzTesting/createRandomTest.cpp.s
@@ -270,7 +270,7 @@ tools/fuzzTesting/createRandomTest.s: tools/fuzzTesting/createRandomTest.cpp.s
 
 # target to generate assembly for a file
 tools/fuzzTesting/createRandomTest.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/fuzzTesting/createRandomTest.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/fuzzTesting/createRandomTest.cpp.s
 .PHONY : tools/fuzzTesting/createRandomTest.cpp.s
 
 tools/fuzzTesting/fuzzHelper.o: tools/fuzzTesting/fuzzHelper.cpp.o
@@ -279,7 +279,7 @@ tools/fuzzTesting/fuzzHelper.o: tools/fuzzTesting/fuzzHelper.cpp.o
 
 # target to build an object file
 tools/fuzzTesting/fuzzHelper.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/fuzzTesting/fuzzHelper.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/fuzzTesting/fuzzHelper.cpp.o
 .PHONY : tools/fuzzTesting/fuzzHelper.cpp.o
 
 tools/fuzzTesting/fuzzHelper.i: tools/fuzzTesting/fuzzHelper.cpp.i
@@ -288,7 +288,7 @@ tools/fuzzTesting/fuzzHelper.i: tools/fuzzTesting/fuzzHelper.cpp.i
 
 # target to preprocess a source file
 tools/fuzzTesting/fuzzHelper.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/fuzzTesting/fuzzHelper.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/fuzzTesting/fuzzHelper.cpp.i
 .PHONY : tools/fuzzTesting/fuzzHelper.cpp.i
 
 tools/fuzzTesting/fuzzHelper.s: tools/fuzzTesting/fuzzHelper.cpp.s
@@ -297,7 +297,7 @@ tools/fuzzTesting/fuzzHelper.s: tools/fuzzTesting/fuzzHelper.cpp.s
 
 # target to generate assembly for a file
 tools/fuzzTesting/fuzzHelper.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/fuzzTesting/fuzzHelper.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/fuzzTesting/fuzzHelper.cpp.s
 .PHONY : tools/fuzzTesting/fuzzHelper.cpp.s
 
 tools/jsontests/BlockChainTests.o: tools/jsontests/BlockChainTests.cpp.o
@@ -306,7 +306,7 @@ tools/jsontests/BlockChainTests.o: tools/jsontests/BlockChainTests.cpp.o
 
 # target to build an object file
 tools/jsontests/BlockChainTests.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/jsontests/BlockChainTests.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/jsontests/BlockChainTests.cpp.o
 .PHONY : tools/jsontests/BlockChainTests.cpp.o
 
 tools/jsontests/BlockChainTests.i: tools/jsontests/BlockChainTests.cpp.i
@@ -315,7 +315,7 @@ tools/jsontests/BlockChainTests.i: tools/jsontests/BlockChainTests.cpp.i
 
 # target to preprocess a source file
 tools/jsontests/BlockChainTests.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/jsontests/BlockChainTests.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/jsontests/BlockChainTests.cpp.i
 .PHONY : tools/jsontests/BlockChainTests.cpp.i
 
 tools/jsontests/BlockChainTests.s: tools/jsontests/BlockChainTests.cpp.s
@@ -324,7 +324,7 @@ tools/jsontests/BlockChainTests.s: tools/jsontests/BlockChainTests.cpp.s
 
 # target to generate assembly for a file
 tools/jsontests/BlockChainTests.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/jsontests/BlockChainTests.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/jsontests/BlockChainTests.cpp.s
 .PHONY : tools/jsontests/BlockChainTests.cpp.s
 
 tools/jsontests/StateTests.o: tools/jsontests/StateTests.cpp.o
@@ -333,7 +333,7 @@ tools/jsontests/StateTests.o: tools/jsontests/StateTests.cpp.o
 
 # target to build an object file
 tools/jsontests/StateTests.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/jsontests/StateTests.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/jsontests/StateTests.cpp.o
 .PHONY : tools/jsontests/StateTests.cpp.o
 
 tools/jsontests/StateTests.i: tools/jsontests/StateTests.cpp.i
@@ -342,7 +342,7 @@ tools/jsontests/StateTests.i: tools/jsontests/StateTests.cpp.i
 
 # target to preprocess a source file
 tools/jsontests/StateTests.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/jsontests/StateTests.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/jsontests/StateTests.cpp.i
 .PHONY : tools/jsontests/StateTests.cpp.i
 
 tools/jsontests/StateTests.s: tools/jsontests/StateTests.cpp.s
@@ -351,7 +351,7 @@ tools/jsontests/StateTests.s: tools/jsontests/StateTests.cpp.s
 
 # target to generate assembly for a file
 tools/jsontests/StateTests.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/jsontests/StateTests.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/jsontests/StateTests.cpp.s
 .PHONY : tools/jsontests/StateTests.cpp.s
 
 tools/jsontests/TransactionTests.o: tools/jsontests/TransactionTests.cpp.o
@@ -360,7 +360,7 @@ tools/jsontests/TransactionTests.o: tools/jsontests/TransactionTests.cpp.o
 
 # target to build an object file
 tools/jsontests/TransactionTests.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/jsontests/TransactionTests.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/jsontests/TransactionTests.cpp.o
 .PHONY : tools/jsontests/TransactionTests.cpp.o
 
 tools/jsontests/TransactionTests.i: tools/jsontests/TransactionTests.cpp.i
@@ -369,7 +369,7 @@ tools/jsontests/TransactionTests.i: tools/jsontests/TransactionTests.cpp.i
 
 # target to preprocess a source file
 tools/jsontests/TransactionTests.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/jsontests/TransactionTests.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/jsontests/TransactionTests.cpp.i
 .PHONY : tools/jsontests/TransactionTests.cpp.i
 
 tools/jsontests/TransactionTests.s: tools/jsontests/TransactionTests.cpp.s
@@ -378,7 +378,7 @@ tools/jsontests/TransactionTests.s: tools/jsontests/TransactionTests.cpp.s
 
 # target to generate assembly for a file
 tools/jsontests/TransactionTests.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/jsontests/TransactionTests.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/jsontests/TransactionTests.cpp.s
 .PHONY : tools/jsontests/TransactionTests.cpp.s
 
 tools/jsontests/vm.o: tools/jsontests/vm.cpp.o
@@ -387,7 +387,7 @@ tools/jsontests/vm.o: tools/jsontests/vm.cpp.o
 
 # target to build an object file
 tools/jsontests/vm.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/jsontests/vm.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/jsontests/vm.cpp.o
 .PHONY : tools/jsontests/vm.cpp.o
 
 tools/jsontests/vm.i: tools/jsontests/vm.cpp.i
@@ -396,7 +396,7 @@ tools/jsontests/vm.i: tools/jsontests/vm.cpp.i
 
 # target to preprocess a source file
 tools/jsontests/vm.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/jsontests/vm.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/jsontests/vm.cpp.i
 .PHONY : tools/jsontests/vm.cpp.i
 
 tools/jsontests/vm.s: tools/jsontests/vm.cpp.s
@@ -405,7 +405,7 @@ tools/jsontests/vm.s: tools/jsontests/vm.cpp.s
 
 # target to generate assembly for a file
 tools/jsontests/vm.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/jsontests/vm.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/jsontests/vm.cpp.s
 .PHONY : tools/jsontests/vm.cpp.s
 
 tools/libtesteth/BlockChainHelper.o: tools/libtesteth/BlockChainHelper.cpp.o
@@ -414,7 +414,7 @@ tools/libtesteth/BlockChainHelper.o: tools/libtesteth/BlockChainHelper.cpp.o
 
 # target to build an object file
 tools/libtesteth/BlockChainHelper.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/BlockChainHelper.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/BlockChainHelper.cpp.o
 .PHONY : tools/libtesteth/BlockChainHelper.cpp.o
 
 tools/libtesteth/BlockChainHelper.i: tools/libtesteth/BlockChainHelper.cpp.i
@@ -423,7 +423,7 @@ tools/libtesteth/BlockChainHelper.i: tools/libtesteth/BlockChainHelper.cpp.i
 
 # target to preprocess a source file
 tools/libtesteth/BlockChainHelper.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/BlockChainHelper.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/BlockChainHelper.cpp.i
 .PHONY : tools/libtesteth/BlockChainHelper.cpp.i
 
 tools/libtesteth/BlockChainHelper.s: tools/libtesteth/BlockChainHelper.cpp.s
@@ -432,7 +432,7 @@ tools/libtesteth/BlockChainHelper.s: tools/libtesteth/BlockChainHelper.cpp.s
 
 # target to generate assembly for a file
 tools/libtesteth/BlockChainHelper.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/BlockChainHelper.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/BlockChainHelper.cpp.s
 .PHONY : tools/libtesteth/BlockChainHelper.cpp.s
 
 tools/libtesteth/FillJsonFunctions.o: tools/libtesteth/FillJsonFunctions.cpp.o
@@ -441,7 +441,7 @@ tools/libtesteth/FillJsonFunctions.o: tools/libtesteth/FillJsonFunctions.cpp.o
 
 # target to build an object file
 tools/libtesteth/FillJsonFunctions.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/FillJsonFunctions.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/FillJsonFunctions.cpp.o
 .PHONY : tools/libtesteth/FillJsonFunctions.cpp.o
 
 tools/libtesteth/FillJsonFunctions.i: tools/libtesteth/FillJsonFunctions.cpp.i
@@ -450,7 +450,7 @@ tools/libtesteth/FillJsonFunctions.i: tools/libtesteth/FillJsonFunctions.cpp.i
 
 # target to preprocess a source file
 tools/libtesteth/FillJsonFunctions.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/FillJsonFunctions.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/FillJsonFunctions.cpp.i
 .PHONY : tools/libtesteth/FillJsonFunctions.cpp.i
 
 tools/libtesteth/FillJsonFunctions.s: tools/libtesteth/FillJsonFunctions.cpp.s
@@ -459,7 +459,7 @@ tools/libtesteth/FillJsonFunctions.s: tools/libtesteth/FillJsonFunctions.cpp.s
 
 # target to generate assembly for a file
 tools/libtesteth/FillJsonFunctions.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/FillJsonFunctions.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/FillJsonFunctions.cpp.s
 .PHONY : tools/libtesteth/FillJsonFunctions.cpp.s
 
 tools/libtesteth/ImportTest.o: tools/libtesteth/ImportTest.cpp.o
@@ -468,7 +468,7 @@ tools/libtesteth/ImportTest.o: tools/libtesteth/ImportTest.cpp.o
 
 # target to build an object file
 tools/libtesteth/ImportTest.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/ImportTest.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/ImportTest.cpp.o
 .PHONY : tools/libtesteth/ImportTest.cpp.o
 
 tools/libtesteth/ImportTest.i: tools/libtesteth/ImportTest.cpp.i
@@ -477,7 +477,7 @@ tools/libtesteth/ImportTest.i: tools/libtesteth/ImportTest.cpp.i
 
 # target to preprocess a source file
 tools/libtesteth/ImportTest.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/ImportTest.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/ImportTest.cpp.i
 .PHONY : tools/libtesteth/ImportTest.cpp.i
 
 tools/libtesteth/ImportTest.s: tools/libtesteth/ImportTest.cpp.s
@@ -486,7 +486,7 @@ tools/libtesteth/ImportTest.s: tools/libtesteth/ImportTest.cpp.s
 
 # target to generate assembly for a file
 tools/libtesteth/ImportTest.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/ImportTest.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/ImportTest.cpp.s
 .PHONY : tools/libtesteth/ImportTest.cpp.s
 
 tools/libtesteth/Options.o: tools/libtesteth/Options.cpp.o
@@ -495,7 +495,7 @@ tools/libtesteth/Options.o: tools/libtesteth/Options.cpp.o
 
 # target to build an object file
 tools/libtesteth/Options.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/Options.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/Options.cpp.o
 .PHONY : tools/libtesteth/Options.cpp.o
 
 tools/libtesteth/Options.i: tools/libtesteth/Options.cpp.i
@@ -504,7 +504,7 @@ tools/libtesteth/Options.i: tools/libtesteth/Options.cpp.i
 
 # target to preprocess a source file
 tools/libtesteth/Options.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/Options.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/Options.cpp.i
 .PHONY : tools/libtesteth/Options.cpp.i
 
 tools/libtesteth/Options.s: tools/libtesteth/Options.cpp.s
@@ -513,7 +513,7 @@ tools/libtesteth/Options.s: tools/libtesteth/Options.cpp.s
 
 # target to generate assembly for a file
 tools/libtesteth/Options.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/Options.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/Options.cpp.s
 .PHONY : tools/libtesteth/Options.cpp.s
 
 tools/libtesteth/Stats.o: tools/libtesteth/Stats.cpp.o
@@ -522,7 +522,7 @@ tools/libtesteth/Stats.o: tools/libtesteth/Stats.cpp.o
 
 # target to build an object file
 tools/libtesteth/Stats.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/Stats.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/Stats.cpp.o
 .PHONY : tools/libtesteth/Stats.cpp.o
 
 tools/libtesteth/Stats.i: tools/libtesteth/Stats.cpp.i
@@ -531,7 +531,7 @@ tools/libtesteth/Stats.i: tools/libtesteth/Stats.cpp.i
 
 # target to preprocess a source file
 tools/libtesteth/Stats.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/Stats.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/Stats.cpp.i
 .PHONY : tools/libtesteth/Stats.cpp.i
 
 tools/libtesteth/Stats.s: tools/libtesteth/Stats.cpp.s
@@ -540,7 +540,7 @@ tools/libtesteth/Stats.s: tools/libtesteth/Stats.cpp.s
 
 # target to generate assembly for a file
 tools/libtesteth/Stats.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/Stats.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/Stats.cpp.s
 .PHONY : tools/libtesteth/Stats.cpp.s
 
 tools/libtesteth/TestHelper.o: tools/libtesteth/TestHelper.cpp.o
@@ -549,7 +549,7 @@ tools/libtesteth/TestHelper.o: tools/libtesteth/TestHelper.cpp.o
 
 # target to build an object file
 tools/libtesteth/TestHelper.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/TestHelper.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/TestHelper.cpp.o
 .PHONY : tools/libtesteth/TestHelper.cpp.o
 
 tools/libtesteth/TestHelper.i: tools/libtesteth/TestHelper.cpp.i
@@ -558,7 +558,7 @@ tools/libtesteth/TestHelper.i: tools/libtesteth/TestHelper.cpp.i
 
 # target to preprocess a source file
 tools/libtesteth/TestHelper.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/TestHelper.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/TestHelper.cpp.i
 .PHONY : tools/libtesteth/TestHelper.cpp.i
 
 tools/libtesteth/TestHelper.s: tools/libtesteth/TestHelper.cpp.s
@@ -567,7 +567,7 @@ tools/libtesteth/TestHelper.s: tools/libtesteth/TestHelper.cpp.s
 
 # target to generate assembly for a file
 tools/libtesteth/TestHelper.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/TestHelper.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/TestHelper.cpp.s
 .PHONY : tools/libtesteth/TestHelper.cpp.s
 
 tools/libtesteth/TestOutputHelper.o: tools/libtesteth/TestOutputHelper.cpp.o
@@ -576,7 +576,7 @@ tools/libtesteth/TestOutputHelper.o: tools/libtesteth/TestOutputHelper.cpp.o
 
 # target to build an object file
 tools/libtesteth/TestOutputHelper.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/TestOutputHelper.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/TestOutputHelper.cpp.o
 .PHONY : tools/libtesteth/TestOutputHelper.cpp.o
 
 tools/libtesteth/TestOutputHelper.i: tools/libtesteth/TestOutputHelper.cpp.i
@@ -585,7 +585,7 @@ tools/libtesteth/TestOutputHelper.i: tools/libtesteth/TestOutputHelper.cpp.i
 
 # target to preprocess a source file
 tools/libtesteth/TestOutputHelper.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/TestOutputHelper.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/TestOutputHelper.cpp.i
 .PHONY : tools/libtesteth/TestOutputHelper.cpp.i
 
 tools/libtesteth/TestOutputHelper.s: tools/libtesteth/TestOutputHelper.cpp.s
@@ -594,7 +594,7 @@ tools/libtesteth/TestOutputHelper.s: tools/libtesteth/TestOutputHelper.cpp.s
 
 # target to generate assembly for a file
 tools/libtesteth/TestOutputHelper.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/TestOutputHelper.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/TestOutputHelper.cpp.s
 .PHONY : tools/libtesteth/TestOutputHelper.cpp.s
 
 tools/libtesteth/TestSuite.o: tools/libtesteth/TestSuite.cpp.o
@@ -603,7 +603,7 @@ tools/libtesteth/TestSuite.o: tools/libtesteth/TestSuite.cpp.o
 
 # target to build an object file
 tools/libtesteth/TestSuite.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/TestSuite.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/TestSuite.cpp.o
 .PHONY : tools/libtesteth/TestSuite.cpp.o
 
 tools/libtesteth/TestSuite.i: tools/libtesteth/TestSuite.cpp.i
@@ -612,7 +612,7 @@ tools/libtesteth/TestSuite.i: tools/libtesteth/TestSuite.cpp.i
 
 # target to preprocess a source file
 tools/libtesteth/TestSuite.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/TestSuite.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/TestSuite.cpp.i
 .PHONY : tools/libtesteth/TestSuite.cpp.i
 
 tools/libtesteth/TestSuite.s: tools/libtesteth/TestSuite.cpp.s
@@ -621,7 +621,7 @@ tools/libtesteth/TestSuite.s: tools/libtesteth/TestSuite.cpp.s
 
 # target to generate assembly for a file
 tools/libtesteth/TestSuite.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/TestSuite.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/TestSuite.cpp.s
 .PHONY : tools/libtesteth/TestSuite.cpp.s
 
 tools/libtesteth/TestUtils.o: tools/libtesteth/TestUtils.cpp.o
@@ -630,7 +630,7 @@ tools/libtesteth/TestUtils.o: tools/libtesteth/TestUtils.cpp.o
 
 # target to build an object file
 tools/libtesteth/TestUtils.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/TestUtils.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/TestUtils.cpp.o
 .PHONY : tools/libtesteth/TestUtils.cpp.o
 
 tools/libtesteth/TestUtils.i: tools/libtesteth/TestUtils.cpp.i
@@ -639,7 +639,7 @@ tools/libtesteth/TestUtils.i: tools/libtesteth/TestUtils.cpp.i
 
 # target to preprocess a source file
 tools/libtesteth/TestUtils.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/TestUtils.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/TestUtils.cpp.i
 .PHONY : tools/libtesteth/TestUtils.cpp.i
 
 tools/libtesteth/TestUtils.s: tools/libtesteth/TestUtils.cpp.s
@@ -648,7 +648,7 @@ tools/libtesteth/TestUtils.s: tools/libtesteth/TestUtils.cpp.s
 
 # target to generate assembly for a file
 tools/libtesteth/TestUtils.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/TestUtils.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/TestUtils.cpp.s
 .PHONY : tools/libtesteth/TestUtils.cpp.s
 
 tools/libtesteth/boostTest.o: tools/libtesteth/boostTest.cpp.o
@@ -657,7 +657,7 @@ tools/libtesteth/boostTest.o: tools/libtesteth/boostTest.cpp.o
 
 # target to build an object file
 tools/libtesteth/boostTest.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/boostTest.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/boostTest.cpp.o
 .PHONY : tools/libtesteth/boostTest.cpp.o
 
 tools/libtesteth/boostTest.i: tools/libtesteth/boostTest.cpp.i
@@ -666,7 +666,7 @@ tools/libtesteth/boostTest.i: tools/libtesteth/boostTest.cpp.i
 
 # target to preprocess a source file
 tools/libtesteth/boostTest.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/boostTest.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/boostTest.cpp.i
 .PHONY : tools/libtesteth/boostTest.cpp.i
 
 tools/libtesteth/boostTest.s: tools/libtesteth/boostTest.cpp.s
@@ -675,7 +675,7 @@ tools/libtesteth/boostTest.s: tools/libtesteth/boostTest.cpp.s
 
 # target to generate assembly for a file
 tools/libtesteth/boostTest.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/boostTest.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/boostTest.cpp.s
 .PHONY : tools/libtesteth/boostTest.cpp.s
 
 tools/libtesteth/wast2wasm.o: tools/libtesteth/wast2wasm.cpp.o
@@ -684,7 +684,7 @@ tools/libtesteth/wast2wasm.o: tools/libtesteth/wast2wasm.cpp.o
 
 # target to build an object file
 tools/libtesteth/wast2wasm.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/wast2wasm.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/wast2wasm.cpp.o
 .PHONY : tools/libtesteth/wast2wasm.cpp.o
 
 tools/libtesteth/wast2wasm.i: tools/libtesteth/wast2wasm.cpp.i
@@ -693,7 +693,7 @@ tools/libtesteth/wast2wasm.i: tools/libtesteth/wast2wasm.cpp.i
 
 # target to preprocess a source file
 tools/libtesteth/wast2wasm.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/wast2wasm.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/wast2wasm.cpp.i
 .PHONY : tools/libtesteth/wast2wasm.cpp.i
 
 tools/libtesteth/wast2wasm.s: tools/libtesteth/wast2wasm.cpp.s
@@ -702,7 +702,7 @@ tools/libtesteth/wast2wasm.s: tools/libtesteth/wast2wasm.cpp.s
 
 # target to generate assembly for a file
 tools/libtesteth/wast2wasm.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/wast2wasm.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtesteth/wast2wasm.cpp.s
 .PHONY : tools/libtesteth/wast2wasm.cpp.s
 
 tools/libtestutils/BlockChainLoader.o: tools/libtestutils/BlockChainLoader.cpp.o
@@ -711,7 +711,7 @@ tools/libtestutils/BlockChainLoader.o: tools/libtestutils/BlockChainLoader.cpp.o
 
 # target to build an object file
 tools/libtestutils/BlockChainLoader.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtestutils/BlockChainLoader.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtestutils/BlockChainLoader.cpp.o
 .PHONY : tools/libtestutils/BlockChainLoader.cpp.o
 
 tools/libtestutils/BlockChainLoader.i: tools/libtestutils/BlockChainLoader.cpp.i
@@ -720,7 +720,7 @@ tools/libtestutils/BlockChainLoader.i: tools/libtestutils/BlockChainLoader.cpp.i
 
 # target to preprocess a source file
 tools/libtestutils/BlockChainLoader.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtestutils/BlockChainLoader.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtestutils/BlockChainLoader.cpp.i
 .PHONY : tools/libtestutils/BlockChainLoader.cpp.i
 
 tools/libtestutils/BlockChainLoader.s: tools/libtestutils/BlockChainLoader.cpp.s
@@ -729,7 +729,7 @@ tools/libtestutils/BlockChainLoader.s: tools/libtestutils/BlockChainLoader.cpp.s
 
 # target to generate assembly for a file
 tools/libtestutils/BlockChainLoader.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtestutils/BlockChainLoader.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtestutils/BlockChainLoader.cpp.s
 .PHONY : tools/libtestutils/BlockChainLoader.cpp.s
 
 tools/libtestutils/Common.o: tools/libtestutils/Common.cpp.o
@@ -738,7 +738,7 @@ tools/libtestutils/Common.o: tools/libtestutils/Common.cpp.o
 
 # target to build an object file
 tools/libtestutils/Common.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtestutils/Common.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtestutils/Common.cpp.o
 .PHONY : tools/libtestutils/Common.cpp.o
 
 tools/libtestutils/Common.i: tools/libtestutils/Common.cpp.i
@@ -747,7 +747,7 @@ tools/libtestutils/Common.i: tools/libtestutils/Common.cpp.i
 
 # target to preprocess a source file
 tools/libtestutils/Common.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtestutils/Common.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtestutils/Common.cpp.i
 .PHONY : tools/libtestutils/Common.cpp.i
 
 tools/libtestutils/Common.s: tools/libtestutils/Common.cpp.s
@@ -756,7 +756,7 @@ tools/libtestutils/Common.s: tools/libtestutils/Common.cpp.s
 
 # target to generate assembly for a file
 tools/libtestutils/Common.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtestutils/Common.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtestutils/Common.cpp.s
 .PHONY : tools/libtestutils/Common.cpp.s
 
 tools/libtestutils/FixedClient.o: tools/libtestutils/FixedClient.cpp.o
@@ -765,7 +765,7 @@ tools/libtestutils/FixedClient.o: tools/libtestutils/FixedClient.cpp.o
 
 # target to build an object file
 tools/libtestutils/FixedClient.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtestutils/FixedClient.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtestutils/FixedClient.cpp.o
 .PHONY : tools/libtestutils/FixedClient.cpp.o
 
 tools/libtestutils/FixedClient.i: tools/libtestutils/FixedClient.cpp.i
@@ -774,7 +774,7 @@ tools/libtestutils/FixedClient.i: tools/libtestutils/FixedClient.cpp.i
 
 # target to preprocess a source file
 tools/libtestutils/FixedClient.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtestutils/FixedClient.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtestutils/FixedClient.cpp.i
 .PHONY : tools/libtestutils/FixedClient.cpp.i
 
 tools/libtestutils/FixedClient.s: tools/libtestutils/FixedClient.cpp.s
@@ -783,7 +783,7 @@ tools/libtestutils/FixedClient.s: tools/libtestutils/FixedClient.cpp.s
 
 # target to generate assembly for a file
 tools/libtestutils/FixedClient.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtestutils/FixedClient.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/tools/libtestutils/FixedClient.cpp.s
 .PHONY : tools/libtestutils/FixedClient.cpp.s
 
 unittests/external-dependencies/boost.o: unittests/external-dependencies/boost.cpp.o
@@ -792,7 +792,7 @@ unittests/external-dependencies/boost.o: unittests/external-dependencies/boost.c
 
 # target to build an object file
 unittests/external-dependencies/boost.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/external-dependencies/boost.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/external-dependencies/boost.cpp.o
 .PHONY : unittests/external-dependencies/boost.cpp.o
 
 unittests/external-dependencies/boost.i: unittests/external-dependencies/boost.cpp.i
@@ -801,7 +801,7 @@ unittests/external-dependencies/boost.i: unittests/external-dependencies/boost.c
 
 # target to preprocess a source file
 unittests/external-dependencies/boost.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/external-dependencies/boost.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/external-dependencies/boost.cpp.i
 .PHONY : unittests/external-dependencies/boost.cpp.i
 
 unittests/external-dependencies/boost.s: unittests/external-dependencies/boost.cpp.s
@@ -810,7 +810,7 @@ unittests/external-dependencies/boost.s: unittests/external-dependencies/boost.c
 
 # target to generate assembly for a file
 unittests/external-dependencies/boost.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/external-dependencies/boost.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/external-dependencies/boost.cpp.s
 .PHONY : unittests/external-dependencies/boost.cpp.s
 
 unittests/libdevcore/CommonJS.o: unittests/libdevcore/CommonJS.cpp.o
@@ -819,7 +819,7 @@ unittests/libdevcore/CommonJS.o: unittests/libdevcore/CommonJS.cpp.o
 
 # target to build an object file
 unittests/libdevcore/CommonJS.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/CommonJS.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/CommonJS.cpp.o
 .PHONY : unittests/libdevcore/CommonJS.cpp.o
 
 unittests/libdevcore/CommonJS.i: unittests/libdevcore/CommonJS.cpp.i
@@ -828,7 +828,7 @@ unittests/libdevcore/CommonJS.i: unittests/libdevcore/CommonJS.cpp.i
 
 # target to preprocess a source file
 unittests/libdevcore/CommonJS.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/CommonJS.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/CommonJS.cpp.i
 .PHONY : unittests/libdevcore/CommonJS.cpp.i
 
 unittests/libdevcore/CommonJS.s: unittests/libdevcore/CommonJS.cpp.s
@@ -837,7 +837,7 @@ unittests/libdevcore/CommonJS.s: unittests/libdevcore/CommonJS.cpp.s
 
 # target to generate assembly for a file
 unittests/libdevcore/CommonJS.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/CommonJS.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/CommonJS.cpp.s
 .PHONY : unittests/libdevcore/CommonJS.cpp.s
 
 unittests/libdevcore/FixedHash.o: unittests/libdevcore/FixedHash.cpp.o
@@ -846,7 +846,7 @@ unittests/libdevcore/FixedHash.o: unittests/libdevcore/FixedHash.cpp.o
 
 # target to build an object file
 unittests/libdevcore/FixedHash.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/FixedHash.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/FixedHash.cpp.o
 .PHONY : unittests/libdevcore/FixedHash.cpp.o
 
 unittests/libdevcore/FixedHash.i: unittests/libdevcore/FixedHash.cpp.i
@@ -855,7 +855,7 @@ unittests/libdevcore/FixedHash.i: unittests/libdevcore/FixedHash.cpp.i
 
 # target to preprocess a source file
 unittests/libdevcore/FixedHash.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/FixedHash.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/FixedHash.cpp.i
 .PHONY : unittests/libdevcore/FixedHash.cpp.i
 
 unittests/libdevcore/FixedHash.s: unittests/libdevcore/FixedHash.cpp.s
@@ -864,7 +864,7 @@ unittests/libdevcore/FixedHash.s: unittests/libdevcore/FixedHash.cpp.s
 
 # target to generate assembly for a file
 unittests/libdevcore/FixedHash.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/FixedHash.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/FixedHash.cpp.s
 .PHONY : unittests/libdevcore/FixedHash.cpp.s
 
 unittests/libdevcore/RangeMask.o: unittests/libdevcore/RangeMask.cpp.o
@@ -873,7 +873,7 @@ unittests/libdevcore/RangeMask.o: unittests/libdevcore/RangeMask.cpp.o
 
 # target to build an object file
 unittests/libdevcore/RangeMask.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/RangeMask.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/RangeMask.cpp.o
 .PHONY : unittests/libdevcore/RangeMask.cpp.o
 
 unittests/libdevcore/RangeMask.i: unittests/libdevcore/RangeMask.cpp.i
@@ -882,7 +882,7 @@ unittests/libdevcore/RangeMask.i: unittests/libdevcore/RangeMask.cpp.i
 
 # target to preprocess a source file
 unittests/libdevcore/RangeMask.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/RangeMask.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/RangeMask.cpp.i
 .PHONY : unittests/libdevcore/RangeMask.cpp.i
 
 unittests/libdevcore/RangeMask.s: unittests/libdevcore/RangeMask.cpp.s
@@ -891,7 +891,7 @@ unittests/libdevcore/RangeMask.s: unittests/libdevcore/RangeMask.cpp.s
 
 # target to generate assembly for a file
 unittests/libdevcore/RangeMask.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/RangeMask.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/RangeMask.cpp.s
 .PHONY : unittests/libdevcore/RangeMask.cpp.s
 
 unittests/libdevcore/core.o: unittests/libdevcore/core.cpp.o
@@ -900,7 +900,7 @@ unittests/libdevcore/core.o: unittests/libdevcore/core.cpp.o
 
 # target to build an object file
 unittests/libdevcore/core.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/core.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/core.cpp.o
 .PHONY : unittests/libdevcore/core.cpp.o
 
 unittests/libdevcore/core.i: unittests/libdevcore/core.cpp.i
@@ -909,7 +909,7 @@ unittests/libdevcore/core.i: unittests/libdevcore/core.cpp.i
 
 # target to preprocess a source file
 unittests/libdevcore/core.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/core.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/core.cpp.i
 .PHONY : unittests/libdevcore/core.cpp.i
 
 unittests/libdevcore/core.s: unittests/libdevcore/core.cpp.s
@@ -918,7 +918,7 @@ unittests/libdevcore/core.s: unittests/libdevcore/core.cpp.s
 
 # target to generate assembly for a file
 unittests/libdevcore/core.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/core.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/core.cpp.s
 .PHONY : unittests/libdevcore/core.cpp.s
 
 unittests/libdevcore/rlp.o: unittests/libdevcore/rlp.cpp.o
@@ -927,7 +927,7 @@ unittests/libdevcore/rlp.o: unittests/libdevcore/rlp.cpp.o
 
 # target to build an object file
 unittests/libdevcore/rlp.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/rlp.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/rlp.cpp.o
 .PHONY : unittests/libdevcore/rlp.cpp.o
 
 unittests/libdevcore/rlp.i: unittests/libdevcore/rlp.cpp.i
@@ -936,7 +936,7 @@ unittests/libdevcore/rlp.i: unittests/libdevcore/rlp.cpp.i
 
 # target to preprocess a source file
 unittests/libdevcore/rlp.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/rlp.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/rlp.cpp.i
 .PHONY : unittests/libdevcore/rlp.cpp.i
 
 unittests/libdevcore/rlp.s: unittests/libdevcore/rlp.cpp.s
@@ -945,7 +945,7 @@ unittests/libdevcore/rlp.s: unittests/libdevcore/rlp.cpp.s
 
 # target to generate assembly for a file
 unittests/libdevcore/rlp.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/rlp.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcore/rlp.cpp.s
 .PHONY : unittests/libdevcore/rlp.cpp.s
 
 unittests/libdevcrypto/AES.o: unittests/libdevcrypto/AES.cpp.o
@@ -954,7 +954,7 @@ unittests/libdevcrypto/AES.o: unittests/libdevcrypto/AES.cpp.o
 
 # target to build an object file
 unittests/libdevcrypto/AES.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/AES.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/AES.cpp.o
 .PHONY : unittests/libdevcrypto/AES.cpp.o
 
 unittests/libdevcrypto/AES.i: unittests/libdevcrypto/AES.cpp.i
@@ -963,7 +963,7 @@ unittests/libdevcrypto/AES.i: unittests/libdevcrypto/AES.cpp.i
 
 # target to preprocess a source file
 unittests/libdevcrypto/AES.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/AES.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/AES.cpp.i
 .PHONY : unittests/libdevcrypto/AES.cpp.i
 
 unittests/libdevcrypto/AES.s: unittests/libdevcrypto/AES.cpp.s
@@ -972,7 +972,7 @@ unittests/libdevcrypto/AES.s: unittests/libdevcrypto/AES.cpp.s
 
 # target to generate assembly for a file
 unittests/libdevcrypto/AES.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/AES.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/AES.cpp.s
 .PHONY : unittests/libdevcrypto/AES.cpp.s
 
 unittests/libdevcrypto/LibSnark.o: unittests/libdevcrypto/LibSnark.cpp.o
@@ -981,7 +981,7 @@ unittests/libdevcrypto/LibSnark.o: unittests/libdevcrypto/LibSnark.cpp.o
 
 # target to build an object file
 unittests/libdevcrypto/LibSnark.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/LibSnark.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/LibSnark.cpp.o
 .PHONY : unittests/libdevcrypto/LibSnark.cpp.o
 
 unittests/libdevcrypto/LibSnark.i: unittests/libdevcrypto/LibSnark.cpp.i
@@ -990,7 +990,7 @@ unittests/libdevcrypto/LibSnark.i: unittests/libdevcrypto/LibSnark.cpp.i
 
 # target to preprocess a source file
 unittests/libdevcrypto/LibSnark.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/LibSnark.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/LibSnark.cpp.i
 .PHONY : unittests/libdevcrypto/LibSnark.cpp.i
 
 unittests/libdevcrypto/LibSnark.s: unittests/libdevcrypto/LibSnark.cpp.s
@@ -999,7 +999,7 @@ unittests/libdevcrypto/LibSnark.s: unittests/libdevcrypto/LibSnark.cpp.s
 
 # target to generate assembly for a file
 unittests/libdevcrypto/LibSnark.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/LibSnark.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/LibSnark.cpp.s
 .PHONY : unittests/libdevcrypto/LibSnark.cpp.s
 
 unittests/libdevcrypto/MemTrie.o: unittests/libdevcrypto/MemTrie.cpp.o
@@ -1008,7 +1008,7 @@ unittests/libdevcrypto/MemTrie.o: unittests/libdevcrypto/MemTrie.cpp.o
 
 # target to build an object file
 unittests/libdevcrypto/MemTrie.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/MemTrie.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/MemTrie.cpp.o
 .PHONY : unittests/libdevcrypto/MemTrie.cpp.o
 
 unittests/libdevcrypto/MemTrie.i: unittests/libdevcrypto/MemTrie.cpp.i
@@ -1017,7 +1017,7 @@ unittests/libdevcrypto/MemTrie.i: unittests/libdevcrypto/MemTrie.cpp.i
 
 # target to preprocess a source file
 unittests/libdevcrypto/MemTrie.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/MemTrie.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/MemTrie.cpp.i
 .PHONY : unittests/libdevcrypto/MemTrie.cpp.i
 
 unittests/libdevcrypto/MemTrie.s: unittests/libdevcrypto/MemTrie.cpp.s
@@ -1026,7 +1026,7 @@ unittests/libdevcrypto/MemTrie.s: unittests/libdevcrypto/MemTrie.cpp.s
 
 # target to generate assembly for a file
 unittests/libdevcrypto/MemTrie.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/MemTrie.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/MemTrie.cpp.s
 .PHONY : unittests/libdevcrypto/MemTrie.cpp.s
 
 unittests/libdevcrypto/SecretStore.o: unittests/libdevcrypto/SecretStore.cpp.o
@@ -1035,7 +1035,7 @@ unittests/libdevcrypto/SecretStore.o: unittests/libdevcrypto/SecretStore.cpp.o
 
 # target to build an object file
 unittests/libdevcrypto/SecretStore.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/SecretStore.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/SecretStore.cpp.o
 .PHONY : unittests/libdevcrypto/SecretStore.cpp.o
 
 unittests/libdevcrypto/SecretStore.i: unittests/libdevcrypto/SecretStore.cpp.i
@@ -1044,7 +1044,7 @@ unittests/libdevcrypto/SecretStore.i: unittests/libdevcrypto/SecretStore.cpp.i
 
 # target to preprocess a source file
 unittests/libdevcrypto/SecretStore.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/SecretStore.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/SecretStore.cpp.i
 .PHONY : unittests/libdevcrypto/SecretStore.cpp.i
 
 unittests/libdevcrypto/SecretStore.s: unittests/libdevcrypto/SecretStore.cpp.s
@@ -1053,7 +1053,7 @@ unittests/libdevcrypto/SecretStore.s: unittests/libdevcrypto/SecretStore.cpp.s
 
 # target to generate assembly for a file
 unittests/libdevcrypto/SecretStore.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/SecretStore.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/SecretStore.cpp.s
 .PHONY : unittests/libdevcrypto/SecretStore.cpp.s
 
 unittests/libdevcrypto/crypto.o: unittests/libdevcrypto/crypto.cpp.o
@@ -1062,7 +1062,7 @@ unittests/libdevcrypto/crypto.o: unittests/libdevcrypto/crypto.cpp.o
 
 # target to build an object file
 unittests/libdevcrypto/crypto.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/crypto.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/crypto.cpp.o
 .PHONY : unittests/libdevcrypto/crypto.cpp.o
 
 unittests/libdevcrypto/crypto.i: unittests/libdevcrypto/crypto.cpp.i
@@ -1071,7 +1071,7 @@ unittests/libdevcrypto/crypto.i: unittests/libdevcrypto/crypto.cpp.i
 
 # target to preprocess a source file
 unittests/libdevcrypto/crypto.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/crypto.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/crypto.cpp.i
 .PHONY : unittests/libdevcrypto/crypto.cpp.i
 
 unittests/libdevcrypto/crypto.s: unittests/libdevcrypto/crypto.cpp.s
@@ -1080,7 +1080,7 @@ unittests/libdevcrypto/crypto.s: unittests/libdevcrypto/crypto.cpp.s
 
 # target to generate assembly for a file
 unittests/libdevcrypto/crypto.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/crypto.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/crypto.cpp.s
 .PHONY : unittests/libdevcrypto/crypto.cpp.s
 
 unittests/libdevcrypto/hexPrefix.o: unittests/libdevcrypto/hexPrefix.cpp.o
@@ -1089,7 +1089,7 @@ unittests/libdevcrypto/hexPrefix.o: unittests/libdevcrypto/hexPrefix.cpp.o
 
 # target to build an object file
 unittests/libdevcrypto/hexPrefix.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/hexPrefix.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/hexPrefix.cpp.o
 .PHONY : unittests/libdevcrypto/hexPrefix.cpp.o
 
 unittests/libdevcrypto/hexPrefix.i: unittests/libdevcrypto/hexPrefix.cpp.i
@@ -1098,7 +1098,7 @@ unittests/libdevcrypto/hexPrefix.i: unittests/libdevcrypto/hexPrefix.cpp.i
 
 # target to preprocess a source file
 unittests/libdevcrypto/hexPrefix.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/hexPrefix.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/hexPrefix.cpp.i
 .PHONY : unittests/libdevcrypto/hexPrefix.cpp.i
 
 unittests/libdevcrypto/hexPrefix.s: unittests/libdevcrypto/hexPrefix.cpp.s
@@ -1107,7 +1107,7 @@ unittests/libdevcrypto/hexPrefix.s: unittests/libdevcrypto/hexPrefix.cpp.s
 
 # target to generate assembly for a file
 unittests/libdevcrypto/hexPrefix.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/hexPrefix.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/hexPrefix.cpp.s
 .PHONY : unittests/libdevcrypto/hexPrefix.cpp.s
 
 unittests/libdevcrypto/trie.o: unittests/libdevcrypto/trie.cpp.o
@@ -1116,7 +1116,7 @@ unittests/libdevcrypto/trie.o: unittests/libdevcrypto/trie.cpp.o
 
 # target to build an object file
 unittests/libdevcrypto/trie.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/trie.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/trie.cpp.o
 .PHONY : unittests/libdevcrypto/trie.cpp.o
 
 unittests/libdevcrypto/trie.i: unittests/libdevcrypto/trie.cpp.i
@@ -1125,7 +1125,7 @@ unittests/libdevcrypto/trie.i: unittests/libdevcrypto/trie.cpp.i
 
 # target to preprocess a source file
 unittests/libdevcrypto/trie.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/trie.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/trie.cpp.i
 .PHONY : unittests/libdevcrypto/trie.cpp.i
 
 unittests/libdevcrypto/trie.s: unittests/libdevcrypto/trie.cpp.s
@@ -1134,7 +1134,7 @@ unittests/libdevcrypto/trie.s: unittests/libdevcrypto/trie.cpp.s
 
 # target to generate assembly for a file
 unittests/libdevcrypto/trie.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/trie.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libdevcrypto/trie.cpp.s
 .PHONY : unittests/libdevcrypto/trie.cpp.s
 
 unittests/libethashseal/EthashTest.o: unittests/libethashseal/EthashTest.cpp.o
@@ -1143,7 +1143,7 @@ unittests/libethashseal/EthashTest.o: unittests/libethashseal/EthashTest.cpp.o
 
 # target to build an object file
 unittests/libethashseal/EthashTest.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethashseal/EthashTest.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethashseal/EthashTest.cpp.o
 .PHONY : unittests/libethashseal/EthashTest.cpp.o
 
 unittests/libethashseal/EthashTest.i: unittests/libethashseal/EthashTest.cpp.i
@@ -1152,7 +1152,7 @@ unittests/libethashseal/EthashTest.i: unittests/libethashseal/EthashTest.cpp.i
 
 # target to preprocess a source file
 unittests/libethashseal/EthashTest.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethashseal/EthashTest.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethashseal/EthashTest.cpp.i
 .PHONY : unittests/libethashseal/EthashTest.cpp.i
 
 unittests/libethashseal/EthashTest.s: unittests/libethashseal/EthashTest.cpp.s
@@ -1161,7 +1161,7 @@ unittests/libethashseal/EthashTest.s: unittests/libethashseal/EthashTest.cpp.s
 
 # target to generate assembly for a file
 unittests/libethashseal/EthashTest.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethashseal/EthashTest.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethashseal/EthashTest.cpp.s
 .PHONY : unittests/libethashseal/EthashTest.cpp.s
 
 unittests/libethcore/PrecompiledTest.o: unittests/libethcore/PrecompiledTest.cpp.o
@@ -1170,7 +1170,7 @@ unittests/libethcore/PrecompiledTest.o: unittests/libethcore/PrecompiledTest.cpp
 
 # target to build an object file
 unittests/libethcore/PrecompiledTest.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/PrecompiledTest.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/PrecompiledTest.cpp.o
 .PHONY : unittests/libethcore/PrecompiledTest.cpp.o
 
 unittests/libethcore/PrecompiledTest.i: unittests/libethcore/PrecompiledTest.cpp.i
@@ -1179,7 +1179,7 @@ unittests/libethcore/PrecompiledTest.i: unittests/libethcore/PrecompiledTest.cpp
 
 # target to preprocess a source file
 unittests/libethcore/PrecompiledTest.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/PrecompiledTest.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/PrecompiledTest.cpp.i
 .PHONY : unittests/libethcore/PrecompiledTest.cpp.i
 
 unittests/libethcore/PrecompiledTest.s: unittests/libethcore/PrecompiledTest.cpp.s
@@ -1188,7 +1188,7 @@ unittests/libethcore/PrecompiledTest.s: unittests/libethcore/PrecompiledTest.cpp
 
 # target to generate assembly for a file
 unittests/libethcore/PrecompiledTest.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/PrecompiledTest.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/PrecompiledTest.cpp.s
 .PHONY : unittests/libethcore/PrecompiledTest.cpp.s
 
 unittests/libethcore/SealEngineTest.o: unittests/libethcore/SealEngineTest.cpp.o
@@ -1197,7 +1197,7 @@ unittests/libethcore/SealEngineTest.o: unittests/libethcore/SealEngineTest.cpp.o
 
 # target to build an object file
 unittests/libethcore/SealEngineTest.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/SealEngineTest.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/SealEngineTest.cpp.o
 .PHONY : unittests/libethcore/SealEngineTest.cpp.o
 
 unittests/libethcore/SealEngineTest.i: unittests/libethcore/SealEngineTest.cpp.i
@@ -1206,7 +1206,7 @@ unittests/libethcore/SealEngineTest.i: unittests/libethcore/SealEngineTest.cpp.i
 
 # target to preprocess a source file
 unittests/libethcore/SealEngineTest.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/SealEngineTest.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/SealEngineTest.cpp.i
 .PHONY : unittests/libethcore/SealEngineTest.cpp.i
 
 unittests/libethcore/SealEngineTest.s: unittests/libethcore/SealEngineTest.cpp.s
@@ -1215,7 +1215,7 @@ unittests/libethcore/SealEngineTest.s: unittests/libethcore/SealEngineTest.cpp.s
 
 # target to generate assembly for a file
 unittests/libethcore/SealEngineTest.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/SealEngineTest.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/SealEngineTest.cpp.s
 .PHONY : unittests/libethcore/SealEngineTest.cpp.s
 
 unittests/libethcore/commonjs.o: unittests/libethcore/commonjs.cpp.o
@@ -1224,7 +1224,7 @@ unittests/libethcore/commonjs.o: unittests/libethcore/commonjs.cpp.o
 
 # target to build an object file
 unittests/libethcore/commonjs.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/commonjs.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/commonjs.cpp.o
 .PHONY : unittests/libethcore/commonjs.cpp.o
 
 unittests/libethcore/commonjs.i: unittests/libethcore/commonjs.cpp.i
@@ -1233,7 +1233,7 @@ unittests/libethcore/commonjs.i: unittests/libethcore/commonjs.cpp.i
 
 # target to preprocess a source file
 unittests/libethcore/commonjs.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/commonjs.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/commonjs.cpp.i
 .PHONY : unittests/libethcore/commonjs.cpp.i
 
 unittests/libethcore/commonjs.s: unittests/libethcore/commonjs.cpp.s
@@ -1242,7 +1242,7 @@ unittests/libethcore/commonjs.s: unittests/libethcore/commonjs.cpp.s
 
 # target to generate assembly for a file
 unittests/libethcore/commonjs.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/commonjs.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/commonjs.cpp.s
 .PHONY : unittests/libethcore/commonjs.cpp.s
 
 unittests/libethcore/difficulty.o: unittests/libethcore/difficulty.cpp.o
@@ -1251,7 +1251,7 @@ unittests/libethcore/difficulty.o: unittests/libethcore/difficulty.cpp.o
 
 # target to build an object file
 unittests/libethcore/difficulty.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/difficulty.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/difficulty.cpp.o
 .PHONY : unittests/libethcore/difficulty.cpp.o
 
 unittests/libethcore/difficulty.i: unittests/libethcore/difficulty.cpp.i
@@ -1260,7 +1260,7 @@ unittests/libethcore/difficulty.i: unittests/libethcore/difficulty.cpp.i
 
 # target to preprocess a source file
 unittests/libethcore/difficulty.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/difficulty.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/difficulty.cpp.i
 .PHONY : unittests/libethcore/difficulty.cpp.i
 
 unittests/libethcore/difficulty.s: unittests/libethcore/difficulty.cpp.s
@@ -1269,7 +1269,7 @@ unittests/libethcore/difficulty.s: unittests/libethcore/difficulty.cpp.s
 
 # target to generate assembly for a file
 unittests/libethcore/difficulty.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/difficulty.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/difficulty.cpp.s
 .PHONY : unittests/libethcore/difficulty.cpp.s
 
 unittests/libethcore/keymanager.o: unittests/libethcore/keymanager.cpp.o
@@ -1278,7 +1278,7 @@ unittests/libethcore/keymanager.o: unittests/libethcore/keymanager.cpp.o
 
 # target to build an object file
 unittests/libethcore/keymanager.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/keymanager.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/keymanager.cpp.o
 .PHONY : unittests/libethcore/keymanager.cpp.o
 
 unittests/libethcore/keymanager.i: unittests/libethcore/keymanager.cpp.i
@@ -1287,7 +1287,7 @@ unittests/libethcore/keymanager.i: unittests/libethcore/keymanager.cpp.i
 
 # target to preprocess a source file
 unittests/libethcore/keymanager.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/keymanager.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/keymanager.cpp.i
 .PHONY : unittests/libethcore/keymanager.cpp.i
 
 unittests/libethcore/keymanager.s: unittests/libethcore/keymanager.cpp.s
@@ -1296,7 +1296,7 @@ unittests/libethcore/keymanager.s: unittests/libethcore/keymanager.cpp.s
 
 # target to generate assembly for a file
 unittests/libethcore/keymanager.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/keymanager.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethcore/keymanager.cpp.s
 .PHONY : unittests/libethcore/keymanager.cpp.s
 
 unittests/libethereum/Block.o: unittests/libethereum/Block.cpp.o
@@ -1305,7 +1305,7 @@ unittests/libethereum/Block.o: unittests/libethereum/Block.cpp.o
 
 # target to build an object file
 unittests/libethereum/Block.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/Block.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/Block.cpp.o
 .PHONY : unittests/libethereum/Block.cpp.o
 
 unittests/libethereum/Block.i: unittests/libethereum/Block.cpp.i
@@ -1314,7 +1314,7 @@ unittests/libethereum/Block.i: unittests/libethereum/Block.cpp.i
 
 # target to preprocess a source file
 unittests/libethereum/Block.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/Block.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/Block.cpp.i
 .PHONY : unittests/libethereum/Block.cpp.i
 
 unittests/libethereum/Block.s: unittests/libethereum/Block.cpp.s
@@ -1323,7 +1323,7 @@ unittests/libethereum/Block.s: unittests/libethereum/Block.cpp.s
 
 # target to generate assembly for a file
 unittests/libethereum/Block.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/Block.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/Block.cpp.s
 .PHONY : unittests/libethereum/Block.cpp.s
 
 unittests/libethereum/BlockChain.o: unittests/libethereum/BlockChain.cpp.o
@@ -1332,7 +1332,7 @@ unittests/libethereum/BlockChain.o: unittests/libethereum/BlockChain.cpp.o
 
 # target to build an object file
 unittests/libethereum/BlockChain.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/BlockChain.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/BlockChain.cpp.o
 .PHONY : unittests/libethereum/BlockChain.cpp.o
 
 unittests/libethereum/BlockChain.i: unittests/libethereum/BlockChain.cpp.i
@@ -1341,7 +1341,7 @@ unittests/libethereum/BlockChain.i: unittests/libethereum/BlockChain.cpp.i
 
 # target to preprocess a source file
 unittests/libethereum/BlockChain.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/BlockChain.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/BlockChain.cpp.i
 .PHONY : unittests/libethereum/BlockChain.cpp.i
 
 unittests/libethereum/BlockChain.s: unittests/libethereum/BlockChain.cpp.s
@@ -1350,7 +1350,7 @@ unittests/libethereum/BlockChain.s: unittests/libethereum/BlockChain.cpp.s
 
 # target to generate assembly for a file
 unittests/libethereum/BlockChain.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/BlockChain.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/BlockChain.cpp.s
 .PHONY : unittests/libethereum/BlockChain.cpp.s
 
 unittests/libethereum/BlockChainInsert.o: unittests/libethereum/BlockChainInsert.cpp.o
@@ -1359,7 +1359,7 @@ unittests/libethereum/BlockChainInsert.o: unittests/libethereum/BlockChainInsert
 
 # target to build an object file
 unittests/libethereum/BlockChainInsert.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/BlockChainInsert.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/BlockChainInsert.cpp.o
 .PHONY : unittests/libethereum/BlockChainInsert.cpp.o
 
 unittests/libethereum/BlockChainInsert.i: unittests/libethereum/BlockChainInsert.cpp.i
@@ -1368,7 +1368,7 @@ unittests/libethereum/BlockChainInsert.i: unittests/libethereum/BlockChainInsert
 
 # target to preprocess a source file
 unittests/libethereum/BlockChainInsert.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/BlockChainInsert.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/BlockChainInsert.cpp.i
 .PHONY : unittests/libethereum/BlockChainInsert.cpp.i
 
 unittests/libethereum/BlockChainInsert.s: unittests/libethereum/BlockChainInsert.cpp.s
@@ -1377,7 +1377,7 @@ unittests/libethereum/BlockChainInsert.s: unittests/libethereum/BlockChainInsert
 
 # target to generate assembly for a file
 unittests/libethereum/BlockChainInsert.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/BlockChainInsert.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/BlockChainInsert.cpp.s
 .PHONY : unittests/libethereum/BlockChainInsert.cpp.s
 
 unittests/libethereum/BlockQueue.o: unittests/libethereum/BlockQueue.cpp.o
@@ -1386,7 +1386,7 @@ unittests/libethereum/BlockQueue.o: unittests/libethereum/BlockQueue.cpp.o
 
 # target to build an object file
 unittests/libethereum/BlockQueue.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/BlockQueue.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/BlockQueue.cpp.o
 .PHONY : unittests/libethereum/BlockQueue.cpp.o
 
 unittests/libethereum/BlockQueue.i: unittests/libethereum/BlockQueue.cpp.i
@@ -1395,7 +1395,7 @@ unittests/libethereum/BlockQueue.i: unittests/libethereum/BlockQueue.cpp.i
 
 # target to preprocess a source file
 unittests/libethereum/BlockQueue.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/BlockQueue.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/BlockQueue.cpp.i
 .PHONY : unittests/libethereum/BlockQueue.cpp.i
 
 unittests/libethereum/BlockQueue.s: unittests/libethereum/BlockQueue.cpp.s
@@ -1404,7 +1404,7 @@ unittests/libethereum/BlockQueue.s: unittests/libethereum/BlockQueue.cpp.s
 
 # target to generate assembly for a file
 unittests/libethereum/BlockQueue.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/BlockQueue.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/BlockQueue.cpp.s
 .PHONY : unittests/libethereum/BlockQueue.cpp.s
 
 unittests/libethereum/ClientBase.o: unittests/libethereum/ClientBase.cpp.o
@@ -1413,7 +1413,7 @@ unittests/libethereum/ClientBase.o: unittests/libethereum/ClientBase.cpp.o
 
 # target to build an object file
 unittests/libethereum/ClientBase.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/ClientBase.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/ClientBase.cpp.o
 .PHONY : unittests/libethereum/ClientBase.cpp.o
 
 unittests/libethereum/ClientBase.i: unittests/libethereum/ClientBase.cpp.i
@@ -1422,7 +1422,7 @@ unittests/libethereum/ClientBase.i: unittests/libethereum/ClientBase.cpp.i
 
 # target to preprocess a source file
 unittests/libethereum/ClientBase.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/ClientBase.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/ClientBase.cpp.i
 .PHONY : unittests/libethereum/ClientBase.cpp.i
 
 unittests/libethereum/ClientBase.s: unittests/libethereum/ClientBase.cpp.s
@@ -1431,7 +1431,7 @@ unittests/libethereum/ClientBase.s: unittests/libethereum/ClientBase.cpp.s
 
 # target to generate assembly for a file
 unittests/libethereum/ClientBase.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/ClientBase.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/ClientBase.cpp.s
 .PHONY : unittests/libethereum/ClientBase.cpp.s
 
 unittests/libethereum/ClientTest.o: unittests/libethereum/ClientTest.cpp.o
@@ -1440,7 +1440,7 @@ unittests/libethereum/ClientTest.o: unittests/libethereum/ClientTest.cpp.o
 
 # target to build an object file
 unittests/libethereum/ClientTest.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/ClientTest.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/ClientTest.cpp.o
 .PHONY : unittests/libethereum/ClientTest.cpp.o
 
 unittests/libethereum/ClientTest.i: unittests/libethereum/ClientTest.cpp.i
@@ -1449,7 +1449,7 @@ unittests/libethereum/ClientTest.i: unittests/libethereum/ClientTest.cpp.i
 
 # target to preprocess a source file
 unittests/libethereum/ClientTest.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/ClientTest.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/ClientTest.cpp.i
 .PHONY : unittests/libethereum/ClientTest.cpp.i
 
 unittests/libethereum/ClientTest.s: unittests/libethereum/ClientTest.cpp.s
@@ -1458,7 +1458,7 @@ unittests/libethereum/ClientTest.s: unittests/libethereum/ClientTest.cpp.s
 
 # target to generate assembly for a file
 unittests/libethereum/ClientTest.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/ClientTest.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/ClientTest.cpp.s
 .PHONY : unittests/libethereum/ClientTest.cpp.s
 
 unittests/libethereum/EthereumPeerTest.o: unittests/libethereum/EthereumPeerTest.cpp.o
@@ -1467,7 +1467,7 @@ unittests/libethereum/EthereumPeerTest.o: unittests/libethereum/EthereumPeerTest
 
 # target to build an object file
 unittests/libethereum/EthereumPeerTest.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/EthereumPeerTest.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/EthereumPeerTest.cpp.o
 .PHONY : unittests/libethereum/EthereumPeerTest.cpp.o
 
 unittests/libethereum/EthereumPeerTest.i: unittests/libethereum/EthereumPeerTest.cpp.i
@@ -1476,7 +1476,7 @@ unittests/libethereum/EthereumPeerTest.i: unittests/libethereum/EthereumPeerTest
 
 # target to preprocess a source file
 unittests/libethereum/EthereumPeerTest.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/EthereumPeerTest.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/EthereumPeerTest.cpp.i
 .PHONY : unittests/libethereum/EthereumPeerTest.cpp.i
 
 unittests/libethereum/EthereumPeerTest.s: unittests/libethereum/EthereumPeerTest.cpp.s
@@ -1485,7 +1485,7 @@ unittests/libethereum/EthereumPeerTest.s: unittests/libethereum/EthereumPeerTest
 
 # target to generate assembly for a file
 unittests/libethereum/EthereumPeerTest.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/EthereumPeerTest.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/EthereumPeerTest.cpp.s
 .PHONY : unittests/libethereum/EthereumPeerTest.cpp.s
 
 unittests/libethereum/ExtVMTest.o: unittests/libethereum/ExtVMTest.cpp.o
@@ -1494,7 +1494,7 @@ unittests/libethereum/ExtVMTest.o: unittests/libethereum/ExtVMTest.cpp.o
 
 # target to build an object file
 unittests/libethereum/ExtVMTest.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/ExtVMTest.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/ExtVMTest.cpp.o
 .PHONY : unittests/libethereum/ExtVMTest.cpp.o
 
 unittests/libethereum/ExtVMTest.i: unittests/libethereum/ExtVMTest.cpp.i
@@ -1503,7 +1503,7 @@ unittests/libethereum/ExtVMTest.i: unittests/libethereum/ExtVMTest.cpp.i
 
 # target to preprocess a source file
 unittests/libethereum/ExtVMTest.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/ExtVMTest.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/ExtVMTest.cpp.i
 .PHONY : unittests/libethereum/ExtVMTest.cpp.i
 
 unittests/libethereum/ExtVMTest.s: unittests/libethereum/ExtVMTest.cpp.s
@@ -1512,7 +1512,7 @@ unittests/libethereum/ExtVMTest.s: unittests/libethereum/ExtVMTest.cpp.s
 
 # target to generate assembly for a file
 unittests/libethereum/ExtVMTest.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/ExtVMTest.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/ExtVMTest.cpp.s
 .PHONY : unittests/libethereum/ExtVMTest.cpp.s
 
 unittests/libethereum/GasPricer.o: unittests/libethereum/GasPricer.cpp.o
@@ -1521,7 +1521,7 @@ unittests/libethereum/GasPricer.o: unittests/libethereum/GasPricer.cpp.o
 
 # target to build an object file
 unittests/libethereum/GasPricer.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/GasPricer.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/GasPricer.cpp.o
 .PHONY : unittests/libethereum/GasPricer.cpp.o
 
 unittests/libethereum/GasPricer.i: unittests/libethereum/GasPricer.cpp.i
@@ -1530,7 +1530,7 @@ unittests/libethereum/GasPricer.i: unittests/libethereum/GasPricer.cpp.i
 
 # target to preprocess a source file
 unittests/libethereum/GasPricer.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/GasPricer.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/GasPricer.cpp.i
 .PHONY : unittests/libethereum/GasPricer.cpp.i
 
 unittests/libethereum/GasPricer.s: unittests/libethereum/GasPricer.cpp.s
@@ -1539,7 +1539,7 @@ unittests/libethereum/GasPricer.s: unittests/libethereum/GasPricer.cpp.s
 
 # target to generate assembly for a file
 unittests/libethereum/GasPricer.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/GasPricer.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/GasPricer.cpp.s
 .PHONY : unittests/libethereum/GasPricer.cpp.s
 
 unittests/libethereum/Genesis.o: unittests/libethereum/Genesis.cpp.o
@@ -1548,7 +1548,7 @@ unittests/libethereum/Genesis.o: unittests/libethereum/Genesis.cpp.o
 
 # target to build an object file
 unittests/libethereum/Genesis.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/Genesis.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/Genesis.cpp.o
 .PHONY : unittests/libethereum/Genesis.cpp.o
 
 unittests/libethereum/Genesis.i: unittests/libethereum/Genesis.cpp.i
@@ -1557,7 +1557,7 @@ unittests/libethereum/Genesis.i: unittests/libethereum/Genesis.cpp.i
 
 # target to preprocess a source file
 unittests/libethereum/Genesis.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/Genesis.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/Genesis.cpp.i
 .PHONY : unittests/libethereum/Genesis.cpp.i
 
 unittests/libethereum/Genesis.s: unittests/libethereum/Genesis.cpp.s
@@ -1566,7 +1566,7 @@ unittests/libethereum/Genesis.s: unittests/libethereum/Genesis.cpp.s
 
 # target to generate assembly for a file
 unittests/libethereum/Genesis.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/Genesis.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/Genesis.cpp.s
 .PHONY : unittests/libethereum/Genesis.cpp.s
 
 unittests/libethereum/SnapshotImporterTest.o: unittests/libethereum/SnapshotImporterTest.cpp.o
@@ -1575,7 +1575,7 @@ unittests/libethereum/SnapshotImporterTest.o: unittests/libethereum/SnapshotImpo
 
 # target to build an object file
 unittests/libethereum/SnapshotImporterTest.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/SnapshotImporterTest.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/SnapshotImporterTest.cpp.o
 .PHONY : unittests/libethereum/SnapshotImporterTest.cpp.o
 
 unittests/libethereum/SnapshotImporterTest.i: unittests/libethereum/SnapshotImporterTest.cpp.i
@@ -1584,7 +1584,7 @@ unittests/libethereum/SnapshotImporterTest.i: unittests/libethereum/SnapshotImpo
 
 # target to preprocess a source file
 unittests/libethereum/SnapshotImporterTest.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/SnapshotImporterTest.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/SnapshotImporterTest.cpp.i
 .PHONY : unittests/libethereum/SnapshotImporterTest.cpp.i
 
 unittests/libethereum/SnapshotImporterTest.s: unittests/libethereum/SnapshotImporterTest.cpp.s
@@ -1593,7 +1593,7 @@ unittests/libethereum/SnapshotImporterTest.s: unittests/libethereum/SnapshotImpo
 
 # target to generate assembly for a file
 unittests/libethereum/SnapshotImporterTest.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/SnapshotImporterTest.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/SnapshotImporterTest.cpp.s
 .PHONY : unittests/libethereum/SnapshotImporterTest.cpp.s
 
 unittests/libethereum/StateUnitTests.o: unittests/libethereum/StateUnitTests.cpp.o
@@ -1602,7 +1602,7 @@ unittests/libethereum/StateUnitTests.o: unittests/libethereum/StateUnitTests.cpp
 
 # target to build an object file
 unittests/libethereum/StateUnitTests.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/StateUnitTests.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/StateUnitTests.cpp.o
 .PHONY : unittests/libethereum/StateUnitTests.cpp.o
 
 unittests/libethereum/StateUnitTests.i: unittests/libethereum/StateUnitTests.cpp.i
@@ -1611,7 +1611,7 @@ unittests/libethereum/StateUnitTests.i: unittests/libethereum/StateUnitTests.cpp
 
 # target to preprocess a source file
 unittests/libethereum/StateUnitTests.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/StateUnitTests.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/StateUnitTests.cpp.i
 .PHONY : unittests/libethereum/StateUnitTests.cpp.i
 
 unittests/libethereum/StateUnitTests.s: unittests/libethereum/StateUnitTests.cpp.s
@@ -1620,7 +1620,7 @@ unittests/libethereum/StateUnitTests.s: unittests/libethereum/StateUnitTests.cpp
 
 # target to generate assembly for a file
 unittests/libethereum/StateUnitTests.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/StateUnitTests.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/StateUnitTests.cpp.s
 .PHONY : unittests/libethereum/StateUnitTests.cpp.s
 
 unittests/libethereum/Transaction.o: unittests/libethereum/Transaction.cpp.o
@@ -1629,7 +1629,7 @@ unittests/libethereum/Transaction.o: unittests/libethereum/Transaction.cpp.o
 
 # target to build an object file
 unittests/libethereum/Transaction.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/Transaction.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/Transaction.cpp.o
 .PHONY : unittests/libethereum/Transaction.cpp.o
 
 unittests/libethereum/Transaction.i: unittests/libethereum/Transaction.cpp.i
@@ -1638,7 +1638,7 @@ unittests/libethereum/Transaction.i: unittests/libethereum/Transaction.cpp.i
 
 # target to preprocess a source file
 unittests/libethereum/Transaction.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/Transaction.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/Transaction.cpp.i
 .PHONY : unittests/libethereum/Transaction.cpp.i
 
 unittests/libethereum/Transaction.s: unittests/libethereum/Transaction.cpp.s
@@ -1647,7 +1647,7 @@ unittests/libethereum/Transaction.s: unittests/libethereum/Transaction.cpp.s
 
 # target to generate assembly for a file
 unittests/libethereum/Transaction.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/Transaction.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/Transaction.cpp.s
 .PHONY : unittests/libethereum/Transaction.cpp.s
 
 unittests/libethereum/TransactionQueue.o: unittests/libethereum/TransactionQueue.cpp.o
@@ -1656,7 +1656,7 @@ unittests/libethereum/TransactionQueue.o: unittests/libethereum/TransactionQueue
 
 # target to build an object file
 unittests/libethereum/TransactionQueue.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/TransactionQueue.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/TransactionQueue.cpp.o
 .PHONY : unittests/libethereum/TransactionQueue.cpp.o
 
 unittests/libethereum/TransactionQueue.i: unittests/libethereum/TransactionQueue.cpp.i
@@ -1665,7 +1665,7 @@ unittests/libethereum/TransactionQueue.i: unittests/libethereum/TransactionQueue
 
 # target to preprocess a source file
 unittests/libethereum/TransactionQueue.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/TransactionQueue.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/TransactionQueue.cpp.i
 .PHONY : unittests/libethereum/TransactionQueue.cpp.i
 
 unittests/libethereum/TransactionQueue.s: unittests/libethereum/TransactionQueue.cpp.s
@@ -1674,7 +1674,7 @@ unittests/libethereum/TransactionQueue.s: unittests/libethereum/TransactionQueue
 
 # target to generate assembly for a file
 unittests/libethereum/TransactionQueue.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/TransactionQueue.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libethereum/TransactionQueue.cpp.s
 .PHONY : unittests/libethereum/TransactionQueue.cpp.s
 
 unittests/libevm/VMTest.o: unittests/libevm/VMTest.cpp.o
@@ -1683,7 +1683,7 @@ unittests/libevm/VMTest.o: unittests/libevm/VMTest.cpp.o
 
 # target to build an object file
 unittests/libevm/VMTest.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libevm/VMTest.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libevm/VMTest.cpp.o
 .PHONY : unittests/libevm/VMTest.cpp.o
 
 unittests/libevm/VMTest.i: unittests/libevm/VMTest.cpp.i
@@ -1692,7 +1692,7 @@ unittests/libevm/VMTest.i: unittests/libevm/VMTest.cpp.i
 
 # target to preprocess a source file
 unittests/libevm/VMTest.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libevm/VMTest.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libevm/VMTest.cpp.i
 .PHONY : unittests/libevm/VMTest.cpp.i
 
 unittests/libevm/VMTest.s: unittests/libevm/VMTest.cpp.s
@@ -1701,7 +1701,7 @@ unittests/libevm/VMTest.s: unittests/libevm/VMTest.cpp.s
 
 # target to generate assembly for a file
 unittests/libevm/VMTest.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libevm/VMTest.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libevm/VMTest.cpp.s
 .PHONY : unittests/libevm/VMTest.cpp.s
 
 unittests/libp2p/capability.o: unittests/libp2p/capability.cpp.o
@@ -1710,7 +1710,7 @@ unittests/libp2p/capability.o: unittests/libp2p/capability.cpp.o
 
 # target to build an object file
 unittests/libp2p/capability.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/capability.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/capability.cpp.o
 .PHONY : unittests/libp2p/capability.cpp.o
 
 unittests/libp2p/capability.i: unittests/libp2p/capability.cpp.i
@@ -1719,7 +1719,7 @@ unittests/libp2p/capability.i: unittests/libp2p/capability.cpp.i
 
 # target to preprocess a source file
 unittests/libp2p/capability.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/capability.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/capability.cpp.i
 .PHONY : unittests/libp2p/capability.cpp.i
 
 unittests/libp2p/capability.s: unittests/libp2p/capability.cpp.s
@@ -1728,7 +1728,7 @@ unittests/libp2p/capability.s: unittests/libp2p/capability.cpp.s
 
 # target to generate assembly for a file
 unittests/libp2p/capability.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/capability.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/capability.cpp.s
 .PHONY : unittests/libp2p/capability.cpp.s
 
 unittests/libp2p/eip-8.o: unittests/libp2p/eip-8.cpp.o
@@ -1737,7 +1737,7 @@ unittests/libp2p/eip-8.o: unittests/libp2p/eip-8.cpp.o
 
 # target to build an object file
 unittests/libp2p/eip-8.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/eip-8.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/eip-8.cpp.o
 .PHONY : unittests/libp2p/eip-8.cpp.o
 
 unittests/libp2p/eip-8.i: unittests/libp2p/eip-8.cpp.i
@@ -1746,7 +1746,7 @@ unittests/libp2p/eip-8.i: unittests/libp2p/eip-8.cpp.i
 
 # target to preprocess a source file
 unittests/libp2p/eip-8.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/eip-8.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/eip-8.cpp.i
 .PHONY : unittests/libp2p/eip-8.cpp.i
 
 unittests/libp2p/eip-8.s: unittests/libp2p/eip-8.cpp.s
@@ -1755,7 +1755,7 @@ unittests/libp2p/eip-8.s: unittests/libp2p/eip-8.cpp.s
 
 # target to generate assembly for a file
 unittests/libp2p/eip-8.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/eip-8.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/eip-8.cpp.s
 .PHONY : unittests/libp2p/eip-8.cpp.s
 
 unittests/libp2p/net.o: unittests/libp2p/net.cpp.o
@@ -1764,7 +1764,7 @@ unittests/libp2p/net.o: unittests/libp2p/net.cpp.o
 
 # target to build an object file
 unittests/libp2p/net.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/net.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/net.cpp.o
 .PHONY : unittests/libp2p/net.cpp.o
 
 unittests/libp2p/net.i: unittests/libp2p/net.cpp.i
@@ -1773,7 +1773,7 @@ unittests/libp2p/net.i: unittests/libp2p/net.cpp.i
 
 # target to preprocess a source file
 unittests/libp2p/net.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/net.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/net.cpp.i
 .PHONY : unittests/libp2p/net.cpp.i
 
 unittests/libp2p/net.s: unittests/libp2p/net.cpp.s
@@ -1782,7 +1782,7 @@ unittests/libp2p/net.s: unittests/libp2p/net.cpp.s
 
 # target to generate assembly for a file
 unittests/libp2p/net.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/net.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/net.cpp.s
 .PHONY : unittests/libp2p/net.cpp.s
 
 unittests/libp2p/peer.o: unittests/libp2p/peer.cpp.o
@@ -1791,7 +1791,7 @@ unittests/libp2p/peer.o: unittests/libp2p/peer.cpp.o
 
 # target to build an object file
 unittests/libp2p/peer.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/peer.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/peer.cpp.o
 .PHONY : unittests/libp2p/peer.cpp.o
 
 unittests/libp2p/peer.i: unittests/libp2p/peer.cpp.i
@@ -1800,7 +1800,7 @@ unittests/libp2p/peer.i: unittests/libp2p/peer.cpp.i
 
 # target to preprocess a source file
 unittests/libp2p/peer.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/peer.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/peer.cpp.i
 .PHONY : unittests/libp2p/peer.cpp.i
 
 unittests/libp2p/peer.s: unittests/libp2p/peer.cpp.s
@@ -1809,7 +1809,7 @@ unittests/libp2p/peer.s: unittests/libp2p/peer.cpp.s
 
 # target to generate assembly for a file
 unittests/libp2p/peer.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/peer.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/peer.cpp.s
 .PHONY : unittests/libp2p/peer.cpp.s
 
 unittests/libp2p/rlpx.o: unittests/libp2p/rlpx.cpp.o
@@ -1818,7 +1818,7 @@ unittests/libp2p/rlpx.o: unittests/libp2p/rlpx.cpp.o
 
 # target to build an object file
 unittests/libp2p/rlpx.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/rlpx.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/rlpx.cpp.o
 .PHONY : unittests/libp2p/rlpx.cpp.o
 
 unittests/libp2p/rlpx.i: unittests/libp2p/rlpx.cpp.i
@@ -1827,7 +1827,7 @@ unittests/libp2p/rlpx.i: unittests/libp2p/rlpx.cpp.i
 
 # target to preprocess a source file
 unittests/libp2p/rlpx.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/rlpx.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/rlpx.cpp.i
 .PHONY : unittests/libp2p/rlpx.cpp.i
 
 unittests/libp2p/rlpx.s: unittests/libp2p/rlpx.cpp.s
@@ -1836,7 +1836,7 @@ unittests/libp2p/rlpx.s: unittests/libp2p/rlpx.cpp.s
 
 # target to generate assembly for a file
 unittests/libp2p/rlpx.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/rlpx.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libp2p/rlpx.cpp.s
 .PHONY : unittests/libp2p/rlpx.cpp.s
 
 unittests/libtesteth/blockchainTest.o: unittests/libtesteth/blockchainTest.cpp.o
@@ -1845,7 +1845,7 @@ unittests/libtesteth/blockchainTest.o: unittests/libtesteth/blockchainTest.cpp.o
 
 # target to build an object file
 unittests/libtesteth/blockchainTest.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libtesteth/blockchainTest.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libtesteth/blockchainTest.cpp.o
 .PHONY : unittests/libtesteth/blockchainTest.cpp.o
 
 unittests/libtesteth/blockchainTest.i: unittests/libtesteth/blockchainTest.cpp.i
@@ -1854,7 +1854,7 @@ unittests/libtesteth/blockchainTest.i: unittests/libtesteth/blockchainTest.cpp.i
 
 # target to preprocess a source file
 unittests/libtesteth/blockchainTest.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libtesteth/blockchainTest.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libtesteth/blockchainTest.cpp.i
 .PHONY : unittests/libtesteth/blockchainTest.cpp.i
 
 unittests/libtesteth/blockchainTest.s: unittests/libtesteth/blockchainTest.cpp.s
@@ -1863,7 +1863,7 @@ unittests/libtesteth/blockchainTest.s: unittests/libtesteth/blockchainTest.cpp.s
 
 # target to generate assembly for a file
 unittests/libtesteth/blockchainTest.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libtesteth/blockchainTest.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libtesteth/blockchainTest.cpp.s
 .PHONY : unittests/libtesteth/blockchainTest.cpp.s
 
 unittests/libtesteth/testHelperTest.o: unittests/libtesteth/testHelperTest.cpp.o
@@ -1872,7 +1872,7 @@ unittests/libtesteth/testHelperTest.o: unittests/libtesteth/testHelperTest.cpp.o
 
 # target to build an object file
 unittests/libtesteth/testHelperTest.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libtesteth/testHelperTest.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libtesteth/testHelperTest.cpp.o
 .PHONY : unittests/libtesteth/testHelperTest.cpp.o
 
 unittests/libtesteth/testHelperTest.i: unittests/libtesteth/testHelperTest.cpp.i
@@ -1881,7 +1881,7 @@ unittests/libtesteth/testHelperTest.i: unittests/libtesteth/testHelperTest.cpp.i
 
 # target to preprocess a source file
 unittests/libtesteth/testHelperTest.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libtesteth/testHelperTest.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libtesteth/testHelperTest.cpp.i
 .PHONY : unittests/libtesteth/testHelperTest.cpp.i
 
 unittests/libtesteth/testHelperTest.s: unittests/libtesteth/testHelperTest.cpp.s
@@ -1890,7 +1890,7 @@ unittests/libtesteth/testHelperTest.s: unittests/libtesteth/testHelperTest.cpp.s
 
 # target to generate assembly for a file
 unittests/libtesteth/testHelperTest.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libtesteth/testHelperTest.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libtesteth/testHelperTest.cpp.s
 .PHONY : unittests/libtesteth/testHelperTest.cpp.s
 
 unittests/libweb3core/memorydb.o: unittests/libweb3core/memorydb.cpp.o
@@ -1899,7 +1899,7 @@ unittests/libweb3core/memorydb.o: unittests/libweb3core/memorydb.cpp.o
 
 # target to build an object file
 unittests/libweb3core/memorydb.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3core/memorydb.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3core/memorydb.cpp.o
 .PHONY : unittests/libweb3core/memorydb.cpp.o
 
 unittests/libweb3core/memorydb.i: unittests/libweb3core/memorydb.cpp.i
@@ -1908,7 +1908,7 @@ unittests/libweb3core/memorydb.i: unittests/libweb3core/memorydb.cpp.i
 
 # target to preprocess a source file
 unittests/libweb3core/memorydb.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3core/memorydb.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3core/memorydb.cpp.i
 .PHONY : unittests/libweb3core/memorydb.cpp.i
 
 unittests/libweb3core/memorydb.s: unittests/libweb3core/memorydb.cpp.s
@@ -1917,7 +1917,7 @@ unittests/libweb3core/memorydb.s: unittests/libweb3core/memorydb.cpp.s
 
 # target to generate assembly for a file
 unittests/libweb3core/memorydb.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3core/memorydb.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3core/memorydb.cpp.s
 .PHONY : unittests/libweb3core/memorydb.cpp.s
 
 unittests/libweb3core/overlaydb.o: unittests/libweb3core/overlaydb.cpp.o
@@ -1926,7 +1926,7 @@ unittests/libweb3core/overlaydb.o: unittests/libweb3core/overlaydb.cpp.o
 
 # target to build an object file
 unittests/libweb3core/overlaydb.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3core/overlaydb.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3core/overlaydb.cpp.o
 .PHONY : unittests/libweb3core/overlaydb.cpp.o
 
 unittests/libweb3core/overlaydb.i: unittests/libweb3core/overlaydb.cpp.i
@@ -1935,7 +1935,7 @@ unittests/libweb3core/overlaydb.i: unittests/libweb3core/overlaydb.cpp.i
 
 # target to preprocess a source file
 unittests/libweb3core/overlaydb.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3core/overlaydb.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3core/overlaydb.cpp.i
 .PHONY : unittests/libweb3core/overlaydb.cpp.i
 
 unittests/libweb3core/overlaydb.s: unittests/libweb3core/overlaydb.cpp.s
@@ -1944,7 +1944,7 @@ unittests/libweb3core/overlaydb.s: unittests/libweb3core/overlaydb.cpp.s
 
 # target to generate assembly for a file
 unittests/libweb3core/overlaydb.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3core/overlaydb.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3core/overlaydb.cpp.s
 .PHONY : unittests/libweb3core/overlaydb.cpp.s
 
 unittests/libweb3jsonrpc/AccountHolder.o: unittests/libweb3jsonrpc/AccountHolder.cpp.o
@@ -1953,7 +1953,7 @@ unittests/libweb3jsonrpc/AccountHolder.o: unittests/libweb3jsonrpc/AccountHolder
 
 # target to build an object file
 unittests/libweb3jsonrpc/AccountHolder.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/AccountHolder.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/AccountHolder.cpp.o
 .PHONY : unittests/libweb3jsonrpc/AccountHolder.cpp.o
 
 unittests/libweb3jsonrpc/AccountHolder.i: unittests/libweb3jsonrpc/AccountHolder.cpp.i
@@ -1962,7 +1962,7 @@ unittests/libweb3jsonrpc/AccountHolder.i: unittests/libweb3jsonrpc/AccountHolder
 
 # target to preprocess a source file
 unittests/libweb3jsonrpc/AccountHolder.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/AccountHolder.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/AccountHolder.cpp.i
 .PHONY : unittests/libweb3jsonrpc/AccountHolder.cpp.i
 
 unittests/libweb3jsonrpc/AccountHolder.s: unittests/libweb3jsonrpc/AccountHolder.cpp.s
@@ -1971,7 +1971,7 @@ unittests/libweb3jsonrpc/AccountHolder.s: unittests/libweb3jsonrpc/AccountHolder
 
 # target to generate assembly for a file
 unittests/libweb3jsonrpc/AccountHolder.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/AccountHolder.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/AccountHolder.cpp.s
 .PHONY : unittests/libweb3jsonrpc/AccountHolder.cpp.s
 
 unittests/libweb3jsonrpc/Client.o: unittests/libweb3jsonrpc/Client.cpp.o
@@ -1980,7 +1980,7 @@ unittests/libweb3jsonrpc/Client.o: unittests/libweb3jsonrpc/Client.cpp.o
 
 # target to build an object file
 unittests/libweb3jsonrpc/Client.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/Client.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/Client.cpp.o
 .PHONY : unittests/libweb3jsonrpc/Client.cpp.o
 
 unittests/libweb3jsonrpc/Client.i: unittests/libweb3jsonrpc/Client.cpp.i
@@ -1989,7 +1989,7 @@ unittests/libweb3jsonrpc/Client.i: unittests/libweb3jsonrpc/Client.cpp.i
 
 # target to preprocess a source file
 unittests/libweb3jsonrpc/Client.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/Client.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/Client.cpp.i
 .PHONY : unittests/libweb3jsonrpc/Client.cpp.i
 
 unittests/libweb3jsonrpc/Client.s: unittests/libweb3jsonrpc/Client.cpp.s
@@ -1998,7 +1998,7 @@ unittests/libweb3jsonrpc/Client.s: unittests/libweb3jsonrpc/Client.cpp.s
 
 # target to generate assembly for a file
 unittests/libweb3jsonrpc/Client.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/Client.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/Client.cpp.s
 .PHONY : unittests/libweb3jsonrpc/Client.cpp.s
 
 unittests/libweb3jsonrpc/jsonrpc.o: unittests/libweb3jsonrpc/jsonrpc.cpp.o
@@ -2007,7 +2007,7 @@ unittests/libweb3jsonrpc/jsonrpc.o: unittests/libweb3jsonrpc/jsonrpc.cpp.o
 
 # target to build an object file
 unittests/libweb3jsonrpc/jsonrpc.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/jsonrpc.cpp.o
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/jsonrpc.cpp.o
 .PHONY : unittests/libweb3jsonrpc/jsonrpc.cpp.o
 
 unittests/libweb3jsonrpc/jsonrpc.i: unittests/libweb3jsonrpc/jsonrpc.cpp.i
@@ -2016,7 +2016,7 @@ unittests/libweb3jsonrpc/jsonrpc.i: unittests/libweb3jsonrpc/jsonrpc.cpp.i
 
 # target to preprocess a source file
 unittests/libweb3jsonrpc/jsonrpc.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/jsonrpc.cpp.i
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/jsonrpc.cpp.i
 .PHONY : unittests/libweb3jsonrpc/jsonrpc.cpp.i
 
 unittests/libweb3jsonrpc/jsonrpc.s: unittests/libweb3jsonrpc/jsonrpc.cpp.s
@@ -2025,7 +2025,7 @@ unittests/libweb3jsonrpc/jsonrpc.s: unittests/libweb3jsonrpc/jsonrpc.cpp.s
 
 # target to generate assembly for a file
 unittests/libweb3jsonrpc/jsonrpc.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/jsonrpc.cpp.s
+	cd /aleth/build && $(MAKE) -f test/CMakeFiles/testeth.dir/build.make test/CMakeFiles/testeth.dir/unittests/libweb3jsonrpc/jsonrpc.cpp.s
 .PHONY : unittests/libweb3jsonrpc/jsonrpc.cpp.s
 
 # Help Target
@@ -2257,6 +2257,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen
+CMAKE_SOURCE_DIR = /aleth/build/deps/src/binaryen
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen-build
+CMAKE_BINARY_DIR = /aleth/build/deps/src/binaryen-build
 
 # Include any dependencies generated for this target.
 include src/asmjs/CMakeFiles/asmjs.dir/depend.make
@@ -58,17 +58,17 @@ include src/asmjs/CMakeFiles/asmjs.dir/progress.make
 include src/asmjs/CMakeFiles/asmjs.dir/flags.make
 
 src/asmjs/CMakeFiles/asmjs.dir/asm_v_wasm.cpp.o: src/asmjs/CMakeFiles/asmjs.dir/flags.make
-src/asmjs/CMakeFiles/asmjs.dir/asm_v_wasm.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/asmjs/asm_v_wasm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/asmjs/CMakeFiles/asmjs.dir/asm_v_wasm.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/asmjs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/asmjs.dir/asm_v_wasm.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/asmjs/asm_v_wasm.cpp
+src/asmjs/CMakeFiles/asmjs.dir/asm_v_wasm.cpp.o: /aleth/build/deps/src/binaryen/src/asmjs/asm_v_wasm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/asmjs/CMakeFiles/asmjs.dir/asm_v_wasm.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/asmjs && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/asmjs.dir/asm_v_wasm.cpp.o -c /aleth/build/deps/src/binaryen/src/asmjs/asm_v_wasm.cpp
 
 src/asmjs/CMakeFiles/asmjs.dir/asm_v_wasm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/asmjs.dir/asm_v_wasm.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/asmjs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/asmjs/asm_v_wasm.cpp > CMakeFiles/asmjs.dir/asm_v_wasm.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/asmjs && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/asmjs/asm_v_wasm.cpp > CMakeFiles/asmjs.dir/asm_v_wasm.cpp.i
 
 src/asmjs/CMakeFiles/asmjs.dir/asm_v_wasm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/asmjs.dir/asm_v_wasm.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/asmjs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/asmjs/asm_v_wasm.cpp -o CMakeFiles/asmjs.dir/asm_v_wasm.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/asmjs && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/asmjs/asm_v_wasm.cpp -o CMakeFiles/asmjs.dir/asm_v_wasm.cpp.s
 
 src/asmjs/CMakeFiles/asmjs.dir/asm_v_wasm.cpp.o.requires:
 
@@ -82,17 +82,17 @@ src/asmjs/CMakeFiles/asmjs.dir/asm_v_wasm.cpp.o.provides.build: src/asmjs/CMakeF
 
 
 src/asmjs/CMakeFiles/asmjs.dir/asmangle.cpp.o: src/asmjs/CMakeFiles/asmjs.dir/flags.make
-src/asmjs/CMakeFiles/asmjs.dir/asmangle.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/asmjs/asmangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/asmjs/CMakeFiles/asmjs.dir/asmangle.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/asmjs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/asmjs.dir/asmangle.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/asmjs/asmangle.cpp
+src/asmjs/CMakeFiles/asmjs.dir/asmangle.cpp.o: /aleth/build/deps/src/binaryen/src/asmjs/asmangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/asmjs/CMakeFiles/asmjs.dir/asmangle.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/asmjs && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/asmjs.dir/asmangle.cpp.o -c /aleth/build/deps/src/binaryen/src/asmjs/asmangle.cpp
 
 src/asmjs/CMakeFiles/asmjs.dir/asmangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/asmjs.dir/asmangle.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/asmjs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/asmjs/asmangle.cpp > CMakeFiles/asmjs.dir/asmangle.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/asmjs && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/asmjs/asmangle.cpp > CMakeFiles/asmjs.dir/asmangle.cpp.i
 
 src/asmjs/CMakeFiles/asmjs.dir/asmangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/asmjs.dir/asmangle.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/asmjs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/asmjs/asmangle.cpp -o CMakeFiles/asmjs.dir/asmangle.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/asmjs && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/asmjs/asmangle.cpp -o CMakeFiles/asmjs.dir/asmangle.cpp.s
 
 src/asmjs/CMakeFiles/asmjs.dir/asmangle.cpp.o.requires:
 
@@ -106,17 +106,17 @@ src/asmjs/CMakeFiles/asmjs.dir/asmangle.cpp.o.provides.build: src/asmjs/CMakeFil
 
 
 src/asmjs/CMakeFiles/asmjs.dir/shared-constants.cpp.o: src/asmjs/CMakeFiles/asmjs.dir/flags.make
-src/asmjs/CMakeFiles/asmjs.dir/shared-constants.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/asmjs/shared-constants.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/asmjs/CMakeFiles/asmjs.dir/shared-constants.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/asmjs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/asmjs.dir/shared-constants.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/asmjs/shared-constants.cpp
+src/asmjs/CMakeFiles/asmjs.dir/shared-constants.cpp.o: /aleth/build/deps/src/binaryen/src/asmjs/shared-constants.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/asmjs/CMakeFiles/asmjs.dir/shared-constants.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/asmjs && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/asmjs.dir/shared-constants.cpp.o -c /aleth/build/deps/src/binaryen/src/asmjs/shared-constants.cpp
 
 src/asmjs/CMakeFiles/asmjs.dir/shared-constants.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/asmjs.dir/shared-constants.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/asmjs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/asmjs/shared-constants.cpp > CMakeFiles/asmjs.dir/shared-constants.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/asmjs && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/asmjs/shared-constants.cpp > CMakeFiles/asmjs.dir/shared-constants.cpp.i
 
 src/asmjs/CMakeFiles/asmjs.dir/shared-constants.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/asmjs.dir/shared-constants.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/asmjs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/asmjs/shared-constants.cpp -o CMakeFiles/asmjs.dir/shared-constants.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/asmjs && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/asmjs/shared-constants.cpp -o CMakeFiles/asmjs.dir/shared-constants.cpp.s
 
 src/asmjs/CMakeFiles/asmjs.dir/shared-constants.cpp.o.requires:
 
@@ -143,9 +143,9 @@ lib/libasmjs.a: src/asmjs/CMakeFiles/asmjs.dir/asmangle.cpp.o
 lib/libasmjs.a: src/asmjs/CMakeFiles/asmjs.dir/shared-constants.cpp.o
 lib/libasmjs.a: src/asmjs/CMakeFiles/asmjs.dir/build.make
 lib/libasmjs.a: src/asmjs/CMakeFiles/asmjs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ../../lib/libasmjs.a"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/asmjs && $(CMAKE_COMMAND) -P CMakeFiles/asmjs.dir/cmake_clean_target.cmake
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/asmjs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/asmjs.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ../../lib/libasmjs.a"
+	cd /aleth/build/deps/src/binaryen-build/src/asmjs && $(CMAKE_COMMAND) -P CMakeFiles/asmjs.dir/cmake_clean_target.cmake
+	cd /aleth/build/deps/src/binaryen-build/src/asmjs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/asmjs.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/asmjs/CMakeFiles/asmjs.dir/build: lib/libasmjs.a
@@ -159,10 +159,10 @@ src/asmjs/CMakeFiles/asmjs.dir/requires: src/asmjs/CMakeFiles/asmjs.dir/shared-c
 .PHONY : src/asmjs/CMakeFiles/asmjs.dir/requires
 
 src/asmjs/CMakeFiles/asmjs.dir/clean:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/asmjs && $(CMAKE_COMMAND) -P CMakeFiles/asmjs.dir/cmake_clean.cmake
+	cd /aleth/build/deps/src/binaryen-build/src/asmjs && $(CMAKE_COMMAND) -P CMakeFiles/asmjs.dir/cmake_clean.cmake
 .PHONY : src/asmjs/CMakeFiles/asmjs.dir/clean
 
 src/asmjs/CMakeFiles/asmjs.dir/depend:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth/build/deps/src/binaryen /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/asmjs /home/ubuntu/moose/aleth/build/deps/src/binaryen-build /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/asmjs /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/asmjs/CMakeFiles/asmjs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth/build/deps/src/binaryen /aleth/build/deps/src/binaryen/src/asmjs /aleth/build/deps/src/binaryen-build /aleth/build/deps/src/binaryen-build/src/asmjs /aleth/build/deps/src/binaryen-build/src/asmjs/CMakeFiles/asmjs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/asmjs/CMakeFiles/asmjs.dir/depend
 

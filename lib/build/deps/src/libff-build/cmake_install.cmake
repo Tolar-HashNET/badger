@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/moose/aleth/build/deps/src/libff
+# Install script for directory: /aleth/build/deps/src/libff
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/moose/aleth/build/deps")
+  set(CMAKE_INSTALL_PREFIX "/aleth/build/deps")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ubuntu/moose/aleth/build/deps/src/libff-build/depends/cmake_install.cmake")
-  include("/home/ubuntu/moose/aleth/build/deps/src/libff-build/libff/cmake_install.cmake")
+  include("/aleth/build/deps/src/libff-build/depends/cmake_install.cmake")
+  include("/aleth/build/deps/src/libff-build/libff/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ubuntu/moose/aleth/build/deps/src/libff-build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/aleth/build/deps/src/libff-build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

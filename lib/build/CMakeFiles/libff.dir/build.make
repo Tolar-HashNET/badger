@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth
+CMAKE_SOURCE_DIR = /aleth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build
+CMAKE_BINARY_DIR = /aleth/build
 
 # Utility rule file for libff.
 
@@ -64,55 +64,55 @@ CMakeFiles/libff-complete: deps/src/libff-stamp/libff-patch
 CMakeFiles/libff-complete: deps/src/libff-stamp/libff-configure
 CMakeFiles/libff-complete: deps/src/libff-stamp/libff-build
 CMakeFiles/libff-complete: deps/src/libff-stamp/libff-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'libff'"
-	/usr/bin/cmake -E make_directory /home/ubuntu/moose/aleth/build/CMakeFiles
-	/usr/bin/cmake -E touch /home/ubuntu/moose/aleth/build/CMakeFiles/libff-complete
-	/usr/bin/cmake -E touch /home/ubuntu/moose/aleth/build/deps/src/libff-stamp/libff-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'libff'"
+	/usr/bin/cmake -E make_directory /aleth/build/CMakeFiles
+	/usr/bin/cmake -E touch /aleth/build/CMakeFiles/libff-complete
+	/usr/bin/cmake -E touch /aleth/build/deps/src/libff-stamp/libff-done
 
 deps/src/libff-stamp/libff-install: deps/src/libff-stamp/libff-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing install step for 'libff'"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build && /usr/bin/cmake --build /home/ubuntu/moose/aleth/build/deps/src/libff-build --config Release --target install
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build && /usr/bin/cmake -E touch /home/ubuntu/moose/aleth/build/deps/src/libff-stamp/libff-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing install step for 'libff'"
+	cd /aleth/build/deps/src/libff-build && /usr/bin/cmake --build /aleth/build/deps/src/libff-build --config Release --target install
+	cd /aleth/build/deps/src/libff-build && /usr/bin/cmake -E touch /aleth/build/deps/src/libff-stamp/libff-install
 
 deps/src/libff-stamp/libff-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'libff'"
-	/usr/bin/cmake -E make_directory /home/ubuntu/moose/aleth/build/deps/src/libff
-	/usr/bin/cmake -E make_directory /home/ubuntu/moose/aleth/build/deps/src/libff-build
-	/usr/bin/cmake -E make_directory /home/ubuntu/moose/aleth/build/deps
-	/usr/bin/cmake -E make_directory /home/ubuntu/moose/aleth/build/deps/tmp
-	/usr/bin/cmake -E make_directory /home/ubuntu/moose/aleth/build/deps/src/libff-stamp
-	/usr/bin/cmake -E make_directory /home/ubuntu/moose/aleth/build/deps/src
-	/usr/bin/cmake -E touch /home/ubuntu/moose/aleth/build/deps/src/libff-stamp/libff-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'libff'"
+	/usr/bin/cmake -E make_directory /aleth/build/deps/src/libff
+	/usr/bin/cmake -E make_directory /aleth/build/deps/src/libff-build
+	/usr/bin/cmake -E make_directory /aleth/build/deps
+	/usr/bin/cmake -E make_directory /aleth/build/deps/tmp
+	/usr/bin/cmake -E make_directory /aleth/build/deps/src/libff-stamp
+	/usr/bin/cmake -E make_directory /aleth/build/deps/src
+	/usr/bin/cmake -E touch /aleth/build/deps/src/libff-stamp/libff-mkdir
 
 deps/src/libff-stamp/libff-download: deps/src/libff-stamp/libff-urlinfo.txt
 deps/src/libff-stamp/libff-download: deps/src/libff-stamp/libff-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'libff'"
-	cd /home/ubuntu/moose/aleth/build/deps/src && /usr/bin/cmake -P /home/ubuntu/moose/aleth/build/deps/src/libff-stamp/download-libff.cmake
-	cd /home/ubuntu/moose/aleth/build/deps/src && /usr/bin/cmake -P /home/ubuntu/moose/aleth/build/deps/src/libff-stamp/verify-libff.cmake
-	cd /home/ubuntu/moose/aleth/build/deps/src && /usr/bin/cmake -P /home/ubuntu/moose/aleth/build/deps/src/libff-stamp/extract-libff.cmake
-	cd /home/ubuntu/moose/aleth/build/deps/src && /usr/bin/cmake -E touch /home/ubuntu/moose/aleth/build/deps/src/libff-stamp/libff-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'libff'"
+	cd /aleth/build/deps/src && /usr/bin/cmake -P /aleth/build/deps/src/libff-stamp/download-libff.cmake
+	cd /aleth/build/deps/src && /usr/bin/cmake -P /aleth/build/deps/src/libff-stamp/verify-libff.cmake
+	cd /aleth/build/deps/src && /usr/bin/cmake -P /aleth/build/deps/src/libff-stamp/extract-libff.cmake
+	cd /aleth/build/deps/src && /usr/bin/cmake -E touch /aleth/build/deps/src/libff-stamp/libff-download
 
 deps/src/libff-stamp/libff-update: deps/src/libff-stamp/libff-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'libff'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'libff'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/ubuntu/moose/aleth/build/deps/src/libff-stamp/libff-update
+	/usr/bin/cmake -E touch /aleth/build/deps/src/libff-stamp/libff-update
 
 deps/src/libff-stamp/libff-patch: deps/src/libff-stamp/libff-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'libff'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'libff'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/ubuntu/moose/aleth/build/deps/src/libff-stamp/libff-patch
+	/usr/bin/cmake -E touch /aleth/build/deps/src/libff-stamp/libff-patch
 
 deps/src/libff-stamp/libff-configure: deps/tmp/libff-cfgcmd.txt
 deps/src/libff-stamp/libff-configure: deps/src/libff-stamp/libff-update
 deps/src/libff-stamp/libff-configure: deps/src/libff-stamp/libff-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'libff'"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ubuntu/moose/aleth/build/deps -DGMP_INCLUDE_DIR=/home/ubuntu/moose/aleth/build/deps/include -DGMP_LIBRARY=/home/ubuntu/moose/aleth/build/deps/lib/libmpir.a -DCURVE=ALT_BN128 -DPERFORMANCE=Off -DWITH_PROCPS=Off -DUSE_PT_COMPRESSION=Off -DCMAKE_C_COMPILER=/usr/bin/cc -DCMAKE_CXX_COMPILER=/usr/bin/c++ "-GUnix Makefiles" /home/ubuntu/moose/aleth/build/deps/src/libff
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build && /usr/bin/cmake -E touch /home/ubuntu/moose/aleth/build/deps/src/libff-stamp/libff-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'libff'"
+	cd /aleth/build/deps/src/libff-build && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/aleth/build/deps -DGMP_INCLUDE_DIR=/aleth/build/deps/include -DGMP_LIBRARY=/aleth/build/deps/lib/libmpir.a -DCURVE=ALT_BN128 -DPERFORMANCE=Off -DWITH_PROCPS=Off -DUSE_PT_COMPRESSION=Off -DCMAKE_C_COMPILER=/usr/bin/clang-7 -DCMAKE_CXX_COMPILER=/usr/bin/clang++-7 "-GUnix Makefiles" /aleth/build/deps/src/libff
+	cd /aleth/build/deps/src/libff-build && /usr/bin/cmake -E touch /aleth/build/deps/src/libff-stamp/libff-configure
 
 deps/src/libff-stamp/libff-build: deps/src/libff-stamp/libff-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'libff'"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build && /usr/bin/cmake -P /home/ubuntu/moose/aleth/build/deps/src/libff-stamp/libff-build-RelWithDebInfo.cmake
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build && /usr/bin/cmake -E touch /home/ubuntu/moose/aleth/build/deps/src/libff-stamp/libff-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'libff'"
+	cd /aleth/build/deps/src/libff-build && /usr/bin/cmake -P /aleth/build/deps/src/libff-stamp/libff-build-RelWithDebInfo.cmake
+	cd /aleth/build/deps/src/libff-build && /usr/bin/cmake -E touch /aleth/build/deps/src/libff-stamp/libff-build
 
 libff: CMakeFiles/libff
 libff: CMakeFiles/libff-complete
@@ -137,6 +137,6 @@ CMakeFiles/libff.dir/clean:
 .PHONY : CMakeFiles/libff.dir/clean
 
 CMakeFiles/libff.dir/depend:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth /home/ubuntu/moose/aleth /home/ubuntu/moose/aleth/build /home/ubuntu/moose/aleth/build /home/ubuntu/moose/aleth/build/CMakeFiles/libff.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth /aleth /aleth/build /aleth/build /aleth/build/CMakeFiles/libff.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/libff.dir/depend
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth
+CMAKE_SOURCE_DIR = /aleth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build
+CMAKE_BINARY_DIR = /aleth/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -93,7 +93,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/ubuntu/moose/aleth/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /aleth/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -104,7 +104,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/ubuntu/moose/aleth/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/ubuntu/moose/aleth/build/CPackSourceConfig.cmake
+	cd /aleth/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /aleth/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -159,14 +159,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles /home/ubuntu/moose/aleth/build/libdevcrypto/CMakeFiles/progress.marks
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libdevcrypto/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	cd /aleth/build && $(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles /aleth/build/libdevcrypto/CMakeFiles/progress.marks
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libdevcrypto/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libdevcrypto/clean
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libdevcrypto/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libdevcrypto/preinstall
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libdevcrypto/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libdevcrypto/preinstall
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libdevcrypto/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libdevcrypto/CMakeFiles/devcrypto.dir/rule:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libdevcrypto/CMakeFiles/devcrypto.dir/rule
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libdevcrypto/CMakeFiles/devcrypto.dir/rule
 .PHONY : libdevcrypto/CMakeFiles/devcrypto.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ devcrypto: libdevcrypto/CMakeFiles/devcrypto.dir/rule
 
 # fast build rule for target.
 devcrypto/fast:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/build
+	cd /aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/build
 .PHONY : devcrypto/fast
 
 AES.o: AES.cpp.o
@@ -210,7 +210,7 @@ AES.o: AES.cpp.o
 
 # target to build an object file
 AES.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/AES.cpp.o
+	cd /aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/AES.cpp.o
 .PHONY : AES.cpp.o
 
 AES.i: AES.cpp.i
@@ -219,7 +219,7 @@ AES.i: AES.cpp.i
 
 # target to preprocess a source file
 AES.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/AES.cpp.i
+	cd /aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/AES.cpp.i
 .PHONY : AES.cpp.i
 
 AES.s: AES.cpp.s
@@ -228,7 +228,7 @@ AES.s: AES.cpp.s
 
 # target to generate assembly for a file
 AES.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/AES.cpp.s
+	cd /aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/AES.cpp.s
 .PHONY : AES.cpp.s
 
 Common.o: Common.cpp.o
@@ -237,7 +237,7 @@ Common.o: Common.cpp.o
 
 # target to build an object file
 Common.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/Common.cpp.o
+	cd /aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/Common.cpp.o
 .PHONY : Common.cpp.o
 
 Common.i: Common.cpp.i
@@ -246,7 +246,7 @@ Common.i: Common.cpp.i
 
 # target to preprocess a source file
 Common.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/Common.cpp.i
+	cd /aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/Common.cpp.i
 .PHONY : Common.cpp.i
 
 Common.s: Common.cpp.s
@@ -255,7 +255,7 @@ Common.s: Common.cpp.s
 
 # target to generate assembly for a file
 Common.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/Common.cpp.s
+	cd /aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/Common.cpp.s
 .PHONY : Common.cpp.s
 
 CryptoPP.o: CryptoPP.cpp.o
@@ -264,7 +264,7 @@ CryptoPP.o: CryptoPP.cpp.o
 
 # target to build an object file
 CryptoPP.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/CryptoPP.cpp.o
+	cd /aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/CryptoPP.cpp.o
 .PHONY : CryptoPP.cpp.o
 
 CryptoPP.i: CryptoPP.cpp.i
@@ -273,7 +273,7 @@ CryptoPP.i: CryptoPP.cpp.i
 
 # target to preprocess a source file
 CryptoPP.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/CryptoPP.cpp.i
+	cd /aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/CryptoPP.cpp.i
 .PHONY : CryptoPP.cpp.i
 
 CryptoPP.s: CryptoPP.cpp.s
@@ -282,7 +282,7 @@ CryptoPP.s: CryptoPP.cpp.s
 
 # target to generate assembly for a file
 CryptoPP.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/CryptoPP.cpp.s
+	cd /aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/CryptoPP.cpp.s
 .PHONY : CryptoPP.cpp.s
 
 Hash.o: Hash.cpp.o
@@ -291,7 +291,7 @@ Hash.o: Hash.cpp.o
 
 # target to build an object file
 Hash.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/Hash.cpp.o
+	cd /aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/Hash.cpp.o
 .PHONY : Hash.cpp.o
 
 Hash.i: Hash.cpp.i
@@ -300,7 +300,7 @@ Hash.i: Hash.cpp.i
 
 # target to preprocess a source file
 Hash.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/Hash.cpp.i
+	cd /aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/Hash.cpp.i
 .PHONY : Hash.cpp.i
 
 Hash.s: Hash.cpp.s
@@ -309,7 +309,7 @@ Hash.s: Hash.cpp.s
 
 # target to generate assembly for a file
 Hash.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/Hash.cpp.s
+	cd /aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/Hash.cpp.s
 .PHONY : Hash.cpp.s
 
 LibSnark.o: LibSnark.cpp.o
@@ -318,7 +318,7 @@ LibSnark.o: LibSnark.cpp.o
 
 # target to build an object file
 LibSnark.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/LibSnark.cpp.o
+	cd /aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/LibSnark.cpp.o
 .PHONY : LibSnark.cpp.o
 
 LibSnark.i: LibSnark.cpp.i
@@ -327,7 +327,7 @@ LibSnark.i: LibSnark.cpp.i
 
 # target to preprocess a source file
 LibSnark.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/LibSnark.cpp.i
+	cd /aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/LibSnark.cpp.i
 .PHONY : LibSnark.cpp.i
 
 LibSnark.s: LibSnark.cpp.s
@@ -336,7 +336,7 @@ LibSnark.s: LibSnark.cpp.s
 
 # target to generate assembly for a file
 LibSnark.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/LibSnark.cpp.s
+	cd /aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/LibSnark.cpp.s
 .PHONY : LibSnark.cpp.s
 
 SecretStore.o: SecretStore.cpp.o
@@ -345,7 +345,7 @@ SecretStore.o: SecretStore.cpp.o
 
 # target to build an object file
 SecretStore.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/SecretStore.cpp.o
+	cd /aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/SecretStore.cpp.o
 .PHONY : SecretStore.cpp.o
 
 SecretStore.i: SecretStore.cpp.i
@@ -354,7 +354,7 @@ SecretStore.i: SecretStore.cpp.i
 
 # target to preprocess a source file
 SecretStore.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/SecretStore.cpp.i
+	cd /aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/SecretStore.cpp.i
 .PHONY : SecretStore.cpp.i
 
 SecretStore.s: SecretStore.cpp.s
@@ -363,7 +363,7 @@ SecretStore.s: SecretStore.cpp.s
 
 # target to generate assembly for a file
 SecretStore.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/SecretStore.cpp.s
+	cd /aleth/build && $(MAKE) -f libdevcrypto/CMakeFiles/devcrypto.dir/build.make libdevcrypto/CMakeFiles/devcrypto.dir/SecretStore.cpp.s
 .PHONY : SecretStore.cpp.s
 
 # Help Target
@@ -411,6 +411,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

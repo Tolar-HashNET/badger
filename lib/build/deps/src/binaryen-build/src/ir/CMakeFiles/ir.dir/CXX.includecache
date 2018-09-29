@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/cfg/cfg-traversal.h
+/aleth/build/deps/src/binaryen/src/cfg/cfg-traversal.h
 wasm.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/cfg/wasm.h
+/aleth/build/deps/src/binaryen/src/cfg/wasm.h
 wasm-traversal.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/cfg/wasm-traversal.h
+/aleth/build/deps/src/binaryen/src/cfg/wasm-traversal.h
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/compiler-support.h
+/aleth/build/deps/src/binaryen/src/compiler-support.h
 sanitizer/common_interface_defs.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/sanitizer/common_interface_defs.h
+/aleth/build/deps/src/binaryen/src/sanitizer/common_interface_defs.h
 stdlib.h
 -
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/istring.h
+/aleth/build/deps/src/binaryen/src/emscripten-optimizer/istring.h
 unordered_set
 -
 unordered_map
@@ -36,25 +36,25 @@ stdio.h
 assert.h
 -
 support/threads.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/support/threads.h
+/aleth/build/deps/src/binaryen/src/emscripten-optimizer/support/threads.h
 support/utilities.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/emscripten-optimizer/support/utilities.h
+/aleth/build/deps/src/binaryen/src/emscripten-optimizer/support/utilities.h
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/ExpressionAnalyzer.cpp
+/aleth/build/deps/src/binaryen/src/ir/ExpressionAnalyzer.cpp
 support/hash.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/support/hash.h
+/aleth/build/deps/src/binaryen/src/ir/support/hash.h
 ir/utils.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/ir/utils.h
+/aleth/build/deps/src/binaryen/src/ir/ir/utils.h
 ir/load-utils.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/ir/load-utils.h
+/aleth/build/deps/src/binaryen/src/ir/ir/load-utils.h
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/ExpressionManipulator.cpp
+/aleth/build/deps/src/binaryen/src/ir/ExpressionManipulator.cpp
 ir/utils.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/ir/utils.h
+/aleth/build/deps/src/binaryen/src/ir/ir/utils.h
 support/hash.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/support/hash.h
+/aleth/build/deps/src/binaryen/src/ir/support/hash.h
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/LocalGraph.cpp
+/aleth/build/deps/src/binaryen/src/ir/LocalGraph.cpp
 iterator
 -
 wasm-builder.h
@@ -68,51 +68,51 @@ ir/local-graph.h
 cfg/cfg-traversal.h
 -
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/branch-utils.h
+/aleth/build/deps/src/binaryen/src/ir/branch-utils.h
 wasm.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/wasm.h
+/aleth/build/deps/src/binaryen/src/ir/wasm.h
 wasm-traversal.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/wasm-traversal.h
+/aleth/build/deps/src/binaryen/src/ir/wasm-traversal.h
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/find_all.h
+/aleth/build/deps/src/binaryen/src/ir/find_all.h
 wasm-traversal.h
 -
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/load-utils.h
+/aleth/build/deps/src/binaryen/src/ir/load-utils.h
 wasm.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/wasm.h
+/aleth/build/deps/src/binaryen/src/ir/wasm.h
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/local-graph.h
+/aleth/build/deps/src/binaryen/src/ir/local-graph.h
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/manipulation.h
+/aleth/build/deps/src/binaryen/src/ir/manipulation.h
 wasm.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/wasm.h
+/aleth/build/deps/src/binaryen/src/ir/wasm.h
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/utils.h
+/aleth/build/deps/src/binaryen/src/ir/utils.h
 wasm.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/wasm.h
+/aleth/build/deps/src/binaryen/src/ir/wasm.h
 wasm-traversal.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/wasm-traversal.h
+/aleth/build/deps/src/binaryen/src/ir/wasm-traversal.h
 wasm-builder.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/wasm-builder.h
+/aleth/build/deps/src/binaryen/src/ir/wasm-builder.h
 pass.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/pass.h
+/aleth/build/deps/src/binaryen/src/ir/pass.h
 ir/branch-utils.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/ir/branch-utils.h
+/aleth/build/deps/src/binaryen/src/ir/ir/branch-utils.h
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/literal.h
+/aleth/build/deps/src/binaryen/src/literal.h
 iostream
 -
 support/hash.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/hash.h
+/aleth/build/deps/src/binaryen/src/support/hash.h
 support/utilities.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/utilities.h
+/aleth/build/deps/src/binaryen/src/support/utilities.h
 compiler-support.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/compiler-support.h
+/aleth/build/deps/src/binaryen/src/compiler-support.h
 wasm-type.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/wasm-type.h
+/aleth/build/deps/src/binaryen/src/wasm-type.h
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/mixed_arena.h
+/aleth/build/deps/src/binaryen/src/mixed_arena.h
 atomic
 -
 cassert
@@ -128,19 +128,19 @@ thread
 vector
 -
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/pass.h
+/aleth/build/deps/src/binaryen/src/pass.h
 functional
 -
 wasm.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/wasm.h
+/aleth/build/deps/src/binaryen/src/wasm.h
 wasm-traversal.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/wasm-traversal.h
+/aleth/build/deps/src/binaryen/src/wasm-traversal.h
 mixed_arena.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/mixed_arena.h
+/aleth/build/deps/src/binaryen/src/mixed_arena.h
 support/utilities.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/utilities.h
+/aleth/build/deps/src/binaryen/src/support/utilities.h
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/bits.h
+/aleth/build/deps/src/binaryen/src/support/bits.h
 climits
 -
 cstdint
@@ -148,19 +148,19 @@ cstdint
 type_traits
 -
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/hash.h
+/aleth/build/deps/src/binaryen/src/support/hash.h
 functional
 -
 stdint.h
 -
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/name.h
+/aleth/build/deps/src/binaryen/src/support/name.h
 cstring
 -
 emscripten-optimizer/istring.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/emscripten-optimizer/istring.h
+/aleth/build/deps/src/binaryen/src/support/emscripten-optimizer/istring.h
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/threads.h
+/aleth/build/deps/src/binaryen/src/support/threads.h
 atomic
 -
 condition_variable
@@ -176,9 +176,9 @@ thread
 vector
 -
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/utilities.h
+/aleth/build/deps/src/binaryen/src/support/utilities.h
 compiler-support.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/compiler-support.h
+/aleth/build/deps/src/binaryen/src/support/compiler-support.h
 cassert
 -
 cstdint
@@ -192,31 +192,31 @@ iostream
 type_traits
 -
 support/bits.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/support/bits.h
+/aleth/build/deps/src/binaryen/src/support/support/bits.h
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/wasm-builder.h
+/aleth/build/deps/src/binaryen/src/wasm-builder.h
 wasm.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/wasm.h
+/aleth/build/deps/src/binaryen/src/wasm.h
 ir/manipulation.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/ir/manipulation.h
+/aleth/build/deps/src/binaryen/src/ir/manipulation.h
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/wasm-printing.h
+/aleth/build/deps/src/binaryen/src/wasm-printing.h
 ostream
 -
 wasm.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/wasm.h
+/aleth/build/deps/src/binaryen/src/wasm.h
 pass.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/pass.h
+/aleth/build/deps/src/binaryen/src/pass.h
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/wasm-traversal.h
+/aleth/build/deps/src/binaryen/src/wasm-traversal.h
 wasm.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/wasm.h
+/aleth/build/deps/src/binaryen/src/wasm.h
 support/threads.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/threads.h
+/aleth/build/deps/src/binaryen/src/support/threads.h
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/wasm-type.h
+/aleth/build/deps/src/binaryen/src/wasm-type.h
 
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/wasm.h
+/aleth/build/deps/src/binaryen/src/wasm.h
 algorithm
 -
 cassert
@@ -228,11 +228,11 @@ string
 vector
 -
 literal.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/literal.h
+/aleth/build/deps/src/binaryen/src/literal.h
 mixed_arena.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/mixed_arena.h
+/aleth/build/deps/src/binaryen/src/mixed_arena.h
 support/name.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/name.h
+/aleth/build/deps/src/binaryen/src/support/name.h
 wasm-type.h
-/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/wasm-type.h
+/aleth/build/deps/src/binaryen/src/wasm-type.h
 

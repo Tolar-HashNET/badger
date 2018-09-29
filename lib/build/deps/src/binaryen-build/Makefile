@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen
+CMAKE_SOURCE_DIR = /aleth/build/deps/src/binaryen
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen-build
+CMAKE_BINARY_DIR = /aleth/build/deps/src/binaryen-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles /aleth/build/deps/src/binaryen-build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

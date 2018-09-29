@@ -20,11 +20,11 @@ evmc/utils.h
 
 ../evmc/include/evmc/utils.h
 
-/home/ubuntu/moose/aleth/evmc/lib/instructions/instruction_metrics.c
+/aleth/evmc/lib/instructions/instruction_metrics.c
 evmc/instructions.h
 -
 
-/home/ubuntu/moose/aleth/evmc/lib/instructions/instruction_names.c
+/aleth/evmc/lib/instructions/instruction_names.c
 evmc/instructions.h
 -
 

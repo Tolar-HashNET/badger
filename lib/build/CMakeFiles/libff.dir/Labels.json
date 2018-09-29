@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/CMakeFiles/libff"
+			"file" : "/aleth/build/CMakeFiles/libff"
 		},
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/CMakeFiles/libff.rule"
+			"file" : "/aleth/build/CMakeFiles/libff.rule"
 		},
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/CMakeFiles/libff-complete.rule"
+			"file" : "/aleth/build/CMakeFiles/libff-complete.rule"
 		},
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/deps/src/libff-stamp/libff-install.rule"
+			"file" : "/aleth/build/deps/src/libff-stamp/libff-install.rule"
 		},
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/deps/src/libff-stamp/libff-mkdir.rule"
+			"file" : "/aleth/build/deps/src/libff-stamp/libff-mkdir.rule"
 		},
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/deps/src/libff-stamp/libff-download.rule"
+			"file" : "/aleth/build/deps/src/libff-stamp/libff-download.rule"
 		},
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/deps/src/libff-stamp/libff-update.rule"
+			"file" : "/aleth/build/deps/src/libff-stamp/libff-update.rule"
 		},
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/deps/src/libff-stamp/libff-patch.rule"
+			"file" : "/aleth/build/deps/src/libff-stamp/libff-patch.rule"
 		},
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/deps/src/libff-stamp/libff-configure.rule"
+			"file" : "/aleth/build/deps/src/libff-stamp/libff-configure.rule"
 		},
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/deps/src/libff-stamp/libff-build.rule"
+			"file" : "/aleth/build/deps/src/libff-stamp/libff-build.rule"
 		}
 	],
 	"target" : 

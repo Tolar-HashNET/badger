@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/moose/aleth/libevm
+# Install script for directory: /aleth/libevm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

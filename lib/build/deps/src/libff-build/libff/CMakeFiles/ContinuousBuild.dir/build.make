@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth/build/deps/src/libff
+CMAKE_SOURCE_DIR = /aleth/build/deps/src/libff
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build/deps/src/libff-build
+CMAKE_BINARY_DIR = /aleth/build/deps/src/libff-build
 
 # Utility rule file for ContinuousBuild.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build/deps/src/libff-build
 include libff/CMakeFiles/ContinuousBuild.dir/progress.make
 
 libff/CMakeFiles/ContinuousBuild:
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/ctest -D ContinuousBuild
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/ctest -D ContinuousBuild
 
 ContinuousBuild: libff/CMakeFiles/ContinuousBuild
 ContinuousBuild: libff/CMakeFiles/ContinuousBuild.dir/build.make
@@ -67,10 +67,10 @@ libff/CMakeFiles/ContinuousBuild.dir/build: ContinuousBuild
 .PHONY : libff/CMakeFiles/ContinuousBuild.dir/build
 
 libff/CMakeFiles/ContinuousBuild.dir/clean:
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && $(CMAKE_COMMAND) -P CMakeFiles/ContinuousBuild.dir/cmake_clean.cmake
+	cd /aleth/build/deps/src/libff-build/libff && $(CMAKE_COMMAND) -P CMakeFiles/ContinuousBuild.dir/cmake_clean.cmake
 .PHONY : libff/CMakeFiles/ContinuousBuild.dir/clean
 
 libff/CMakeFiles/ContinuousBuild.dir/depend:
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth/build/deps/src/libff /home/ubuntu/moose/aleth/build/deps/src/libff/libff /home/ubuntu/moose/aleth/build/deps/src/libff-build /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff/CMakeFiles/ContinuousBuild.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build/deps/src/libff-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth/build/deps/src/libff /aleth/build/deps/src/libff/libff /aleth/build/deps/src/libff-build /aleth/build/deps/src/libff-build/libff /aleth/build/deps/src/libff-build/libff/CMakeFiles/ContinuousBuild.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libff/CMakeFiles/ContinuousBuild.dir/depend
 

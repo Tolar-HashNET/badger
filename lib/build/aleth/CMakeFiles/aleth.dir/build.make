@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth
+CMAKE_SOURCE_DIR = /aleth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build
+CMAKE_BINARY_DIR = /aleth/build
 
 # Include any dependencies generated for this target.
 include aleth/CMakeFiles/aleth.dir/depend.make
@@ -59,16 +59,16 @@ include aleth/CMakeFiles/aleth.dir/flags.make
 
 aleth/CMakeFiles/aleth.dir/AccountManager.cpp.o: aleth/CMakeFiles/aleth.dir/flags.make
 aleth/CMakeFiles/aleth.dir/AccountManager.cpp.o: ../aleth/AccountManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object aleth/CMakeFiles/aleth.dir/AccountManager.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/aleth && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aleth.dir/AccountManager.cpp.o -c /home/ubuntu/moose/aleth/aleth/AccountManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object aleth/CMakeFiles/aleth.dir/AccountManager.cpp.o"
+	cd /aleth/build/aleth && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aleth.dir/AccountManager.cpp.o -c /aleth/aleth/AccountManager.cpp
 
 aleth/CMakeFiles/aleth.dir/AccountManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aleth.dir/AccountManager.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/aleth && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/aleth/AccountManager.cpp > CMakeFiles/aleth.dir/AccountManager.cpp.i
+	cd /aleth/build/aleth && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/aleth/AccountManager.cpp > CMakeFiles/aleth.dir/AccountManager.cpp.i
 
 aleth/CMakeFiles/aleth.dir/AccountManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aleth.dir/AccountManager.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/aleth && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/aleth/AccountManager.cpp -o CMakeFiles/aleth.dir/AccountManager.cpp.s
+	cd /aleth/build/aleth && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/aleth/AccountManager.cpp -o CMakeFiles/aleth.dir/AccountManager.cpp.s
 
 aleth/CMakeFiles/aleth.dir/AccountManager.cpp.o.requires:
 
@@ -83,16 +83,16 @@ aleth/CMakeFiles/aleth.dir/AccountManager.cpp.o.provides.build: aleth/CMakeFiles
 
 aleth/CMakeFiles/aleth.dir/main.cpp.o: aleth/CMakeFiles/aleth.dir/flags.make
 aleth/CMakeFiles/aleth.dir/main.cpp.o: ../aleth/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object aleth/CMakeFiles/aleth.dir/main.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/aleth && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aleth.dir/main.cpp.o -c /home/ubuntu/moose/aleth/aleth/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object aleth/CMakeFiles/aleth.dir/main.cpp.o"
+	cd /aleth/build/aleth && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aleth.dir/main.cpp.o -c /aleth/aleth/main.cpp
 
 aleth/CMakeFiles/aleth.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aleth.dir/main.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/aleth && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/aleth/main.cpp > CMakeFiles/aleth.dir/main.cpp.i
+	cd /aleth/build/aleth && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/aleth/main.cpp > CMakeFiles/aleth.dir/main.cpp.i
 
 aleth/CMakeFiles/aleth.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aleth.dir/main.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/aleth && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/aleth/main.cpp -o CMakeFiles/aleth.dir/main.cpp.s
+	cd /aleth/build/aleth && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/aleth/main.cpp -o CMakeFiles/aleth.dir/main.cpp.s
 
 aleth/CMakeFiles/aleth.dir/main.cpp.o.requires:
 
@@ -107,16 +107,16 @@ aleth/CMakeFiles/aleth.dir/main.cpp.o.provides.build: aleth/CMakeFiles/aleth.dir
 
 aleth/CMakeFiles/aleth.dir/MinerAux.cpp.o: aleth/CMakeFiles/aleth.dir/flags.make
 aleth/CMakeFiles/aleth.dir/MinerAux.cpp.o: ../aleth/MinerAux.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object aleth/CMakeFiles/aleth.dir/MinerAux.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/aleth && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aleth.dir/MinerAux.cpp.o -c /home/ubuntu/moose/aleth/aleth/MinerAux.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object aleth/CMakeFiles/aleth.dir/MinerAux.cpp.o"
+	cd /aleth/build/aleth && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aleth.dir/MinerAux.cpp.o -c /aleth/aleth/MinerAux.cpp
 
 aleth/CMakeFiles/aleth.dir/MinerAux.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aleth.dir/MinerAux.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/aleth && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/aleth/MinerAux.cpp > CMakeFiles/aleth.dir/MinerAux.cpp.i
+	cd /aleth/build/aleth && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/aleth/MinerAux.cpp > CMakeFiles/aleth.dir/MinerAux.cpp.i
 
 aleth/CMakeFiles/aleth.dir/MinerAux.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aleth.dir/MinerAux.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/aleth && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/aleth/MinerAux.cpp -o CMakeFiles/aleth.dir/MinerAux.cpp.s
+	cd /aleth/build/aleth && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/aleth/MinerAux.cpp -o CMakeFiles/aleth.dir/MinerAux.cpp.s
 
 aleth/CMakeFiles/aleth.dir/MinerAux.cpp.o.requires:
 
@@ -148,39 +148,39 @@ aleth/aleth: libevm/libevm.a
 aleth/aleth: libweb3jsonrpc/libweb3jsonrpc.a
 aleth/aleth: libwebthree/libwebthree.a
 aleth/aleth: libdevcore/libdevcore.a
-aleth/aleth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libboost_program_options-mt.a
+aleth/aleth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libboost_program_options-mt.a
 aleth/aleth: libethashseal/libethashseal.a
 aleth/aleth: libethereum/libethereum.a
 aleth/aleth: libevm/libevm.a
-aleth/aleth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libboost_program_options-mt.a
+aleth/aleth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libboost_program_options-mt.a
 aleth/aleth: libaleth-interpreter/libaleth-interpreter.a
 aleth/aleth: evmc/lib/instructions/libevmc-instructions.a
 aleth/aleth: evmc/lib/loader/libevmc-loader.a
 aleth/aleth: libethcore/libethcore.a
-aleth/aleth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libsnappy.a
-aleth/aleth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libboost_fiber-mt.a
-aleth/aleth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libboost_context-mt.a
+aleth/aleth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libsnappy.a
+aleth/aleth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libboost_fiber-mt.a
+aleth/aleth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libboost_context-mt.a
 aleth/aleth: libp2p/libp2p.a
 aleth/aleth: libdevcrypto/libdevcrypto.a
 aleth/aleth: libdevcore/libdevcore.a
 aleth/aleth: aleth/libaleth-buildinfo.a
-aleth/aleth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libboost_filesystem-mt.a
-aleth/aleth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libboost_system-mt.a
-aleth/aleth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libboost_log-mt.a
-aleth/aleth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libboost_thread-mt.a
-aleth/aleth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libethash.a
+aleth/aleth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libboost_filesystem-mt.a
+aleth/aleth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libboost_system-mt.a
+aleth/aleth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libboost_log-mt.a
+aleth/aleth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libboost_thread-mt.a
+aleth/aleth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libethash.a
 aleth/aleth: /usr/lib/x86_64-linux-gnu/libleveldb.so
 aleth/aleth: deps/lib/libsecp256k1.a
 aleth/aleth: deps/lib/libff.a
 aleth/aleth: deps/lib/libmpir.a
-aleth/aleth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libcryptopp.a
-aleth/aleth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libscrypt.a
-aleth/aleth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libjsonrpccpp-server.a
-aleth/aleth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libjsonrpccpp-common.a
-aleth/aleth: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libjsoncpp.a
+aleth/aleth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libcryptopp.a
+aleth/aleth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libscrypt.a
+aleth/aleth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libjsonrpccpp-server.a
+aleth/aleth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libjsonrpccpp-common.a
+aleth/aleth: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libjsoncpp.a
 aleth/aleth: aleth/CMakeFiles/aleth.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable aleth"
-	cd /home/ubuntu/moose/aleth/build/aleth && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aleth.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable aleth"
+	cd /aleth/build/aleth && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aleth.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 aleth/CMakeFiles/aleth.dir/build: aleth/aleth
@@ -194,10 +194,10 @@ aleth/CMakeFiles/aleth.dir/requires: aleth/CMakeFiles/aleth.dir/MinerAux.cpp.o.r
 .PHONY : aleth/CMakeFiles/aleth.dir/requires
 
 aleth/CMakeFiles/aleth.dir/clean:
-	cd /home/ubuntu/moose/aleth/build/aleth && $(CMAKE_COMMAND) -P CMakeFiles/aleth.dir/cmake_clean.cmake
+	cd /aleth/build/aleth && $(CMAKE_COMMAND) -P CMakeFiles/aleth.dir/cmake_clean.cmake
 .PHONY : aleth/CMakeFiles/aleth.dir/clean
 
 aleth/CMakeFiles/aleth.dir/depend:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth /home/ubuntu/moose/aleth/aleth /home/ubuntu/moose/aleth/build /home/ubuntu/moose/aleth/build/aleth /home/ubuntu/moose/aleth/build/aleth/CMakeFiles/aleth.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth /aleth/aleth /aleth/build /aleth/build/aleth /aleth/build/aleth/CMakeFiles/aleth.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : aleth/CMakeFiles/aleth.dir/depend
 

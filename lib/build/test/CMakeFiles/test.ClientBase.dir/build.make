@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth
+CMAKE_SOURCE_DIR = /aleth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build
+CMAKE_BINARY_DIR = /aleth/build
 
 # Utility rule file for test.ClientBase.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build
 include test/CMakeFiles/test.ClientBase.dir/progress.make
 
 test/CMakeFiles/test.ClientBase: test/testeth
-	cd /home/ubuntu/moose/aleth/build/test && /usr/bin/cmake -DETH_TEST_NAME="ClientBase" -DCTEST_COMMAND="" -P /home/ubuntu/moose/aleth/cmake/scripts/runtest.cmake
+	cd /aleth/build/test && /usr/bin/cmake -DETH_TEST_NAME="ClientBase" -DCTEST_COMMAND="" -P /aleth/cmake/scripts/runtest.cmake
 
 test.ClientBase: test/CMakeFiles/test.ClientBase
 test.ClientBase: test/CMakeFiles/test.ClientBase.dir/build.make
@@ -67,10 +67,10 @@ test/CMakeFiles/test.ClientBase.dir/build: test.ClientBase
 .PHONY : test/CMakeFiles/test.ClientBase.dir/build
 
 test/CMakeFiles/test.ClientBase.dir/clean:
-	cd /home/ubuntu/moose/aleth/build/test && $(CMAKE_COMMAND) -P CMakeFiles/test.ClientBase.dir/cmake_clean.cmake
+	cd /aleth/build/test && $(CMAKE_COMMAND) -P CMakeFiles/test.ClientBase.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/test.ClientBase.dir/clean
 
 test/CMakeFiles/test.ClientBase.dir/depend:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth /home/ubuntu/moose/aleth/test /home/ubuntu/moose/aleth/build /home/ubuntu/moose/aleth/build/test /home/ubuntu/moose/aleth/build/test/CMakeFiles/test.ClientBase.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth /aleth/test /aleth/build /aleth/build/test /aleth/build/test/CMakeFiles/test.ClientBase.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/test.ClientBase.dir/depend
 

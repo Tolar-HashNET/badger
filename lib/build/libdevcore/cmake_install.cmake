@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/moose/aleth/libdevcore
+# Install script for directory: /aleth/libdevcore
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

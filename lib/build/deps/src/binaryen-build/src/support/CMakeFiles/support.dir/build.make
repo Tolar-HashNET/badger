@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen
+CMAKE_SOURCE_DIR = /aleth/build/deps/src/binaryen
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen-build
+CMAKE_BINARY_DIR = /aleth/build/deps/src/binaryen-build
 
 # Include any dependencies generated for this target.
 include src/support/CMakeFiles/support.dir/depend.make
@@ -58,17 +58,17 @@ include src/support/CMakeFiles/support.dir/progress.make
 include src/support/CMakeFiles/support.dir/flags.make
 
 src/support/CMakeFiles/support.dir/archive.cpp.o: src/support/CMakeFiles/support.dir/flags.make
-src/support/CMakeFiles/support.dir/archive.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/archive.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/support/CMakeFiles/support.dir/archive.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/support.dir/archive.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/archive.cpp
+src/support/CMakeFiles/support.dir/archive.cpp.o: /aleth/build/deps/src/binaryen/src/support/archive.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/support/CMakeFiles/support.dir/archive.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/support && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/support.dir/archive.cpp.o -c /aleth/build/deps/src/binaryen/src/support/archive.cpp
 
 src/support/CMakeFiles/support.dir/archive.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/support.dir/archive.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/archive.cpp > CMakeFiles/support.dir/archive.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/support && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/support/archive.cpp > CMakeFiles/support.dir/archive.cpp.i
 
 src/support/CMakeFiles/support.dir/archive.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/support.dir/archive.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/archive.cpp -o CMakeFiles/support.dir/archive.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/support && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/support/archive.cpp -o CMakeFiles/support.dir/archive.cpp.s
 
 src/support/CMakeFiles/support.dir/archive.cpp.o.requires:
 
@@ -82,17 +82,17 @@ src/support/CMakeFiles/support.dir/archive.cpp.o.provides.build: src/support/CMa
 
 
 src/support/CMakeFiles/support.dir/bits.cpp.o: src/support/CMakeFiles/support.dir/flags.make
-src/support/CMakeFiles/support.dir/bits.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/bits.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/support/CMakeFiles/support.dir/bits.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/support.dir/bits.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/bits.cpp
+src/support/CMakeFiles/support.dir/bits.cpp.o: /aleth/build/deps/src/binaryen/src/support/bits.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/support/CMakeFiles/support.dir/bits.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/support && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/support.dir/bits.cpp.o -c /aleth/build/deps/src/binaryen/src/support/bits.cpp
 
 src/support/CMakeFiles/support.dir/bits.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/support.dir/bits.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/bits.cpp > CMakeFiles/support.dir/bits.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/support && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/support/bits.cpp > CMakeFiles/support.dir/bits.cpp.i
 
 src/support/CMakeFiles/support.dir/bits.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/support.dir/bits.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/bits.cpp -o CMakeFiles/support.dir/bits.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/support && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/support/bits.cpp -o CMakeFiles/support.dir/bits.cpp.s
 
 src/support/CMakeFiles/support.dir/bits.cpp.o.requires:
 
@@ -106,17 +106,17 @@ src/support/CMakeFiles/support.dir/bits.cpp.o.provides.build: src/support/CMakeF
 
 
 src/support/CMakeFiles/support.dir/colors.cpp.o: src/support/CMakeFiles/support.dir/flags.make
-src/support/CMakeFiles/support.dir/colors.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/colors.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/support/CMakeFiles/support.dir/colors.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/support.dir/colors.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/colors.cpp
+src/support/CMakeFiles/support.dir/colors.cpp.o: /aleth/build/deps/src/binaryen/src/support/colors.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/support/CMakeFiles/support.dir/colors.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/support && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/support.dir/colors.cpp.o -c /aleth/build/deps/src/binaryen/src/support/colors.cpp
 
 src/support/CMakeFiles/support.dir/colors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/support.dir/colors.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/colors.cpp > CMakeFiles/support.dir/colors.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/support && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/support/colors.cpp > CMakeFiles/support.dir/colors.cpp.i
 
 src/support/CMakeFiles/support.dir/colors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/support.dir/colors.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/colors.cpp -o CMakeFiles/support.dir/colors.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/support && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/support/colors.cpp -o CMakeFiles/support.dir/colors.cpp.s
 
 src/support/CMakeFiles/support.dir/colors.cpp.o.requires:
 
@@ -130,17 +130,17 @@ src/support/CMakeFiles/support.dir/colors.cpp.o.provides.build: src/support/CMak
 
 
 src/support/CMakeFiles/support.dir/command-line.cpp.o: src/support/CMakeFiles/support.dir/flags.make
-src/support/CMakeFiles/support.dir/command-line.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/command-line.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/support/CMakeFiles/support.dir/command-line.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/support.dir/command-line.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/command-line.cpp
+src/support/CMakeFiles/support.dir/command-line.cpp.o: /aleth/build/deps/src/binaryen/src/support/command-line.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/support/CMakeFiles/support.dir/command-line.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/support && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/support.dir/command-line.cpp.o -c /aleth/build/deps/src/binaryen/src/support/command-line.cpp
 
 src/support/CMakeFiles/support.dir/command-line.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/support.dir/command-line.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/command-line.cpp > CMakeFiles/support.dir/command-line.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/support && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/support/command-line.cpp > CMakeFiles/support.dir/command-line.cpp.i
 
 src/support/CMakeFiles/support.dir/command-line.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/support.dir/command-line.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/command-line.cpp -o CMakeFiles/support.dir/command-line.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/support && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/support/command-line.cpp -o CMakeFiles/support.dir/command-line.cpp.s
 
 src/support/CMakeFiles/support.dir/command-line.cpp.o.requires:
 
@@ -154,17 +154,17 @@ src/support/CMakeFiles/support.dir/command-line.cpp.o.provides.build: src/suppor
 
 
 src/support/CMakeFiles/support.dir/file.cpp.o: src/support/CMakeFiles/support.dir/flags.make
-src/support/CMakeFiles/support.dir/file.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/file.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/support/CMakeFiles/support.dir/file.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/support.dir/file.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/file.cpp
+src/support/CMakeFiles/support.dir/file.cpp.o: /aleth/build/deps/src/binaryen/src/support/file.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/support/CMakeFiles/support.dir/file.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/support && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/support.dir/file.cpp.o -c /aleth/build/deps/src/binaryen/src/support/file.cpp
 
 src/support/CMakeFiles/support.dir/file.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/support.dir/file.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/file.cpp > CMakeFiles/support.dir/file.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/support && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/support/file.cpp > CMakeFiles/support.dir/file.cpp.i
 
 src/support/CMakeFiles/support.dir/file.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/support.dir/file.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/file.cpp -o CMakeFiles/support.dir/file.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/support && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/support/file.cpp -o CMakeFiles/support.dir/file.cpp.s
 
 src/support/CMakeFiles/support.dir/file.cpp.o.requires:
 
@@ -178,17 +178,17 @@ src/support/CMakeFiles/support.dir/file.cpp.o.provides.build: src/support/CMakeF
 
 
 src/support/CMakeFiles/support.dir/safe_integer.cpp.o: src/support/CMakeFiles/support.dir/flags.make
-src/support/CMakeFiles/support.dir/safe_integer.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/safe_integer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/support/CMakeFiles/support.dir/safe_integer.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/support.dir/safe_integer.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/safe_integer.cpp
+src/support/CMakeFiles/support.dir/safe_integer.cpp.o: /aleth/build/deps/src/binaryen/src/support/safe_integer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/support/CMakeFiles/support.dir/safe_integer.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/support && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/support.dir/safe_integer.cpp.o -c /aleth/build/deps/src/binaryen/src/support/safe_integer.cpp
 
 src/support/CMakeFiles/support.dir/safe_integer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/support.dir/safe_integer.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/safe_integer.cpp > CMakeFiles/support.dir/safe_integer.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/support && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/support/safe_integer.cpp > CMakeFiles/support.dir/safe_integer.cpp.i
 
 src/support/CMakeFiles/support.dir/safe_integer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/support.dir/safe_integer.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/safe_integer.cpp -o CMakeFiles/support.dir/safe_integer.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/support && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/support/safe_integer.cpp -o CMakeFiles/support.dir/safe_integer.cpp.s
 
 src/support/CMakeFiles/support.dir/safe_integer.cpp.o.requires:
 
@@ -202,17 +202,17 @@ src/support/CMakeFiles/support.dir/safe_integer.cpp.o.provides.build: src/suppor
 
 
 src/support/CMakeFiles/support.dir/threads.cpp.o: src/support/CMakeFiles/support.dir/flags.make
-src/support/CMakeFiles/support.dir/threads.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/threads.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/support/CMakeFiles/support.dir/threads.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/support && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/support.dir/threads.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/threads.cpp
+src/support/CMakeFiles/support.dir/threads.cpp.o: /aleth/build/deps/src/binaryen/src/support/threads.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/support/CMakeFiles/support.dir/threads.cpp.o"
+	cd /aleth/build/deps/src/binaryen-build/src/support && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/support.dir/threads.cpp.o -c /aleth/build/deps/src/binaryen/src/support/threads.cpp
 
 src/support/CMakeFiles/support.dir/threads.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/support.dir/threads.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/threads.cpp > CMakeFiles/support.dir/threads.cpp.i
+	cd /aleth/build/deps/src/binaryen-build/src/support && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/binaryen/src/support/threads.cpp > CMakeFiles/support.dir/threads.cpp.i
 
 src/support/CMakeFiles/support.dir/threads.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/support.dir/threads.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/support && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support/threads.cpp -o CMakeFiles/support.dir/threads.cpp.s
+	cd /aleth/build/deps/src/binaryen-build/src/support && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/binaryen/src/support/threads.cpp -o CMakeFiles/support.dir/threads.cpp.s
 
 src/support/CMakeFiles/support.dir/threads.cpp.o.requires:
 
@@ -247,9 +247,9 @@ lib/libsupport.a: src/support/CMakeFiles/support.dir/safe_integer.cpp.o
 lib/libsupport.a: src/support/CMakeFiles/support.dir/threads.cpp.o
 lib/libsupport.a: src/support/CMakeFiles/support.dir/build.make
 lib/libsupport.a: src/support/CMakeFiles/support.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library ../../lib/libsupport.a"
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/support && $(CMAKE_COMMAND) -P CMakeFiles/support.dir/cmake_clean_target.cmake
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/support && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/support.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library ../../lib/libsupport.a"
+	cd /aleth/build/deps/src/binaryen-build/src/support && $(CMAKE_COMMAND) -P CMakeFiles/support.dir/cmake_clean_target.cmake
+	cd /aleth/build/deps/src/binaryen-build/src/support && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/support.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/support/CMakeFiles/support.dir/build: lib/libsupport.a
@@ -267,10 +267,10 @@ src/support/CMakeFiles/support.dir/requires: src/support/CMakeFiles/support.dir/
 .PHONY : src/support/CMakeFiles/support.dir/requires
 
 src/support/CMakeFiles/support.dir/clean:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/support && $(CMAKE_COMMAND) -P CMakeFiles/support.dir/cmake_clean.cmake
+	cd /aleth/build/deps/src/binaryen-build/src/support && $(CMAKE_COMMAND) -P CMakeFiles/support.dir/cmake_clean.cmake
 .PHONY : src/support/CMakeFiles/support.dir/clean
 
 src/support/CMakeFiles/support.dir/depend:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth/build/deps/src/binaryen /home/ubuntu/moose/aleth/build/deps/src/binaryen/src/support /home/ubuntu/moose/aleth/build/deps/src/binaryen-build /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/support /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/support/CMakeFiles/support.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth/build/deps/src/binaryen /aleth/build/deps/src/binaryen/src/support /aleth/build/deps/src/binaryen-build /aleth/build/deps/src/binaryen-build/src/support /aleth/build/deps/src/binaryen-build/src/support/CMakeFiles/support.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/support/CMakeFiles/support.dir/depend
 

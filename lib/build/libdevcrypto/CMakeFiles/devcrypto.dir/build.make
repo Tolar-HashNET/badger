@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth
+CMAKE_SOURCE_DIR = /aleth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build
+CMAKE_BINARY_DIR = /aleth/build
 
 # Include any dependencies generated for this target.
 include libdevcrypto/CMakeFiles/devcrypto.dir/depend.make
@@ -59,16 +59,16 @@ include libdevcrypto/CMakeFiles/devcrypto.dir/flags.make
 
 libdevcrypto/CMakeFiles/devcrypto.dir/AES.cpp.o: libdevcrypto/CMakeFiles/devcrypto.dir/flags.make
 libdevcrypto/CMakeFiles/devcrypto.dir/AES.cpp.o: ../libdevcrypto/AES.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libdevcrypto/CMakeFiles/devcrypto.dir/AES.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libdevcrypto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcrypto.dir/AES.cpp.o -c /home/ubuntu/moose/aleth/libdevcrypto/AES.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libdevcrypto/CMakeFiles/devcrypto.dir/AES.cpp.o"
+	cd /aleth/build/libdevcrypto && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcrypto.dir/AES.cpp.o -c /aleth/libdevcrypto/AES.cpp
 
 libdevcrypto/CMakeFiles/devcrypto.dir/AES.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/devcrypto.dir/AES.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libdevcrypto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libdevcrypto/AES.cpp > CMakeFiles/devcrypto.dir/AES.cpp.i
+	cd /aleth/build/libdevcrypto && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libdevcrypto/AES.cpp > CMakeFiles/devcrypto.dir/AES.cpp.i
 
 libdevcrypto/CMakeFiles/devcrypto.dir/AES.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/devcrypto.dir/AES.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libdevcrypto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libdevcrypto/AES.cpp -o CMakeFiles/devcrypto.dir/AES.cpp.s
+	cd /aleth/build/libdevcrypto && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libdevcrypto/AES.cpp -o CMakeFiles/devcrypto.dir/AES.cpp.s
 
 libdevcrypto/CMakeFiles/devcrypto.dir/AES.cpp.o.requires:
 
@@ -83,16 +83,16 @@ libdevcrypto/CMakeFiles/devcrypto.dir/AES.cpp.o.provides.build: libdevcrypto/CMa
 
 libdevcrypto/CMakeFiles/devcrypto.dir/Common.cpp.o: libdevcrypto/CMakeFiles/devcrypto.dir/flags.make
 libdevcrypto/CMakeFiles/devcrypto.dir/Common.cpp.o: ../libdevcrypto/Common.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libdevcrypto/CMakeFiles/devcrypto.dir/Common.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libdevcrypto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcrypto.dir/Common.cpp.o -c /home/ubuntu/moose/aleth/libdevcrypto/Common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libdevcrypto/CMakeFiles/devcrypto.dir/Common.cpp.o"
+	cd /aleth/build/libdevcrypto && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcrypto.dir/Common.cpp.o -c /aleth/libdevcrypto/Common.cpp
 
 libdevcrypto/CMakeFiles/devcrypto.dir/Common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/devcrypto.dir/Common.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libdevcrypto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libdevcrypto/Common.cpp > CMakeFiles/devcrypto.dir/Common.cpp.i
+	cd /aleth/build/libdevcrypto && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libdevcrypto/Common.cpp > CMakeFiles/devcrypto.dir/Common.cpp.i
 
 libdevcrypto/CMakeFiles/devcrypto.dir/Common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/devcrypto.dir/Common.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libdevcrypto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libdevcrypto/Common.cpp -o CMakeFiles/devcrypto.dir/Common.cpp.s
+	cd /aleth/build/libdevcrypto && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libdevcrypto/Common.cpp -o CMakeFiles/devcrypto.dir/Common.cpp.s
 
 libdevcrypto/CMakeFiles/devcrypto.dir/Common.cpp.o.requires:
 
@@ -107,16 +107,16 @@ libdevcrypto/CMakeFiles/devcrypto.dir/Common.cpp.o.provides.build: libdevcrypto/
 
 libdevcrypto/CMakeFiles/devcrypto.dir/CryptoPP.cpp.o: libdevcrypto/CMakeFiles/devcrypto.dir/flags.make
 libdevcrypto/CMakeFiles/devcrypto.dir/CryptoPP.cpp.o: ../libdevcrypto/CryptoPP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libdevcrypto/CMakeFiles/devcrypto.dir/CryptoPP.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libdevcrypto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcrypto.dir/CryptoPP.cpp.o -c /home/ubuntu/moose/aleth/libdevcrypto/CryptoPP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libdevcrypto/CMakeFiles/devcrypto.dir/CryptoPP.cpp.o"
+	cd /aleth/build/libdevcrypto && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcrypto.dir/CryptoPP.cpp.o -c /aleth/libdevcrypto/CryptoPP.cpp
 
 libdevcrypto/CMakeFiles/devcrypto.dir/CryptoPP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/devcrypto.dir/CryptoPP.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libdevcrypto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libdevcrypto/CryptoPP.cpp > CMakeFiles/devcrypto.dir/CryptoPP.cpp.i
+	cd /aleth/build/libdevcrypto && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libdevcrypto/CryptoPP.cpp > CMakeFiles/devcrypto.dir/CryptoPP.cpp.i
 
 libdevcrypto/CMakeFiles/devcrypto.dir/CryptoPP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/devcrypto.dir/CryptoPP.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libdevcrypto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libdevcrypto/CryptoPP.cpp -o CMakeFiles/devcrypto.dir/CryptoPP.cpp.s
+	cd /aleth/build/libdevcrypto && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libdevcrypto/CryptoPP.cpp -o CMakeFiles/devcrypto.dir/CryptoPP.cpp.s
 
 libdevcrypto/CMakeFiles/devcrypto.dir/CryptoPP.cpp.o.requires:
 
@@ -131,16 +131,16 @@ libdevcrypto/CMakeFiles/devcrypto.dir/CryptoPP.cpp.o.provides.build: libdevcrypt
 
 libdevcrypto/CMakeFiles/devcrypto.dir/Hash.cpp.o: libdevcrypto/CMakeFiles/devcrypto.dir/flags.make
 libdevcrypto/CMakeFiles/devcrypto.dir/Hash.cpp.o: ../libdevcrypto/Hash.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libdevcrypto/CMakeFiles/devcrypto.dir/Hash.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libdevcrypto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcrypto.dir/Hash.cpp.o -c /home/ubuntu/moose/aleth/libdevcrypto/Hash.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libdevcrypto/CMakeFiles/devcrypto.dir/Hash.cpp.o"
+	cd /aleth/build/libdevcrypto && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcrypto.dir/Hash.cpp.o -c /aleth/libdevcrypto/Hash.cpp
 
 libdevcrypto/CMakeFiles/devcrypto.dir/Hash.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/devcrypto.dir/Hash.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libdevcrypto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libdevcrypto/Hash.cpp > CMakeFiles/devcrypto.dir/Hash.cpp.i
+	cd /aleth/build/libdevcrypto && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libdevcrypto/Hash.cpp > CMakeFiles/devcrypto.dir/Hash.cpp.i
 
 libdevcrypto/CMakeFiles/devcrypto.dir/Hash.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/devcrypto.dir/Hash.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libdevcrypto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libdevcrypto/Hash.cpp -o CMakeFiles/devcrypto.dir/Hash.cpp.s
+	cd /aleth/build/libdevcrypto && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libdevcrypto/Hash.cpp -o CMakeFiles/devcrypto.dir/Hash.cpp.s
 
 libdevcrypto/CMakeFiles/devcrypto.dir/Hash.cpp.o.requires:
 
@@ -155,16 +155,16 @@ libdevcrypto/CMakeFiles/devcrypto.dir/Hash.cpp.o.provides.build: libdevcrypto/CM
 
 libdevcrypto/CMakeFiles/devcrypto.dir/LibSnark.cpp.o: libdevcrypto/CMakeFiles/devcrypto.dir/flags.make
 libdevcrypto/CMakeFiles/devcrypto.dir/LibSnark.cpp.o: ../libdevcrypto/LibSnark.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libdevcrypto/CMakeFiles/devcrypto.dir/LibSnark.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libdevcrypto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcrypto.dir/LibSnark.cpp.o -c /home/ubuntu/moose/aleth/libdevcrypto/LibSnark.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libdevcrypto/CMakeFiles/devcrypto.dir/LibSnark.cpp.o"
+	cd /aleth/build/libdevcrypto && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcrypto.dir/LibSnark.cpp.o -c /aleth/libdevcrypto/LibSnark.cpp
 
 libdevcrypto/CMakeFiles/devcrypto.dir/LibSnark.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/devcrypto.dir/LibSnark.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libdevcrypto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libdevcrypto/LibSnark.cpp > CMakeFiles/devcrypto.dir/LibSnark.cpp.i
+	cd /aleth/build/libdevcrypto && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libdevcrypto/LibSnark.cpp > CMakeFiles/devcrypto.dir/LibSnark.cpp.i
 
 libdevcrypto/CMakeFiles/devcrypto.dir/LibSnark.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/devcrypto.dir/LibSnark.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libdevcrypto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libdevcrypto/LibSnark.cpp -o CMakeFiles/devcrypto.dir/LibSnark.cpp.s
+	cd /aleth/build/libdevcrypto && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libdevcrypto/LibSnark.cpp -o CMakeFiles/devcrypto.dir/LibSnark.cpp.s
 
 libdevcrypto/CMakeFiles/devcrypto.dir/LibSnark.cpp.o.requires:
 
@@ -179,16 +179,16 @@ libdevcrypto/CMakeFiles/devcrypto.dir/LibSnark.cpp.o.provides.build: libdevcrypt
 
 libdevcrypto/CMakeFiles/devcrypto.dir/SecretStore.cpp.o: libdevcrypto/CMakeFiles/devcrypto.dir/flags.make
 libdevcrypto/CMakeFiles/devcrypto.dir/SecretStore.cpp.o: ../libdevcrypto/SecretStore.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libdevcrypto/CMakeFiles/devcrypto.dir/SecretStore.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libdevcrypto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcrypto.dir/SecretStore.cpp.o -c /home/ubuntu/moose/aleth/libdevcrypto/SecretStore.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libdevcrypto/CMakeFiles/devcrypto.dir/SecretStore.cpp.o"
+	cd /aleth/build/libdevcrypto && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcrypto.dir/SecretStore.cpp.o -c /aleth/libdevcrypto/SecretStore.cpp
 
 libdevcrypto/CMakeFiles/devcrypto.dir/SecretStore.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/devcrypto.dir/SecretStore.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libdevcrypto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libdevcrypto/SecretStore.cpp > CMakeFiles/devcrypto.dir/SecretStore.cpp.i
+	cd /aleth/build/libdevcrypto && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libdevcrypto/SecretStore.cpp > CMakeFiles/devcrypto.dir/SecretStore.cpp.i
 
 libdevcrypto/CMakeFiles/devcrypto.dir/SecretStore.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/devcrypto.dir/SecretStore.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libdevcrypto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libdevcrypto/SecretStore.cpp -o CMakeFiles/devcrypto.dir/SecretStore.cpp.s
+	cd /aleth/build/libdevcrypto && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libdevcrypto/SecretStore.cpp -o CMakeFiles/devcrypto.dir/SecretStore.cpp.s
 
 libdevcrypto/CMakeFiles/devcrypto.dir/SecretStore.cpp.o.requires:
 
@@ -221,9 +221,9 @@ libdevcrypto/libdevcrypto.a: libdevcrypto/CMakeFiles/devcrypto.dir/LibSnark.cpp.
 libdevcrypto/libdevcrypto.a: libdevcrypto/CMakeFiles/devcrypto.dir/SecretStore.cpp.o
 libdevcrypto/libdevcrypto.a: libdevcrypto/CMakeFiles/devcrypto.dir/build.make
 libdevcrypto/libdevcrypto.a: libdevcrypto/CMakeFiles/devcrypto.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libdevcrypto.a"
-	cd /home/ubuntu/moose/aleth/build/libdevcrypto && $(CMAKE_COMMAND) -P CMakeFiles/devcrypto.dir/cmake_clean_target.cmake
-	cd /home/ubuntu/moose/aleth/build/libdevcrypto && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/devcrypto.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libdevcrypto.a"
+	cd /aleth/build/libdevcrypto && $(CMAKE_COMMAND) -P CMakeFiles/devcrypto.dir/cmake_clean_target.cmake
+	cd /aleth/build/libdevcrypto && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/devcrypto.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libdevcrypto/CMakeFiles/devcrypto.dir/build: libdevcrypto/libdevcrypto.a
@@ -240,10 +240,10 @@ libdevcrypto/CMakeFiles/devcrypto.dir/requires: libdevcrypto/CMakeFiles/devcrypt
 .PHONY : libdevcrypto/CMakeFiles/devcrypto.dir/requires
 
 libdevcrypto/CMakeFiles/devcrypto.dir/clean:
-	cd /home/ubuntu/moose/aleth/build/libdevcrypto && $(CMAKE_COMMAND) -P CMakeFiles/devcrypto.dir/cmake_clean.cmake
+	cd /aleth/build/libdevcrypto && $(CMAKE_COMMAND) -P CMakeFiles/devcrypto.dir/cmake_clean.cmake
 .PHONY : libdevcrypto/CMakeFiles/devcrypto.dir/clean
 
 libdevcrypto/CMakeFiles/devcrypto.dir/depend:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth /home/ubuntu/moose/aleth/libdevcrypto /home/ubuntu/moose/aleth/build /home/ubuntu/moose/aleth/build/libdevcrypto /home/ubuntu/moose/aleth/build/libdevcrypto/CMakeFiles/devcrypto.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth /aleth/libdevcrypto /aleth/build /aleth/build/libdevcrypto /aleth/build/libdevcrypto/CMakeFiles/devcrypto.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libdevcrypto/CMakeFiles/devcrypto.dir/depend
 

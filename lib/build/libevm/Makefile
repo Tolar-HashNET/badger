@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth
+CMAKE_SOURCE_DIR = /aleth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build
+CMAKE_BINARY_DIR = /aleth/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -93,7 +93,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/ubuntu/moose/aleth/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /aleth/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -104,7 +104,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/ubuntu/moose/aleth/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/ubuntu/moose/aleth/build/CPackSourceConfig.cmake
+	cd /aleth/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /aleth/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -159,14 +159,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles /home/ubuntu/moose/aleth/build/libevm/CMakeFiles/progress.marks
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libevm/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	cd /aleth/build && $(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles /aleth/build/libevm/CMakeFiles/progress.marks
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libevm/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libevm/clean
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libevm/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libevm/preinstall
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libevm/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libevm/preinstall
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libevm/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libevm/CMakeFiles/evm.dir/rule:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libevm/CMakeFiles/evm.dir/rule
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libevm/CMakeFiles/evm.dir/rule
 .PHONY : libevm/CMakeFiles/evm.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ evm: libevm/CMakeFiles/evm.dir/rule
 
 # fast build rule for target.
 evm/fast:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/build
+	cd /aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/build
 .PHONY : evm/fast
 
 EVMC.o: EVMC.cpp.o
@@ -210,7 +210,7 @@ EVMC.o: EVMC.cpp.o
 
 # target to build an object file
 EVMC.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/EVMC.cpp.o
+	cd /aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/EVMC.cpp.o
 .PHONY : EVMC.cpp.o
 
 EVMC.i: EVMC.cpp.i
@@ -219,7 +219,7 @@ EVMC.i: EVMC.cpp.i
 
 # target to preprocess a source file
 EVMC.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/EVMC.cpp.i
+	cd /aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/EVMC.cpp.i
 .PHONY : EVMC.cpp.i
 
 EVMC.s: EVMC.cpp.s
@@ -228,7 +228,7 @@ EVMC.s: EVMC.cpp.s
 
 # target to generate assembly for a file
 EVMC.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/EVMC.cpp.s
+	cd /aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/EVMC.cpp.s
 .PHONY : EVMC.cpp.s
 
 ExtVMFace.o: ExtVMFace.cpp.o
@@ -237,7 +237,7 @@ ExtVMFace.o: ExtVMFace.cpp.o
 
 # target to build an object file
 ExtVMFace.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/ExtVMFace.cpp.o
+	cd /aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/ExtVMFace.cpp.o
 .PHONY : ExtVMFace.cpp.o
 
 ExtVMFace.i: ExtVMFace.cpp.i
@@ -246,7 +246,7 @@ ExtVMFace.i: ExtVMFace.cpp.i
 
 # target to preprocess a source file
 ExtVMFace.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/ExtVMFace.cpp.i
+	cd /aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/ExtVMFace.cpp.i
 .PHONY : ExtVMFace.cpp.i
 
 ExtVMFace.s: ExtVMFace.cpp.s
@@ -255,7 +255,7 @@ ExtVMFace.s: ExtVMFace.cpp.s
 
 # target to generate assembly for a file
 ExtVMFace.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/ExtVMFace.cpp.s
+	cd /aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/ExtVMFace.cpp.s
 .PHONY : ExtVMFace.cpp.s
 
 Instruction.o: Instruction.cpp.o
@@ -264,7 +264,7 @@ Instruction.o: Instruction.cpp.o
 
 # target to build an object file
 Instruction.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/Instruction.cpp.o
+	cd /aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/Instruction.cpp.o
 .PHONY : Instruction.cpp.o
 
 Instruction.i: Instruction.cpp.i
@@ -273,7 +273,7 @@ Instruction.i: Instruction.cpp.i
 
 # target to preprocess a source file
 Instruction.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/Instruction.cpp.i
+	cd /aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/Instruction.cpp.i
 .PHONY : Instruction.cpp.i
 
 Instruction.s: Instruction.cpp.s
@@ -282,7 +282,7 @@ Instruction.s: Instruction.cpp.s
 
 # target to generate assembly for a file
 Instruction.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/Instruction.cpp.s
+	cd /aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/Instruction.cpp.s
 .PHONY : Instruction.cpp.s
 
 LegacyVM.o: LegacyVM.cpp.o
@@ -291,7 +291,7 @@ LegacyVM.o: LegacyVM.cpp.o
 
 # target to build an object file
 LegacyVM.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/LegacyVM.cpp.o
+	cd /aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/LegacyVM.cpp.o
 .PHONY : LegacyVM.cpp.o
 
 LegacyVM.i: LegacyVM.cpp.i
@@ -300,7 +300,7 @@ LegacyVM.i: LegacyVM.cpp.i
 
 # target to preprocess a source file
 LegacyVM.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/LegacyVM.cpp.i
+	cd /aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/LegacyVM.cpp.i
 .PHONY : LegacyVM.cpp.i
 
 LegacyVM.s: LegacyVM.cpp.s
@@ -309,7 +309,7 @@ LegacyVM.s: LegacyVM.cpp.s
 
 # target to generate assembly for a file
 LegacyVM.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/LegacyVM.cpp.s
+	cd /aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/LegacyVM.cpp.s
 .PHONY : LegacyVM.cpp.s
 
 LegacyVMCalls.o: LegacyVMCalls.cpp.o
@@ -318,7 +318,7 @@ LegacyVMCalls.o: LegacyVMCalls.cpp.o
 
 # target to build an object file
 LegacyVMCalls.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/LegacyVMCalls.cpp.o
+	cd /aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/LegacyVMCalls.cpp.o
 .PHONY : LegacyVMCalls.cpp.o
 
 LegacyVMCalls.i: LegacyVMCalls.cpp.i
@@ -327,7 +327,7 @@ LegacyVMCalls.i: LegacyVMCalls.cpp.i
 
 # target to preprocess a source file
 LegacyVMCalls.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/LegacyVMCalls.cpp.i
+	cd /aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/LegacyVMCalls.cpp.i
 .PHONY : LegacyVMCalls.cpp.i
 
 LegacyVMCalls.s: LegacyVMCalls.cpp.s
@@ -336,7 +336,7 @@ LegacyVMCalls.s: LegacyVMCalls.cpp.s
 
 # target to generate assembly for a file
 LegacyVMCalls.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/LegacyVMCalls.cpp.s
+	cd /aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/LegacyVMCalls.cpp.s
 .PHONY : LegacyVMCalls.cpp.s
 
 LegacyVMOpt.o: LegacyVMOpt.cpp.o
@@ -345,7 +345,7 @@ LegacyVMOpt.o: LegacyVMOpt.cpp.o
 
 # target to build an object file
 LegacyVMOpt.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/LegacyVMOpt.cpp.o
+	cd /aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/LegacyVMOpt.cpp.o
 .PHONY : LegacyVMOpt.cpp.o
 
 LegacyVMOpt.i: LegacyVMOpt.cpp.i
@@ -354,7 +354,7 @@ LegacyVMOpt.i: LegacyVMOpt.cpp.i
 
 # target to preprocess a source file
 LegacyVMOpt.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/LegacyVMOpt.cpp.i
+	cd /aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/LegacyVMOpt.cpp.i
 .PHONY : LegacyVMOpt.cpp.i
 
 LegacyVMOpt.s: LegacyVMOpt.cpp.s
@@ -363,7 +363,7 @@ LegacyVMOpt.s: LegacyVMOpt.cpp.s
 
 # target to generate assembly for a file
 LegacyVMOpt.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/LegacyVMOpt.cpp.s
+	cd /aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/LegacyVMOpt.cpp.s
 .PHONY : LegacyVMOpt.cpp.s
 
 VMFactory.o: VMFactory.cpp.o
@@ -372,7 +372,7 @@ VMFactory.o: VMFactory.cpp.o
 
 # target to build an object file
 VMFactory.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/VMFactory.cpp.o
+	cd /aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/VMFactory.cpp.o
 .PHONY : VMFactory.cpp.o
 
 VMFactory.i: VMFactory.cpp.i
@@ -381,7 +381,7 @@ VMFactory.i: VMFactory.cpp.i
 
 # target to preprocess a source file
 VMFactory.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/VMFactory.cpp.i
+	cd /aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/VMFactory.cpp.i
 .PHONY : VMFactory.cpp.i
 
 VMFactory.s: VMFactory.cpp.s
@@ -390,7 +390,7 @@ VMFactory.s: VMFactory.cpp.s
 
 # target to generate assembly for a file
 VMFactory.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/VMFactory.cpp.s
+	cd /aleth/build && $(MAKE) -f libevm/CMakeFiles/evm.dir/build.make libevm/CMakeFiles/evm.dir/VMFactory.cpp.s
 .PHONY : VMFactory.cpp.s
 
 # Help Target
@@ -441,6 +441,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

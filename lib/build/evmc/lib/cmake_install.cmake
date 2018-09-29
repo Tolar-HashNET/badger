@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/moose/aleth/evmc/lib
+# Install script for directory: /aleth/evmc/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ubuntu/moose/aleth/build/evmc/lib/instructions/cmake_install.cmake")
-  include("/home/ubuntu/moose/aleth/build/evmc/lib/loader/cmake_install.cmake")
+  include("/aleth/build/evmc/lib/instructions/cmake_install.cmake")
+  include("/aleth/build/evmc/lib/loader/cmake_install.cmake")
 
 endif()
 

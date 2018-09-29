@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth/build/deps/src/secp256k1
+CMAKE_SOURCE_DIR = /aleth/build/deps/src/secp256k1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build/deps/src/secp256k1-build
+CMAKE_BINARY_DIR = /aleth/build/deps/src/secp256k1-build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/secp256k1.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/secp256k1.dir/progress.make
 include CMakeFiles/secp256k1.dir/flags.make
 
 CMakeFiles/secp256k1.dir/src/secp256k1.c.o: CMakeFiles/secp256k1.dir/flags.make
-CMakeFiles/secp256k1.dir/src/secp256k1.c.o: /home/ubuntu/moose/aleth/build/deps/src/secp256k1/src/secp256k1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/secp256k1-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/secp256k1.dir/src/secp256k1.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/secp256k1.dir/src/secp256k1.c.o   -c /home/ubuntu/moose/aleth/build/deps/src/secp256k1/src/secp256k1.c
+CMakeFiles/secp256k1.dir/src/secp256k1.c.o: /aleth/build/deps/src/secp256k1/src/secp256k1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/secp256k1-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/secp256k1.dir/src/secp256k1.c.o"
+	/usr/bin/clang-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/secp256k1.dir/src/secp256k1.c.o   -c /aleth/build/deps/src/secp256k1/src/secp256k1.c
 
 CMakeFiles/secp256k1.dir/src/secp256k1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/secp256k1.dir/src/secp256k1.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/secp256k1/src/secp256k1.c > CMakeFiles/secp256k1.dir/src/secp256k1.c.i
+	/usr/bin/clang-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /aleth/build/deps/src/secp256k1/src/secp256k1.c > CMakeFiles/secp256k1.dir/src/secp256k1.c.i
 
 CMakeFiles/secp256k1.dir/src/secp256k1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/secp256k1.dir/src/secp256k1.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/secp256k1/src/secp256k1.c -o CMakeFiles/secp256k1.dir/src/secp256k1.c.s
+	/usr/bin/clang-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /aleth/build/deps/src/secp256k1/src/secp256k1.c -o CMakeFiles/secp256k1.dir/src/secp256k1.c.s
 
 CMakeFiles/secp256k1.dir/src/secp256k1.c.o.requires:
 
@@ -91,7 +91,7 @@ secp256k1_EXTERNAL_OBJECTS =
 libsecp256k1.a: CMakeFiles/secp256k1.dir/src/secp256k1.c.o
 libsecp256k1.a: CMakeFiles/secp256k1.dir/build.make
 libsecp256k1.a: CMakeFiles/secp256k1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/secp256k1-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libsecp256k1.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/aleth/build/deps/src/secp256k1-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libsecp256k1.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/secp256k1.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/secp256k1.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/secp256k1.dir/clean:
 .PHONY : CMakeFiles/secp256k1.dir/clean
 
 CMakeFiles/secp256k1.dir/depend:
-	cd /home/ubuntu/moose/aleth/build/deps/src/secp256k1-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth/build/deps/src/secp256k1 /home/ubuntu/moose/aleth/build/deps/src/secp256k1 /home/ubuntu/moose/aleth/build/deps/src/secp256k1-build /home/ubuntu/moose/aleth/build/deps/src/secp256k1-build /home/ubuntu/moose/aleth/build/deps/src/secp256k1-build/CMakeFiles/secp256k1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build/deps/src/secp256k1-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth/build/deps/src/secp256k1 /aleth/build/deps/src/secp256k1 /aleth/build/deps/src/secp256k1-build /aleth/build/deps/src/secp256k1-build /aleth/build/deps/src/secp256k1-build/CMakeFiles/secp256k1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/secp256k1.dir/depend
 

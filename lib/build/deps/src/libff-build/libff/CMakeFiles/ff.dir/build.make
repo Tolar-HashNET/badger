@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth/build/deps/src/libff
+CMAKE_SOURCE_DIR = /aleth/build/deps/src/libff
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build/deps/src/libff-build
+CMAKE_BINARY_DIR = /aleth/build/deps/src/libff-build
 
 # Include any dependencies generated for this target.
 include libff/CMakeFiles/ff.dir/depend.make
@@ -58,17 +58,17 @@ include libff/CMakeFiles/ff.dir/progress.make
 include libff/CMakeFiles/ff.dir/flags.make
 
 libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.o: libff/CMakeFiles/ff.dir/flags.make
-libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_g1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_g1.cpp
+libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.o: /aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_g1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.o"
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.o -c /aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_g1.cpp
 
 libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_g1.cpp > CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.i
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_g1.cpp > CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.i
 
 libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_g1.cpp -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.s
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_g1.cpp -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.s
 
 libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.o.requires:
 
@@ -82,17 +82,17 @@ libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g1.cpp.o.provides.bui
 
 
 libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.o: libff/CMakeFiles/ff.dir/flags.make
-libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_g2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_g2.cpp
+libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.o: /aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_g2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.o"
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.o -c /aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_g2.cpp
 
 libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_g2.cpp > CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.i
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_g2.cpp > CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.i
 
 libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_g2.cpp -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.s
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_g2.cpp -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.s
 
 libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.o.requires:
 
@@ -106,17 +106,17 @@ libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_g2.cpp.o.provides.bui
 
 
 libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.o: libff/CMakeFiles/ff.dir/flags.make
-libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_init.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_init.cpp
+libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.o: /aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_init.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.o"
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.o -c /aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_init.cpp
 
 libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_init.cpp > CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.i
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_init.cpp > CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.i
 
 libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_init.cpp -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.s
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_init.cpp -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.s
 
 libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.o.requires:
 
@@ -130,17 +130,17 @@ libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_init.cpp.o.provides.b
 
 
 libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.o: libff/CMakeFiles/ff.dir/flags.make
-libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_pairing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_pairing.cpp
+libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.o: /aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_pairing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.o"
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.o -c /aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_pairing.cpp
 
 libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_pairing.cpp > CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.i
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_pairing.cpp > CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.i
 
 libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_pairing.cpp -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.s
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_pairing.cpp -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.s
 
 libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.o.requires:
 
@@ -154,17 +154,17 @@ libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pairing.cpp.o.provide
 
 
 libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.o: libff/CMakeFiles/ff.dir/flags.make
-libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_pp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_pp.cpp
+libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.o: /aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_pp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.o"
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.o -c /aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_pp.cpp
 
 libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_pp.cpp > CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.i
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_pp.cpp > CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.i
 
 libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_pp.cpp -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.s
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/libff/libff/algebra/curves/alt_bn128/alt_bn128_pp.cpp -o CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.s
 
 libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.o.requires:
 
@@ -178,17 +178,17 @@ libff/CMakeFiles/ff.dir/algebra/curves/alt_bn128/alt_bn128_pp.cpp.o.provides.bui
 
 
 libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.o: libff/CMakeFiles/ff.dir/flags.make
-libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_g1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_g1.cpp
+libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.o: /aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_g1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.o"
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.o -c /aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_g1.cpp
 
 libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_g1.cpp > CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.i
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_g1.cpp > CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.i
 
 libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_g1.cpp -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.s
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_g1.cpp -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.s
 
 libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.o.requires:
 
@@ -202,17 +202,17 @@ libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g1.cpp.o.provides.build: 
 
 
 libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.o: libff/CMakeFiles/ff.dir/flags.make
-libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_g2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_g2.cpp
+libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.o: /aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_g2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.o"
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.o -c /aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_g2.cpp
 
 libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_g2.cpp > CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.i
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_g2.cpp > CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.i
 
 libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_g2.cpp -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.s
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_g2.cpp -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.s
 
 libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.o.requires:
 
@@ -226,17 +226,17 @@ libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_g2.cpp.o.provides.build: 
 
 
 libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.o: libff/CMakeFiles/ff.dir/flags.make
-libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_init.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_init.cpp
+libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.o: /aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_init.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.o"
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.o -c /aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_init.cpp
 
 libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_init.cpp > CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.i
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_init.cpp > CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.i
 
 libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_init.cpp -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.s
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_init.cpp -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.s
 
 libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.o.requires:
 
@@ -250,17 +250,17 @@ libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_init.cpp.o.provides.build
 
 
 libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.o: libff/CMakeFiles/ff.dir/flags.make
-libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_pairing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_pairing.cpp
+libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.o: /aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_pairing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.o"
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.o -c /aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_pairing.cpp
 
 libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_pairing.cpp > CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.i
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_pairing.cpp > CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.i
 
 libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_pairing.cpp -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.s
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_pairing.cpp -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.s
 
 libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.o.requires:
 
@@ -274,17 +274,17 @@ libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pairing.cpp.o.provides.bu
 
 
 libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.o: libff/CMakeFiles/ff.dir/flags.make
-libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_pp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_pp.cpp
+libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.o: /aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_pp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.o"
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.o -c /aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_pp.cpp
 
 libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_pp.cpp > CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.i
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_pp.cpp > CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.i
 
 libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_pp.cpp -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.s
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/libff/libff/algebra/curves/edwards/edwards_pp.cpp -o CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.s
 
 libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.o.requires:
 
@@ -298,17 +298,17 @@ libff/CMakeFiles/ff.dir/algebra/curves/edwards/edwards_pp.cpp.o.provides.build: 
 
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.o: libff/CMakeFiles/ff.dir/flags.make
-libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_g1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_g1.cpp
+libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.o: /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_g1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.o"
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.o -c /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_g1.cpp
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_g1.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.i
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_g1.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.i
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_g1.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.s
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_g1.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.s
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.o.requires:
 
@@ -322,17 +322,17 @@ libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g1.cpp.o.provides.build: li
 
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.o: libff/CMakeFiles/ff.dir/flags.make
-libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_g2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_g2.cpp
+libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.o: /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_g2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.o"
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.o -c /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_g2.cpp
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_g2.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.i
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_g2.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.i
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_g2.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.s
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_g2.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.s
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.o.requires:
 
@@ -346,17 +346,17 @@ libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_g2.cpp.o.provides.build: li
 
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.o: libff/CMakeFiles/ff.dir/flags.make
-libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_init.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_init.cpp
+libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.o: /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_init.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.o"
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.o -c /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_init.cpp
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_init.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.i
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_init.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.i
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_init.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.s
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_init.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.s
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.o.requires:
 
@@ -370,17 +370,17 @@ libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_init.cpp.o.provides.build: 
 
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.o: libff/CMakeFiles/ff.dir/flags.make
-libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_pairing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_pairing.cpp
+libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.o: /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_pairing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.o"
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.o -c /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_pairing.cpp
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_pairing.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.i
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_pairing.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.i
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_pairing.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.s
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_pairing.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.s
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.o.requires:
 
@@ -394,17 +394,17 @@ libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pairing.cpp.o.provides.buil
 
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.o: libff/CMakeFiles/ff.dir/flags.make
-libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_pp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_pp.cpp
+libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.o: /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_pp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.o"
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.o -c /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_pp.cpp
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_pp.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.i
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_pp.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.i
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_pp.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.s
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt4/mnt4_pp.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.s
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.o.requires:
 
@@ -418,17 +418,17 @@ libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt4/mnt4_pp.cpp.o.provides.build: li
 
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.o: libff/CMakeFiles/ff.dir/flags.make
-libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt46_common.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt46_common.cpp
+libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.o: /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt46_common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.o"
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.o -c /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt46_common.cpp
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt46_common.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.i
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt46_common.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.i
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt46_common.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.s
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt46_common.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.s
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.o.requires:
 
@@ -442,17 +442,17 @@ libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt46_common.cpp.o.provides.build: li
 
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.o: libff/CMakeFiles/ff.dir/flags.make
-libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_g1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_g1.cpp
+libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.o: /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_g1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.o"
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.o -c /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_g1.cpp
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_g1.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.i
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_g1.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.i
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_g1.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.s
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_g1.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.s
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.o.requires:
 
@@ -466,17 +466,17 @@ libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g1.cpp.o.provides.build: li
 
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.o: libff/CMakeFiles/ff.dir/flags.make
-libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_g2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_g2.cpp
+libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.o: /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_g2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.o"
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.o -c /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_g2.cpp
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_g2.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.i
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_g2.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.i
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_g2.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.s
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_g2.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.s
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.o.requires:
 
@@ -490,17 +490,17 @@ libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_g2.cpp.o.provides.build: li
 
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.o: libff/CMakeFiles/ff.dir/flags.make
-libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_init.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_init.cpp
+libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.o: /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_init.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.o"
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.o -c /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_init.cpp
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_init.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.i
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_init.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.i
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_init.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.s
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_init.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.s
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.o.requires:
 
@@ -514,17 +514,17 @@ libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_init.cpp.o.provides.build: 
 
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.o: libff/CMakeFiles/ff.dir/flags.make
-libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_pairing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_pairing.cpp
+libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.o: /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_pairing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.o"
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.o -c /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_pairing.cpp
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_pairing.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.i
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_pairing.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.i
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_pairing.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.s
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_pairing.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.s
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.o.requires:
 
@@ -538,17 +538,17 @@ libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pairing.cpp.o.provides.buil
 
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.o: libff/CMakeFiles/ff.dir/flags.make
-libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_pp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_pp.cpp
+libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.o: /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_pp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.o"
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.o -c /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_pp.cpp
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_pp.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.i
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_pp.cpp > CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.i
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_pp.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.s
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/libff/libff/algebra/curves/mnt/mnt6/mnt6_pp.cpp -o CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.s
 
 libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.o.requires:
 
@@ -562,17 +562,17 @@ libff/CMakeFiles/ff.dir/algebra/curves/mnt/mnt6/mnt6_pp.cpp.o.provides.build: li
 
 
 libff/CMakeFiles/ff.dir/common/double.cpp.o: libff/CMakeFiles/ff.dir/flags.make
-libff/CMakeFiles/ff.dir/common/double.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/libff/libff/common/double.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object libff/CMakeFiles/ff.dir/common/double.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/common/double.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/libff/libff/common/double.cpp
+libff/CMakeFiles/ff.dir/common/double.cpp.o: /aleth/build/deps/src/libff/libff/common/double.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object libff/CMakeFiles/ff.dir/common/double.cpp.o"
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/common/double.cpp.o -c /aleth/build/deps/src/libff/libff/common/double.cpp
 
 libff/CMakeFiles/ff.dir/common/double.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/common/double.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/libff/libff/common/double.cpp > CMakeFiles/ff.dir/common/double.cpp.i
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/libff/libff/common/double.cpp > CMakeFiles/ff.dir/common/double.cpp.i
 
 libff/CMakeFiles/ff.dir/common/double.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/common/double.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/libff/libff/common/double.cpp -o CMakeFiles/ff.dir/common/double.cpp.s
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/libff/libff/common/double.cpp -o CMakeFiles/ff.dir/common/double.cpp.s
 
 libff/CMakeFiles/ff.dir/common/double.cpp.o.requires:
 
@@ -586,17 +586,17 @@ libff/CMakeFiles/ff.dir/common/double.cpp.o.provides.build: libff/CMakeFiles/ff.
 
 
 libff/CMakeFiles/ff.dir/common/profiling.cpp.o: libff/CMakeFiles/ff.dir/flags.make
-libff/CMakeFiles/ff.dir/common/profiling.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/libff/libff/common/profiling.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object libff/CMakeFiles/ff.dir/common/profiling.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/common/profiling.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/libff/libff/common/profiling.cpp
+libff/CMakeFiles/ff.dir/common/profiling.cpp.o: /aleth/build/deps/src/libff/libff/common/profiling.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object libff/CMakeFiles/ff.dir/common/profiling.cpp.o"
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/common/profiling.cpp.o -c /aleth/build/deps/src/libff/libff/common/profiling.cpp
 
 libff/CMakeFiles/ff.dir/common/profiling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/common/profiling.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/libff/libff/common/profiling.cpp > CMakeFiles/ff.dir/common/profiling.cpp.i
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/libff/libff/common/profiling.cpp > CMakeFiles/ff.dir/common/profiling.cpp.i
 
 libff/CMakeFiles/ff.dir/common/profiling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/common/profiling.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/libff/libff/common/profiling.cpp -o CMakeFiles/ff.dir/common/profiling.cpp.s
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/libff/libff/common/profiling.cpp -o CMakeFiles/ff.dir/common/profiling.cpp.s
 
 libff/CMakeFiles/ff.dir/common/profiling.cpp.o.requires:
 
@@ -610,17 +610,17 @@ libff/CMakeFiles/ff.dir/common/profiling.cpp.o.provides.build: libff/CMakeFiles/
 
 
 libff/CMakeFiles/ff.dir/common/utils.cpp.o: libff/CMakeFiles/ff.dir/flags.make
-libff/CMakeFiles/ff.dir/common/utils.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/libff/libff/common/utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object libff/CMakeFiles/ff.dir/common/utils.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/common/utils.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/libff/libff/common/utils.cpp
+libff/CMakeFiles/ff.dir/common/utils.cpp.o: /aleth/build/deps/src/libff/libff/common/utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object libff/CMakeFiles/ff.dir/common/utils.cpp.o"
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ff.dir/common/utils.cpp.o -c /aleth/build/deps/src/libff/libff/common/utils.cpp
 
 libff/CMakeFiles/ff.dir/common/utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ff.dir/common/utils.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/libff/libff/common/utils.cpp > CMakeFiles/ff.dir/common/utils.cpp.i
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/libff/libff/common/utils.cpp > CMakeFiles/ff.dir/common/utils.cpp.i
 
 libff/CMakeFiles/ff.dir/common/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ff.dir/common/utils.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/libff/libff/common/utils.cpp -o CMakeFiles/ff.dir/common/utils.cpp.s
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/libff/libff/common/utils.cpp -o CMakeFiles/ff.dir/common/utils.cpp.s
 
 libff/CMakeFiles/ff.dir/common/utils.cpp.o.requires:
 
@@ -689,9 +689,9 @@ libff/libff.a: libff/CMakeFiles/ff.dir/common/profiling.cpp.o
 libff/libff.a: libff/CMakeFiles/ff.dir/common/utils.cpp.o
 libff/libff.a: libff/CMakeFiles/ff.dir/build.make
 libff/libff.a: libff/CMakeFiles/ff.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX static library libff.a"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && $(CMAKE_COMMAND) -P CMakeFiles/ff.dir/cmake_clean_target.cmake
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ff.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX static library libff.a"
+	cd /aleth/build/deps/src/libff-build/libff && $(CMAKE_COMMAND) -P CMakeFiles/ff.dir/cmake_clean_target.cmake
+	cd /aleth/build/deps/src/libff-build/libff && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ff.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libff/CMakeFiles/ff.dir/build: libff/libff.a
@@ -726,10 +726,10 @@ libff/CMakeFiles/ff.dir/requires: libff/CMakeFiles/ff.dir/common/utils.cpp.o.req
 .PHONY : libff/CMakeFiles/ff.dir/requires
 
 libff/CMakeFiles/ff.dir/clean:
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && $(CMAKE_COMMAND) -P CMakeFiles/ff.dir/cmake_clean.cmake
+	cd /aleth/build/deps/src/libff-build/libff && $(CMAKE_COMMAND) -P CMakeFiles/ff.dir/cmake_clean.cmake
 .PHONY : libff/CMakeFiles/ff.dir/clean
 
 libff/CMakeFiles/ff.dir/depend:
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth/build/deps/src/libff /home/ubuntu/moose/aleth/build/deps/src/libff/libff /home/ubuntu/moose/aleth/build/deps/src/libff-build /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff/CMakeFiles/ff.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build/deps/src/libff-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth/build/deps/src/libff /aleth/build/deps/src/libff/libff /aleth/build/deps/src/libff-build /aleth/build/deps/src/libff-build/libff /aleth/build/deps/src/libff-build/libff/CMakeFiles/ff.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libff/CMakeFiles/ff.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth/build/deps/src/libff
+CMAKE_SOURCE_DIR = /aleth/build/deps/src/libff
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build/deps/src/libff-build
+CMAKE_BINARY_DIR = /aleth/build/deps/src/libff-build
 
 # Include any dependencies generated for this target.
 include libff/CMakeFiles/multiexp_profile.dir/depend.make
@@ -58,17 +58,17 @@ include libff/CMakeFiles/multiexp_profile.dir/progress.make
 include libff/CMakeFiles/multiexp_profile.dir/flags.make
 
 libff/CMakeFiles/multiexp_profile.dir/algebra/scalar_multiplication/multiexp_profile.cpp.o: libff/CMakeFiles/multiexp_profile.dir/flags.make
-libff/CMakeFiles/multiexp_profile.dir/algebra/scalar_multiplication/multiexp_profile.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/scalar_multiplication/multiexp_profile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libff/CMakeFiles/multiexp_profile.dir/algebra/scalar_multiplication/multiexp_profile.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multiexp_profile.dir/algebra/scalar_multiplication/multiexp_profile.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/scalar_multiplication/multiexp_profile.cpp
+libff/CMakeFiles/multiexp_profile.dir/algebra/scalar_multiplication/multiexp_profile.cpp.o: /aleth/build/deps/src/libff/libff/algebra/scalar_multiplication/multiexp_profile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libff/CMakeFiles/multiexp_profile.dir/algebra/scalar_multiplication/multiexp_profile.cpp.o"
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multiexp_profile.dir/algebra/scalar_multiplication/multiexp_profile.cpp.o -c /aleth/build/deps/src/libff/libff/algebra/scalar_multiplication/multiexp_profile.cpp
 
 libff/CMakeFiles/multiexp_profile.dir/algebra/scalar_multiplication/multiexp_profile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multiexp_profile.dir/algebra/scalar_multiplication/multiexp_profile.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/scalar_multiplication/multiexp_profile.cpp > CMakeFiles/multiexp_profile.dir/algebra/scalar_multiplication/multiexp_profile.cpp.i
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/libff/libff/algebra/scalar_multiplication/multiexp_profile.cpp > CMakeFiles/multiexp_profile.dir/algebra/scalar_multiplication/multiexp_profile.cpp.i
 
 libff/CMakeFiles/multiexp_profile.dir/algebra/scalar_multiplication/multiexp_profile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multiexp_profile.dir/algebra/scalar_multiplication/multiexp_profile.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/scalar_multiplication/multiexp_profile.cpp -o CMakeFiles/multiexp_profile.dir/algebra/scalar_multiplication/multiexp_profile.cpp.s
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/libff/libff/algebra/scalar_multiplication/multiexp_profile.cpp -o CMakeFiles/multiexp_profile.dir/algebra/scalar_multiplication/multiexp_profile.cpp.s
 
 libff/CMakeFiles/multiexp_profile.dir/algebra/scalar_multiplication/multiexp_profile.cpp.o.requires:
 
@@ -91,10 +91,10 @@ multiexp_profile_EXTERNAL_OBJECTS =
 libff/multiexp_profile: libff/CMakeFiles/multiexp_profile.dir/algebra/scalar_multiplication/multiexp_profile.cpp.o
 libff/multiexp_profile: libff/CMakeFiles/multiexp_profile.dir/build.make
 libff/multiexp_profile: libff/libff.a
-libff/multiexp_profile: /home/ubuntu/moose/aleth/build/deps/lib/libmpir.a
+libff/multiexp_profile: /aleth/build/deps/lib/libmpir.a
 libff/multiexp_profile: libff/CMakeFiles/multiexp_profile.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable multiexp_profile"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/multiexp_profile.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable multiexp_profile"
+	cd /aleth/build/deps/src/libff-build/libff && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/multiexp_profile.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libff/CMakeFiles/multiexp_profile.dir/build: libff/multiexp_profile
@@ -106,10 +106,10 @@ libff/CMakeFiles/multiexp_profile.dir/requires: libff/CMakeFiles/multiexp_profil
 .PHONY : libff/CMakeFiles/multiexp_profile.dir/requires
 
 libff/CMakeFiles/multiexp_profile.dir/clean:
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && $(CMAKE_COMMAND) -P CMakeFiles/multiexp_profile.dir/cmake_clean.cmake
+	cd /aleth/build/deps/src/libff-build/libff && $(CMAKE_COMMAND) -P CMakeFiles/multiexp_profile.dir/cmake_clean.cmake
 .PHONY : libff/CMakeFiles/multiexp_profile.dir/clean
 
 libff/CMakeFiles/multiexp_profile.dir/depend:
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth/build/deps/src/libff /home/ubuntu/moose/aleth/build/deps/src/libff/libff /home/ubuntu/moose/aleth/build/deps/src/libff-build /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff/CMakeFiles/multiexp_profile.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build/deps/src/libff-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth/build/deps/src/libff /aleth/build/deps/src/libff/libff /aleth/build/deps/src/libff-build /aleth/build/deps/src/libff-build/libff /aleth/build/deps/src/libff-build/libff/CMakeFiles/multiexp_profile.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libff/CMakeFiles/multiexp_profile.dir/depend
 

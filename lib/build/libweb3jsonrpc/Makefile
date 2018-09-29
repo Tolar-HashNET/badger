@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth
+CMAKE_SOURCE_DIR = /aleth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build
+CMAKE_BINARY_DIR = /aleth/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -83,7 +83,7 @@ install/fast: preinstall/fast
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/ubuntu/moose/aleth/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /aleth/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -94,7 +94,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/ubuntu/moose/aleth/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/ubuntu/moose/aleth/build/CPackSourceConfig.cmake
+	cd /aleth/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /aleth/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -159,14 +159,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles /home/ubuntu/moose/aleth/build/libweb3jsonrpc/CMakeFiles/progress.marks
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libweb3jsonrpc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	cd /aleth/build && $(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles /aleth/build/libweb3jsonrpc/CMakeFiles/progress.marks
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libweb3jsonrpc/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libweb3jsonrpc/clean
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libweb3jsonrpc/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libweb3jsonrpc/preinstall
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libweb3jsonrpc/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libweb3jsonrpc/preinstall
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libweb3jsonrpc/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/rule:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/rule
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/rule
 .PHONY : libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ web3jsonrpc: libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/rule
 
 # fast build rule for target.
 web3jsonrpc/fast:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build
 .PHONY : web3jsonrpc/fast
 
 AccountHolder.o: AccountHolder.cpp.o
@@ -210,7 +210,7 @@ AccountHolder.o: AccountHolder.cpp.o
 
 # target to build an object file
 AccountHolder.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AccountHolder.cpp.o
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AccountHolder.cpp.o
 .PHONY : AccountHolder.cpp.o
 
 AccountHolder.i: AccountHolder.cpp.i
@@ -219,7 +219,7 @@ AccountHolder.i: AccountHolder.cpp.i
 
 # target to preprocess a source file
 AccountHolder.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AccountHolder.cpp.i
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AccountHolder.cpp.i
 .PHONY : AccountHolder.cpp.i
 
 AccountHolder.s: AccountHolder.cpp.s
@@ -228,7 +228,7 @@ AccountHolder.s: AccountHolder.cpp.s
 
 # target to generate assembly for a file
 AccountHolder.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AccountHolder.cpp.s
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AccountHolder.cpp.s
 .PHONY : AccountHolder.cpp.s
 
 AdminEth.o: AdminEth.cpp.o
@@ -237,7 +237,7 @@ AdminEth.o: AdminEth.cpp.o
 
 # target to build an object file
 AdminEth.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AdminEth.cpp.o
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AdminEth.cpp.o
 .PHONY : AdminEth.cpp.o
 
 AdminEth.i: AdminEth.cpp.i
@@ -246,7 +246,7 @@ AdminEth.i: AdminEth.cpp.i
 
 # target to preprocess a source file
 AdminEth.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AdminEth.cpp.i
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AdminEth.cpp.i
 .PHONY : AdminEth.cpp.i
 
 AdminEth.s: AdminEth.cpp.s
@@ -255,7 +255,7 @@ AdminEth.s: AdminEth.cpp.s
 
 # target to generate assembly for a file
 AdminEth.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AdminEth.cpp.s
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AdminEth.cpp.s
 .PHONY : AdminEth.cpp.s
 
 AdminNet.o: AdminNet.cpp.o
@@ -264,7 +264,7 @@ AdminNet.o: AdminNet.cpp.o
 
 # target to build an object file
 AdminNet.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AdminNet.cpp.o
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AdminNet.cpp.o
 .PHONY : AdminNet.cpp.o
 
 AdminNet.i: AdminNet.cpp.i
@@ -273,7 +273,7 @@ AdminNet.i: AdminNet.cpp.i
 
 # target to preprocess a source file
 AdminNet.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AdminNet.cpp.i
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AdminNet.cpp.i
 .PHONY : AdminNet.cpp.i
 
 AdminNet.s: AdminNet.cpp.s
@@ -282,7 +282,7 @@ AdminNet.s: AdminNet.cpp.s
 
 # target to generate assembly for a file
 AdminNet.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AdminNet.cpp.s
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/AdminNet.cpp.s
 .PHONY : AdminNet.cpp.s
 
 Debug.o: Debug.cpp.o
@@ -291,7 +291,7 @@ Debug.o: Debug.cpp.o
 
 # target to build an object file
 Debug.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Debug.cpp.o
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Debug.cpp.o
 .PHONY : Debug.cpp.o
 
 Debug.i: Debug.cpp.i
@@ -300,7 +300,7 @@ Debug.i: Debug.cpp.i
 
 # target to preprocess a source file
 Debug.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Debug.cpp.i
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Debug.cpp.i
 .PHONY : Debug.cpp.i
 
 Debug.s: Debug.cpp.s
@@ -309,7 +309,7 @@ Debug.s: Debug.cpp.s
 
 # target to generate assembly for a file
 Debug.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Debug.cpp.s
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Debug.cpp.s
 .PHONY : Debug.cpp.s
 
 Eth.o: Eth.cpp.o
@@ -318,7 +318,7 @@ Eth.o: Eth.cpp.o
 
 # target to build an object file
 Eth.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Eth.cpp.o
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Eth.cpp.o
 .PHONY : Eth.cpp.o
 
 Eth.i: Eth.cpp.i
@@ -327,7 +327,7 @@ Eth.i: Eth.cpp.i
 
 # target to preprocess a source file
 Eth.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Eth.cpp.i
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Eth.cpp.i
 .PHONY : Eth.cpp.i
 
 Eth.s: Eth.cpp.s
@@ -336,7 +336,7 @@ Eth.s: Eth.cpp.s
 
 # target to generate assembly for a file
 Eth.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Eth.cpp.s
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Eth.cpp.s
 .PHONY : Eth.cpp.s
 
 IpcServerBase.o: IpcServerBase.cpp.o
@@ -345,7 +345,7 @@ IpcServerBase.o: IpcServerBase.cpp.o
 
 # target to build an object file
 IpcServerBase.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/IpcServerBase.cpp.o
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/IpcServerBase.cpp.o
 .PHONY : IpcServerBase.cpp.o
 
 IpcServerBase.i: IpcServerBase.cpp.i
@@ -354,7 +354,7 @@ IpcServerBase.i: IpcServerBase.cpp.i
 
 # target to preprocess a source file
 IpcServerBase.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/IpcServerBase.cpp.i
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/IpcServerBase.cpp.i
 .PHONY : IpcServerBase.cpp.i
 
 IpcServerBase.s: IpcServerBase.cpp.s
@@ -363,7 +363,7 @@ IpcServerBase.s: IpcServerBase.cpp.s
 
 # target to generate assembly for a file
 IpcServerBase.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/IpcServerBase.cpp.s
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/IpcServerBase.cpp.s
 .PHONY : IpcServerBase.cpp.s
 
 JsonHelper.o: JsonHelper.cpp.o
@@ -372,7 +372,7 @@ JsonHelper.o: JsonHelper.cpp.o
 
 # target to build an object file
 JsonHelper.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/JsonHelper.cpp.o
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/JsonHelper.cpp.o
 .PHONY : JsonHelper.cpp.o
 
 JsonHelper.i: JsonHelper.cpp.i
@@ -381,7 +381,7 @@ JsonHelper.i: JsonHelper.cpp.i
 
 # target to preprocess a source file
 JsonHelper.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/JsonHelper.cpp.i
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/JsonHelper.cpp.i
 .PHONY : JsonHelper.cpp.i
 
 JsonHelper.s: JsonHelper.cpp.s
@@ -390,7 +390,7 @@ JsonHelper.s: JsonHelper.cpp.s
 
 # target to generate assembly for a file
 JsonHelper.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/JsonHelper.cpp.s
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/JsonHelper.cpp.s
 .PHONY : JsonHelper.cpp.s
 
 Net.o: Net.cpp.o
@@ -399,7 +399,7 @@ Net.o: Net.cpp.o
 
 # target to build an object file
 Net.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Net.cpp.o
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Net.cpp.o
 .PHONY : Net.cpp.o
 
 Net.i: Net.cpp.i
@@ -408,7 +408,7 @@ Net.i: Net.cpp.i
 
 # target to preprocess a source file
 Net.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Net.cpp.i
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Net.cpp.i
 .PHONY : Net.cpp.i
 
 Net.s: Net.cpp.s
@@ -417,7 +417,7 @@ Net.s: Net.cpp.s
 
 # target to generate assembly for a file
 Net.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Net.cpp.s
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Net.cpp.s
 .PHONY : Net.cpp.s
 
 Personal.o: Personal.cpp.o
@@ -426,7 +426,7 @@ Personal.o: Personal.cpp.o
 
 # target to build an object file
 Personal.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Personal.cpp.o
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Personal.cpp.o
 .PHONY : Personal.cpp.o
 
 Personal.i: Personal.cpp.i
@@ -435,7 +435,7 @@ Personal.i: Personal.cpp.i
 
 # target to preprocess a source file
 Personal.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Personal.cpp.i
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Personal.cpp.i
 .PHONY : Personal.cpp.i
 
 Personal.s: Personal.cpp.s
@@ -444,7 +444,7 @@ Personal.s: Personal.cpp.s
 
 # target to generate assembly for a file
 Personal.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Personal.cpp.s
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Personal.cpp.s
 .PHONY : Personal.cpp.s
 
 SessionManager.o: SessionManager.cpp.o
@@ -453,7 +453,7 @@ SessionManager.o: SessionManager.cpp.o
 
 # target to build an object file
 SessionManager.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/SessionManager.cpp.o
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/SessionManager.cpp.o
 .PHONY : SessionManager.cpp.o
 
 SessionManager.i: SessionManager.cpp.i
@@ -462,7 +462,7 @@ SessionManager.i: SessionManager.cpp.i
 
 # target to preprocess a source file
 SessionManager.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/SessionManager.cpp.i
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/SessionManager.cpp.i
 .PHONY : SessionManager.cpp.i
 
 SessionManager.s: SessionManager.cpp.s
@@ -471,7 +471,7 @@ SessionManager.s: SessionManager.cpp.s
 
 # target to generate assembly for a file
 SessionManager.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/SessionManager.cpp.s
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/SessionManager.cpp.s
 .PHONY : SessionManager.cpp.s
 
 Test.o: Test.cpp.o
@@ -480,7 +480,7 @@ Test.o: Test.cpp.o
 
 # target to build an object file
 Test.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Test.cpp.o
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Test.cpp.o
 .PHONY : Test.cpp.o
 
 Test.i: Test.cpp.i
@@ -489,7 +489,7 @@ Test.i: Test.cpp.i
 
 # target to preprocess a source file
 Test.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Test.cpp.i
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Test.cpp.i
 .PHONY : Test.cpp.i
 
 Test.s: Test.cpp.s
@@ -498,7 +498,7 @@ Test.s: Test.cpp.s
 
 # target to generate assembly for a file
 Test.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Test.cpp.s
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Test.cpp.s
 .PHONY : Test.cpp.s
 
 UnixSocketServer.o: UnixSocketServer.cpp.o
@@ -507,7 +507,7 @@ UnixSocketServer.o: UnixSocketServer.cpp.o
 
 # target to build an object file
 UnixSocketServer.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/UnixSocketServer.cpp.o
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/UnixSocketServer.cpp.o
 .PHONY : UnixSocketServer.cpp.o
 
 UnixSocketServer.i: UnixSocketServer.cpp.i
@@ -516,7 +516,7 @@ UnixSocketServer.i: UnixSocketServer.cpp.i
 
 # target to preprocess a source file
 UnixSocketServer.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/UnixSocketServer.cpp.i
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/UnixSocketServer.cpp.i
 .PHONY : UnixSocketServer.cpp.i
 
 UnixSocketServer.s: UnixSocketServer.cpp.s
@@ -525,7 +525,7 @@ UnixSocketServer.s: UnixSocketServer.cpp.s
 
 # target to generate assembly for a file
 UnixSocketServer.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/UnixSocketServer.cpp.s
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/UnixSocketServer.cpp.s
 .PHONY : UnixSocketServer.cpp.s
 
 Web3.o: Web3.cpp.o
@@ -534,7 +534,7 @@ Web3.o: Web3.cpp.o
 
 # target to build an object file
 Web3.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Web3.cpp.o
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Web3.cpp.o
 .PHONY : Web3.cpp.o
 
 Web3.i: Web3.cpp.i
@@ -543,7 +543,7 @@ Web3.i: Web3.cpp.i
 
 # target to preprocess a source file
 Web3.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Web3.cpp.i
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Web3.cpp.i
 .PHONY : Web3.cpp.i
 
 Web3.s: Web3.cpp.s
@@ -552,7 +552,7 @@ Web3.s: Web3.cpp.s
 
 # target to generate assembly for a file
 Web3.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Web3.cpp.s
+	cd /aleth/build && $(MAKE) -f libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/build.make libweb3jsonrpc/CMakeFiles/web3jsonrpc.dir/Web3.cpp.s
 .PHONY : Web3.cpp.s
 
 # Help Target
@@ -621,6 +621,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

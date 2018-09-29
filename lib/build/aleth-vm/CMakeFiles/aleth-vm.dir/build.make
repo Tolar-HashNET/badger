@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth
+CMAKE_SOURCE_DIR = /aleth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build
+CMAKE_BINARY_DIR = /aleth/build
 
 # Include any dependencies generated for this target.
 include aleth-vm/CMakeFiles/aleth-vm.dir/depend.make
@@ -59,16 +59,16 @@ include aleth-vm/CMakeFiles/aleth-vm.dir/flags.make
 
 aleth-vm/CMakeFiles/aleth-vm.dir/main.cpp.o: aleth-vm/CMakeFiles/aleth-vm.dir/flags.make
 aleth-vm/CMakeFiles/aleth-vm.dir/main.cpp.o: ../aleth-vm/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object aleth-vm/CMakeFiles/aleth-vm.dir/main.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/aleth-vm && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aleth-vm.dir/main.cpp.o -c /home/ubuntu/moose/aleth/aleth-vm/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object aleth-vm/CMakeFiles/aleth-vm.dir/main.cpp.o"
+	cd /aleth/build/aleth-vm && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aleth-vm.dir/main.cpp.o -c /aleth/aleth-vm/main.cpp
 
 aleth-vm/CMakeFiles/aleth-vm.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aleth-vm.dir/main.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/aleth-vm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/aleth-vm/main.cpp > CMakeFiles/aleth-vm.dir/main.cpp.i
+	cd /aleth/build/aleth-vm && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/aleth-vm/main.cpp > CMakeFiles/aleth-vm.dir/main.cpp.i
 
 aleth-vm/CMakeFiles/aleth-vm.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aleth-vm.dir/main.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/aleth-vm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/aleth-vm/main.cpp -o CMakeFiles/aleth-vm.dir/main.cpp.s
+	cd /aleth/build/aleth-vm && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/aleth-vm/main.cpp -o CMakeFiles/aleth-vm.dir/main.cpp.s
 
 aleth-vm/CMakeFiles/aleth-vm.dir/main.cpp.o.requires:
 
@@ -94,36 +94,36 @@ aleth-vm/aleth-vm: libethereum/libethereum.a
 aleth-vm/aleth-vm: libevm/libevm.a
 aleth-vm/aleth-vm: libethashseal/libethashseal.a
 aleth-vm/aleth-vm: libdevcore/libdevcore.a
-aleth-vm/aleth-vm: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libboost_program_options-mt.a
+aleth-vm/aleth-vm: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libboost_program_options-mt.a
 aleth-vm/aleth-vm: libethereum/libethereum.a
 aleth-vm/aleth-vm: libevm/libevm.a
-aleth-vm/aleth-vm: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libboost_program_options-mt.a
+aleth-vm/aleth-vm: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libboost_program_options-mt.a
 aleth-vm/aleth-vm: libaleth-interpreter/libaleth-interpreter.a
 aleth-vm/aleth-vm: evmc/lib/instructions/libevmc-instructions.a
 aleth-vm/aleth-vm: evmc/lib/loader/libevmc-loader.a
 aleth-vm/aleth-vm: libp2p/libp2p.a
-aleth-vm/aleth-vm: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libjsoncpp.a
-aleth-vm/aleth-vm: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libsnappy.a
-aleth-vm/aleth-vm: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libboost_fiber-mt.a
-aleth-vm/aleth-vm: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libboost_context-mt.a
+aleth-vm/aleth-vm: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libjsoncpp.a
+aleth-vm/aleth-vm: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libsnappy.a
+aleth-vm/aleth-vm: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libboost_fiber-mt.a
+aleth-vm/aleth-vm: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libboost_context-mt.a
 aleth-vm/aleth-vm: libethcore/libethcore.a
 aleth-vm/aleth-vm: libdevcrypto/libdevcrypto.a
 aleth-vm/aleth-vm: libdevcore/libdevcore.a
 aleth-vm/aleth-vm: aleth/libaleth-buildinfo.a
-aleth-vm/aleth-vm: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libboost_filesystem-mt.a
-aleth-vm/aleth-vm: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libboost_system-mt.a
-aleth-vm/aleth-vm: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libboost_log-mt.a
-aleth-vm/aleth-vm: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libboost_thread-mt.a
-aleth-vm/aleth-vm: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libethash.a
+aleth-vm/aleth-vm: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libboost_filesystem-mt.a
+aleth-vm/aleth-vm: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libboost_system-mt.a
+aleth-vm/aleth-vm: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libboost_log-mt.a
+aleth-vm/aleth-vm: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libboost_thread-mt.a
+aleth-vm/aleth-vm: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libethash.a
 aleth-vm/aleth-vm: /usr/lib/x86_64-linux-gnu/libleveldb.so
 aleth-vm/aleth-vm: deps/lib/libsecp256k1.a
 aleth-vm/aleth-vm: deps/lib/libff.a
 aleth-vm/aleth-vm: deps/lib/libmpir.a
-aleth-vm/aleth-vm: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libcryptopp.a
-aleth-vm/aleth-vm: /home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/lib/libscrypt.a
+aleth-vm/aleth-vm: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libcryptopp.a
+aleth-vm/aleth-vm: /root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/lib/libscrypt.a
 aleth-vm/aleth-vm: aleth-vm/CMakeFiles/aleth-vm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable aleth-vm"
-	cd /home/ubuntu/moose/aleth/build/aleth-vm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aleth-vm.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable aleth-vm"
+	cd /aleth/build/aleth-vm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aleth-vm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 aleth-vm/CMakeFiles/aleth-vm.dir/build: aleth-vm/aleth-vm
@@ -135,10 +135,10 @@ aleth-vm/CMakeFiles/aleth-vm.dir/requires: aleth-vm/CMakeFiles/aleth-vm.dir/main
 .PHONY : aleth-vm/CMakeFiles/aleth-vm.dir/requires
 
 aleth-vm/CMakeFiles/aleth-vm.dir/clean:
-	cd /home/ubuntu/moose/aleth/build/aleth-vm && $(CMAKE_COMMAND) -P CMakeFiles/aleth-vm.dir/cmake_clean.cmake
+	cd /aleth/build/aleth-vm && $(CMAKE_COMMAND) -P CMakeFiles/aleth-vm.dir/cmake_clean.cmake
 .PHONY : aleth-vm/CMakeFiles/aleth-vm.dir/clean
 
 aleth-vm/CMakeFiles/aleth-vm.dir/depend:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth /home/ubuntu/moose/aleth/aleth-vm /home/ubuntu/moose/aleth/build /home/ubuntu/moose/aleth/build/aleth-vm /home/ubuntu/moose/aleth/build/aleth-vm/CMakeFiles/aleth-vm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth /aleth/aleth-vm /aleth/build /aleth/build/aleth-vm /aleth/build/aleth-vm/CMakeFiles/aleth-vm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : aleth-vm/CMakeFiles/aleth-vm.dir/depend
 

@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/CMakeFiles/binaryen"
+			"file" : "/aleth/build/CMakeFiles/binaryen"
 		},
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/CMakeFiles/binaryen.rule"
+			"file" : "/aleth/build/CMakeFiles/binaryen.rule"
 		},
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/CMakeFiles/binaryen-complete.rule"
+			"file" : "/aleth/build/CMakeFiles/binaryen-complete.rule"
 		},
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/deps/src/binaryen-stamp/binaryen-install.rule"
+			"file" : "/aleth/build/deps/src/binaryen-stamp/binaryen-install.rule"
 		},
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/deps/src/binaryen-stamp/binaryen-mkdir.rule"
+			"file" : "/aleth/build/deps/src/binaryen-stamp/binaryen-mkdir.rule"
 		},
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/deps/src/binaryen-stamp/binaryen-download.rule"
+			"file" : "/aleth/build/deps/src/binaryen-stamp/binaryen-download.rule"
 		},
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/deps/src/binaryen-stamp/binaryen-update.rule"
+			"file" : "/aleth/build/deps/src/binaryen-stamp/binaryen-update.rule"
 		},
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/deps/src/binaryen-stamp/binaryen-patch.rule"
+			"file" : "/aleth/build/deps/src/binaryen-stamp/binaryen-patch.rule"
 		},
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/deps/src/binaryen-stamp/binaryen-configure.rule"
+			"file" : "/aleth/build/deps/src/binaryen-stamp/binaryen-configure.rule"
 		},
 		{
-			"file" : "/home/ubuntu/moose/aleth/build/deps/src/binaryen-stamp/binaryen-build.rule"
+			"file" : "/aleth/build/deps/src/binaryen-stamp/binaryen-build.rule"
 		}
 	],
 	"target" : 

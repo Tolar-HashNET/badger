@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth
+CMAKE_SOURCE_DIR = /aleth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build
+CMAKE_BINARY_DIR = /aleth/build
 
 # Include any dependencies generated for this target.
 include libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/depend.make
@@ -59,16 +59,16 @@ include libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/flags.make
 
 libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VM.cpp.o: libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/flags.make
 libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VM.cpp.o: ../libaleth-interpreter/VM.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VM.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libaleth-interpreter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aleth-interpreter.dir/VM.cpp.o -c /home/ubuntu/moose/aleth/libaleth-interpreter/VM.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VM.cpp.o"
+	cd /aleth/build/libaleth-interpreter && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aleth-interpreter.dir/VM.cpp.o -c /aleth/libaleth-interpreter/VM.cpp
 
 libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VM.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aleth-interpreter.dir/VM.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libaleth-interpreter && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libaleth-interpreter/VM.cpp > CMakeFiles/aleth-interpreter.dir/VM.cpp.i
+	cd /aleth/build/libaleth-interpreter && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libaleth-interpreter/VM.cpp > CMakeFiles/aleth-interpreter.dir/VM.cpp.i
 
 libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VM.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aleth-interpreter.dir/VM.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libaleth-interpreter && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libaleth-interpreter/VM.cpp -o CMakeFiles/aleth-interpreter.dir/VM.cpp.s
+	cd /aleth/build/libaleth-interpreter && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libaleth-interpreter/VM.cpp -o CMakeFiles/aleth-interpreter.dir/VM.cpp.s
 
 libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VM.cpp.o.requires:
 
@@ -83,16 +83,16 @@ libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VM.cpp.o.provides.build: l
 
 libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMCalls.cpp.o: libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/flags.make
 libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMCalls.cpp.o: ../libaleth-interpreter/VMCalls.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMCalls.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libaleth-interpreter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aleth-interpreter.dir/VMCalls.cpp.o -c /home/ubuntu/moose/aleth/libaleth-interpreter/VMCalls.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMCalls.cpp.o"
+	cd /aleth/build/libaleth-interpreter && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aleth-interpreter.dir/VMCalls.cpp.o -c /aleth/libaleth-interpreter/VMCalls.cpp
 
 libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMCalls.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aleth-interpreter.dir/VMCalls.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libaleth-interpreter && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libaleth-interpreter/VMCalls.cpp > CMakeFiles/aleth-interpreter.dir/VMCalls.cpp.i
+	cd /aleth/build/libaleth-interpreter && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libaleth-interpreter/VMCalls.cpp > CMakeFiles/aleth-interpreter.dir/VMCalls.cpp.i
 
 libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMCalls.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aleth-interpreter.dir/VMCalls.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libaleth-interpreter && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libaleth-interpreter/VMCalls.cpp -o CMakeFiles/aleth-interpreter.dir/VMCalls.cpp.s
+	cd /aleth/build/libaleth-interpreter && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libaleth-interpreter/VMCalls.cpp -o CMakeFiles/aleth-interpreter.dir/VMCalls.cpp.s
 
 libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMCalls.cpp.o.requires:
 
@@ -107,16 +107,16 @@ libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMCalls.cpp.o.provides.bui
 
 libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMOpt.cpp.o: libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/flags.make
 libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMOpt.cpp.o: ../libaleth-interpreter/VMOpt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMOpt.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libaleth-interpreter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aleth-interpreter.dir/VMOpt.cpp.o -c /home/ubuntu/moose/aleth/libaleth-interpreter/VMOpt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMOpt.cpp.o"
+	cd /aleth/build/libaleth-interpreter && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/aleth-interpreter.dir/VMOpt.cpp.o -c /aleth/libaleth-interpreter/VMOpt.cpp
 
 libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMOpt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/aleth-interpreter.dir/VMOpt.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libaleth-interpreter && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libaleth-interpreter/VMOpt.cpp > CMakeFiles/aleth-interpreter.dir/VMOpt.cpp.i
+	cd /aleth/build/libaleth-interpreter && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libaleth-interpreter/VMOpt.cpp > CMakeFiles/aleth-interpreter.dir/VMOpt.cpp.i
 
 libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMOpt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/aleth-interpreter.dir/VMOpt.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libaleth-interpreter && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libaleth-interpreter/VMOpt.cpp -o CMakeFiles/aleth-interpreter.dir/VMOpt.cpp.s
+	cd /aleth/build/libaleth-interpreter && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libaleth-interpreter/VMOpt.cpp -o CMakeFiles/aleth-interpreter.dir/VMOpt.cpp.s
 
 libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMOpt.cpp.o.requires:
 
@@ -143,9 +143,9 @@ libaleth-interpreter/libaleth-interpreter.a: libaleth-interpreter/CMakeFiles/ale
 libaleth-interpreter/libaleth-interpreter.a: libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMOpt.cpp.o
 libaleth-interpreter/libaleth-interpreter.a: libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/build.make
 libaleth-interpreter/libaleth-interpreter.a: libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libaleth-interpreter.a"
-	cd /home/ubuntu/moose/aleth/build/libaleth-interpreter && $(CMAKE_COMMAND) -P CMakeFiles/aleth-interpreter.dir/cmake_clean_target.cmake
-	cd /home/ubuntu/moose/aleth/build/libaleth-interpreter && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aleth-interpreter.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libaleth-interpreter.a"
+	cd /aleth/build/libaleth-interpreter && $(CMAKE_COMMAND) -P CMakeFiles/aleth-interpreter.dir/cmake_clean_target.cmake
+	cd /aleth/build/libaleth-interpreter && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aleth-interpreter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/build: libaleth-interpreter/libaleth-interpreter.a
@@ -159,10 +159,10 @@ libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/requires: libaleth-interpr
 .PHONY : libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/requires
 
 libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/clean:
-	cd /home/ubuntu/moose/aleth/build/libaleth-interpreter && $(CMAKE_COMMAND) -P CMakeFiles/aleth-interpreter.dir/cmake_clean.cmake
+	cd /aleth/build/libaleth-interpreter && $(CMAKE_COMMAND) -P CMakeFiles/aleth-interpreter.dir/cmake_clean.cmake
 .PHONY : libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/clean
 
 libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/depend:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth /home/ubuntu/moose/aleth/libaleth-interpreter /home/ubuntu/moose/aleth/build /home/ubuntu/moose/aleth/build/libaleth-interpreter /home/ubuntu/moose/aleth/build/libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth /aleth/libaleth-interpreter /aleth/build /aleth/build/libaleth-interpreter /aleth/build/libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/depend
 

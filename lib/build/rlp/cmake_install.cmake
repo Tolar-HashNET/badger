@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/moose/aleth/rlp
+# Install script for directory: /aleth/rlp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen
+CMAKE_SOURCE_DIR = /aleth/build/deps/src/binaryen
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen-build
+CMAKE_BINARY_DIR = /aleth/build/deps/src/binaryen-build
 
 #=============================================================================
 # Target rules for target CMakeFiles/wasm-metadce.dir
@@ -72,7 +72,7 @@ CMakeFiles/wasm-metadce.dir/all: src/support/CMakeFiles/support.dir/all
 CMakeFiles/wasm-metadce.dir/all: src/wasm/CMakeFiles/wasm.dir/all
 	$(MAKE) -f CMakeFiles/wasm-metadce.dir/build.make CMakeFiles/wasm-metadce.dir/depend
 	$(MAKE) -f CMakeFiles/wasm-metadce.dir/build.make CMakeFiles/wasm-metadce.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=88,89 "Built target wasm-metadce"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=88,89 "Built target wasm-metadce"
 .PHONY : CMakeFiles/wasm-metadce.dir/all
 
 # Include target in all.
@@ -82,9 +82,9 @@ all: CMakeFiles/wasm-metadce.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/wasm-metadce.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 72
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 72
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/wasm-metadce.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 0
 .PHONY : CMakeFiles/wasm-metadce.dir/rule
 
 # Convenience name for target.
@@ -115,7 +115,7 @@ CMakeFiles/wasm-merge.dir/all: src/support/CMakeFiles/support.dir/all
 CMakeFiles/wasm-merge.dir/all: src/wasm/CMakeFiles/wasm.dir/all
 	$(MAKE) -f CMakeFiles/wasm-merge.dir/build.make CMakeFiles/wasm-merge.dir/depend
 	$(MAKE) -f CMakeFiles/wasm-merge.dir/build.make CMakeFiles/wasm-merge.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=87 "Built target wasm-merge"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=87 "Built target wasm-merge"
 .PHONY : CMakeFiles/wasm-merge.dir/all
 
 # Include target in all.
@@ -125,9 +125,9 @@ all: CMakeFiles/wasm-merge.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/wasm-merge.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 71
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 71
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/wasm-merge.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 0
 .PHONY : CMakeFiles/wasm-merge.dir/rule
 
 # Convenience name for target.
@@ -158,7 +158,7 @@ CMakeFiles/wasm-opt.dir/all: src/support/CMakeFiles/support.dir/all
 CMakeFiles/wasm-opt.dir/all: src/wasm/CMakeFiles/wasm.dir/all
 	$(MAKE) -f CMakeFiles/wasm-opt.dir/build.make CMakeFiles/wasm-opt.dir/depend
 	$(MAKE) -f CMakeFiles/wasm-opt.dir/build.make CMakeFiles/wasm-opt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=90,91,92 "Built target wasm-opt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=90,91,92 "Built target wasm-opt"
 .PHONY : CMakeFiles/wasm-opt.dir/all
 
 # Include target in all.
@@ -168,9 +168,9 @@ all: CMakeFiles/wasm-opt.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/wasm-opt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 73
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 73
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/wasm-opt.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 0
 .PHONY : CMakeFiles/wasm-opt.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ CMakeFiles/binaryen.dir/all: src/support/CMakeFiles/support.dir/all
 CMakeFiles/binaryen.dir/all: src/wasm/CMakeFiles/wasm.dir/all
 	$(MAKE) -f CMakeFiles/binaryen.dir/build.make CMakeFiles/binaryen.dir/depend
 	$(MAKE) -f CMakeFiles/binaryen.dir/build.make CMakeFiles/binaryen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=7,8 "Built target binaryen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=7,8 "Built target binaryen"
 .PHONY : CMakeFiles/binaryen.dir/all
 
 # Include target in all.
@@ -211,9 +211,9 @@ all: CMakeFiles/binaryen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/binaryen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 72
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 72
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/binaryen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 0
 .PHONY : CMakeFiles/binaryen.dir/rule
 
 # Convenience name for target.
@@ -243,7 +243,7 @@ CMakeFiles/wasm-dis.dir/all: src/support/CMakeFiles/support.dir/all
 CMakeFiles/wasm-dis.dir/all: src/wasm/CMakeFiles/wasm.dir/all
 	$(MAKE) -f CMakeFiles/wasm-dis.dir/build.make CMakeFiles/wasm-dis.dir/depend
 	$(MAKE) -f CMakeFiles/wasm-dis.dir/build.make CMakeFiles/wasm-dis.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=82,83 "Built target wasm-dis"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=82,83 "Built target wasm-dis"
 .PHONY : CMakeFiles/wasm-dis.dir/all
 
 # Include target in all.
@@ -253,9 +253,9 @@ all: CMakeFiles/wasm-dis.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/wasm-dis.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 69
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 69
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/wasm-dis.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 0
 .PHONY : CMakeFiles/wasm-dis.dir/rule
 
 # Convenience name for target.
@@ -286,7 +286,7 @@ CMakeFiles/wasm-ctor-eval.dir/all: src/support/CMakeFiles/support.dir/all
 CMakeFiles/wasm-ctor-eval.dir/all: src/wasm/CMakeFiles/wasm.dir/all
 	$(MAKE) -f CMakeFiles/wasm-ctor-eval.dir/build.make CMakeFiles/wasm-ctor-eval.dir/depend
 	$(MAKE) -f CMakeFiles/wasm-ctor-eval.dir/build.make CMakeFiles/wasm-ctor-eval.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=80,81 "Built target wasm-ctor-eval"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=80,81 "Built target wasm-ctor-eval"
 .PHONY : CMakeFiles/wasm-ctor-eval.dir/all
 
 # Include target in all.
@@ -296,9 +296,9 @@ all: CMakeFiles/wasm-ctor-eval.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/wasm-ctor-eval.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 72
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 72
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/wasm-ctor-eval.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 0
 .PHONY : CMakeFiles/wasm-ctor-eval.dir/rule
 
 # Convenience name for target.
@@ -329,7 +329,7 @@ CMakeFiles/asm2wasm.dir/all: src/support/CMakeFiles/support.dir/all
 CMakeFiles/asm2wasm.dir/all: src/wasm/CMakeFiles/wasm.dir/all
 	$(MAKE) -f CMakeFiles/asm2wasm.dir/build.make CMakeFiles/asm2wasm.dir/depend
 	$(MAKE) -f CMakeFiles/asm2wasm.dir/build.make CMakeFiles/asm2wasm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=1,2 "Built target asm2wasm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=1,2 "Built target asm2wasm"
 .PHONY : CMakeFiles/asm2wasm.dir/all
 
 # Include target in all.
@@ -339,9 +339,9 @@ all: CMakeFiles/asm2wasm.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/asm2wasm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 72
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 72
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/asm2wasm.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 0
 .PHONY : CMakeFiles/asm2wasm.dir/rule
 
 # Convenience name for target.
@@ -371,7 +371,7 @@ CMakeFiles/s2wasm.dir/all: src/support/CMakeFiles/support.dir/all
 CMakeFiles/s2wasm.dir/all: src/wasm/CMakeFiles/wasm.dir/all
 	$(MAKE) -f CMakeFiles/s2wasm.dir/build.make CMakeFiles/s2wasm.dir/depend
 	$(MAKE) -f CMakeFiles/s2wasm.dir/build.make CMakeFiles/s2wasm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=60,61,62 "Built target s2wasm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=60,61,62 "Built target s2wasm"
 .PHONY : CMakeFiles/s2wasm.dir/all
 
 # Include target in all.
@@ -381,9 +381,9 @@ all: CMakeFiles/s2wasm.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/s2wasm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 70
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 70
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/s2wasm.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 0
 .PHONY : CMakeFiles/s2wasm.dir/rule
 
 # Convenience name for target.
@@ -413,7 +413,7 @@ CMakeFiles/wasm-emscripten-finalize.dir/all: src/support/CMakeFiles/support.dir/
 CMakeFiles/wasm-emscripten-finalize.dir/all: src/wasm/CMakeFiles/wasm.dir/all
 	$(MAKE) -f CMakeFiles/wasm-emscripten-finalize.dir/build.make CMakeFiles/wasm-emscripten-finalize.dir/depend
 	$(MAKE) -f CMakeFiles/wasm-emscripten-finalize.dir/build.make CMakeFiles/wasm-emscripten-finalize.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=84,85,86 "Built target wasm-emscripten-finalize"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=84,85,86 "Built target wasm-emscripten-finalize"
 .PHONY : CMakeFiles/wasm-emscripten-finalize.dir/all
 
 # Include target in all.
@@ -423,9 +423,9 @@ all: CMakeFiles/wasm-emscripten-finalize.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/wasm-emscripten-finalize.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 70
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 70
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/wasm-emscripten-finalize.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 0
 .PHONY : CMakeFiles/wasm-emscripten-finalize.dir/rule
 
 # Convenience name for target.
@@ -455,7 +455,7 @@ CMakeFiles/wasm-as.dir/all: src/support/CMakeFiles/support.dir/all
 CMakeFiles/wasm-as.dir/all: src/wasm/CMakeFiles/wasm.dir/all
 	$(MAKE) -f CMakeFiles/wasm-as.dir/build.make CMakeFiles/wasm-as.dir/depend
 	$(MAKE) -f CMakeFiles/wasm-as.dir/build.make CMakeFiles/wasm-as.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=78,79 "Built target wasm-as"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=78,79 "Built target wasm-as"
 .PHONY : CMakeFiles/wasm-as.dir/all
 
 # Include target in all.
@@ -465,9 +465,9 @@ all: CMakeFiles/wasm-as.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/wasm-as.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 69
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 69
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/wasm-as.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 0
 .PHONY : CMakeFiles/wasm-as.dir/rule
 
 # Convenience name for target.
@@ -498,7 +498,7 @@ CMakeFiles/wasm-shell.dir/all: src/support/CMakeFiles/support.dir/all
 CMakeFiles/wasm-shell.dir/all: src/wasm/CMakeFiles/wasm.dir/all
 	$(MAKE) -f CMakeFiles/wasm-shell.dir/build.make CMakeFiles/wasm-shell.dir/depend
 	$(MAKE) -f CMakeFiles/wasm-shell.dir/build.make CMakeFiles/wasm-shell.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=96,97,98 "Built target wasm-shell"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=96,97,98 "Built target wasm-shell"
 .PHONY : CMakeFiles/wasm-shell.dir/all
 
 # Include target in all.
@@ -508,9 +508,9 @@ all: CMakeFiles/wasm-shell.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/wasm-shell.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 73
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 73
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/wasm-shell.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 0
 .PHONY : CMakeFiles/wasm-shell.dir/rule
 
 # Convenience name for target.
@@ -541,7 +541,7 @@ CMakeFiles/wasm2asm.dir/all: src/support/CMakeFiles/support.dir/all
 CMakeFiles/wasm2asm.dir/all: src/wasm/CMakeFiles/wasm.dir/all
 	$(MAKE) -f CMakeFiles/wasm2asm.dir/build.make CMakeFiles/wasm2asm.dir/depend
 	$(MAKE) -f CMakeFiles/wasm2asm.dir/build.make CMakeFiles/wasm2asm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=99,100 "Built target wasm2asm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=99,100 "Built target wasm2asm"
 .PHONY : CMakeFiles/wasm2asm.dir/all
 
 # Include target in all.
@@ -551,9 +551,9 @@ all: CMakeFiles/wasm2asm.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/wasm2asm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 72
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 72
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/wasm2asm.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 0
 .PHONY : CMakeFiles/wasm2asm.dir/rule
 
 # Convenience name for target.
@@ -583,7 +583,7 @@ CMakeFiles/wasm-reduce.dir/all: src/support/CMakeFiles/support.dir/all
 CMakeFiles/wasm-reduce.dir/all: src/wasm/CMakeFiles/wasm.dir/all
 	$(MAKE) -f CMakeFiles/wasm-reduce.dir/build.make CMakeFiles/wasm-reduce.dir/depend
 	$(MAKE) -f CMakeFiles/wasm-reduce.dir/build.make CMakeFiles/wasm-reduce.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=93,94,95 "Built target wasm-reduce"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=93,94,95 "Built target wasm-reduce"
 .PHONY : CMakeFiles/wasm-reduce.dir/all
 
 # Include target in all.
@@ -593,9 +593,9 @@ all: CMakeFiles/wasm-reduce.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/wasm-reduce.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 70
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 70
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/wasm-reduce.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 0
 .PHONY : CMakeFiles/wasm-reduce.dir/rule
 
 # Convenience name for target.
@@ -638,7 +638,7 @@ src/ir/preinstall:
 src/ir/CMakeFiles/ir.dir/all:
 	$(MAKE) -f src/ir/CMakeFiles/ir.dir/build.make src/ir/CMakeFiles/ir.dir/depend
 	$(MAKE) -f src/ir/CMakeFiles/ir.dir/build.make src/ir/CMakeFiles/ir.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=14,15,16,17 "Built target ir"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=14,15,16,17 "Built target ir"
 .PHONY : src/ir/CMakeFiles/ir.dir/all
 
 # Include target in all.
@@ -648,9 +648,9 @@ all: src/ir/CMakeFiles/ir.dir/all
 
 # Build rule for subdir invocation for target.
 src/ir/CMakeFiles/ir.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 src/ir/CMakeFiles/ir.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 0
 .PHONY : src/ir/CMakeFiles/ir.dir/rule
 
 # Convenience name for target.
@@ -693,7 +693,7 @@ src/asmjs/preinstall:
 src/asmjs/CMakeFiles/asmjs.dir/all:
 	$(MAKE) -f src/asmjs/CMakeFiles/asmjs.dir/build.make src/asmjs/CMakeFiles/asmjs.dir/depend
 	$(MAKE) -f src/asmjs/CMakeFiles/asmjs.dir/build.make src/asmjs/CMakeFiles/asmjs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=3,4,5,6 "Built target asmjs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=3,4,5,6 "Built target asmjs"
 .PHONY : src/asmjs/CMakeFiles/asmjs.dir/all
 
 # Include target in all.
@@ -703,9 +703,9 @@ all: src/asmjs/CMakeFiles/asmjs.dir/all
 
 # Build rule for subdir invocation for target.
 src/asmjs/CMakeFiles/asmjs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 src/asmjs/CMakeFiles/asmjs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 0
 .PHONY : src/asmjs/CMakeFiles/asmjs.dir/rule
 
 # Convenience name for target.
@@ -748,7 +748,7 @@ src/cfg/preinstall:
 src/cfg/CMakeFiles/cfg.dir/all:
 	$(MAKE) -f src/cfg/CMakeFiles/cfg.dir/build.make src/cfg/CMakeFiles/cfg.dir/depend
 	$(MAKE) -f src/cfg/CMakeFiles/cfg.dir/build.make src/cfg/CMakeFiles/cfg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=9,10 "Built target cfg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=9,10 "Built target cfg"
 .PHONY : src/cfg/CMakeFiles/cfg.dir/all
 
 # Include target in all.
@@ -758,9 +758,9 @@ all: src/cfg/CMakeFiles/cfg.dir/all
 
 # Build rule for subdir invocation for target.
 src/cfg/CMakeFiles/cfg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 src/cfg/CMakeFiles/cfg.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 0
 .PHONY : src/cfg/CMakeFiles/cfg.dir/rule
 
 # Convenience name for target.
@@ -803,7 +803,7 @@ src/emscripten-optimizer/preinstall:
 src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/all:
 	$(MAKE) -f src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/build.make src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/depend
 	$(MAKE) -f src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/build.make src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=11,12,13 "Built target emscripten-optimizer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=11,12,13 "Built target emscripten-optimizer"
 .PHONY : src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/all
 
 # Include target in all.
@@ -813,9 +813,9 @@ all: src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/all
 
 # Build rule for subdir invocation for target.
 src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 0
 .PHONY : src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/rule
 
 # Convenience name for target.
@@ -858,7 +858,7 @@ src/passes/preinstall:
 src/passes/CMakeFiles/passes.dir/all:
 	$(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/depend
 	$(MAKE) -f src/passes/CMakeFiles/passes.dir/build.make src/passes/CMakeFiles/passes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59 "Built target passes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59 "Built target passes"
 .PHONY : src/passes/CMakeFiles/passes.dir/all
 
 # Include target in all.
@@ -868,9 +868,9 @@ all: src/passes/CMakeFiles/passes.dir/all
 
 # Build rule for subdir invocation for target.
 src/passes/CMakeFiles/passes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 42
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 42
 	$(MAKE) -f CMakeFiles/Makefile2 src/passes/CMakeFiles/passes.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 0
 .PHONY : src/passes/CMakeFiles/passes.dir/rule
 
 # Convenience name for target.
@@ -913,7 +913,7 @@ src/support/preinstall:
 src/support/CMakeFiles/support.dir/all:
 	$(MAKE) -f src/support/CMakeFiles/support.dir/build.make src/support/CMakeFiles/support.dir/depend
 	$(MAKE) -f src/support/CMakeFiles/support.dir/build.make src/support/CMakeFiles/support.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=63,64,65,66,67,68,69,70 "Built target support"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=63,64,65,66,67,68,69,70 "Built target support"
 .PHONY : src/support/CMakeFiles/support.dir/all
 
 # Include target in all.
@@ -923,9 +923,9 @@ all: src/support/CMakeFiles/support.dir/all
 
 # Build rule for subdir invocation for target.
 src/support/CMakeFiles/support.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 src/support/CMakeFiles/support.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 0
 .PHONY : src/support/CMakeFiles/support.dir/rule
 
 # Convenience name for target.
@@ -968,7 +968,7 @@ src/wasm/preinstall:
 src/wasm/CMakeFiles/wasm.dir/all:
 	$(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/depend
 	$(MAKE) -f src/wasm/CMakeFiles/wasm.dir/build.make src/wasm/CMakeFiles/wasm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=71,72,73,74,75,76,77 "Built target wasm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/aleth/build/deps/src/binaryen-build/CMakeFiles --progress-num=71,72,73,74,75,76,77 "Built target wasm"
 .PHONY : src/wasm/CMakeFiles/wasm.dir/all
 
 # Include target in all.
@@ -978,9 +978,9 @@ all: src/wasm/CMakeFiles/wasm.dir/all
 
 # Build rule for subdir invocation for target.
 src/wasm/CMakeFiles/wasm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 src/wasm/CMakeFiles/wasm.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 0
 .PHONY : src/wasm/CMakeFiles/wasm.dir/rule
 
 # Convenience name for target.

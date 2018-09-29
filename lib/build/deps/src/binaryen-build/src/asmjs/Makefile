@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen
+CMAKE_SOURCE_DIR = /aleth/build/deps/src/binaryen
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen-build
+CMAKE_BINARY_DIR = /aleth/build/deps/src/binaryen-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/asmjs/CMakeFiles/progress.marks
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/asmjs/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 0
+	cd /aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles /aleth/build/deps/src/binaryen-build/src/asmjs/CMakeFiles/progress.marks
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/asmjs/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/asmjs/clean
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/asmjs/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/asmjs/preinstall
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/asmjs/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/asmjs/preinstall
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/asmjs/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/asmjs/CMakeFiles/asmjs.dir/rule:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/asmjs/CMakeFiles/asmjs.dir/rule
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/asmjs/CMakeFiles/asmjs.dir/rule
 .PHONY : src/asmjs/CMakeFiles/asmjs.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ asmjs: src/asmjs/CMakeFiles/asmjs.dir/rule
 
 # fast build rule for target.
 asmjs/fast:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/asmjs/CMakeFiles/asmjs.dir/build.make src/asmjs/CMakeFiles/asmjs.dir/build
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/asmjs/CMakeFiles/asmjs.dir/build.make src/asmjs/CMakeFiles/asmjs.dir/build
 .PHONY : asmjs/fast
 
 asm_v_wasm.o: asm_v_wasm.cpp.o
@@ -177,7 +177,7 @@ asm_v_wasm.o: asm_v_wasm.cpp.o
 
 # target to build an object file
 asm_v_wasm.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/asmjs/CMakeFiles/asmjs.dir/build.make src/asmjs/CMakeFiles/asmjs.dir/asm_v_wasm.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/asmjs/CMakeFiles/asmjs.dir/build.make src/asmjs/CMakeFiles/asmjs.dir/asm_v_wasm.cpp.o
 .PHONY : asm_v_wasm.cpp.o
 
 asm_v_wasm.i: asm_v_wasm.cpp.i
@@ -186,7 +186,7 @@ asm_v_wasm.i: asm_v_wasm.cpp.i
 
 # target to preprocess a source file
 asm_v_wasm.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/asmjs/CMakeFiles/asmjs.dir/build.make src/asmjs/CMakeFiles/asmjs.dir/asm_v_wasm.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/asmjs/CMakeFiles/asmjs.dir/build.make src/asmjs/CMakeFiles/asmjs.dir/asm_v_wasm.cpp.i
 .PHONY : asm_v_wasm.cpp.i
 
 asm_v_wasm.s: asm_v_wasm.cpp.s
@@ -195,7 +195,7 @@ asm_v_wasm.s: asm_v_wasm.cpp.s
 
 # target to generate assembly for a file
 asm_v_wasm.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/asmjs/CMakeFiles/asmjs.dir/build.make src/asmjs/CMakeFiles/asmjs.dir/asm_v_wasm.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/asmjs/CMakeFiles/asmjs.dir/build.make src/asmjs/CMakeFiles/asmjs.dir/asm_v_wasm.cpp.s
 .PHONY : asm_v_wasm.cpp.s
 
 asmangle.o: asmangle.cpp.o
@@ -204,7 +204,7 @@ asmangle.o: asmangle.cpp.o
 
 # target to build an object file
 asmangle.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/asmjs/CMakeFiles/asmjs.dir/build.make src/asmjs/CMakeFiles/asmjs.dir/asmangle.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/asmjs/CMakeFiles/asmjs.dir/build.make src/asmjs/CMakeFiles/asmjs.dir/asmangle.cpp.o
 .PHONY : asmangle.cpp.o
 
 asmangle.i: asmangle.cpp.i
@@ -213,7 +213,7 @@ asmangle.i: asmangle.cpp.i
 
 # target to preprocess a source file
 asmangle.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/asmjs/CMakeFiles/asmjs.dir/build.make src/asmjs/CMakeFiles/asmjs.dir/asmangle.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/asmjs/CMakeFiles/asmjs.dir/build.make src/asmjs/CMakeFiles/asmjs.dir/asmangle.cpp.i
 .PHONY : asmangle.cpp.i
 
 asmangle.s: asmangle.cpp.s
@@ -222,7 +222,7 @@ asmangle.s: asmangle.cpp.s
 
 # target to generate assembly for a file
 asmangle.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/asmjs/CMakeFiles/asmjs.dir/build.make src/asmjs/CMakeFiles/asmjs.dir/asmangle.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/asmjs/CMakeFiles/asmjs.dir/build.make src/asmjs/CMakeFiles/asmjs.dir/asmangle.cpp.s
 .PHONY : asmangle.cpp.s
 
 shared-constants.o: shared-constants.cpp.o
@@ -231,7 +231,7 @@ shared-constants.o: shared-constants.cpp.o
 
 # target to build an object file
 shared-constants.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/asmjs/CMakeFiles/asmjs.dir/build.make src/asmjs/CMakeFiles/asmjs.dir/shared-constants.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/asmjs/CMakeFiles/asmjs.dir/build.make src/asmjs/CMakeFiles/asmjs.dir/shared-constants.cpp.o
 .PHONY : shared-constants.cpp.o
 
 shared-constants.i: shared-constants.cpp.i
@@ -240,7 +240,7 @@ shared-constants.i: shared-constants.cpp.i
 
 # target to preprocess a source file
 shared-constants.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/asmjs/CMakeFiles/asmjs.dir/build.make src/asmjs/CMakeFiles/asmjs.dir/shared-constants.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/asmjs/CMakeFiles/asmjs.dir/build.make src/asmjs/CMakeFiles/asmjs.dir/shared-constants.cpp.i
 .PHONY : shared-constants.cpp.i
 
 shared-constants.s: shared-constants.cpp.s
@@ -249,7 +249,7 @@ shared-constants.s: shared-constants.cpp.s
 
 # target to generate assembly for a file
 shared-constants.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/asmjs/CMakeFiles/asmjs.dir/build.make src/asmjs/CMakeFiles/asmjs.dir/shared-constants.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/asmjs/CMakeFiles/asmjs.dir/build.make src/asmjs/CMakeFiles/asmjs.dir/shared-constants.cpp.s
 .PHONY : shared-constants.cpp.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -18,7 +18,7 @@ evmc/evmc.h
 
 ../evmc/include/evmc/loader.h
 
-/home/ubuntu/moose/aleth/evmc/lib/loader/loader.c
+/aleth/evmc/lib/loader/loader.c
 evmc/loader.h
 -
 evmc/evmc.h

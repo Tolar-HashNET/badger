@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ubuntu/moose/aleth/build/deps/src/binaryen/src/cfg/Relooper.cpp" "/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/cfg/CMakeFiles/cfg.dir/Relooper.cpp.o"
+  "/aleth/build/deps/src/binaryen/src/cfg/Relooper.cpp" "/aleth/build/deps/src/binaryen-build/src/cfg/CMakeFiles/cfg.dir/Relooper.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ubuntu/moose/aleth/build/deps/src/binaryen/src"
+  "/aleth/build/deps/src/binaryen/src"
   )
 
 # Targets to which this target links.

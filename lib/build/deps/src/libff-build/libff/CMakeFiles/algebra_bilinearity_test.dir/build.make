@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth/build/deps/src/libff
+CMAKE_SOURCE_DIR = /aleth/build/deps/src/libff
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build/deps/src/libff-build
+CMAKE_BINARY_DIR = /aleth/build/deps/src/libff-build
 
 # Include any dependencies generated for this target.
 include libff/CMakeFiles/algebra_bilinearity_test.dir/depend.make
@@ -58,17 +58,17 @@ include libff/CMakeFiles/algebra_bilinearity_test.dir/progress.make
 include libff/CMakeFiles/algebra_bilinearity_test.dir/flags.make
 
 libff/CMakeFiles/algebra_bilinearity_test.dir/algebra/curves/tests/test_bilinearity.cpp.o: libff/CMakeFiles/algebra_bilinearity_test.dir/flags.make
-libff/CMakeFiles/algebra_bilinearity_test.dir/algebra/curves/tests/test_bilinearity.cpp.o: /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/tests/test_bilinearity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libff/CMakeFiles/algebra_bilinearity_test.dir/algebra/curves/tests/test_bilinearity.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algebra_bilinearity_test.dir/algebra/curves/tests/test_bilinearity.cpp.o -c /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/tests/test_bilinearity.cpp
+libff/CMakeFiles/algebra_bilinearity_test.dir/algebra/curves/tests/test_bilinearity.cpp.o: /aleth/build/deps/src/libff/libff/algebra/curves/tests/test_bilinearity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libff/CMakeFiles/algebra_bilinearity_test.dir/algebra/curves/tests/test_bilinearity.cpp.o"
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algebra_bilinearity_test.dir/algebra/curves/tests/test_bilinearity.cpp.o -c /aleth/build/deps/src/libff/libff/algebra/curves/tests/test_bilinearity.cpp
 
 libff/CMakeFiles/algebra_bilinearity_test.dir/algebra/curves/tests/test_bilinearity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algebra_bilinearity_test.dir/algebra/curves/tests/test_bilinearity.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/tests/test_bilinearity.cpp > CMakeFiles/algebra_bilinearity_test.dir/algebra/curves/tests/test_bilinearity.cpp.i
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/build/deps/src/libff/libff/algebra/curves/tests/test_bilinearity.cpp > CMakeFiles/algebra_bilinearity_test.dir/algebra/curves/tests/test_bilinearity.cpp.i
 
 libff/CMakeFiles/algebra_bilinearity_test.dir/algebra/curves/tests/test_bilinearity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algebra_bilinearity_test.dir/algebra/curves/tests/test_bilinearity.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/build/deps/src/libff/libff/algebra/curves/tests/test_bilinearity.cpp -o CMakeFiles/algebra_bilinearity_test.dir/algebra/curves/tests/test_bilinearity.cpp.s
+	cd /aleth/build/deps/src/libff-build/libff && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/build/deps/src/libff/libff/algebra/curves/tests/test_bilinearity.cpp -o CMakeFiles/algebra_bilinearity_test.dir/algebra/curves/tests/test_bilinearity.cpp.s
 
 libff/CMakeFiles/algebra_bilinearity_test.dir/algebra/curves/tests/test_bilinearity.cpp.o.requires:
 
@@ -91,10 +91,10 @@ algebra_bilinearity_test_EXTERNAL_OBJECTS =
 libff/algebra_bilinearity_test: libff/CMakeFiles/algebra_bilinearity_test.dir/algebra/curves/tests/test_bilinearity.cpp.o
 libff/algebra_bilinearity_test: libff/CMakeFiles/algebra_bilinearity_test.dir/build.make
 libff/algebra_bilinearity_test: libff/libff.a
-libff/algebra_bilinearity_test: /home/ubuntu/moose/aleth/build/deps/lib/libmpir.a
+libff/algebra_bilinearity_test: /aleth/build/deps/lib/libmpir.a
 libff/algebra_bilinearity_test: libff/CMakeFiles/algebra_bilinearity_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/moose/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable algebra_bilinearity_test"
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/algebra_bilinearity_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/aleth/build/deps/src/libff-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable algebra_bilinearity_test"
+	cd /aleth/build/deps/src/libff-build/libff && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/algebra_bilinearity_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libff/CMakeFiles/algebra_bilinearity_test.dir/build: libff/algebra_bilinearity_test
@@ -106,10 +106,10 @@ libff/CMakeFiles/algebra_bilinearity_test.dir/requires: libff/CMakeFiles/algebra
 .PHONY : libff/CMakeFiles/algebra_bilinearity_test.dir/requires
 
 libff/CMakeFiles/algebra_bilinearity_test.dir/clean:
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff && $(CMAKE_COMMAND) -P CMakeFiles/algebra_bilinearity_test.dir/cmake_clean.cmake
+	cd /aleth/build/deps/src/libff-build/libff && $(CMAKE_COMMAND) -P CMakeFiles/algebra_bilinearity_test.dir/cmake_clean.cmake
 .PHONY : libff/CMakeFiles/algebra_bilinearity_test.dir/clean
 
 libff/CMakeFiles/algebra_bilinearity_test.dir/depend:
-	cd /home/ubuntu/moose/aleth/build/deps/src/libff-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth/build/deps/src/libff /home/ubuntu/moose/aleth/build/deps/src/libff/libff /home/ubuntu/moose/aleth/build/deps/src/libff-build /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff /home/ubuntu/moose/aleth/build/deps/src/libff-build/libff/CMakeFiles/algebra_bilinearity_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build/deps/src/libff-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth/build/deps/src/libff /aleth/build/deps/src/libff/libff /aleth/build/deps/src/libff-build /aleth/build/deps/src/libff-build/libff /aleth/build/deps/src/libff-build/libff/CMakeFiles/algebra_bilinearity_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libff/CMakeFiles/algebra_bilinearity_test.dir/depend
 

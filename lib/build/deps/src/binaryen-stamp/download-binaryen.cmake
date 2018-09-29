@@ -22,14 +22,14 @@ function(check_file_hash has_hash hash_is_good)
   set("${has_hash}" TRUE PARENT_SCOPE)
 
   message(STATUS "verifying file...
-       file='/home/ubuntu/moose/aleth/build/deps/downloads/binaryen-1.37.35.tar.gz'")
+       file='/aleth/build/deps/downloads/binaryen-1.37.35.tar.gz'")
 
-  file("SHA256" "/home/ubuntu/moose/aleth/build/deps/downloads/binaryen-1.37.35.tar.gz" actual_value)
+  file("SHA256" "/aleth/build/deps/downloads/binaryen-1.37.35.tar.gz" actual_value)
 
   if(NOT "${actual_value}" STREQUAL "19439e41dc576446eaae0c4a8e07d4cd4c40aea7dfb0a6475b925686852f8006")
     set("${hash_is_good}" FALSE PARENT_SCOPE)
     message(STATUS "SHA256 hash of
-    /home/ubuntu/moose/aleth/build/deps/downloads/binaryen-1.37.35.tar.gz
+    /aleth/build/deps/downloads/binaryen-1.37.35.tar.gz
   does not match expected value
     expected: '19439e41dc576446eaae0c4a8e07d4cd4c40aea7dfb0a6475b925686852f8006'
       actual: '${actual_value}'")
@@ -71,7 +71,7 @@ function(sleep_before_download attempt)
   execute_process(COMMAND "${CMAKE_COMMAND}" -E sleep "${sleep_seconds}")
 endfunction()
 
-if("/home/ubuntu/moose/aleth/build/deps/downloads/binaryen-1.37.35.tar.gz" STREQUAL "")
+if("/aleth/build/deps/downloads/binaryen-1.37.35.tar.gz" STREQUAL "")
   message(FATAL_ERROR "LOCAL can't be empty")
 endif()
 
@@ -79,32 +79,32 @@ if("https://github.com/WebAssembly/binaryen/archive/1.37.35.tar.gz" STREQUAL "")
   message(FATAL_ERROR "REMOTE can't be empty")
 endif()
 
-if(EXISTS "/home/ubuntu/moose/aleth/build/deps/downloads/binaryen-1.37.35.tar.gz")
+if(EXISTS "/aleth/build/deps/downloads/binaryen-1.37.35.tar.gz")
   check_file_hash(has_hash hash_is_good)
   if(has_hash)
     if(hash_is_good)
       message(STATUS "File already exists and hash match (skip download):
-  file='/home/ubuntu/moose/aleth/build/deps/downloads/binaryen-1.37.35.tar.gz'
+  file='/aleth/build/deps/downloads/binaryen-1.37.35.tar.gz'
   SHA256='19439e41dc576446eaae0c4a8e07d4cd4c40aea7dfb0a6475b925686852f8006'"
       )
       return()
     else()
       message(STATUS "File already exists but hash mismatch. Removing...")
-      file(REMOVE "/home/ubuntu/moose/aleth/build/deps/downloads/binaryen-1.37.35.tar.gz")
+      file(REMOVE "/aleth/build/deps/downloads/binaryen-1.37.35.tar.gz")
     endif()
   else()
     message(STATUS "File already exists but no hash specified (use URL_HASH):
-  file='/home/ubuntu/moose/aleth/build/deps/downloads/binaryen-1.37.35.tar.gz'
+  file='/aleth/build/deps/downloads/binaryen-1.37.35.tar.gz'
 Old file will be removed and new file downloaded from URL."
     )
-    file(REMOVE "/home/ubuntu/moose/aleth/build/deps/downloads/binaryen-1.37.35.tar.gz")
+    file(REMOVE "/aleth/build/deps/downloads/binaryen-1.37.35.tar.gz")
   endif()
 endif()
 
 set(retry_number 5)
 
 message(STATUS "Downloading...
-   dst='/home/ubuntu/moose/aleth/build/deps/downloads/binaryen-1.37.35.tar.gz'
+   dst='/aleth/build/deps/downloads/binaryen-1.37.35.tar.gz'
    timeout='none'"
 )
 
@@ -119,7 +119,7 @@ foreach(i RANGE ${retry_number})
 
     file(
         DOWNLOAD
-        "${url}" "/home/ubuntu/moose/aleth/build/deps/downloads/binaryen-1.37.35.tar.gz"
+        "${url}" "/aleth/build/deps/downloads/binaryen-1.37.35.tar.gz"
         SHOW_PROGRESS
         # no TIMEOUT
         STATUS status
@@ -135,7 +135,7 @@ foreach(i RANGE ${retry_number})
       check_file_hash(has_hash hash_is_good)
       if(has_hash AND NOT hash_is_good)
         message(STATUS "Hash mismatch, removing...")
-        file(REMOVE "/home/ubuntu/moose/aleth/build/deps/downloads/binaryen-1.37.35.tar.gz")
+        file(REMOVE "/aleth/build/deps/downloads/binaryen-1.37.35.tar.gz")
       else()
         message(STATUS "Downloading... done")
         return()

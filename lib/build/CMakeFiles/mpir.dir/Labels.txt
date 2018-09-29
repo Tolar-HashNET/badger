@@ -1,13 +1,13 @@
 # Target labels
  mpir
 # Source files and their labels
-/home/ubuntu/moose/aleth/build/CMakeFiles/mpir
-/home/ubuntu/moose/aleth/build/CMakeFiles/mpir.rule
-/home/ubuntu/moose/aleth/build/CMakeFiles/mpir-complete.rule
-/home/ubuntu/moose/aleth/build/deps/src/mpir-stamp/mpir-install.rule
-/home/ubuntu/moose/aleth/build/deps/src/mpir-stamp/mpir-mkdir.rule
-/home/ubuntu/moose/aleth/build/deps/src/mpir-stamp/mpir-download.rule
-/home/ubuntu/moose/aleth/build/deps/src/mpir-stamp/mpir-update.rule
-/home/ubuntu/moose/aleth/build/deps/src/mpir-stamp/mpir-patch.rule
-/home/ubuntu/moose/aleth/build/deps/src/mpir-stamp/mpir-configure.rule
-/home/ubuntu/moose/aleth/build/deps/src/mpir-stamp/mpir-build.rule
+/aleth/build/CMakeFiles/mpir
+/aleth/build/CMakeFiles/mpir.rule
+/aleth/build/CMakeFiles/mpir-complete.rule
+/aleth/build/deps/src/mpir-stamp/mpir-install.rule
+/aleth/build/deps/src/mpir-stamp/mpir-mkdir.rule
+/aleth/build/deps/src/mpir-stamp/mpir-download.rule
+/aleth/build/deps/src/mpir-stamp/mpir-update.rule
+/aleth/build/deps/src/mpir-stamp/mpir-patch.rule
+/aleth/build/deps/src/mpir-stamp/mpir-configure.rule
+/aleth/build/deps/src/mpir-stamp/mpir-build.rule

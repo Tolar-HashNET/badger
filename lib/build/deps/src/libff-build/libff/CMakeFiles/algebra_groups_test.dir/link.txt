@@ -1,1 +1,1 @@
-/usr/bin/c++   -std=c++11 -Wall -Wextra -Wfatal-errors -O3 -DNDEBUG  -rdynamic CMakeFiles/algebra_groups_test.dir/algebra/curves/tests/test_groups.cpp.o  -o algebra_groups_test libff.a /home/ubuntu/moose/aleth/build/deps/lib/libmpir.a 
+/usr/bin/clang++-7   -std=c++11 -Wall -Wextra -Wfatal-errors -O3 -DNDEBUG  -rdynamic CMakeFiles/algebra_groups_test.dir/algebra/curves/tests/test_groups.cpp.o  -o algebra_groups_test libff.a /aleth/build/deps/lib/libmpir.a 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen
+CMAKE_SOURCE_DIR = /aleth/build/deps/src/binaryen
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen-build
+CMAKE_BINARY_DIR = /aleth/build/deps/src/binaryen-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/ir/CMakeFiles/progress.marks
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/ir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 0
+	cd /aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles /aleth/build/deps/src/binaryen-build/src/ir/CMakeFiles/progress.marks
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/ir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/ir/clean
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/ir/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/ir/preinstall
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/ir/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/ir/preinstall
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/ir/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/ir/CMakeFiles/ir.dir/rule:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/ir/CMakeFiles/ir.dir/rule
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/ir/CMakeFiles/ir.dir/rule
 .PHONY : src/ir/CMakeFiles/ir.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ ir: src/ir/CMakeFiles/ir.dir/rule
 
 # fast build rule for target.
 ir/fast:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/ir/CMakeFiles/ir.dir/build.make src/ir/CMakeFiles/ir.dir/build
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/ir/CMakeFiles/ir.dir/build.make src/ir/CMakeFiles/ir.dir/build
 .PHONY : ir/fast
 
 ExpressionAnalyzer.o: ExpressionAnalyzer.cpp.o
@@ -177,7 +177,7 @@ ExpressionAnalyzer.o: ExpressionAnalyzer.cpp.o
 
 # target to build an object file
 ExpressionAnalyzer.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/ir/CMakeFiles/ir.dir/build.make src/ir/CMakeFiles/ir.dir/ExpressionAnalyzer.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/ir/CMakeFiles/ir.dir/build.make src/ir/CMakeFiles/ir.dir/ExpressionAnalyzer.cpp.o
 .PHONY : ExpressionAnalyzer.cpp.o
 
 ExpressionAnalyzer.i: ExpressionAnalyzer.cpp.i
@@ -186,7 +186,7 @@ ExpressionAnalyzer.i: ExpressionAnalyzer.cpp.i
 
 # target to preprocess a source file
 ExpressionAnalyzer.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/ir/CMakeFiles/ir.dir/build.make src/ir/CMakeFiles/ir.dir/ExpressionAnalyzer.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/ir/CMakeFiles/ir.dir/build.make src/ir/CMakeFiles/ir.dir/ExpressionAnalyzer.cpp.i
 .PHONY : ExpressionAnalyzer.cpp.i
 
 ExpressionAnalyzer.s: ExpressionAnalyzer.cpp.s
@@ -195,7 +195,7 @@ ExpressionAnalyzer.s: ExpressionAnalyzer.cpp.s
 
 # target to generate assembly for a file
 ExpressionAnalyzer.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/ir/CMakeFiles/ir.dir/build.make src/ir/CMakeFiles/ir.dir/ExpressionAnalyzer.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/ir/CMakeFiles/ir.dir/build.make src/ir/CMakeFiles/ir.dir/ExpressionAnalyzer.cpp.s
 .PHONY : ExpressionAnalyzer.cpp.s
 
 ExpressionManipulator.o: ExpressionManipulator.cpp.o
@@ -204,7 +204,7 @@ ExpressionManipulator.o: ExpressionManipulator.cpp.o
 
 # target to build an object file
 ExpressionManipulator.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/ir/CMakeFiles/ir.dir/build.make src/ir/CMakeFiles/ir.dir/ExpressionManipulator.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/ir/CMakeFiles/ir.dir/build.make src/ir/CMakeFiles/ir.dir/ExpressionManipulator.cpp.o
 .PHONY : ExpressionManipulator.cpp.o
 
 ExpressionManipulator.i: ExpressionManipulator.cpp.i
@@ -213,7 +213,7 @@ ExpressionManipulator.i: ExpressionManipulator.cpp.i
 
 # target to preprocess a source file
 ExpressionManipulator.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/ir/CMakeFiles/ir.dir/build.make src/ir/CMakeFiles/ir.dir/ExpressionManipulator.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/ir/CMakeFiles/ir.dir/build.make src/ir/CMakeFiles/ir.dir/ExpressionManipulator.cpp.i
 .PHONY : ExpressionManipulator.cpp.i
 
 ExpressionManipulator.s: ExpressionManipulator.cpp.s
@@ -222,7 +222,7 @@ ExpressionManipulator.s: ExpressionManipulator.cpp.s
 
 # target to generate assembly for a file
 ExpressionManipulator.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/ir/CMakeFiles/ir.dir/build.make src/ir/CMakeFiles/ir.dir/ExpressionManipulator.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/ir/CMakeFiles/ir.dir/build.make src/ir/CMakeFiles/ir.dir/ExpressionManipulator.cpp.s
 .PHONY : ExpressionManipulator.cpp.s
 
 LocalGraph.o: LocalGraph.cpp.o
@@ -231,7 +231,7 @@ LocalGraph.o: LocalGraph.cpp.o
 
 # target to build an object file
 LocalGraph.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/ir/CMakeFiles/ir.dir/build.make src/ir/CMakeFiles/ir.dir/LocalGraph.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/ir/CMakeFiles/ir.dir/build.make src/ir/CMakeFiles/ir.dir/LocalGraph.cpp.o
 .PHONY : LocalGraph.cpp.o
 
 LocalGraph.i: LocalGraph.cpp.i
@@ -240,7 +240,7 @@ LocalGraph.i: LocalGraph.cpp.i
 
 # target to preprocess a source file
 LocalGraph.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/ir/CMakeFiles/ir.dir/build.make src/ir/CMakeFiles/ir.dir/LocalGraph.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/ir/CMakeFiles/ir.dir/build.make src/ir/CMakeFiles/ir.dir/LocalGraph.cpp.i
 .PHONY : LocalGraph.cpp.i
 
 LocalGraph.s: LocalGraph.cpp.s
@@ -249,7 +249,7 @@ LocalGraph.s: LocalGraph.cpp.s
 
 # target to generate assembly for a file
 LocalGraph.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/ir/CMakeFiles/ir.dir/build.make src/ir/CMakeFiles/ir.dir/LocalGraph.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/ir/CMakeFiles/ir.dir/build.make src/ir/CMakeFiles/ir.dir/LocalGraph.cpp.s
 .PHONY : LocalGraph.cpp.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

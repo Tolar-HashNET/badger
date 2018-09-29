@@ -1,26 +1,26 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles/CMakeTmp
+Change Dir: /aleth/build/deps/src/binaryen-build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0402e/fast"
-make[3]: Entering directory '/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_0402e.dir/build.make CMakeFiles/cmTC_0402e.dir/build
-make[4]: Entering directory '/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0402e.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_0402e.dir/CheckSymbolExists.c.o   -c /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_0402e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0402e.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0402e.dir/CheckSymbolExists.c.o  -o cmTC_0402e 
-CMakeFiles/cmTC_0402e.dir/CheckSymbolExists.c.o: In function `main':
-CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
-collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_0402e.dir/build.make:97: recipe for target 'cmTC_0402e' failed
-make[4]: *** [cmTC_0402e] Error 1
-make[4]: Leaving directory '/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_0402e/fast' failed
-make[3]: *** [cmTC_0402e/fast] Error 2
-make[3]: Leaving directory '/home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_15e73/fast"
+make[3]: Entering directory '/aleth/build/deps/src/binaryen-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_15e73.dir/build.make CMakeFiles/cmTC_15e73.dir/build
+make[4]: Entering directory '/aleth/build/deps/src/binaryen-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15e73.dir/CheckSymbolExists.c.o
+/usr/bin/clang-7    -o CMakeFiles/cmTC_15e73.dir/CheckSymbolExists.c.o   -c /aleth/build/deps/src/binaryen-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_15e73
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15e73.dir/link.txt --verbose=1
+/usr/bin/clang-7      -rdynamic CMakeFiles/cmTC_15e73.dir/CheckSymbolExists.c.o  -o cmTC_15e73 
+CMakeFiles/cmTC_15e73.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x19): undefined reference to `pthread_create'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+CMakeFiles/cmTC_15e73.dir/build.make:97: recipe for target 'cmTC_15e73' failed
+make[4]: *** [cmTC_15e73] Error 1
+make[4]: Leaving directory '/aleth/build/deps/src/binaryen-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_15e73/fast' failed
+make[3]: *** [cmTC_15e73/fast] Error 2
+make[3]: Leaving directory '/aleth/build/deps/src/binaryen-build/CMakeFiles/CMakeTmp'
 
-File /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /aleth/build/deps/src/binaryen-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 

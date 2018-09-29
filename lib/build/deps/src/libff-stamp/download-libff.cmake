@@ -22,14 +22,14 @@ function(check_file_hash has_hash hash_is_good)
   set("${has_hash}" TRUE PARENT_SCOPE)
 
   message(STATUS "verifying file...
-       file='/home/ubuntu/moose/aleth/build/deps/src/libff-03b719a7.tar.gz'")
+       file='/aleth/build/deps/src/libff-03b719a7.tar.gz'")
 
-  file("SHA256" "/home/ubuntu/moose/aleth/build/deps/src/libff-03b719a7.tar.gz" actual_value)
+  file("SHA256" "/aleth/build/deps/src/libff-03b719a7.tar.gz" actual_value)
 
   if(NOT "${actual_value}" STREQUAL "81b476089af43025c8f253cb1a9b5038a1c375baccffea402fa82042e608ab02")
     set("${hash_is_good}" FALSE PARENT_SCOPE)
     message(STATUS "SHA256 hash of
-    /home/ubuntu/moose/aleth/build/deps/src/libff-03b719a7.tar.gz
+    /aleth/build/deps/src/libff-03b719a7.tar.gz
   does not match expected value
     expected: '81b476089af43025c8f253cb1a9b5038a1c375baccffea402fa82042e608ab02'
       actual: '${actual_value}'")
@@ -71,7 +71,7 @@ function(sleep_before_download attempt)
   execute_process(COMMAND "${CMAKE_COMMAND}" -E sleep "${sleep_seconds}")
 endfunction()
 
-if("/home/ubuntu/moose/aleth/build/deps/src/libff-03b719a7.tar.gz" STREQUAL "")
+if("/aleth/build/deps/src/libff-03b719a7.tar.gz" STREQUAL "")
   message(FATAL_ERROR "LOCAL can't be empty")
 endif()
 
@@ -79,32 +79,32 @@ if("https://github.com/scipr-lab/libff/archive/03b719a7c81757071f99fc60be1f7f769
   message(FATAL_ERROR "REMOTE can't be empty")
 endif()
 
-if(EXISTS "/home/ubuntu/moose/aleth/build/deps/src/libff-03b719a7.tar.gz")
+if(EXISTS "/aleth/build/deps/src/libff-03b719a7.tar.gz")
   check_file_hash(has_hash hash_is_good)
   if(has_hash)
     if(hash_is_good)
       message(STATUS "File already exists and hash match (skip download):
-  file='/home/ubuntu/moose/aleth/build/deps/src/libff-03b719a7.tar.gz'
+  file='/aleth/build/deps/src/libff-03b719a7.tar.gz'
   SHA256='81b476089af43025c8f253cb1a9b5038a1c375baccffea402fa82042e608ab02'"
       )
       return()
     else()
       message(STATUS "File already exists but hash mismatch. Removing...")
-      file(REMOVE "/home/ubuntu/moose/aleth/build/deps/src/libff-03b719a7.tar.gz")
+      file(REMOVE "/aleth/build/deps/src/libff-03b719a7.tar.gz")
     endif()
   else()
     message(STATUS "File already exists but no hash specified (use URL_HASH):
-  file='/home/ubuntu/moose/aleth/build/deps/src/libff-03b719a7.tar.gz'
+  file='/aleth/build/deps/src/libff-03b719a7.tar.gz'
 Old file will be removed and new file downloaded from URL."
     )
-    file(REMOVE "/home/ubuntu/moose/aleth/build/deps/src/libff-03b719a7.tar.gz")
+    file(REMOVE "/aleth/build/deps/src/libff-03b719a7.tar.gz")
   endif()
 endif()
 
 set(retry_number 5)
 
 message(STATUS "Downloading...
-   dst='/home/ubuntu/moose/aleth/build/deps/src/libff-03b719a7.tar.gz'
+   dst='/aleth/build/deps/src/libff-03b719a7.tar.gz'
    timeout='none'"
 )
 
@@ -119,7 +119,7 @@ foreach(i RANGE ${retry_number})
 
     file(
         DOWNLOAD
-        "${url}" "/home/ubuntu/moose/aleth/build/deps/src/libff-03b719a7.tar.gz"
+        "${url}" "/aleth/build/deps/src/libff-03b719a7.tar.gz"
         
         # no TIMEOUT
         STATUS status
@@ -135,7 +135,7 @@ foreach(i RANGE ${retry_number})
       check_file_hash(has_hash hash_is_good)
       if(has_hash AND NOT hash_is_good)
         message(STATUS "Hash mismatch, removing...")
-        file(REMOVE "/home/ubuntu/moose/aleth/build/deps/src/libff-03b719a7.tar.gz")
+        file(REMOVE "/aleth/build/deps/src/libff-03b719a7.tar.gz")
       else()
         message(STATUS "Downloading... done")
         return()

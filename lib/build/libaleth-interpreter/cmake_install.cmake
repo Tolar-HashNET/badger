@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/moose/aleth/libaleth-interpreter
+# Install script for directory: /aleth/libaleth-interpreter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

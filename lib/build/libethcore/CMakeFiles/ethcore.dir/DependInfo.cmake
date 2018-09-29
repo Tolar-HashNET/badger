@@ -4,18 +4,18 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ubuntu/moose/aleth/libethcore/BasicAuthority.cpp" "/home/ubuntu/moose/aleth/build/libethcore/CMakeFiles/ethcore.dir/BasicAuthority.cpp.o"
-  "/home/ubuntu/moose/aleth/libethcore/BlockHeader.cpp" "/home/ubuntu/moose/aleth/build/libethcore/CMakeFiles/ethcore.dir/BlockHeader.cpp.o"
-  "/home/ubuntu/moose/aleth/libethcore/ChainOperationParams.cpp" "/home/ubuntu/moose/aleth/build/libethcore/CMakeFiles/ethcore.dir/ChainOperationParams.cpp.o"
-  "/home/ubuntu/moose/aleth/libethcore/Common.cpp" "/home/ubuntu/moose/aleth/build/libethcore/CMakeFiles/ethcore.dir/Common.cpp.o"
-  "/home/ubuntu/moose/aleth/libethcore/CommonJS.cpp" "/home/ubuntu/moose/aleth/build/libethcore/CMakeFiles/ethcore.dir/CommonJS.cpp.o"
-  "/home/ubuntu/moose/aleth/libethcore/KeyManager.cpp" "/home/ubuntu/moose/aleth/build/libethcore/CMakeFiles/ethcore.dir/KeyManager.cpp.o"
-  "/home/ubuntu/moose/aleth/libethcore/LogEntry.cpp" "/home/ubuntu/moose/aleth/build/libethcore/CMakeFiles/ethcore.dir/LogEntry.cpp.o"
-  "/home/ubuntu/moose/aleth/libethcore/Precompiled.cpp" "/home/ubuntu/moose/aleth/build/libethcore/CMakeFiles/ethcore.dir/Precompiled.cpp.o"
-  "/home/ubuntu/moose/aleth/libethcore/SealEngine.cpp" "/home/ubuntu/moose/aleth/build/libethcore/CMakeFiles/ethcore.dir/SealEngine.cpp.o"
-  "/home/ubuntu/moose/aleth/libethcore/TransactionBase.cpp" "/home/ubuntu/moose/aleth/build/libethcore/CMakeFiles/ethcore.dir/TransactionBase.cpp.o"
+  "/aleth/libethcore/BasicAuthority.cpp" "/aleth/build/libethcore/CMakeFiles/ethcore.dir/BasicAuthority.cpp.o"
+  "/aleth/libethcore/BlockHeader.cpp" "/aleth/build/libethcore/CMakeFiles/ethcore.dir/BlockHeader.cpp.o"
+  "/aleth/libethcore/ChainOperationParams.cpp" "/aleth/build/libethcore/CMakeFiles/ethcore.dir/ChainOperationParams.cpp.o"
+  "/aleth/libethcore/Common.cpp" "/aleth/build/libethcore/CMakeFiles/ethcore.dir/Common.cpp.o"
+  "/aleth/libethcore/CommonJS.cpp" "/aleth/build/libethcore/CMakeFiles/ethcore.dir/CommonJS.cpp.o"
+  "/aleth/libethcore/KeyManager.cpp" "/aleth/build/libethcore/CMakeFiles/ethcore.dir/KeyManager.cpp.o"
+  "/aleth/libethcore/LogEntry.cpp" "/aleth/build/libethcore/CMakeFiles/ethcore.dir/LogEntry.cpp.o"
+  "/aleth/libethcore/Precompiled.cpp" "/aleth/build/libethcore/CMakeFiles/ethcore.dir/Precompiled.cpp.o"
+  "/aleth/libethcore/SealEngine.cpp" "/aleth/build/libethcore/CMakeFiles/ethcore.dir/SealEngine.cpp.o"
+  "/aleth/libethcore/TransactionBase.cpp" "/aleth/build/libethcore/CMakeFiles/ethcore.dir/TransactionBase.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
@@ -26,16 +26,16 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../"
   "../utils"
-  "/home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/include"
+  "/root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/include"
   "."
   "deps/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ubuntu/moose/aleth/build/libdevcrypto/CMakeFiles/devcrypto.dir/DependInfo.cmake"
-  "/home/ubuntu/moose/aleth/build/libdevcore/CMakeFiles/devcore.dir/DependInfo.cmake"
-  "/home/ubuntu/moose/aleth/build/CMakeFiles/aleth-buildinfo.dir/DependInfo.cmake"
+  "/aleth/build/libdevcrypto/CMakeFiles/devcrypto.dir/DependInfo.cmake"
+  "/aleth/build/libdevcore/CMakeFiles/devcore.dir/DependInfo.cmake"
+  "/aleth/build/CMakeFiles/aleth-buildinfo.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

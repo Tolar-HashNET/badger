@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/ubuntu/moose/aleth/build/aleth/buildinfo.c
+/aleth/build/aleth/buildinfo.c
 buildinfo.h
-/home/ubuntu/moose/aleth/build/aleth/buildinfo.h
+/aleth/build/aleth/buildinfo.h
 
-/home/ubuntu/moose/aleth/build/aleth/buildinfo.h
+/aleth/build/aleth/buildinfo.h
 

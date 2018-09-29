@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth
+CMAKE_SOURCE_DIR = /aleth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build
+CMAKE_BINARY_DIR = /aleth/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -93,7 +93,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/ubuntu/moose/aleth/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /aleth/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -104,7 +104,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/ubuntu/moose/aleth/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/ubuntu/moose/aleth/build/CPackSourceConfig.cmake
+	cd /aleth/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /aleth/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -159,14 +159,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles /home/ubuntu/moose/aleth/build/libaleth-interpreter/CMakeFiles/progress.marks
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libaleth-interpreter/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	cd /aleth/build && $(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles /aleth/build/libaleth-interpreter/CMakeFiles/progress.marks
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libaleth-interpreter/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libaleth-interpreter/clean
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libaleth-interpreter/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libaleth-interpreter/preinstall
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libaleth-interpreter/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libaleth-interpreter/preinstall
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libaleth-interpreter/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/rule:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/rule
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/rule
 .PHONY : libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ aleth-interpreter: libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/rule
 
 # fast build rule for target.
 aleth-interpreter/fast:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/build.make libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/build
+	cd /aleth/build && $(MAKE) -f libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/build.make libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/build
 .PHONY : aleth-interpreter/fast
 
 VM.o: VM.cpp.o
@@ -210,7 +210,7 @@ VM.o: VM.cpp.o
 
 # target to build an object file
 VM.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/build.make libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VM.cpp.o
+	cd /aleth/build && $(MAKE) -f libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/build.make libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VM.cpp.o
 .PHONY : VM.cpp.o
 
 VM.i: VM.cpp.i
@@ -219,7 +219,7 @@ VM.i: VM.cpp.i
 
 # target to preprocess a source file
 VM.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/build.make libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VM.cpp.i
+	cd /aleth/build && $(MAKE) -f libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/build.make libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VM.cpp.i
 .PHONY : VM.cpp.i
 
 VM.s: VM.cpp.s
@@ -228,7 +228,7 @@ VM.s: VM.cpp.s
 
 # target to generate assembly for a file
 VM.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/build.make libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VM.cpp.s
+	cd /aleth/build && $(MAKE) -f libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/build.make libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VM.cpp.s
 .PHONY : VM.cpp.s
 
 VMCalls.o: VMCalls.cpp.o
@@ -237,7 +237,7 @@ VMCalls.o: VMCalls.cpp.o
 
 # target to build an object file
 VMCalls.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/build.make libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMCalls.cpp.o
+	cd /aleth/build && $(MAKE) -f libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/build.make libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMCalls.cpp.o
 .PHONY : VMCalls.cpp.o
 
 VMCalls.i: VMCalls.cpp.i
@@ -246,7 +246,7 @@ VMCalls.i: VMCalls.cpp.i
 
 # target to preprocess a source file
 VMCalls.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/build.make libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMCalls.cpp.i
+	cd /aleth/build && $(MAKE) -f libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/build.make libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMCalls.cpp.i
 .PHONY : VMCalls.cpp.i
 
 VMCalls.s: VMCalls.cpp.s
@@ -255,7 +255,7 @@ VMCalls.s: VMCalls.cpp.s
 
 # target to generate assembly for a file
 VMCalls.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/build.make libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMCalls.cpp.s
+	cd /aleth/build && $(MAKE) -f libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/build.make libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMCalls.cpp.s
 .PHONY : VMCalls.cpp.s
 
 VMOpt.o: VMOpt.cpp.o
@@ -264,7 +264,7 @@ VMOpt.o: VMOpt.cpp.o
 
 # target to build an object file
 VMOpt.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/build.make libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMOpt.cpp.o
+	cd /aleth/build && $(MAKE) -f libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/build.make libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMOpt.cpp.o
 .PHONY : VMOpt.cpp.o
 
 VMOpt.i: VMOpt.cpp.i
@@ -273,7 +273,7 @@ VMOpt.i: VMOpt.cpp.i
 
 # target to preprocess a source file
 VMOpt.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/build.make libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMOpt.cpp.i
+	cd /aleth/build && $(MAKE) -f libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/build.make libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMOpt.cpp.i
 .PHONY : VMOpt.cpp.i
 
 VMOpt.s: VMOpt.cpp.s
@@ -282,7 +282,7 @@ VMOpt.s: VMOpt.cpp.s
 
 # target to generate assembly for a file
 VMOpt.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/build.make libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMOpt.cpp.s
+	cd /aleth/build && $(MAKE) -f libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/build.make libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMOpt.cpp.s
 .PHONY : VMOpt.cpp.s
 
 # Help Target
@@ -321,6 +321,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

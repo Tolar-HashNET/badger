@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth
+CMAKE_SOURCE_DIR = /aleth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build
+CMAKE_BINARY_DIR = /aleth/build
 
 # Include any dependencies generated for this target.
 include evmc/lib/instructions/CMakeFiles/instructions.dir/depend.make
@@ -59,16 +59,16 @@ include evmc/lib/instructions/CMakeFiles/instructions.dir/flags.make
 
 evmc/lib/instructions/CMakeFiles/instructions.dir/instruction_metrics.c.o: evmc/lib/instructions/CMakeFiles/instructions.dir/flags.make
 evmc/lib/instructions/CMakeFiles/instructions.dir/instruction_metrics.c.o: ../evmc/lib/instructions/instruction_metrics.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object evmc/lib/instructions/CMakeFiles/instructions.dir/instruction_metrics.c.o"
-	cd /home/ubuntu/moose/aleth/build/evmc/lib/instructions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/instructions.dir/instruction_metrics.c.o   -c /home/ubuntu/moose/aleth/evmc/lib/instructions/instruction_metrics.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object evmc/lib/instructions/CMakeFiles/instructions.dir/instruction_metrics.c.o"
+	cd /aleth/build/evmc/lib/instructions && /usr/bin/clang-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/instructions.dir/instruction_metrics.c.o   -c /aleth/evmc/lib/instructions/instruction_metrics.c
 
 evmc/lib/instructions/CMakeFiles/instructions.dir/instruction_metrics.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/instructions.dir/instruction_metrics.c.i"
-	cd /home/ubuntu/moose/aleth/build/evmc/lib/instructions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/moose/aleth/evmc/lib/instructions/instruction_metrics.c > CMakeFiles/instructions.dir/instruction_metrics.c.i
+	cd /aleth/build/evmc/lib/instructions && /usr/bin/clang-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /aleth/evmc/lib/instructions/instruction_metrics.c > CMakeFiles/instructions.dir/instruction_metrics.c.i
 
 evmc/lib/instructions/CMakeFiles/instructions.dir/instruction_metrics.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/instructions.dir/instruction_metrics.c.s"
-	cd /home/ubuntu/moose/aleth/build/evmc/lib/instructions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/moose/aleth/evmc/lib/instructions/instruction_metrics.c -o CMakeFiles/instructions.dir/instruction_metrics.c.s
+	cd /aleth/build/evmc/lib/instructions && /usr/bin/clang-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /aleth/evmc/lib/instructions/instruction_metrics.c -o CMakeFiles/instructions.dir/instruction_metrics.c.s
 
 evmc/lib/instructions/CMakeFiles/instructions.dir/instruction_metrics.c.o.requires:
 
@@ -83,16 +83,16 @@ evmc/lib/instructions/CMakeFiles/instructions.dir/instruction_metrics.c.o.provid
 
 evmc/lib/instructions/CMakeFiles/instructions.dir/instruction_names.c.o: evmc/lib/instructions/CMakeFiles/instructions.dir/flags.make
 evmc/lib/instructions/CMakeFiles/instructions.dir/instruction_names.c.o: ../evmc/lib/instructions/instruction_names.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object evmc/lib/instructions/CMakeFiles/instructions.dir/instruction_names.c.o"
-	cd /home/ubuntu/moose/aleth/build/evmc/lib/instructions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/instructions.dir/instruction_names.c.o   -c /home/ubuntu/moose/aleth/evmc/lib/instructions/instruction_names.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object evmc/lib/instructions/CMakeFiles/instructions.dir/instruction_names.c.o"
+	cd /aleth/build/evmc/lib/instructions && /usr/bin/clang-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/instructions.dir/instruction_names.c.o   -c /aleth/evmc/lib/instructions/instruction_names.c
 
 evmc/lib/instructions/CMakeFiles/instructions.dir/instruction_names.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/instructions.dir/instruction_names.c.i"
-	cd /home/ubuntu/moose/aleth/build/evmc/lib/instructions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/moose/aleth/evmc/lib/instructions/instruction_names.c > CMakeFiles/instructions.dir/instruction_names.c.i
+	cd /aleth/build/evmc/lib/instructions && /usr/bin/clang-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /aleth/evmc/lib/instructions/instruction_names.c > CMakeFiles/instructions.dir/instruction_names.c.i
 
 evmc/lib/instructions/CMakeFiles/instructions.dir/instruction_names.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/instructions.dir/instruction_names.c.s"
-	cd /home/ubuntu/moose/aleth/build/evmc/lib/instructions && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/moose/aleth/evmc/lib/instructions/instruction_names.c -o CMakeFiles/instructions.dir/instruction_names.c.s
+	cd /aleth/build/evmc/lib/instructions && /usr/bin/clang-7 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /aleth/evmc/lib/instructions/instruction_names.c -o CMakeFiles/instructions.dir/instruction_names.c.s
 
 evmc/lib/instructions/CMakeFiles/instructions.dir/instruction_names.c.o.requires:
 
@@ -117,9 +117,9 @@ evmc/lib/instructions/libevmc-instructions.a: evmc/lib/instructions/CMakeFiles/i
 evmc/lib/instructions/libevmc-instructions.a: evmc/lib/instructions/CMakeFiles/instructions.dir/instruction_names.c.o
 evmc/lib/instructions/libevmc-instructions.a: evmc/lib/instructions/CMakeFiles/instructions.dir/build.make
 evmc/lib/instructions/libevmc-instructions.a: evmc/lib/instructions/CMakeFiles/instructions.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libevmc-instructions.a"
-	cd /home/ubuntu/moose/aleth/build/evmc/lib/instructions && $(CMAKE_COMMAND) -P CMakeFiles/instructions.dir/cmake_clean_target.cmake
-	cd /home/ubuntu/moose/aleth/build/evmc/lib/instructions && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/instructions.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libevmc-instructions.a"
+	cd /aleth/build/evmc/lib/instructions && $(CMAKE_COMMAND) -P CMakeFiles/instructions.dir/cmake_clean_target.cmake
+	cd /aleth/build/evmc/lib/instructions && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/instructions.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 evmc/lib/instructions/CMakeFiles/instructions.dir/build: evmc/lib/instructions/libevmc-instructions.a
@@ -132,10 +132,10 @@ evmc/lib/instructions/CMakeFiles/instructions.dir/requires: evmc/lib/instruction
 .PHONY : evmc/lib/instructions/CMakeFiles/instructions.dir/requires
 
 evmc/lib/instructions/CMakeFiles/instructions.dir/clean:
-	cd /home/ubuntu/moose/aleth/build/evmc/lib/instructions && $(CMAKE_COMMAND) -P CMakeFiles/instructions.dir/cmake_clean.cmake
+	cd /aleth/build/evmc/lib/instructions && $(CMAKE_COMMAND) -P CMakeFiles/instructions.dir/cmake_clean.cmake
 .PHONY : evmc/lib/instructions/CMakeFiles/instructions.dir/clean
 
 evmc/lib/instructions/CMakeFiles/instructions.dir/depend:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth /home/ubuntu/moose/aleth/evmc/lib/instructions /home/ubuntu/moose/aleth/build /home/ubuntu/moose/aleth/build/evmc/lib/instructions /home/ubuntu/moose/aleth/build/evmc/lib/instructions/CMakeFiles/instructions.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth /aleth/evmc/lib/instructions /aleth/build /aleth/build/evmc/lib/instructions /aleth/build/evmc/lib/instructions/CMakeFiles/instructions.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : evmc/lib/instructions/CMakeFiles/instructions.dir/depend
 

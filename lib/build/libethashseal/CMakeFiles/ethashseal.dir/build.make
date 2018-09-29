@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth
+CMAKE_SOURCE_DIR = /aleth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build
+CMAKE_BINARY_DIR = /aleth/build
 
 # Include any dependencies generated for this target.
 include libethashseal/CMakeFiles/ethashseal.dir/depend.make
@@ -59,16 +59,16 @@ include libethashseal/CMakeFiles/ethashseal.dir/flags.make
 
 libethashseal/CMakeFiles/ethashseal.dir/Ethash.cpp.o: libethashseal/CMakeFiles/ethashseal.dir/flags.make
 libethashseal/CMakeFiles/ethashseal.dir/Ethash.cpp.o: ../libethashseal/Ethash.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libethashseal/CMakeFiles/ethashseal.dir/Ethash.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libethashseal && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethashseal.dir/Ethash.cpp.o -c /home/ubuntu/moose/aleth/libethashseal/Ethash.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libethashseal/CMakeFiles/ethashseal.dir/Ethash.cpp.o"
+	cd /aleth/build/libethashseal && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethashseal.dir/Ethash.cpp.o -c /aleth/libethashseal/Ethash.cpp
 
 libethashseal/CMakeFiles/ethashseal.dir/Ethash.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ethashseal.dir/Ethash.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libethashseal && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libethashseal/Ethash.cpp > CMakeFiles/ethashseal.dir/Ethash.cpp.i
+	cd /aleth/build/libethashseal && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libethashseal/Ethash.cpp > CMakeFiles/ethashseal.dir/Ethash.cpp.i
 
 libethashseal/CMakeFiles/ethashseal.dir/Ethash.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ethashseal.dir/Ethash.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libethashseal && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libethashseal/Ethash.cpp -o CMakeFiles/ethashseal.dir/Ethash.cpp.s
+	cd /aleth/build/libethashseal && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libethashseal/Ethash.cpp -o CMakeFiles/ethashseal.dir/Ethash.cpp.s
 
 libethashseal/CMakeFiles/ethashseal.dir/Ethash.cpp.o.requires:
 
@@ -83,16 +83,16 @@ libethashseal/CMakeFiles/ethashseal.dir/Ethash.cpp.o.provides.build: libethashse
 
 libethashseal/CMakeFiles/ethashseal.dir/EthashClient.cpp.o: libethashseal/CMakeFiles/ethashseal.dir/flags.make
 libethashseal/CMakeFiles/ethashseal.dir/EthashClient.cpp.o: ../libethashseal/EthashClient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libethashseal/CMakeFiles/ethashseal.dir/EthashClient.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libethashseal && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethashseal.dir/EthashClient.cpp.o -c /home/ubuntu/moose/aleth/libethashseal/EthashClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libethashseal/CMakeFiles/ethashseal.dir/EthashClient.cpp.o"
+	cd /aleth/build/libethashseal && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethashseal.dir/EthashClient.cpp.o -c /aleth/libethashseal/EthashClient.cpp
 
 libethashseal/CMakeFiles/ethashseal.dir/EthashClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ethashseal.dir/EthashClient.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libethashseal && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libethashseal/EthashClient.cpp > CMakeFiles/ethashseal.dir/EthashClient.cpp.i
+	cd /aleth/build/libethashseal && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libethashseal/EthashClient.cpp > CMakeFiles/ethashseal.dir/EthashClient.cpp.i
 
 libethashseal/CMakeFiles/ethashseal.dir/EthashClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ethashseal.dir/EthashClient.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libethashseal && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libethashseal/EthashClient.cpp -o CMakeFiles/ethashseal.dir/EthashClient.cpp.s
+	cd /aleth/build/libethashseal && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libethashseal/EthashClient.cpp -o CMakeFiles/ethashseal.dir/EthashClient.cpp.s
 
 libethashseal/CMakeFiles/ethashseal.dir/EthashClient.cpp.o.requires:
 
@@ -107,16 +107,16 @@ libethashseal/CMakeFiles/ethashseal.dir/EthashClient.cpp.o.provides.build: libet
 
 libethashseal/CMakeFiles/ethashseal.dir/EthashCPUMiner.cpp.o: libethashseal/CMakeFiles/ethashseal.dir/flags.make
 libethashseal/CMakeFiles/ethashseal.dir/EthashCPUMiner.cpp.o: ../libethashseal/EthashCPUMiner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libethashseal/CMakeFiles/ethashseal.dir/EthashCPUMiner.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libethashseal && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethashseal.dir/EthashCPUMiner.cpp.o -c /home/ubuntu/moose/aleth/libethashseal/EthashCPUMiner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libethashseal/CMakeFiles/ethashseal.dir/EthashCPUMiner.cpp.o"
+	cd /aleth/build/libethashseal && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethashseal.dir/EthashCPUMiner.cpp.o -c /aleth/libethashseal/EthashCPUMiner.cpp
 
 libethashseal/CMakeFiles/ethashseal.dir/EthashCPUMiner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ethashseal.dir/EthashCPUMiner.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libethashseal && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libethashseal/EthashCPUMiner.cpp > CMakeFiles/ethashseal.dir/EthashCPUMiner.cpp.i
+	cd /aleth/build/libethashseal && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libethashseal/EthashCPUMiner.cpp > CMakeFiles/ethashseal.dir/EthashCPUMiner.cpp.i
 
 libethashseal/CMakeFiles/ethashseal.dir/EthashCPUMiner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ethashseal.dir/EthashCPUMiner.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libethashseal && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libethashseal/EthashCPUMiner.cpp -o CMakeFiles/ethashseal.dir/EthashCPUMiner.cpp.s
+	cd /aleth/build/libethashseal && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libethashseal/EthashCPUMiner.cpp -o CMakeFiles/ethashseal.dir/EthashCPUMiner.cpp.s
 
 libethashseal/CMakeFiles/ethashseal.dir/EthashCPUMiner.cpp.o.requires:
 
@@ -131,16 +131,16 @@ libethashseal/CMakeFiles/ethashseal.dir/EthashCPUMiner.cpp.o.provides.build: lib
 
 libethashseal/CMakeFiles/ethashseal.dir/EthashProofOfWork.cpp.o: libethashseal/CMakeFiles/ethashseal.dir/flags.make
 libethashseal/CMakeFiles/ethashseal.dir/EthashProofOfWork.cpp.o: ../libethashseal/EthashProofOfWork.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libethashseal/CMakeFiles/ethashseal.dir/EthashProofOfWork.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libethashseal && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethashseal.dir/EthashProofOfWork.cpp.o -c /home/ubuntu/moose/aleth/libethashseal/EthashProofOfWork.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libethashseal/CMakeFiles/ethashseal.dir/EthashProofOfWork.cpp.o"
+	cd /aleth/build/libethashseal && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethashseal.dir/EthashProofOfWork.cpp.o -c /aleth/libethashseal/EthashProofOfWork.cpp
 
 libethashseal/CMakeFiles/ethashseal.dir/EthashProofOfWork.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ethashseal.dir/EthashProofOfWork.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libethashseal && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libethashseal/EthashProofOfWork.cpp > CMakeFiles/ethashseal.dir/EthashProofOfWork.cpp.i
+	cd /aleth/build/libethashseal && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libethashseal/EthashProofOfWork.cpp > CMakeFiles/ethashseal.dir/EthashProofOfWork.cpp.i
 
 libethashseal/CMakeFiles/ethashseal.dir/EthashProofOfWork.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ethashseal.dir/EthashProofOfWork.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libethashseal && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libethashseal/EthashProofOfWork.cpp -o CMakeFiles/ethashseal.dir/EthashProofOfWork.cpp.s
+	cd /aleth/build/libethashseal && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libethashseal/EthashProofOfWork.cpp -o CMakeFiles/ethashseal.dir/EthashProofOfWork.cpp.s
 
 libethashseal/CMakeFiles/ethashseal.dir/EthashProofOfWork.cpp.o.requires:
 
@@ -155,16 +155,16 @@ libethashseal/CMakeFiles/ethashseal.dir/EthashProofOfWork.cpp.o.provides.build: 
 
 libethashseal/CMakeFiles/ethashseal.dir/GenesisInfo.cpp.o: libethashseal/CMakeFiles/ethashseal.dir/flags.make
 libethashseal/CMakeFiles/ethashseal.dir/GenesisInfo.cpp.o: ../libethashseal/GenesisInfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libethashseal/CMakeFiles/ethashseal.dir/GenesisInfo.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libethashseal && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethashseal.dir/GenesisInfo.cpp.o -c /home/ubuntu/moose/aleth/libethashseal/GenesisInfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libethashseal/CMakeFiles/ethashseal.dir/GenesisInfo.cpp.o"
+	cd /aleth/build/libethashseal && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ethashseal.dir/GenesisInfo.cpp.o -c /aleth/libethashseal/GenesisInfo.cpp
 
 libethashseal/CMakeFiles/ethashseal.dir/GenesisInfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ethashseal.dir/GenesisInfo.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libethashseal && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libethashseal/GenesisInfo.cpp > CMakeFiles/ethashseal.dir/GenesisInfo.cpp.i
+	cd /aleth/build/libethashseal && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libethashseal/GenesisInfo.cpp > CMakeFiles/ethashseal.dir/GenesisInfo.cpp.i
 
 libethashseal/CMakeFiles/ethashseal.dir/GenesisInfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ethashseal.dir/GenesisInfo.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libethashseal && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libethashseal/GenesisInfo.cpp -o CMakeFiles/ethashseal.dir/GenesisInfo.cpp.s
+	cd /aleth/build/libethashseal && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libethashseal/GenesisInfo.cpp -o CMakeFiles/ethashseal.dir/GenesisInfo.cpp.s
 
 libethashseal/CMakeFiles/ethashseal.dir/GenesisInfo.cpp.o.requires:
 
@@ -195,9 +195,9 @@ libethashseal/libethashseal.a: libethashseal/CMakeFiles/ethashseal.dir/EthashPro
 libethashseal/libethashseal.a: libethashseal/CMakeFiles/ethashseal.dir/GenesisInfo.cpp.o
 libethashseal/libethashseal.a: libethashseal/CMakeFiles/ethashseal.dir/build.make
 libethashseal/libethashseal.a: libethashseal/CMakeFiles/ethashseal.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libethashseal.a"
-	cd /home/ubuntu/moose/aleth/build/libethashseal && $(CMAKE_COMMAND) -P CMakeFiles/ethashseal.dir/cmake_clean_target.cmake
-	cd /home/ubuntu/moose/aleth/build/libethashseal && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ethashseal.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libethashseal.a"
+	cd /aleth/build/libethashseal && $(CMAKE_COMMAND) -P CMakeFiles/ethashseal.dir/cmake_clean_target.cmake
+	cd /aleth/build/libethashseal && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ethashseal.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libethashseal/CMakeFiles/ethashseal.dir/build: libethashseal/libethashseal.a
@@ -213,10 +213,10 @@ libethashseal/CMakeFiles/ethashseal.dir/requires: libethashseal/CMakeFiles/ethas
 .PHONY : libethashseal/CMakeFiles/ethashseal.dir/requires
 
 libethashseal/CMakeFiles/ethashseal.dir/clean:
-	cd /home/ubuntu/moose/aleth/build/libethashseal && $(CMAKE_COMMAND) -P CMakeFiles/ethashseal.dir/cmake_clean.cmake
+	cd /aleth/build/libethashseal && $(CMAKE_COMMAND) -P CMakeFiles/ethashseal.dir/cmake_clean.cmake
 .PHONY : libethashseal/CMakeFiles/ethashseal.dir/clean
 
 libethashseal/CMakeFiles/ethashseal.dir/depend:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth /home/ubuntu/moose/aleth/libethashseal /home/ubuntu/moose/aleth/build /home/ubuntu/moose/aleth/build/libethashseal /home/ubuntu/moose/aleth/build/libethashseal/CMakeFiles/ethashseal.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth /aleth/libethashseal /aleth/build /aleth/build/libethashseal /aleth/build/libethashseal/CMakeFiles/ethashseal.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libethashseal/CMakeFiles/ethashseal.dir/depend
 

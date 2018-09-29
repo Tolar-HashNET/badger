@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth
+CMAKE_SOURCE_DIR = /aleth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build
+CMAKE_BINARY_DIR = /aleth/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -93,7 +93,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/ubuntu/moose/aleth/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /aleth/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -104,7 +104,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/ubuntu/moose/aleth/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/ubuntu/moose/aleth/build/CPackSourceConfig.cmake
+	cd /aleth/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /aleth/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -159,14 +159,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles /home/ubuntu/moose/aleth/build/libethashseal/CMakeFiles/progress.marks
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libethashseal/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	cd /aleth/build && $(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles /aleth/build/libethashseal/CMakeFiles/progress.marks
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libethashseal/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libethashseal/clean
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libethashseal/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libethashseal/preinstall
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libethashseal/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libethashseal/preinstall
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libethashseal/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libethashseal/CMakeFiles/ethashseal.dir/rule:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libethashseal/CMakeFiles/ethashseal.dir/rule
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libethashseal/CMakeFiles/ethashseal.dir/rule
 .PHONY : libethashseal/CMakeFiles/ethashseal.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ ethashseal: libethashseal/CMakeFiles/ethashseal.dir/rule
 
 # fast build rule for target.
 ethashseal/fast:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/build
+	cd /aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/build
 .PHONY : ethashseal/fast
 
 Ethash.o: Ethash.cpp.o
@@ -210,7 +210,7 @@ Ethash.o: Ethash.cpp.o
 
 # target to build an object file
 Ethash.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/Ethash.cpp.o
+	cd /aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/Ethash.cpp.o
 .PHONY : Ethash.cpp.o
 
 Ethash.i: Ethash.cpp.i
@@ -219,7 +219,7 @@ Ethash.i: Ethash.cpp.i
 
 # target to preprocess a source file
 Ethash.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/Ethash.cpp.i
+	cd /aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/Ethash.cpp.i
 .PHONY : Ethash.cpp.i
 
 Ethash.s: Ethash.cpp.s
@@ -228,7 +228,7 @@ Ethash.s: Ethash.cpp.s
 
 # target to generate assembly for a file
 Ethash.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/Ethash.cpp.s
+	cd /aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/Ethash.cpp.s
 .PHONY : Ethash.cpp.s
 
 EthashCPUMiner.o: EthashCPUMiner.cpp.o
@@ -237,7 +237,7 @@ EthashCPUMiner.o: EthashCPUMiner.cpp.o
 
 # target to build an object file
 EthashCPUMiner.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/EthashCPUMiner.cpp.o
+	cd /aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/EthashCPUMiner.cpp.o
 .PHONY : EthashCPUMiner.cpp.o
 
 EthashCPUMiner.i: EthashCPUMiner.cpp.i
@@ -246,7 +246,7 @@ EthashCPUMiner.i: EthashCPUMiner.cpp.i
 
 # target to preprocess a source file
 EthashCPUMiner.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/EthashCPUMiner.cpp.i
+	cd /aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/EthashCPUMiner.cpp.i
 .PHONY : EthashCPUMiner.cpp.i
 
 EthashCPUMiner.s: EthashCPUMiner.cpp.s
@@ -255,7 +255,7 @@ EthashCPUMiner.s: EthashCPUMiner.cpp.s
 
 # target to generate assembly for a file
 EthashCPUMiner.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/EthashCPUMiner.cpp.s
+	cd /aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/EthashCPUMiner.cpp.s
 .PHONY : EthashCPUMiner.cpp.s
 
 EthashClient.o: EthashClient.cpp.o
@@ -264,7 +264,7 @@ EthashClient.o: EthashClient.cpp.o
 
 # target to build an object file
 EthashClient.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/EthashClient.cpp.o
+	cd /aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/EthashClient.cpp.o
 .PHONY : EthashClient.cpp.o
 
 EthashClient.i: EthashClient.cpp.i
@@ -273,7 +273,7 @@ EthashClient.i: EthashClient.cpp.i
 
 # target to preprocess a source file
 EthashClient.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/EthashClient.cpp.i
+	cd /aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/EthashClient.cpp.i
 .PHONY : EthashClient.cpp.i
 
 EthashClient.s: EthashClient.cpp.s
@@ -282,7 +282,7 @@ EthashClient.s: EthashClient.cpp.s
 
 # target to generate assembly for a file
 EthashClient.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/EthashClient.cpp.s
+	cd /aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/EthashClient.cpp.s
 .PHONY : EthashClient.cpp.s
 
 EthashProofOfWork.o: EthashProofOfWork.cpp.o
@@ -291,7 +291,7 @@ EthashProofOfWork.o: EthashProofOfWork.cpp.o
 
 # target to build an object file
 EthashProofOfWork.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/EthashProofOfWork.cpp.o
+	cd /aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/EthashProofOfWork.cpp.o
 .PHONY : EthashProofOfWork.cpp.o
 
 EthashProofOfWork.i: EthashProofOfWork.cpp.i
@@ -300,7 +300,7 @@ EthashProofOfWork.i: EthashProofOfWork.cpp.i
 
 # target to preprocess a source file
 EthashProofOfWork.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/EthashProofOfWork.cpp.i
+	cd /aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/EthashProofOfWork.cpp.i
 .PHONY : EthashProofOfWork.cpp.i
 
 EthashProofOfWork.s: EthashProofOfWork.cpp.s
@@ -309,7 +309,7 @@ EthashProofOfWork.s: EthashProofOfWork.cpp.s
 
 # target to generate assembly for a file
 EthashProofOfWork.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/EthashProofOfWork.cpp.s
+	cd /aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/EthashProofOfWork.cpp.s
 .PHONY : EthashProofOfWork.cpp.s
 
 GenesisInfo.o: GenesisInfo.cpp.o
@@ -318,7 +318,7 @@ GenesisInfo.o: GenesisInfo.cpp.o
 
 # target to build an object file
 GenesisInfo.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/GenesisInfo.cpp.o
+	cd /aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/GenesisInfo.cpp.o
 .PHONY : GenesisInfo.cpp.o
 
 GenesisInfo.i: GenesisInfo.cpp.i
@@ -327,7 +327,7 @@ GenesisInfo.i: GenesisInfo.cpp.i
 
 # target to preprocess a source file
 GenesisInfo.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/GenesisInfo.cpp.i
+	cd /aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/GenesisInfo.cpp.i
 .PHONY : GenesisInfo.cpp.i
 
 GenesisInfo.s: GenesisInfo.cpp.s
@@ -336,7 +336,7 @@ GenesisInfo.s: GenesisInfo.cpp.s
 
 # target to generate assembly for a file
 GenesisInfo.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/GenesisInfo.cpp.s
+	cd /aleth/build && $(MAKE) -f libethashseal/CMakeFiles/ethashseal.dir/build.make libethashseal/CMakeFiles/ethashseal.dir/GenesisInfo.cpp.s
 .PHONY : GenesisInfo.cpp.s
 
 # Help Target
@@ -381,6 +381,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

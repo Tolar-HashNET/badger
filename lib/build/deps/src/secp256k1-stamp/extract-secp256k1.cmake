@@ -1,7 +1,7 @@
 # Make file names absolute:
 #
-get_filename_component(filename "/home/ubuntu/moose/aleth/build/deps/src/secp256k1-ac8ccf29.tar.gz" ABSOLUTE)
-get_filename_component(directory "/home/ubuntu/moose/aleth/build/deps/src/secp256k1" ABSOLUTE)
+get_filename_component(filename "/aleth/build/deps/src/secp256k1-ac8ccf29.tar.gz" ABSOLUTE)
+get_filename_component(directory "/aleth/build/deps/src/secp256k1" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

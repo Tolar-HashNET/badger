@@ -1,7 +1,7 @@
 # Make file names absolute:
 #
-get_filename_component(filename "/home/ubuntu/moose/aleth/build/deps/src/libff-03b719a7.tar.gz" ABSOLUTE)
-get_filename_component(directory "/home/ubuntu/moose/aleth/build/deps/src/libff" ABSOLUTE)
+get_filename_component(filename "/aleth/build/deps/src/libff-03b719a7.tar.gz" ABSOLUTE)
+get_filename_component(directory "/aleth/build/deps/src/libff" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

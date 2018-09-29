@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/moose/aleth
+# Install script for directory: /aleth
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,27 +38,27 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aleth" TYPE FILE FILES "/home/ubuntu/moose/aleth/build/aleth/buildinfo.json")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aleth" TYPE FILE FILES "/aleth/build/aleth/buildinfo.json")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ubuntu/moose/aleth/build/evmc/cmake_install.cmake")
-  include("/home/ubuntu/moose/aleth/build/libaleth-interpreter/cmake_install.cmake")
-  include("/home/ubuntu/moose/aleth/build/libdevcore/cmake_install.cmake")
-  include("/home/ubuntu/moose/aleth/build/libdevcrypto/cmake_install.cmake")
-  include("/home/ubuntu/moose/aleth/build/libp2p/cmake_install.cmake")
-  include("/home/ubuntu/moose/aleth/build/libethcore/cmake_install.cmake")
-  include("/home/ubuntu/moose/aleth/build/libevm/cmake_install.cmake")
-  include("/home/ubuntu/moose/aleth/build/libethereum/cmake_install.cmake")
-  include("/home/ubuntu/moose/aleth/build/libethashseal/cmake_install.cmake")
-  include("/home/ubuntu/moose/aleth/build/libwebthree/cmake_install.cmake")
-  include("/home/ubuntu/moose/aleth/build/libweb3jsonrpc/cmake_install.cmake")
-  include("/home/ubuntu/moose/aleth/build/aleth/cmake_install.cmake")
-  include("/home/ubuntu/moose/aleth/build/aleth-key/cmake_install.cmake")
-  include("/home/ubuntu/moose/aleth/build/aleth-vm/cmake_install.cmake")
-  include("/home/ubuntu/moose/aleth/build/rlp/cmake_install.cmake")
-  include("/home/ubuntu/moose/aleth/build/test/cmake_install.cmake")
+  include("/aleth/build/evmc/cmake_install.cmake")
+  include("/aleth/build/libaleth-interpreter/cmake_install.cmake")
+  include("/aleth/build/libdevcore/cmake_install.cmake")
+  include("/aleth/build/libdevcrypto/cmake_install.cmake")
+  include("/aleth/build/libp2p/cmake_install.cmake")
+  include("/aleth/build/libethcore/cmake_install.cmake")
+  include("/aleth/build/libevm/cmake_install.cmake")
+  include("/aleth/build/libethereum/cmake_install.cmake")
+  include("/aleth/build/libethashseal/cmake_install.cmake")
+  include("/aleth/build/libwebthree/cmake_install.cmake")
+  include("/aleth/build/libweb3jsonrpc/cmake_install.cmake")
+  include("/aleth/build/aleth/cmake_install.cmake")
+  include("/aleth/build/aleth-key/cmake_install.cmake")
+  include("/aleth/build/aleth-vm/cmake_install.cmake")
+  include("/aleth/build/rlp/cmake_install.cmake")
+  include("/aleth/build/test/cmake_install.cmake")
 
 endif()
 
@@ -70,5 +70,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ubuntu/moose/aleth/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/aleth/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

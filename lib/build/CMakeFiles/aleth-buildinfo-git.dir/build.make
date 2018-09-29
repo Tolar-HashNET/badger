@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth
+CMAKE_SOURCE_DIR = /aleth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build
+CMAKE_BINARY_DIR = /aleth/build
 
 # Utility rule file for aleth-buildinfo-git.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build
 include CMakeFiles/aleth-buildinfo-git.dir/progress.make
 
 CMakeFiles/aleth-buildinfo-git:
-	/usr/bin/cmake -DGIT=/usr/bin/git -DSOURCE_DIR=/home/ubuntu/moose/aleth -DOUTPUT_DIR=/home/ubuntu/moose/aleth/build/aleth -P /home/ubuntu/moose/aleth/cmake/cable/buildinfo/gitinfo.cmake
+	/usr/bin/cmake -DGIT=/usr/bin/git -DSOURCE_DIR=/aleth -DOUTPUT_DIR=/aleth/build/aleth -P /aleth/cmake/cable/buildinfo/gitinfo.cmake
 
 aleth-buildinfo-git: CMakeFiles/aleth-buildinfo-git
 aleth-buildinfo-git: CMakeFiles/aleth-buildinfo-git.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/aleth-buildinfo-git.dir/clean:
 .PHONY : CMakeFiles/aleth-buildinfo-git.dir/clean
 
 CMakeFiles/aleth-buildinfo-git.dir/depend:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth /home/ubuntu/moose/aleth /home/ubuntu/moose/aleth/build /home/ubuntu/moose/aleth/build /home/ubuntu/moose/aleth/build/CMakeFiles/aleth-buildinfo-git.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth /aleth /aleth/build /aleth/build /aleth/build/CMakeFiles/aleth-buildinfo-git.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/aleth-buildinfo-git.dir/depend
 

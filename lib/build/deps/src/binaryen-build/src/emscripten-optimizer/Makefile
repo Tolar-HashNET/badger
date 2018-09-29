@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen
+CMAKE_SOURCE_DIR = /aleth/build/deps/src/binaryen
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build/deps/src/binaryen-build
+CMAKE_BINARY_DIR = /aleth/build/deps/src/binaryen-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/src/emscripten-optimizer/CMakeFiles/progress.marks
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/emscripten-optimizer/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/deps/src/binaryen-build/CMakeFiles 0
+	cd /aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles /aleth/build/deps/src/binaryen-build/src/emscripten-optimizer/CMakeFiles/progress.marks
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/emscripten-optimizer/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/deps/src/binaryen-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/emscripten-optimizer/clean
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/emscripten-optimizer/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/emscripten-optimizer/preinstall
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/emscripten-optimizer/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/emscripten-optimizer/preinstall
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/emscripten-optimizer/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/rule:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/rule
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f CMakeFiles/Makefile2 src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/rule
 .PHONY : src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ emscripten-optimizer: src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.d
 
 # fast build rule for target.
 emscripten-optimizer/fast:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/build.make src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/build
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/build.make src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/build
 .PHONY : emscripten-optimizer/fast
 
 optimizer-shared.o: optimizer-shared.cpp.o
@@ -177,7 +177,7 @@ optimizer-shared.o: optimizer-shared.cpp.o
 
 # target to build an object file
 optimizer-shared.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/build.make src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/optimizer-shared.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/build.make src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/optimizer-shared.cpp.o
 .PHONY : optimizer-shared.cpp.o
 
 optimizer-shared.i: optimizer-shared.cpp.i
@@ -186,7 +186,7 @@ optimizer-shared.i: optimizer-shared.cpp.i
 
 # target to preprocess a source file
 optimizer-shared.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/build.make src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/optimizer-shared.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/build.make src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/optimizer-shared.cpp.i
 .PHONY : optimizer-shared.cpp.i
 
 optimizer-shared.s: optimizer-shared.cpp.s
@@ -195,7 +195,7 @@ optimizer-shared.s: optimizer-shared.cpp.s
 
 # target to generate assembly for a file
 optimizer-shared.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/build.make src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/optimizer-shared.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/build.make src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/optimizer-shared.cpp.s
 .PHONY : optimizer-shared.cpp.s
 
 parser.o: parser.cpp.o
@@ -204,7 +204,7 @@ parser.o: parser.cpp.o
 
 # target to build an object file
 parser.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/build.make src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/parser.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/build.make src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/parser.cpp.o
 .PHONY : parser.cpp.o
 
 parser.i: parser.cpp.i
@@ -213,7 +213,7 @@ parser.i: parser.cpp.i
 
 # target to preprocess a source file
 parser.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/build.make src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/parser.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/build.make src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/parser.cpp.i
 .PHONY : parser.cpp.i
 
 parser.s: parser.cpp.s
@@ -222,7 +222,7 @@ parser.s: parser.cpp.s
 
 # target to generate assembly for a file
 parser.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/build.make src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/parser.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/build.make src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/parser.cpp.s
 .PHONY : parser.cpp.s
 
 simple_ast.o: simple_ast.cpp.o
@@ -231,7 +231,7 @@ simple_ast.o: simple_ast.cpp.o
 
 # target to build an object file
 simple_ast.cpp.o:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/build.make src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/simple_ast.cpp.o
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/build.make src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/simple_ast.cpp.o
 .PHONY : simple_ast.cpp.o
 
 simple_ast.i: simple_ast.cpp.i
@@ -240,7 +240,7 @@ simple_ast.i: simple_ast.cpp.i
 
 # target to preprocess a source file
 simple_ast.cpp.i:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/build.make src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/simple_ast.cpp.i
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/build.make src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/simple_ast.cpp.i
 .PHONY : simple_ast.cpp.i
 
 simple_ast.s: simple_ast.cpp.s
@@ -249,7 +249,7 @@ simple_ast.s: simple_ast.cpp.s
 
 # target to generate assembly for a file
 simple_ast.cpp.s:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(MAKE) -f src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/build.make src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/simple_ast.cpp.s
+	cd /aleth/build/deps/src/binaryen-build && $(MAKE) -f src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/build.make src/emscripten-optimizer/CMakeFiles/emscripten-optimizer.dir/simple_ast.cpp.s
 .PHONY : simple_ast.cpp.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/moose/aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /aleth/build/deps/src/binaryen-build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

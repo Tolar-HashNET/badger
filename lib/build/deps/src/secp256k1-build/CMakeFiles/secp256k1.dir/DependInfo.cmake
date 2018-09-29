@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ubuntu/moose/aleth/build/deps/src/secp256k1/src/secp256k1.c" "/home/ubuntu/moose/aleth/build/deps/src/secp256k1-build/CMakeFiles/secp256k1.dir/src/secp256k1.c.o"
+  "/aleth/build/deps/src/secp256k1/src/secp256k1.c" "/aleth/build/deps/src/secp256k1-build/CMakeFiles/secp256k1.dir/src/secp256k1.c.o"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "Clang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_C
@@ -24,8 +24,8 @@ set(CMAKE_TARGET_DEFINITIONS_C
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/ubuntu/moose/aleth/build/deps/src/secp256k1"
-  "/home/ubuntu/moose/aleth/build/deps/src/secp256k1/src"
+  "/aleth/build/deps/src/secp256k1"
+  "/aleth/build/deps/src/secp256k1/src"
   )
 
 # Targets to which this target links.

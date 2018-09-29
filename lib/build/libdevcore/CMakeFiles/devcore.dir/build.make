@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth
+CMAKE_SOURCE_DIR = /aleth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build
+CMAKE_BINARY_DIR = /aleth/build
 
 # Include any dependencies generated for this target.
 include libdevcore/CMakeFiles/devcore.dir/depend.make
@@ -59,16 +59,16 @@ include libdevcore/CMakeFiles/devcore.dir/flags.make
 
 libdevcore/CMakeFiles/devcore.dir/Address.cpp.o: libdevcore/CMakeFiles/devcore.dir/flags.make
 libdevcore/CMakeFiles/devcore.dir/Address.cpp.o: ../libdevcore/Address.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libdevcore/CMakeFiles/devcore.dir/Address.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/Address.cpp.o -c /home/ubuntu/moose/aleth/libdevcore/Address.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object libdevcore/CMakeFiles/devcore.dir/Address.cpp.o"
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/Address.cpp.o -c /aleth/libdevcore/Address.cpp
 
 libdevcore/CMakeFiles/devcore.dir/Address.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/devcore.dir/Address.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libdevcore/Address.cpp > CMakeFiles/devcore.dir/Address.cpp.i
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libdevcore/Address.cpp > CMakeFiles/devcore.dir/Address.cpp.i
 
 libdevcore/CMakeFiles/devcore.dir/Address.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/devcore.dir/Address.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libdevcore/Address.cpp -o CMakeFiles/devcore.dir/Address.cpp.s
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libdevcore/Address.cpp -o CMakeFiles/devcore.dir/Address.cpp.s
 
 libdevcore/CMakeFiles/devcore.dir/Address.cpp.o.requires:
 
@@ -83,16 +83,16 @@ libdevcore/CMakeFiles/devcore.dir/Address.cpp.o.provides.build: libdevcore/CMake
 
 libdevcore/CMakeFiles/devcore.dir/Base64.cpp.o: libdevcore/CMakeFiles/devcore.dir/flags.make
 libdevcore/CMakeFiles/devcore.dir/Base64.cpp.o: ../libdevcore/Base64.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libdevcore/CMakeFiles/devcore.dir/Base64.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/Base64.cpp.o -c /home/ubuntu/moose/aleth/libdevcore/Base64.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object libdevcore/CMakeFiles/devcore.dir/Base64.cpp.o"
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/Base64.cpp.o -c /aleth/libdevcore/Base64.cpp
 
 libdevcore/CMakeFiles/devcore.dir/Base64.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/devcore.dir/Base64.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libdevcore/Base64.cpp > CMakeFiles/devcore.dir/Base64.cpp.i
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libdevcore/Base64.cpp > CMakeFiles/devcore.dir/Base64.cpp.i
 
 libdevcore/CMakeFiles/devcore.dir/Base64.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/devcore.dir/Base64.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libdevcore/Base64.cpp -o CMakeFiles/devcore.dir/Base64.cpp.s
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libdevcore/Base64.cpp -o CMakeFiles/devcore.dir/Base64.cpp.s
 
 libdevcore/CMakeFiles/devcore.dir/Base64.cpp.o.requires:
 
@@ -107,16 +107,16 @@ libdevcore/CMakeFiles/devcore.dir/Base64.cpp.o.provides.build: libdevcore/CMakeF
 
 libdevcore/CMakeFiles/devcore.dir/Common.cpp.o: libdevcore/CMakeFiles/devcore.dir/flags.make
 libdevcore/CMakeFiles/devcore.dir/Common.cpp.o: ../libdevcore/Common.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libdevcore/CMakeFiles/devcore.dir/Common.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/Common.cpp.o -c /home/ubuntu/moose/aleth/libdevcore/Common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object libdevcore/CMakeFiles/devcore.dir/Common.cpp.o"
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/Common.cpp.o -c /aleth/libdevcore/Common.cpp
 
 libdevcore/CMakeFiles/devcore.dir/Common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/devcore.dir/Common.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libdevcore/Common.cpp > CMakeFiles/devcore.dir/Common.cpp.i
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libdevcore/Common.cpp > CMakeFiles/devcore.dir/Common.cpp.i
 
 libdevcore/CMakeFiles/devcore.dir/Common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/devcore.dir/Common.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libdevcore/Common.cpp -o CMakeFiles/devcore.dir/Common.cpp.s
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libdevcore/Common.cpp -o CMakeFiles/devcore.dir/Common.cpp.s
 
 libdevcore/CMakeFiles/devcore.dir/Common.cpp.o.requires:
 
@@ -131,16 +131,16 @@ libdevcore/CMakeFiles/devcore.dir/Common.cpp.o.provides.build: libdevcore/CMakeF
 
 libdevcore/CMakeFiles/devcore.dir/CommonData.cpp.o: libdevcore/CMakeFiles/devcore.dir/flags.make
 libdevcore/CMakeFiles/devcore.dir/CommonData.cpp.o: ../libdevcore/CommonData.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libdevcore/CMakeFiles/devcore.dir/CommonData.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/CommonData.cpp.o -c /home/ubuntu/moose/aleth/libdevcore/CommonData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object libdevcore/CMakeFiles/devcore.dir/CommonData.cpp.o"
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/CommonData.cpp.o -c /aleth/libdevcore/CommonData.cpp
 
 libdevcore/CMakeFiles/devcore.dir/CommonData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/devcore.dir/CommonData.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libdevcore/CommonData.cpp > CMakeFiles/devcore.dir/CommonData.cpp.i
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libdevcore/CommonData.cpp > CMakeFiles/devcore.dir/CommonData.cpp.i
 
 libdevcore/CMakeFiles/devcore.dir/CommonData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/devcore.dir/CommonData.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libdevcore/CommonData.cpp -o CMakeFiles/devcore.dir/CommonData.cpp.s
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libdevcore/CommonData.cpp -o CMakeFiles/devcore.dir/CommonData.cpp.s
 
 libdevcore/CMakeFiles/devcore.dir/CommonData.cpp.o.requires:
 
@@ -155,16 +155,16 @@ libdevcore/CMakeFiles/devcore.dir/CommonData.cpp.o.provides.build: libdevcore/CM
 
 libdevcore/CMakeFiles/devcore.dir/CommonIO.cpp.o: libdevcore/CMakeFiles/devcore.dir/flags.make
 libdevcore/CMakeFiles/devcore.dir/CommonIO.cpp.o: ../libdevcore/CommonIO.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libdevcore/CMakeFiles/devcore.dir/CommonIO.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/CommonIO.cpp.o -c /home/ubuntu/moose/aleth/libdevcore/CommonIO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object libdevcore/CMakeFiles/devcore.dir/CommonIO.cpp.o"
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/CommonIO.cpp.o -c /aleth/libdevcore/CommonIO.cpp
 
 libdevcore/CMakeFiles/devcore.dir/CommonIO.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/devcore.dir/CommonIO.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libdevcore/CommonIO.cpp > CMakeFiles/devcore.dir/CommonIO.cpp.i
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libdevcore/CommonIO.cpp > CMakeFiles/devcore.dir/CommonIO.cpp.i
 
 libdevcore/CMakeFiles/devcore.dir/CommonIO.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/devcore.dir/CommonIO.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libdevcore/CommonIO.cpp -o CMakeFiles/devcore.dir/CommonIO.cpp.s
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libdevcore/CommonIO.cpp -o CMakeFiles/devcore.dir/CommonIO.cpp.s
 
 libdevcore/CMakeFiles/devcore.dir/CommonIO.cpp.o.requires:
 
@@ -179,16 +179,16 @@ libdevcore/CMakeFiles/devcore.dir/CommonIO.cpp.o.provides.build: libdevcore/CMak
 
 libdevcore/CMakeFiles/devcore.dir/CommonJS.cpp.o: libdevcore/CMakeFiles/devcore.dir/flags.make
 libdevcore/CMakeFiles/devcore.dir/CommonJS.cpp.o: ../libdevcore/CommonJS.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libdevcore/CMakeFiles/devcore.dir/CommonJS.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/CommonJS.cpp.o -c /home/ubuntu/moose/aleth/libdevcore/CommonJS.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object libdevcore/CMakeFiles/devcore.dir/CommonJS.cpp.o"
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/CommonJS.cpp.o -c /aleth/libdevcore/CommonJS.cpp
 
 libdevcore/CMakeFiles/devcore.dir/CommonJS.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/devcore.dir/CommonJS.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libdevcore/CommonJS.cpp > CMakeFiles/devcore.dir/CommonJS.cpp.i
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libdevcore/CommonJS.cpp > CMakeFiles/devcore.dir/CommonJS.cpp.i
 
 libdevcore/CMakeFiles/devcore.dir/CommonJS.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/devcore.dir/CommonJS.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libdevcore/CommonJS.cpp -o CMakeFiles/devcore.dir/CommonJS.cpp.s
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libdevcore/CommonJS.cpp -o CMakeFiles/devcore.dir/CommonJS.cpp.s
 
 libdevcore/CMakeFiles/devcore.dir/CommonJS.cpp.o.requires:
 
@@ -203,16 +203,16 @@ libdevcore/CMakeFiles/devcore.dir/CommonJS.cpp.o.provides.build: libdevcore/CMak
 
 libdevcore/CMakeFiles/devcore.dir/FileSystem.cpp.o: libdevcore/CMakeFiles/devcore.dir/flags.make
 libdevcore/CMakeFiles/devcore.dir/FileSystem.cpp.o: ../libdevcore/FileSystem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object libdevcore/CMakeFiles/devcore.dir/FileSystem.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/FileSystem.cpp.o -c /home/ubuntu/moose/aleth/libdevcore/FileSystem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object libdevcore/CMakeFiles/devcore.dir/FileSystem.cpp.o"
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/FileSystem.cpp.o -c /aleth/libdevcore/FileSystem.cpp
 
 libdevcore/CMakeFiles/devcore.dir/FileSystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/devcore.dir/FileSystem.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libdevcore/FileSystem.cpp > CMakeFiles/devcore.dir/FileSystem.cpp.i
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libdevcore/FileSystem.cpp > CMakeFiles/devcore.dir/FileSystem.cpp.i
 
 libdevcore/CMakeFiles/devcore.dir/FileSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/devcore.dir/FileSystem.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libdevcore/FileSystem.cpp -o CMakeFiles/devcore.dir/FileSystem.cpp.s
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libdevcore/FileSystem.cpp -o CMakeFiles/devcore.dir/FileSystem.cpp.s
 
 libdevcore/CMakeFiles/devcore.dir/FileSystem.cpp.o.requires:
 
@@ -227,16 +227,16 @@ libdevcore/CMakeFiles/devcore.dir/FileSystem.cpp.o.provides.build: libdevcore/CM
 
 libdevcore/CMakeFiles/devcore.dir/FixedHash.cpp.o: libdevcore/CMakeFiles/devcore.dir/flags.make
 libdevcore/CMakeFiles/devcore.dir/FixedHash.cpp.o: ../libdevcore/FixedHash.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object libdevcore/CMakeFiles/devcore.dir/FixedHash.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/FixedHash.cpp.o -c /home/ubuntu/moose/aleth/libdevcore/FixedHash.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object libdevcore/CMakeFiles/devcore.dir/FixedHash.cpp.o"
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/FixedHash.cpp.o -c /aleth/libdevcore/FixedHash.cpp
 
 libdevcore/CMakeFiles/devcore.dir/FixedHash.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/devcore.dir/FixedHash.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libdevcore/FixedHash.cpp > CMakeFiles/devcore.dir/FixedHash.cpp.i
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libdevcore/FixedHash.cpp > CMakeFiles/devcore.dir/FixedHash.cpp.i
 
 libdevcore/CMakeFiles/devcore.dir/FixedHash.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/devcore.dir/FixedHash.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libdevcore/FixedHash.cpp -o CMakeFiles/devcore.dir/FixedHash.cpp.s
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libdevcore/FixedHash.cpp -o CMakeFiles/devcore.dir/FixedHash.cpp.s
 
 libdevcore/CMakeFiles/devcore.dir/FixedHash.cpp.o.requires:
 
@@ -251,16 +251,16 @@ libdevcore/CMakeFiles/devcore.dir/FixedHash.cpp.o.provides.build: libdevcore/CMa
 
 libdevcore/CMakeFiles/devcore.dir/Guards.cpp.o: libdevcore/CMakeFiles/devcore.dir/flags.make
 libdevcore/CMakeFiles/devcore.dir/Guards.cpp.o: ../libdevcore/Guards.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object libdevcore/CMakeFiles/devcore.dir/Guards.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/Guards.cpp.o -c /home/ubuntu/moose/aleth/libdevcore/Guards.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object libdevcore/CMakeFiles/devcore.dir/Guards.cpp.o"
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/Guards.cpp.o -c /aleth/libdevcore/Guards.cpp
 
 libdevcore/CMakeFiles/devcore.dir/Guards.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/devcore.dir/Guards.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libdevcore/Guards.cpp > CMakeFiles/devcore.dir/Guards.cpp.i
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libdevcore/Guards.cpp > CMakeFiles/devcore.dir/Guards.cpp.i
 
 libdevcore/CMakeFiles/devcore.dir/Guards.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/devcore.dir/Guards.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libdevcore/Guards.cpp -o CMakeFiles/devcore.dir/Guards.cpp.s
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libdevcore/Guards.cpp -o CMakeFiles/devcore.dir/Guards.cpp.s
 
 libdevcore/CMakeFiles/devcore.dir/Guards.cpp.o.requires:
 
@@ -275,16 +275,16 @@ libdevcore/CMakeFiles/devcore.dir/Guards.cpp.o.provides.build: libdevcore/CMakeF
 
 libdevcore/CMakeFiles/devcore.dir/JsonUtils.cpp.o: libdevcore/CMakeFiles/devcore.dir/flags.make
 libdevcore/CMakeFiles/devcore.dir/JsonUtils.cpp.o: ../libdevcore/JsonUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object libdevcore/CMakeFiles/devcore.dir/JsonUtils.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/JsonUtils.cpp.o -c /home/ubuntu/moose/aleth/libdevcore/JsonUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object libdevcore/CMakeFiles/devcore.dir/JsonUtils.cpp.o"
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/JsonUtils.cpp.o -c /aleth/libdevcore/JsonUtils.cpp
 
 libdevcore/CMakeFiles/devcore.dir/JsonUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/devcore.dir/JsonUtils.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libdevcore/JsonUtils.cpp > CMakeFiles/devcore.dir/JsonUtils.cpp.i
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libdevcore/JsonUtils.cpp > CMakeFiles/devcore.dir/JsonUtils.cpp.i
 
 libdevcore/CMakeFiles/devcore.dir/JsonUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/devcore.dir/JsonUtils.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libdevcore/JsonUtils.cpp -o CMakeFiles/devcore.dir/JsonUtils.cpp.s
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libdevcore/JsonUtils.cpp -o CMakeFiles/devcore.dir/JsonUtils.cpp.s
 
 libdevcore/CMakeFiles/devcore.dir/JsonUtils.cpp.o.requires:
 
@@ -299,16 +299,16 @@ libdevcore/CMakeFiles/devcore.dir/JsonUtils.cpp.o.provides.build: libdevcore/CMa
 
 libdevcore/CMakeFiles/devcore.dir/LevelDB.cpp.o: libdevcore/CMakeFiles/devcore.dir/flags.make
 libdevcore/CMakeFiles/devcore.dir/LevelDB.cpp.o: ../libdevcore/LevelDB.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object libdevcore/CMakeFiles/devcore.dir/LevelDB.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/LevelDB.cpp.o -c /home/ubuntu/moose/aleth/libdevcore/LevelDB.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object libdevcore/CMakeFiles/devcore.dir/LevelDB.cpp.o"
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/LevelDB.cpp.o -c /aleth/libdevcore/LevelDB.cpp
 
 libdevcore/CMakeFiles/devcore.dir/LevelDB.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/devcore.dir/LevelDB.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libdevcore/LevelDB.cpp > CMakeFiles/devcore.dir/LevelDB.cpp.i
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libdevcore/LevelDB.cpp > CMakeFiles/devcore.dir/LevelDB.cpp.i
 
 libdevcore/CMakeFiles/devcore.dir/LevelDB.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/devcore.dir/LevelDB.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libdevcore/LevelDB.cpp -o CMakeFiles/devcore.dir/LevelDB.cpp.s
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libdevcore/LevelDB.cpp -o CMakeFiles/devcore.dir/LevelDB.cpp.s
 
 libdevcore/CMakeFiles/devcore.dir/LevelDB.cpp.o.requires:
 
@@ -323,16 +323,16 @@ libdevcore/CMakeFiles/devcore.dir/LevelDB.cpp.o.provides.build: libdevcore/CMake
 
 libdevcore/CMakeFiles/devcore.dir/Log.cpp.o: libdevcore/CMakeFiles/devcore.dir/flags.make
 libdevcore/CMakeFiles/devcore.dir/Log.cpp.o: ../libdevcore/Log.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object libdevcore/CMakeFiles/devcore.dir/Log.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/Log.cpp.o -c /home/ubuntu/moose/aleth/libdevcore/Log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object libdevcore/CMakeFiles/devcore.dir/Log.cpp.o"
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/Log.cpp.o -c /aleth/libdevcore/Log.cpp
 
 libdevcore/CMakeFiles/devcore.dir/Log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/devcore.dir/Log.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libdevcore/Log.cpp > CMakeFiles/devcore.dir/Log.cpp.i
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libdevcore/Log.cpp > CMakeFiles/devcore.dir/Log.cpp.i
 
 libdevcore/CMakeFiles/devcore.dir/Log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/devcore.dir/Log.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libdevcore/Log.cpp -o CMakeFiles/devcore.dir/Log.cpp.s
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libdevcore/Log.cpp -o CMakeFiles/devcore.dir/Log.cpp.s
 
 libdevcore/CMakeFiles/devcore.dir/Log.cpp.o.requires:
 
@@ -347,16 +347,16 @@ libdevcore/CMakeFiles/devcore.dir/Log.cpp.o.provides.build: libdevcore/CMakeFile
 
 libdevcore/CMakeFiles/devcore.dir/LoggingProgramOptions.cpp.o: libdevcore/CMakeFiles/devcore.dir/flags.make
 libdevcore/CMakeFiles/devcore.dir/LoggingProgramOptions.cpp.o: ../libdevcore/LoggingProgramOptions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object libdevcore/CMakeFiles/devcore.dir/LoggingProgramOptions.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/LoggingProgramOptions.cpp.o -c /home/ubuntu/moose/aleth/libdevcore/LoggingProgramOptions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object libdevcore/CMakeFiles/devcore.dir/LoggingProgramOptions.cpp.o"
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/LoggingProgramOptions.cpp.o -c /aleth/libdevcore/LoggingProgramOptions.cpp
 
 libdevcore/CMakeFiles/devcore.dir/LoggingProgramOptions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/devcore.dir/LoggingProgramOptions.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libdevcore/LoggingProgramOptions.cpp > CMakeFiles/devcore.dir/LoggingProgramOptions.cpp.i
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libdevcore/LoggingProgramOptions.cpp > CMakeFiles/devcore.dir/LoggingProgramOptions.cpp.i
 
 libdevcore/CMakeFiles/devcore.dir/LoggingProgramOptions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/devcore.dir/LoggingProgramOptions.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libdevcore/LoggingProgramOptions.cpp -o CMakeFiles/devcore.dir/LoggingProgramOptions.cpp.s
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libdevcore/LoggingProgramOptions.cpp -o CMakeFiles/devcore.dir/LoggingProgramOptions.cpp.s
 
 libdevcore/CMakeFiles/devcore.dir/LoggingProgramOptions.cpp.o.requires:
 
@@ -371,16 +371,16 @@ libdevcore/CMakeFiles/devcore.dir/LoggingProgramOptions.cpp.o.provides.build: li
 
 libdevcore/CMakeFiles/devcore.dir/MemoryDB.cpp.o: libdevcore/CMakeFiles/devcore.dir/flags.make
 libdevcore/CMakeFiles/devcore.dir/MemoryDB.cpp.o: ../libdevcore/MemoryDB.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object libdevcore/CMakeFiles/devcore.dir/MemoryDB.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/MemoryDB.cpp.o -c /home/ubuntu/moose/aleth/libdevcore/MemoryDB.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object libdevcore/CMakeFiles/devcore.dir/MemoryDB.cpp.o"
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/MemoryDB.cpp.o -c /aleth/libdevcore/MemoryDB.cpp
 
 libdevcore/CMakeFiles/devcore.dir/MemoryDB.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/devcore.dir/MemoryDB.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libdevcore/MemoryDB.cpp > CMakeFiles/devcore.dir/MemoryDB.cpp.i
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libdevcore/MemoryDB.cpp > CMakeFiles/devcore.dir/MemoryDB.cpp.i
 
 libdevcore/CMakeFiles/devcore.dir/MemoryDB.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/devcore.dir/MemoryDB.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libdevcore/MemoryDB.cpp -o CMakeFiles/devcore.dir/MemoryDB.cpp.s
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libdevcore/MemoryDB.cpp -o CMakeFiles/devcore.dir/MemoryDB.cpp.s
 
 libdevcore/CMakeFiles/devcore.dir/MemoryDB.cpp.o.requires:
 
@@ -395,16 +395,16 @@ libdevcore/CMakeFiles/devcore.dir/MemoryDB.cpp.o.provides.build: libdevcore/CMak
 
 libdevcore/CMakeFiles/devcore.dir/OverlayDB.cpp.o: libdevcore/CMakeFiles/devcore.dir/flags.make
 libdevcore/CMakeFiles/devcore.dir/OverlayDB.cpp.o: ../libdevcore/OverlayDB.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object libdevcore/CMakeFiles/devcore.dir/OverlayDB.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/OverlayDB.cpp.o -c /home/ubuntu/moose/aleth/libdevcore/OverlayDB.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object libdevcore/CMakeFiles/devcore.dir/OverlayDB.cpp.o"
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/OverlayDB.cpp.o -c /aleth/libdevcore/OverlayDB.cpp
 
 libdevcore/CMakeFiles/devcore.dir/OverlayDB.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/devcore.dir/OverlayDB.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libdevcore/OverlayDB.cpp > CMakeFiles/devcore.dir/OverlayDB.cpp.i
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libdevcore/OverlayDB.cpp > CMakeFiles/devcore.dir/OverlayDB.cpp.i
 
 libdevcore/CMakeFiles/devcore.dir/OverlayDB.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/devcore.dir/OverlayDB.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libdevcore/OverlayDB.cpp -o CMakeFiles/devcore.dir/OverlayDB.cpp.s
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libdevcore/OverlayDB.cpp -o CMakeFiles/devcore.dir/OverlayDB.cpp.s
 
 libdevcore/CMakeFiles/devcore.dir/OverlayDB.cpp.o.requires:
 
@@ -419,16 +419,16 @@ libdevcore/CMakeFiles/devcore.dir/OverlayDB.cpp.o.provides.build: libdevcore/CMa
 
 libdevcore/CMakeFiles/devcore.dir/RLP.cpp.o: libdevcore/CMakeFiles/devcore.dir/flags.make
 libdevcore/CMakeFiles/devcore.dir/RLP.cpp.o: ../libdevcore/RLP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object libdevcore/CMakeFiles/devcore.dir/RLP.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/RLP.cpp.o -c /home/ubuntu/moose/aleth/libdevcore/RLP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object libdevcore/CMakeFiles/devcore.dir/RLP.cpp.o"
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/RLP.cpp.o -c /aleth/libdevcore/RLP.cpp
 
 libdevcore/CMakeFiles/devcore.dir/RLP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/devcore.dir/RLP.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libdevcore/RLP.cpp > CMakeFiles/devcore.dir/RLP.cpp.i
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libdevcore/RLP.cpp > CMakeFiles/devcore.dir/RLP.cpp.i
 
 libdevcore/CMakeFiles/devcore.dir/RLP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/devcore.dir/RLP.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libdevcore/RLP.cpp -o CMakeFiles/devcore.dir/RLP.cpp.s
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libdevcore/RLP.cpp -o CMakeFiles/devcore.dir/RLP.cpp.s
 
 libdevcore/CMakeFiles/devcore.dir/RLP.cpp.o.requires:
 
@@ -443,16 +443,16 @@ libdevcore/CMakeFiles/devcore.dir/RLP.cpp.o.provides.build: libdevcore/CMakeFile
 
 libdevcore/CMakeFiles/devcore.dir/SHA3.cpp.o: libdevcore/CMakeFiles/devcore.dir/flags.make
 libdevcore/CMakeFiles/devcore.dir/SHA3.cpp.o: ../libdevcore/SHA3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object libdevcore/CMakeFiles/devcore.dir/SHA3.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/SHA3.cpp.o -c /home/ubuntu/moose/aleth/libdevcore/SHA3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object libdevcore/CMakeFiles/devcore.dir/SHA3.cpp.o"
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/SHA3.cpp.o -c /aleth/libdevcore/SHA3.cpp
 
 libdevcore/CMakeFiles/devcore.dir/SHA3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/devcore.dir/SHA3.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libdevcore/SHA3.cpp > CMakeFiles/devcore.dir/SHA3.cpp.i
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libdevcore/SHA3.cpp > CMakeFiles/devcore.dir/SHA3.cpp.i
 
 libdevcore/CMakeFiles/devcore.dir/SHA3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/devcore.dir/SHA3.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libdevcore/SHA3.cpp -o CMakeFiles/devcore.dir/SHA3.cpp.s
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libdevcore/SHA3.cpp -o CMakeFiles/devcore.dir/SHA3.cpp.s
 
 libdevcore/CMakeFiles/devcore.dir/SHA3.cpp.o.requires:
 
@@ -467,16 +467,16 @@ libdevcore/CMakeFiles/devcore.dir/SHA3.cpp.o.provides.build: libdevcore/CMakeFil
 
 libdevcore/CMakeFiles/devcore.dir/TransientDirectory.cpp.o: libdevcore/CMakeFiles/devcore.dir/flags.make
 libdevcore/CMakeFiles/devcore.dir/TransientDirectory.cpp.o: ../libdevcore/TransientDirectory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object libdevcore/CMakeFiles/devcore.dir/TransientDirectory.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/TransientDirectory.cpp.o -c /home/ubuntu/moose/aleth/libdevcore/TransientDirectory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object libdevcore/CMakeFiles/devcore.dir/TransientDirectory.cpp.o"
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/TransientDirectory.cpp.o -c /aleth/libdevcore/TransientDirectory.cpp
 
 libdevcore/CMakeFiles/devcore.dir/TransientDirectory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/devcore.dir/TransientDirectory.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libdevcore/TransientDirectory.cpp > CMakeFiles/devcore.dir/TransientDirectory.cpp.i
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libdevcore/TransientDirectory.cpp > CMakeFiles/devcore.dir/TransientDirectory.cpp.i
 
 libdevcore/CMakeFiles/devcore.dir/TransientDirectory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/devcore.dir/TransientDirectory.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libdevcore/TransientDirectory.cpp -o CMakeFiles/devcore.dir/TransientDirectory.cpp.s
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libdevcore/TransientDirectory.cpp -o CMakeFiles/devcore.dir/TransientDirectory.cpp.s
 
 libdevcore/CMakeFiles/devcore.dir/TransientDirectory.cpp.o.requires:
 
@@ -491,16 +491,16 @@ libdevcore/CMakeFiles/devcore.dir/TransientDirectory.cpp.o.provides.build: libde
 
 libdevcore/CMakeFiles/devcore.dir/TrieCommon.cpp.o: libdevcore/CMakeFiles/devcore.dir/flags.make
 libdevcore/CMakeFiles/devcore.dir/TrieCommon.cpp.o: ../libdevcore/TrieCommon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object libdevcore/CMakeFiles/devcore.dir/TrieCommon.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/TrieCommon.cpp.o -c /home/ubuntu/moose/aleth/libdevcore/TrieCommon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object libdevcore/CMakeFiles/devcore.dir/TrieCommon.cpp.o"
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/TrieCommon.cpp.o -c /aleth/libdevcore/TrieCommon.cpp
 
 libdevcore/CMakeFiles/devcore.dir/TrieCommon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/devcore.dir/TrieCommon.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libdevcore/TrieCommon.cpp > CMakeFiles/devcore.dir/TrieCommon.cpp.i
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libdevcore/TrieCommon.cpp > CMakeFiles/devcore.dir/TrieCommon.cpp.i
 
 libdevcore/CMakeFiles/devcore.dir/TrieCommon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/devcore.dir/TrieCommon.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libdevcore/TrieCommon.cpp -o CMakeFiles/devcore.dir/TrieCommon.cpp.s
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libdevcore/TrieCommon.cpp -o CMakeFiles/devcore.dir/TrieCommon.cpp.s
 
 libdevcore/CMakeFiles/devcore.dir/TrieCommon.cpp.o.requires:
 
@@ -515,16 +515,16 @@ libdevcore/CMakeFiles/devcore.dir/TrieCommon.cpp.o.provides.build: libdevcore/CM
 
 libdevcore/CMakeFiles/devcore.dir/TrieHash.cpp.o: libdevcore/CMakeFiles/devcore.dir/flags.make
 libdevcore/CMakeFiles/devcore.dir/TrieHash.cpp.o: ../libdevcore/TrieHash.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object libdevcore/CMakeFiles/devcore.dir/TrieHash.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/TrieHash.cpp.o -c /home/ubuntu/moose/aleth/libdevcore/TrieHash.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object libdevcore/CMakeFiles/devcore.dir/TrieHash.cpp.o"
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/TrieHash.cpp.o -c /aleth/libdevcore/TrieHash.cpp
 
 libdevcore/CMakeFiles/devcore.dir/TrieHash.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/devcore.dir/TrieHash.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libdevcore/TrieHash.cpp > CMakeFiles/devcore.dir/TrieHash.cpp.i
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libdevcore/TrieHash.cpp > CMakeFiles/devcore.dir/TrieHash.cpp.i
 
 libdevcore/CMakeFiles/devcore.dir/TrieHash.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/devcore.dir/TrieHash.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libdevcore/TrieHash.cpp -o CMakeFiles/devcore.dir/TrieHash.cpp.s
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libdevcore/TrieHash.cpp -o CMakeFiles/devcore.dir/TrieHash.cpp.s
 
 libdevcore/CMakeFiles/devcore.dir/TrieHash.cpp.o.requires:
 
@@ -539,16 +539,16 @@ libdevcore/CMakeFiles/devcore.dir/TrieHash.cpp.o.provides.build: libdevcore/CMak
 
 libdevcore/CMakeFiles/devcore.dir/Worker.cpp.o: libdevcore/CMakeFiles/devcore.dir/flags.make
 libdevcore/CMakeFiles/devcore.dir/Worker.cpp.o: ../libdevcore/Worker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object libdevcore/CMakeFiles/devcore.dir/Worker.cpp.o"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/Worker.cpp.o -c /home/ubuntu/moose/aleth/libdevcore/Worker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object libdevcore/CMakeFiles/devcore.dir/Worker.cpp.o"
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/devcore.dir/Worker.cpp.o -c /aleth/libdevcore/Worker.cpp
 
 libdevcore/CMakeFiles/devcore.dir/Worker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/devcore.dir/Worker.cpp.i"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/moose/aleth/libdevcore/Worker.cpp > CMakeFiles/devcore.dir/Worker.cpp.i
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /aleth/libdevcore/Worker.cpp > CMakeFiles/devcore.dir/Worker.cpp.i
 
 libdevcore/CMakeFiles/devcore.dir/Worker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/devcore.dir/Worker.cpp.s"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/moose/aleth/libdevcore/Worker.cpp -o CMakeFiles/devcore.dir/Worker.cpp.s
+	cd /aleth/build/libdevcore && /usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /aleth/libdevcore/Worker.cpp -o CMakeFiles/devcore.dir/Worker.cpp.s
 
 libdevcore/CMakeFiles/devcore.dir/Worker.cpp.o.requires:
 
@@ -611,9 +611,9 @@ libdevcore/libdevcore.a: libdevcore/CMakeFiles/devcore.dir/TrieHash.cpp.o
 libdevcore/libdevcore.a: libdevcore/CMakeFiles/devcore.dir/Worker.cpp.o
 libdevcore/libdevcore.a: libdevcore/CMakeFiles/devcore.dir/build.make
 libdevcore/libdevcore.a: libdevcore/CMakeFiles/devcore.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/moose/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX static library libdevcore.a"
-	cd /home/ubuntu/moose/aleth/build/libdevcore && $(CMAKE_COMMAND) -P CMakeFiles/devcore.dir/cmake_clean_target.cmake
-	cd /home/ubuntu/moose/aleth/build/libdevcore && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/devcore.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/aleth/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX static library libdevcore.a"
+	cd /aleth/build/libdevcore && $(CMAKE_COMMAND) -P CMakeFiles/devcore.dir/cmake_clean_target.cmake
+	cd /aleth/build/libdevcore && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/devcore.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 libdevcore/CMakeFiles/devcore.dir/build: libdevcore/libdevcore.a
@@ -645,10 +645,10 @@ libdevcore/CMakeFiles/devcore.dir/requires: libdevcore/CMakeFiles/devcore.dir/Wo
 .PHONY : libdevcore/CMakeFiles/devcore.dir/requires
 
 libdevcore/CMakeFiles/devcore.dir/clean:
-	cd /home/ubuntu/moose/aleth/build/libdevcore && $(CMAKE_COMMAND) -P CMakeFiles/devcore.dir/cmake_clean.cmake
+	cd /aleth/build/libdevcore && $(CMAKE_COMMAND) -P CMakeFiles/devcore.dir/cmake_clean.cmake
 .PHONY : libdevcore/CMakeFiles/devcore.dir/clean
 
 libdevcore/CMakeFiles/devcore.dir/depend:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/moose/aleth /home/ubuntu/moose/aleth/libdevcore /home/ubuntu/moose/aleth/build /home/ubuntu/moose/aleth/build/libdevcore /home/ubuntu/moose/aleth/build/libdevcore/CMakeFiles/devcore.dir/DependInfo.cmake --color=$(COLOR)
+	cd /aleth/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /aleth /aleth/libdevcore /aleth/build /aleth/build/libdevcore /aleth/build/libdevcore/CMakeFiles/devcore.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : libdevcore/CMakeFiles/devcore.dir/depend
 

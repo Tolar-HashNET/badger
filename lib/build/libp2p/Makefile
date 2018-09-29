@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/moose/aleth
+CMAKE_SOURCE_DIR = /aleth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/moose/aleth/build
+CMAKE_BINARY_DIR = /aleth/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -93,7 +93,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/ubuntu/moose/aleth/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /aleth/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -104,7 +104,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/ubuntu/moose/aleth/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/ubuntu/moose/aleth/build/CPackSourceConfig.cmake
+	cd /aleth/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /aleth/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -159,14 +159,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles /home/ubuntu/moose/aleth/build/libp2p/CMakeFiles/progress.marks
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libp2p/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/moose/aleth/build/CMakeFiles 0
+	cd /aleth/build && $(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles /aleth/build/libp2p/CMakeFiles/progress.marks
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libp2p/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /aleth/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libp2p/clean
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libp2p/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libp2p/preinstall
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libp2p/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libp2p/preinstall
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libp2p/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libp2p/CMakeFiles/p2p.dir/rule:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libp2p/CMakeFiles/p2p.dir/rule
+	cd /aleth/build && $(MAKE) -f CMakeFiles/Makefile2 libp2p/CMakeFiles/p2p.dir/rule
 .PHONY : libp2p/CMakeFiles/p2p.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ p2p: libp2p/CMakeFiles/p2p.dir/rule
 
 # fast build rule for target.
 p2p/fast:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/build
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/build
 .PHONY : p2p/fast
 
 Common.o: Common.cpp.o
@@ -210,7 +210,7 @@ Common.o: Common.cpp.o
 
 # target to build an object file
 Common.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Common.cpp.o
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Common.cpp.o
 .PHONY : Common.cpp.o
 
 Common.i: Common.cpp.i
@@ -219,7 +219,7 @@ Common.i: Common.cpp.i
 
 # target to preprocess a source file
 Common.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Common.cpp.i
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Common.cpp.i
 .PHONY : Common.cpp.i
 
 Common.s: Common.cpp.s
@@ -228,7 +228,7 @@ Common.s: Common.cpp.s
 
 # target to generate assembly for a file
 Common.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Common.cpp.s
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Common.cpp.s
 .PHONY : Common.cpp.s
 
 Host.o: Host.cpp.o
@@ -237,7 +237,7 @@ Host.o: Host.cpp.o
 
 # target to build an object file
 Host.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Host.cpp.o
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Host.cpp.o
 .PHONY : Host.cpp.o
 
 Host.i: Host.cpp.i
@@ -246,7 +246,7 @@ Host.i: Host.cpp.i
 
 # target to preprocess a source file
 Host.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Host.cpp.i
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Host.cpp.i
 .PHONY : Host.cpp.i
 
 Host.s: Host.cpp.s
@@ -255,7 +255,7 @@ Host.s: Host.cpp.s
 
 # target to generate assembly for a file
 Host.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Host.cpp.s
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Host.cpp.s
 .PHONY : Host.cpp.s
 
 Network.o: Network.cpp.o
@@ -264,7 +264,7 @@ Network.o: Network.cpp.o
 
 # target to build an object file
 Network.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Network.cpp.o
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Network.cpp.o
 .PHONY : Network.cpp.o
 
 Network.i: Network.cpp.i
@@ -273,7 +273,7 @@ Network.i: Network.cpp.i
 
 # target to preprocess a source file
 Network.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Network.cpp.i
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Network.cpp.i
 .PHONY : Network.cpp.i
 
 Network.s: Network.cpp.s
@@ -282,7 +282,7 @@ Network.s: Network.cpp.s
 
 # target to generate assembly for a file
 Network.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Network.cpp.s
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Network.cpp.s
 .PHONY : Network.cpp.s
 
 NodeTable.o: NodeTable.cpp.o
@@ -291,7 +291,7 @@ NodeTable.o: NodeTable.cpp.o
 
 # target to build an object file
 NodeTable.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/NodeTable.cpp.o
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/NodeTable.cpp.o
 .PHONY : NodeTable.cpp.o
 
 NodeTable.i: NodeTable.cpp.i
@@ -300,7 +300,7 @@ NodeTable.i: NodeTable.cpp.i
 
 # target to preprocess a source file
 NodeTable.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/NodeTable.cpp.i
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/NodeTable.cpp.i
 .PHONY : NodeTable.cpp.i
 
 NodeTable.s: NodeTable.cpp.s
@@ -309,7 +309,7 @@ NodeTable.s: NodeTable.cpp.s
 
 # target to generate assembly for a file
 NodeTable.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/NodeTable.cpp.s
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/NodeTable.cpp.s
 .PHONY : NodeTable.cpp.s
 
 Peer.o: Peer.cpp.o
@@ -318,7 +318,7 @@ Peer.o: Peer.cpp.o
 
 # target to build an object file
 Peer.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Peer.cpp.o
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Peer.cpp.o
 .PHONY : Peer.cpp.o
 
 Peer.i: Peer.cpp.i
@@ -327,7 +327,7 @@ Peer.i: Peer.cpp.i
 
 # target to preprocess a source file
 Peer.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Peer.cpp.i
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Peer.cpp.i
 .PHONY : Peer.cpp.i
 
 Peer.s: Peer.cpp.s
@@ -336,7 +336,7 @@ Peer.s: Peer.cpp.s
 
 # target to generate assembly for a file
 Peer.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Peer.cpp.s
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Peer.cpp.s
 .PHONY : Peer.cpp.s
 
 PeerCapability.o: PeerCapability.cpp.o
@@ -345,7 +345,7 @@ PeerCapability.o: PeerCapability.cpp.o
 
 # target to build an object file
 PeerCapability.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/PeerCapability.cpp.o
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/PeerCapability.cpp.o
 .PHONY : PeerCapability.cpp.o
 
 PeerCapability.i: PeerCapability.cpp.i
@@ -354,7 +354,7 @@ PeerCapability.i: PeerCapability.cpp.i
 
 # target to preprocess a source file
 PeerCapability.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/PeerCapability.cpp.i
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/PeerCapability.cpp.i
 .PHONY : PeerCapability.cpp.i
 
 PeerCapability.s: PeerCapability.cpp.s
@@ -363,7 +363,7 @@ PeerCapability.s: PeerCapability.cpp.s
 
 # target to generate assembly for a file
 PeerCapability.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/PeerCapability.cpp.s
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/PeerCapability.cpp.s
 .PHONY : PeerCapability.cpp.s
 
 RLPXFrameCoder.o: RLPXFrameCoder.cpp.o
@@ -372,7 +372,7 @@ RLPXFrameCoder.o: RLPXFrameCoder.cpp.o
 
 # target to build an object file
 RLPXFrameCoder.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/RLPXFrameCoder.cpp.o
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/RLPXFrameCoder.cpp.o
 .PHONY : RLPXFrameCoder.cpp.o
 
 RLPXFrameCoder.i: RLPXFrameCoder.cpp.i
@@ -381,7 +381,7 @@ RLPXFrameCoder.i: RLPXFrameCoder.cpp.i
 
 # target to preprocess a source file
 RLPXFrameCoder.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/RLPXFrameCoder.cpp.i
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/RLPXFrameCoder.cpp.i
 .PHONY : RLPXFrameCoder.cpp.i
 
 RLPXFrameCoder.s: RLPXFrameCoder.cpp.s
@@ -390,7 +390,7 @@ RLPXFrameCoder.s: RLPXFrameCoder.cpp.s
 
 # target to generate assembly for a file
 RLPXFrameCoder.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/RLPXFrameCoder.cpp.s
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/RLPXFrameCoder.cpp.s
 .PHONY : RLPXFrameCoder.cpp.s
 
 RLPxHandshake.o: RLPxHandshake.cpp.o
@@ -399,7 +399,7 @@ RLPxHandshake.o: RLPxHandshake.cpp.o
 
 # target to build an object file
 RLPxHandshake.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/RLPxHandshake.cpp.o
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/RLPxHandshake.cpp.o
 .PHONY : RLPxHandshake.cpp.o
 
 RLPxHandshake.i: RLPxHandshake.cpp.i
@@ -408,7 +408,7 @@ RLPxHandshake.i: RLPxHandshake.cpp.i
 
 # target to preprocess a source file
 RLPxHandshake.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/RLPxHandshake.cpp.i
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/RLPxHandshake.cpp.i
 .PHONY : RLPxHandshake.cpp.i
 
 RLPxHandshake.s: RLPxHandshake.cpp.s
@@ -417,7 +417,7 @@ RLPxHandshake.s: RLPxHandshake.cpp.s
 
 # target to generate assembly for a file
 RLPxHandshake.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/RLPxHandshake.cpp.s
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/RLPxHandshake.cpp.s
 .PHONY : RLPxHandshake.cpp.s
 
 Session.o: Session.cpp.o
@@ -426,7 +426,7 @@ Session.o: Session.cpp.o
 
 # target to build an object file
 Session.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Session.cpp.o
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Session.cpp.o
 .PHONY : Session.cpp.o
 
 Session.i: Session.cpp.i
@@ -435,7 +435,7 @@ Session.i: Session.cpp.i
 
 # target to preprocess a source file
 Session.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Session.cpp.i
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Session.cpp.i
 .PHONY : Session.cpp.i
 
 Session.s: Session.cpp.s
@@ -444,7 +444,7 @@ Session.s: Session.cpp.s
 
 # target to generate assembly for a file
 Session.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Session.cpp.s
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/Session.cpp.s
 .PHONY : Session.cpp.s
 
 UDP.o: UDP.cpp.o
@@ -453,7 +453,7 @@ UDP.o: UDP.cpp.o
 
 # target to build an object file
 UDP.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/UDP.cpp.o
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/UDP.cpp.o
 .PHONY : UDP.cpp.o
 
 UDP.i: UDP.cpp.i
@@ -462,7 +462,7 @@ UDP.i: UDP.cpp.i
 
 # target to preprocess a source file
 UDP.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/UDP.cpp.i
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/UDP.cpp.i
 .PHONY : UDP.cpp.i
 
 UDP.s: UDP.cpp.s
@@ -471,7 +471,7 @@ UDP.s: UDP.cpp.s
 
 # target to generate assembly for a file
 UDP.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/UDP.cpp.s
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/UDP.cpp.s
 .PHONY : UDP.cpp.s
 
 UPnP.o: UPnP.cpp.o
@@ -480,7 +480,7 @@ UPnP.o: UPnP.cpp.o
 
 # target to build an object file
 UPnP.cpp.o:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/UPnP.cpp.o
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/UPnP.cpp.o
 .PHONY : UPnP.cpp.o
 
 UPnP.i: UPnP.cpp.i
@@ -489,7 +489,7 @@ UPnP.i: UPnP.cpp.i
 
 # target to preprocess a source file
 UPnP.cpp.i:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/UPnP.cpp.i
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/UPnP.cpp.i
 .PHONY : UPnP.cpp.i
 
 UPnP.s: UPnP.cpp.s
@@ -498,7 +498,7 @@ UPnP.s: UPnP.cpp.s
 
 # target to generate assembly for a file
 UPnP.cpp.s:
-	cd /home/ubuntu/moose/aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/UPnP.cpp.s
+	cd /aleth/build && $(MAKE) -f libp2p/CMakeFiles/p2p.dir/build.make libp2p/CMakeFiles/p2p.dir/UPnP.cpp.s
 .PHONY : UPnP.cpp.s
 
 # Help Target
@@ -561,6 +561,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ubuntu/moose/aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /aleth/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

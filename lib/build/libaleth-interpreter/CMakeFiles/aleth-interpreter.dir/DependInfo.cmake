@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ubuntu/moose/aleth/libaleth-interpreter/VM.cpp" "/home/ubuntu/moose/aleth/build/libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VM.cpp.o"
-  "/home/ubuntu/moose/aleth/libaleth-interpreter/VMCalls.cpp" "/home/ubuntu/moose/aleth/build/libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMCalls.cpp.o"
-  "/home/ubuntu/moose/aleth/libaleth-interpreter/VMOpt.cpp" "/home/ubuntu/moose/aleth/build/libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMOpt.cpp.o"
+  "/aleth/libaleth-interpreter/VM.cpp" "/aleth/build/libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VM.cpp.o"
+  "/aleth/libaleth-interpreter/VMCalls.cpp" "/aleth/build/libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMCalls.cpp.o"
+  "/aleth/libaleth-interpreter/VMOpt.cpp" "/aleth/build/libaleth-interpreter/CMakeFiles/aleth-interpreter.dir/VMOpt.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
@@ -18,16 +18,16 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../"
-  "/home/ubuntu/.hunter/_Base/aa1facc/d092851/852a159/Install/include"
+  "/root/.hunter/_Base/aa1facc/e10dff2/852a159/Install/include"
   "."
   "../evmc/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ubuntu/moose/aleth/build/libdevcore/CMakeFiles/devcore.dir/DependInfo.cmake"
-  "/home/ubuntu/moose/aleth/build/CMakeFiles/aleth-buildinfo.dir/DependInfo.cmake"
-  "/home/ubuntu/moose/aleth/build/evmc/lib/instructions/CMakeFiles/instructions.dir/DependInfo.cmake"
+  "/aleth/build/libdevcore/CMakeFiles/devcore.dir/DependInfo.cmake"
+  "/aleth/build/CMakeFiles/aleth-buildinfo.dir/DependInfo.cmake"
+  "/aleth/build/evmc/lib/instructions/CMakeFiles/instructions.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
